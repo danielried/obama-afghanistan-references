@@ -192,7 +192,57 @@ came up.
 
 ## About this repository
 
-This repository holds the published site only: `index.html` and this README. GitHub Pages serves it from the `main`
-branch. The collection pipeline, the tests, the 12 analysis scripts and their outputs (CSV, JSON and charts) are
-kept in a separate working project. The page itself has no build step and loads no scripts from outside. It only
-requests two web fonts from Google Fonts, and falls back to system fonts without them.
+GitHub Pages serves this repository from the `main` branch. The page has no build step and loads no outside
+scripts. It requests two web fonts from Google Fonts and falls back to system fonts without them.
+
+```
+index.html                     the published site (self-contained)
+output/
+  references.csv               all 4,741 passages with scores, categories and tone
+  speeches_index.csv           all 5,026 speeches, including ones with no passages
+  reaction_events.csv          press-reaction summary per event
+  reaction_items.csv           the 92 press and tweet items
+  reaction_correlation.json    tone vs. reaction correlations
+  analyses/
+    REPORT.md                  combined report of the 12 analyses
+    results_and_verdicts.json  each analyst's result and the reviewer's verdict
+    requirements.txt           pinned Python packages
+    run_all.sh                 re-runs every analysis
+    01_venue/ ... 12_congress/ one folder per analysis (see below)
+    07_opinion_vs_news_review/, 12_congress_review/   extra reviewer checks
+data/reactions.json            press-reaction research data (13 events)
+src/obama_afghan/reactions.py  reaction index and correlation code, used by analysis 06
+```
+
+Each analysis folder holds:
+- `analysis.py`, the script.
+- `RESULT.md`, the analyst's write-up.
+- `REVIEW.md` (most folders), the reviewer's notes.
+- `SOURCES.md` (outside-data analyses), with every URL and how each value was obtained.
+- The output tables (CSV and JSON) and a chart (PNG).
+- In some folders, the reviewer's check scripts.
+
+### Re-running the analyses
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r output/analyses/requirements.txt
+output/analyses/run_all.sh                # all analyses
+output/analyses/run_all.sh 02_election    # just one
+```
+
+Each script finds the repository root from its own location, so it can be run from any directory. Results go to
+the script's folder, and each run's log goes to `last_run.log`. Ten of the twelve analyses (02 to 10 and 12) run
+from this repository alone and reproduce the committed outputs exactly. **01_venue and 11_approval also need
+`data/speeches.db`**, the 64 MB SQLite database of full speech texts. It is not committed. It is rebuilt by the
+collection pipeline, which is kept in a separate working project along with its tests.
+
+### What was left out
+
+- **Third-party documents:** Brookings Afghanistan Index PDFs, Gallup and UCSB page captures, and duplicate PDF
+  copies of CRS reports. The URLs are listed in each `SOURCES.md` so they can be downloaded again.
+- **Raw files kept:** only those the scripts read (two CRS text extracts and the UCSB approval table), plus the
+  official House and Senate roll-call files that `12_congress/build_votes.py` parses.
+- **Regenerated files:** a 4.6 MB reviewer pickle that `03_framing_shift/reviewer_scripts/check.py` recreates, and
+  Python caches.
+- **`12_congress/fetch_house.py`:** included, but it downloads from clerk.house.gov, so it is not part of
+  `run_all.sh`.

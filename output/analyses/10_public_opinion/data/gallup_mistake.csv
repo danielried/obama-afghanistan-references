@@ -1,0 +1,17 @@
+series,fieldwork_start,fieldwork_end,n_adults,pct_mistake,pct_not_mistake,pct_no_opinion,question_wording,source_url
+comparison_military_action,2008-07-25,2008-07-27,,28,68,4,"Thinking now about U.S. military action in Afghanistan that began in October 2001, do you think the United States made a mistake in sending military forces to Afghanistan, or not?",https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+comparison_military_action,2008-08-21,2008-08-23,,34,63,3,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+comparison_military_action,2009-01-30,2009-02-01,,30,66,4,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+comparison_military_action,2009-07-10,2009-07-12,,36,61,3,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+comparison_military_action,2009-08-31,2009-09-02,,37,61,2,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+comparison_military_action,2009-11-20,2009-11-22,,36,60,3,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+comparison_military_action,2010-07-08,2010-07-11,,38,58,4,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+comparison_military_action,2010-07-27,2010-08-01,,43,52,4,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+comparison_military_action,2010-11-19,2010-11-21,,39,58,3,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+comparison_military_action,2011-03-25,2011-03-27,,42,53,5,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+comparison_military_action,2011-05-05,2011-05-08,,39,58,3,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+looking_back_sending_troops,2013-03-07,2013-03-10,,44,51,5,"Looking back, do you think the United States made a mistake sending troops to fight in Afghanistan, or not?",https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+looking_back_sending_troops,2014-02-06,2014-02-09,,49,48,3,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+looking_back_sending_troops,2015-06-02,2015-06-07,,42,54,4,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+looking_back_sending_troops,2019-08-15,2019-08-30,,43,52,5,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf
+looking_back_sending_troops,2021-07-06,2021-07-21,1007,47,46,6,same,https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf

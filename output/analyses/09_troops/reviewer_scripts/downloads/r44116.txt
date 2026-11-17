@@ -1,0 +1,721 @@
+Department of Defense Contractor and Troop
+Levels in Iraq and Afghanistan: 2007-2017
+
+
+Updated April 28, 2017
+
+
+
+
+                             Congressional Research Service
+                              https://crsreports.congress.gov
+                                                     R44116
+                         Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+Contents
+Introduction ..................................................................................................................................... 1
+The Role of Contractors in Military Operations.............................................................................. 1
+    Tracking Contractors During Contingency Operations ............................................................. 1
+    Force Management Levels for Deployed U.S. Armed Forces and DOD Usage of
+      Contractors ............................................................................................................................. 2
+    Private Security Contractors in Iraq and Afghanistan ............................................................... 3
+U.S. Armed Forces and Contractor Personnel in Afghanistan, FY2007-FY2017 ........................... 4
+U.S. Armed Forces and Contractor Personnel in Iraq, FY2007-FY2017 ........................................ 7
+
+
+Figures
+Figure 1. U.S. Armed Forces and Contractor Personnel in Afghanistan ......................................... 4
+Figure 2. U.S. Armed Forces and Contractor Personnel in Iraq ...................................................... 8
+
+
+Tables
+Table 1. U.S. Armed Forces and Contractor Personnel in Afghanistan ........................................... 4
+Table 2. U.S. Armed Forces and Private Security Contractor Personnel in Afghanistan ................ 6
+Table 3. U.S. Armed Forces and Contractor Personnel in Iraq........................................................ 8
+Table 4. U.S. Armed Forces and Private Security Contractors in Iraq .......................................... 10
+Table 5. DOD Contract Obligations in Iraq and Afghanistan Theaters of Operation .................... 12
+
+
+Contacts
+Author Information........................................................................................................................ 14
+
+
+
+
+Congressional Research Service
+                   Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+Introduction
+This report provides background information for Congress on the levels of Department of
+Defense (DOD) troop and contractor personnel deployed in support of prior and ongoing military
+operations in Iraq and Afghanistan. For more information on DOD’s use of contractor personnel
+to support military operations, see CRS Report R43074, Department of Defense’s Use of
+Contractors to Support Military Operations: Background, Analysis, and Issues for Congress, by
+Moshe Schwartz.
+
+
+The Role of Contractors in Military Operations
+Throughout its history, DOD has relied on contractors to support a wide range of military
+operations. Operations over the past 30 years have highlighted the critical role that contractors
+play in supporting U.S. troops—both in terms of the number of contractors and the type of work
+being performed. During recent U.S. military operations in Iraq and Afghanistan, contractors
+frequently averaged 50% or more of the total DOD presence in-country.
+
+                                                             Definitions: Defense Contractors and
+Tracking Contractors During                                    Operational Contract Support
+Contingency Operations                                     DOD defines a defense contractor as “any individual,
+                                                           firm, corporation, partnership, or other legal non-
+Since 2008, U.S. Central Command                           federal entity that enters into a contract directly with
+(CENTCOM) has published quarterly                          the DOD to furnish services, supplies, or
+                                                           construction.”1 Operational contract support, or the
+contractor census reports, which provide                   process of planning for and obtaining goods and
+aggregated data—including elements such as                 services from commercial sources, is the main term
+mission category and nationality—on                        used in DOD doctrine to describe the use of defense
+contractors employed through DOD-funded                    contractors to support military operations2. This
+                                                           report uses contractor to describe individual service
+contracts who are physically located within                contractors hired through DOD-funded contracts.
+the CENTCOM area of responsibility.                        These individuals may provide a wide range of services
+                                                           to the DOD, from transportation, construction, and
+Analysts and observers have previously raised              base support, to intelligence analysis,
+questions about the reliability of the data                translation/interpretation, and private security support.
+gathered by DOD regarding the number of
+contractors it employs in theater in support of
+military operations.3 DOD officials, however, have stated that since 2009, the DOD has
+implemented a variety of mechanisms to improve the reliability of contractor data it gathers,
+including modifications to information technology systems, such as data collection systems like
+the joint Synchronized Predeployment and Operational Tracker (SPOT) database; updates and
+
+
+
+1See 32 C.F.R. 158.3, “Definitions”; see also Department of Defense Instruction 3020.41, Operational Contract
+
+Support (OCS), December 20, 2011, p. 48, at http://www.dtic.mil/whs/directives/corres/pdf/302041p.pdf.
+2See Joint Publication 4-10, Operational Contract Support, July 2014, p. 211, at http://www.dtic.mil/doctrine/
+
+new_pubs/jp4_10.pdf.
+3 See, for example, U.S. Government Accountability Office, Iraq and Afghanistan: DOD, State and USAID Face
+
+Continued Challenges in Tracking Contracts, Assistance Instruments, and Associated Personnel, GAO-11-1, October
+1, 2010. For further discussions of efforts to improve DOD contractor management and oversight, see CRS Report
+R40764, Department of Defense Contractors in Afghanistan and Iraq: Background and Analysis, by Moshe Schwartz
+and Joyprada Swain.
+
+
+
+
+Congressional Research Service             R44116 · VERSION 11 · UPDATED                                               1
+                    Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+changes to related departmental policies; and changes in “leadership emphasis” within DOD and
+the combatant commands.4
+For the fourth quarter of Fiscal Year (FY) 2016, CENTCOM reported 42,592 contractor personnel
+working for DOD within its area of responsibility, which included 28,189 individuals located in
+Afghanistan and Iraq.
+From FY2007 to FY2016, obligations for all DOD-funded contracts performed within the Iraq
+and Afghanistan areas of operation totaled approximately $249 billion in FY2017 dollars.5
+
+Force Management Levels for Deployed U.S. Armed Forces and
+DOD Usage of Contractors
+Force management levels, sometimes also described as troop caps, troop ceilings, or force
+manning levels, establish bounds on the number of military personnel that may be deployed in a
+country or region. The executive and legislative branches of the U.S. government have
+historically used force management levels to guide the execution of certain overseas U.S. military
+operations, as well as the associated presence of DOD personnel. During the 1980s, for example,
+Congress used provisions within annual appropriations legislation to establish force management
+levels limiting the number of active duty U.S. military personnel stationed ashore in Europe.6 The
+Obama Administration used force management levels to manage the drawdown of the U.S.
+military presence in Afghanistan, and to manage the U.S. military presence in Iraq and Syria
+under Operation Inherent Resolve.7 The Trump Administration has reportedly delegated the
+authority to establish force management levels for Iraq and Syria to the Secretary of Defense.8
+Some observers and experts, however, have argued that such external “resource limits” have
+increased DOD’s recent “reliance on…contractor and temporary duty personnel” to effectively
+execute ongoing military operations in Afghanistan, Iraq, and Syria.9 In February 2017, U.S.
+
+4 Email correspondence with DOD official, received by CRS on September 7, 2016.
+
+5 Iraqi areas of operation are defined by CRS as Iraq, Bahrain, Kuwait, Qatar, Saudi Arabia, Turkey, the United Arab
+
+Emirates, Oman, and Jordan. Afghan areas of operation are defined by CRS as Afghanistan, Kazakhstan, Kyrgyzstan,
+Pakistan, Turkmenistan, Tajikistan, and Uzbekistan.
+6 In the 1980s, Congress first implemented the use of force management levels in Europe under Sec. 799A of P.L. 97-
+
+377, enacted December 21, 1982. This provision was enacted in the larger context of congressional debate at the time
+regarding the perception that the United States’ NATO allies should assume a greater percentage of the mutual defense
+investment burden.
+7 Established force management levels may be adjusted in response to operational needs or changing circumstances
+
+within a country or region, such as the Obama Administration’s decision in July 2016 to maintain approximately 8,400
+troops in Afghanistan through January 2017. See White House Office of the Press Secretary, “Statement by the
+President on Afghanistan,” July 6, 2016, available at https://obamawhitehouse.archives.gov/the-press-office/2016/07/
+06/statement-president-afghanistan.
+8 See Nancy A. Youssef, “The Pentagon Will Now Get To Decide How Many Troops To Send To Fight ISIS,”
+
+BuzzFeed News, April 26, 2017; see also Luis Martinez, “Trump Gives Pentagon Authority to Set Troop Levels in
+Syria and Iraq,” ABC News, April 26, 2017 and Ryan Browne, “Trump Gives Pentagon Authority to Set Troop Levels,”
+CNN, April 26, 2017. To date, the Trump Administration has not issued statements or other official announcements of
+planned deployments or changes in force management levels in Afghanistan, Iraq, and Syria. In a March 30, 2017 Los
+Angeles Times article, a DOD spokesperson reportedly noted that “[i]n order to maintain tactical surprise, ensure
+operational security and force protection, the coalition will not routinely announce or confirm information about the
+capabilities, force numbers, locations, or movement of forces in or out of Iraq and Syria.”
+9 See for example the statement as delivered as well as the prepared statement of Cary Russell, Director, Defense
+
+Capabilities and Management, GAO, “Overseas Contingency Operations: Observations on the Use of Force
+Management Levels in Afghanistan, Iraq, and Syria,” before the U.S. Congress, House Committee on Armed Services,
+
+
+
+
+Congressional Research Service              R44116 · VERSION 11 · UPDATED                                              2
+                    Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+Army General John Nicholson, Commander of the NATO Resolute Support Mission and United
+States Forces–Afghanistan, testified before the Senate Armed Services Committee that DOD has
+had to “substitute contractors for soldiers in order to meet the force manning levels” in
+Afghanistan.10 While the drawdown of U.S. forces has contributed to a demonstrable increase in
+the ratio of contractors to uniformed service members in Afghanistan, it is difficult to assess if
+this increased ratio supports General Nicholson’s assertion. Moreover, concern about DOD’s use
+of contractors in contingency operations predates the Obama Administration’s use of force
+management levels. For example, the Commission on Wartime Contracting in Iraq and
+Afghanistan, in its 2011 final report to Congress, expressed its view that operations in Iraq and
+Afghanistan between FY2002 and FY2011 had led to an “unhealthy over-reliance” on contractors
+by DOD, Department of State, and USAID.11
+
+Private Security Contractors in Iraq and Afghanistan
+In Iraq and Afghanistan, armed and unarmed private security contractors have been employed to
+provide services such as protecting fixed locations; guarding traveling convoys; providing
+security escorts; and training police and military personnel. The number of private security
+contractor employees working for DOD in Iraq and Afghanistan has fluctuated significantly over
+time, and is dependent on a variety of factors, including current force management levels in-
+country and U.S. operational needs.
+For the fourth quarter of FY2016, DOD reported 3,053 private security contractors in
+Afghanistan, with 813 categorized as armed private security contractors. DOD reported 239
+security contractor personnel in Iraq during the same period, none of whom were identified as
+armed private security contractors. Private security contractors peaked in Afghanistan in 2012 at
+more than 28,000 and in Iraq in 2009 at more than 15,000.
+
+
+
+
+Subcommittee on Oversight and Investigations, Force Management Levels in Iraq and Afghanistan: Readiness and
+Strategic Considerations, 114th Cong., 2nd sess., December 1, 2016.
+10 U.S. Congress, Senate Committee on Armed Services, Situation in Afghanistan, 115th Cong., 1st sess., February 9,
+
+2017. This concern was also echoed in a hearing before the House Armed Services Committee’s Subcommittee on
+Oversight and Investigations in December 2016, and in a hearing before the House Armed Services Committee’s
+Subcommittee on Readiness on March 8, 2017.
+11 Commission on Wartime Contracting in Iraq and Afghanistan, “Transforming Wartime Contracting: Controlling
+
+Costs, Reducing Risks,” final report of the Commission to Congress, August 2011, pp. 18-21. Available at
+https://cybercemetery.unt.edu/archive/cwc/20110929213922/http://www.wartimecontracting.gov/docs/
+CWC_FinalReport-highres.pdf.
+
+
+
+Congressional Research Service              R44116 · VERSION 11 · UPDATED                                             3
+                   Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+U.S. Armed Forces and Contractor Personnel in
+Afghanistan, FY2007-FY2017
+As of the fourth quarter of FY2016, 25,197 DOD contractor personnel were located in
+Afghanistan, compared to 9,800 U.S. troops, with contract personnel representing approximately
+72% of the total DOD manpower in-country.12 Approximately 36% of DOD’s 25,197 reported
+individual contractors were U.S. citizens, approximately 23% were third-country nationals, and
+roughly 41% were local/host-country nationals.
+Of the 25,197 DOD contractor personnel, about 3% were armed private security contractors.
+
+          Figure 1. U.S. Armed Forces and Contractor Personnel in Afghanistan
+                                          (Q4 FY2007-Q1 FY2017)
+
+
+
+
+    Source: Contractor levels drawn from U.S. Central Command (CENTCOM) Quarterly Contractor Census
+    Reports; troop levels drawn from “Boots on the Ground” monthly reports to Congress.
+    Notes: DOD did not begin releasing data on contractors in CENTCOM until Q4 FY2007. U.S. Armed Forces
+    personnel figures include all active and reserve component personnel.
+
+          Table 1. U.S. Armed Forces and Contractor Personnel in Afghanistan
+                                          (Q4 FY2007-Q1 FY2017)
+                                                                                           Foreign and Host
+                        U.S. Armed                                   U.S. Nationals        Country National
+                          Forces            Total Contractors         Contractors            Contractors
+ Q4 FY2007                 24,056                  29,473                  3,387                  26,086
+ Q1 FY2008                 24,780                  36,520                  5,153                  31,367
+ Q2 FY2008                 28,650                  52,336                  4,220                  48,116
+ Q3 FY2008                 33,902                  41,232                  4,724                  36,508
+ Q4 FY2008                 33,450                  68,252                  5,405                  62,847
+ Q1 FY2009                 32,500                  71,755                  5,960                  65,795
+ Q2 FY2009                 38,350                  68,197                  9,378                  58,819
+
+
+12 See Department of Defense, Contractor Support of U.S. Operations in the USCENTCOM Area of Responsibility to
+
+Include Iraq and Afghanistan, October 2016, at http://www.acq.osd.mil/log/PS/CENTCOM_reports.html; Boots on the
+Ground Report, September 2016.
+
+
+
+Congressional Research Service           R44116 · VERSION 11 · UPDATED                                           4
+                  Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+                                                                                      Foreign and Host
+                       U.S. Armed                                 U.S. Nationals      Country National
+                         Forces          Total Contractors         Contractors          Contractors
+ Q3 FY2009                 55,100               73,968                 10,036               62,932
+ Q4 FY2009                 62,300              104,101                  9,322               94,779
+ Q1 FY2010                 69,000              107,292                 10,016               97,276
+ Q2 FY2010                 79,100              112,092                 16,081               96,011
+ Q3 FY2010                 93,800              107,479                 19,103               88,376
+ Q4 FY2010                 96,600               70,599                 20,874               49,725
+ Q1 FY2011                 96,900               87,483                 19,381               68,102
+ Q2 FY2011                 99,800               90,339                 20,413               69,926
+ Q3 FY2011                 98,900               93,118                 23,294               69,824
+ Q4 FY2011                 98,200              101,789                 23,190               78,599
+ Q1 FY2012                 94,100              113,491                 25,287               88,204
+ Q2 FY2012                 88,200              117,227                 34,765               82,462
+ Q3 FY2012                 85,600              113,736                 30,568               83,168
+ Q4 FY2012                 76,500              109,564                 31,814               77,750
+ Q1 FY2013                 65,800              110,404                 33,444               76,960
+ Q2 FY2013                 65,700              107,796                 33,107               74,689
+ Q3 FY2013                 61,300              101,855                 32,442               69,413
+ Q4 FY2013                 55,800               85,528                 27,188               58,340
+ Q1 FY2014                 43,300               78,136,                23,763               54,373
+ Q2 FY2014                 33,200               61,452                 20,865               40,587
+ Q3 FY2014                 31,400               51,489                 17,404               34,085
+ Q4 FY2014                 27,800               45,349                 17,477               27,872
+ Q1 FY2015                 10,600               39,609                 14,222               25,387
+ Q2 FY2015                  9,100               30,820                 12,033               18,787
+ Q3 FY2015                  9,060               28,931                 10,019               18,912
+ Q4 FY2015                  9,100               30,211                 10,347               19,864
+ Q1 FY2016                  8,930               30,455                 10,151               20,304
+ Q2 FY2016                  8,730               28,626                  9,640               18,986
+ Q3 FY2016                  9,365               26,435                  8,837               17,598
+ Q4 FY2016                  9,800               25,197                  9,142               16,055
+ Q1 FY2017               Not Yet                26,022                  9,474               16,548
+                         Available
+
+    Sources: Contractor levels drawn from U.S. Central Command (CENTCOM) Quarterly Contractor Census
+    Reports; troop levels drawn from “Boots on the Ground” monthly reports to Congress.
+    Note: DOD did not begin releasing data on contractors in CENTCOM until Q4 FY2007. U.S. Armed Forces
+    personnel figures include all active and reserve component personnel.
+
+
+
+
+Congressional Research Service         R44116 · VERSION 11 · UPDATED                                      5
+                  Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+         Table 2. U.S. Armed Forces and Private Security Contractor Personnel
+                                     in Afghanistan
+                                          (Q2 FY2008-Q1 FY2017)
+                                                                                        Foreign and Host
+                                                Total Private         U.S. National     Country National
+                          U.S. Armed              Security           Private Security   Private Security
+                            Forces              Contractorsa           Contractors        Contractors
+
+ Q2 FY2008                   28,650                  6,982                  167               6,815
+ Q3 FY2008                   33,902                  3,537                    5               3,532
+ Q4 FY2008                   33,450                  3,847                    9               3,838
+ Q1 FY2009                   32,500                  3,689                   15               3,674
+ Q2 FY2009                   38,350                  4,373                   17               4,356
+ Q3 FY2009                   55,100                  5,198                   19               5,179
+ Q4 FY2009                   62,300                11,423                    76              11,347
+ Q1 FY2010                   69,000                14,439                   114              14,325
+ Q2 FY2010                   79,100                16,733                   140              16,593
+ Q3 FY2010                   93,800                17,932                   152              17,780
+ Q4 FY2010                   96,600                18,869                   197              18,672
+ Q1 FY2011                   96,900                18,919                   250              18,669
+ Q2 FY2011                   99,800                18,971                   250              18,721
+ Q3 FY2011                   98,900                15,305                   693              14,612
+ Q4 FY2011                   98,200                21,544                   603              20,941
+ Q1 FY2012                   94,100                20,375                   570              19,805
+ Q2 FY2012                   88,200                26,612                   519              26,093
+ Q3 FY2012                   85,600                28,686                   480              28,206
+ Q4 FY2012                   76,500                18,914                 2,014              16,850
+ Q1 FY2013                   65,800                19,414                 2,094              17,320
+ Q2 FY2013                   65,700                17,993                 1,378              16,615
+ Q3 FY2013                   61,300                16,218                   873              15,345
+ Q4 FY2013                   55,800                14,056                   844              13,212
+ Q1 FY2014                   43,300                11,332                 1,007              10,325
+ Q2 FY2014                   33,200                  5,591                  641               4,950
+ Q3 FY2014                   31,400                  3,177                  424               2,753
+ Q4 FY2014                   27,800                  2,472                  252               2,220
+ Q1 FY2015                   10,600                  1,511                  317               1,194
+ Q2 FY2015                       9,100               1,525                  398               1,127
+ Q3 FY2015                       9,060               1,779                  421               1,358
+ Q4 FY2015                       9,100               1,655                  312               1,343
+ Q1 FY2016                       8,930               1,083                  176                907
+ Q2 FY2016                       8,730                872                   125                747
+
+
+
+Congressional Research Service           R44116 · VERSION 11 · UPDATED                                     6
+                   Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+                                                                                              Foreign and Host
+                                                  Total Private         U.S. National         Country National
+                            U.S. Armed              Security           Private Security       Private Security
+                              Forces              Contractorsa           Contractors            Contractors
+
+ Q3 FY2016                       9,365                 1,022                    174                    848
+ Q4 FY2016                       9,800                   813                    145                    668
+ Q1 FY2017                  Not Yet                    1,722                    473                  1,249
+                            Available
+
+    Sources: Contractor levels drawn from CENTCOM Quarterly Contractor Census Reports; force levels drawn
+    from “Boots on the Ground” monthly reports to Congress.
+    Notes: DOD did not begin releasing data on private security contractor personnel levels within Afghanistan
+    until Q2 FY2008. U.S. Armed Forces personnel figures include all active and reserve component personnel.
+    a. Includes most subcontractors and service contractors, armed and unarmed, hired by prime contractors
+          under DOD contracts.
+
+
+U.S. Armed Forces and Contractor Personnel in Iraq,
+FY2007-FY2017
+DOD ceased publicly reporting numbers of DOD contractor personnel working in Iraq in
+December 2013, following the conclusion of the U.S. combat mission in Iraq (Operation Iraqi
+Freedom and Operation New Dawn), and the subsequent drawdown of DOD contractor personnel
+levels in Iraq. In late 2014, in response in part to developing operations in the region, DOD
+reinitiated reporting broad estimates of DOD contractor personnel deployed in Iraq in support of
+Operation Inherent Resolve (OIR). As the number of DOD contractor personnel in Iraq increased
+over the first six months of 2015, DOD resumed reporting exact numbers and primary mission
+categories of OIR contractor personnel in June 2015.
+As of the fourth quarter of FY2016, there were 2,992 DOD contractor personnel in Iraq,
+compared to a force management level authorizing the presence of up to 4,087 U.S. troops in
+Iraq, primarily deployed as part of a U.S.-led coalition advise-and-assist mission in support of the
+Government of Iraq.13 Contract personnel would thus represent approximately 42% of the total
+estimated DOD personnel presence in-country. Approximately 61% of DOD’s 2,992 reported
+individual contractors were U.S. citizens, approximately 25% were third-country nationals; and
+roughly 14% were local/host-country nationals.
+
+
+
+
+13 See Department of Defense, Contractor Support of U.S. Operations in the USCENTCOM Area of Responsibility to
+
+Include Iraq and Afghanistan, October 2016. As “Boots on the Ground” reports do not currently provide OIR force
+levels, CRS is using the force management level for Iraq reported biannually by the White House to provide an
+indication of the current number of U.S. forces estimated to be in Iraq.
+
+
+
+Congressional Research Service            R44116 · VERSION 11 · UPDATED                                           7
+                  Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+               Figure 2. U.S. Armed Forces and Contractor Personnel in Iraq
+                             (Q4 F72007-Q1 FY2014; Q1 FY2015-Q1 FY2017)
+
+
+
+
+    Source: Force levels from Q4 FY2007-Q1FY2012 are drawn from the DOD’s “Boots on the Ground” monthly
+    reports to Congress. U.S. Armed Forces personnel figures for Q4 FY2007-Q1FY2012 include all active and
+    reserve component personnel. Force levels for Q1FY2015-Q1FY2017 are drawn from the White House’s
+    semiannual “War Powers Resolution Report” to Congress. All listed contractor levels are drawn from
+    CENTCOM Quarterly Contractor Census Reports.
+    Notes: DOD did not begin releasing data on private security contractor personnel levels in CENTCOM until
+    Q1FY2008, and ceased reporting data on DOD-funded private security contractor personnel in Iraq in Q4
+    FY2013. As of Q1 FY2017, CENTCOM has not resumed reporting data on DOD-funded private security
+    personnel in Iraq. See Table 3 for further discussion of recent U.S. troop and contractor levels in Iraq.
+
+               Table 3. U.S. Armed Forces and Contractor Personnel in Iraq
+                             (Q4 F72007-Q1 FY2014; Q1 FY2015-Q1 FY2017)
+                                                                                          Foreign and Host
+                          U.S. Armed               Total                  U.S. National   Country National
+                            Forces               Contractors              Contractors       Contractors
+
+ Q4 FY2007                   165,607                154,825                   26,869           127,956
+ Q1 FY2008                   161,783                163,591                   31,325           132,266
+ Q2 FY2008                   159,700                149,378                   29,351           120,027
+ Q3 FY2008                   153,300                162,428                   29,611           132,817
+ Q4 FY2008                   146,900                163,446                   28,045           135,401
+ Q1 FY2009                   148,500                148,050                   39,262           108,788
+ Q2 FY2009                   141,300                132,610                   36,061            96,549
+ Q3 FY2009                   134,500                119,706                   31,541            88,165
+ Q4 FY2009                   129,200                113,731                   29,944            83,787
+ Q1 FY2010                   114,300                100,035                   27,843            72,192
+ Q2 FY2010                       95,900               95,461                  24,719            70,742
+ Q3 FY2010                       88,320               79,621                  22,761            56,860
+ Q4 FY2010                       48,410               74,106                  20,981            53,125
+ Q1 FY2011                       47,305               71,142                  19,943            51,199
+ Q2 FY2011                       45,660               64,253                  18,393            45,860
+
+
+
+
+Congressional Research Service            R44116 · VERSION 11 · UPDATED                                      8
+                   Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+                                                                                                 Foreign and Host
+                            U.S. Armed                Total                 U.S. National        Country National
+                              Forces                Contractors             Contractors            Contractors
+
+ Q3 FY2011                       46,010                 62,689                   18,900                  43,789
+ Q4 FY2011                       44,755                 52,637                   16,054                  36,583
+ Q1 FY2012                       11,445                 23,886a                  11,237                  12,649
+ Q2 FY2012                           —                  10,967a                   3,260                   7,707
+ Q3 FY2012                           —                   7,336a                   2,493                   4,843
+ Q4 FY2012                           —                   9,000a                   2,314                   6,686
+ Q1 FY2013                           —                   8,449a                   2,356                   6,093
+ Q2 FY2013                           —                   7,905a                   2,125                   5,780
+ Q3 FY2013                           —                   7,735a                   1,898                   5,837
+ Q4 FY2013                           —                   6,624a                   1,626                   4,998
+ Q1 FY2014                           —                   3,234a                     820                   2,414
+
+             No Data on Contractors Released by CENTCOM from Q2 FY2014-Q4 FY2014
+
+
+ Q1 FY2015                Up to 3,100b                250 (est.)          No Data Available       No Data Available
+
+ Q2 FY2015                Up to 3,100b                600 (est.)          No Data Available       No Data Available
+                                        c
+ Q3 FY2015                Up to 3,550                     1,349                  1,140                      209
+ Q4 FY2015                Up to 3,550c                    1,403                  1,098                      305
+                                        d
+ Q1 FY2016                Up to 3,550                     2,028                  1,392                      636
+ Q2 FY2016                Up to 3,550d                    2,619                  1,564                    1,055
+ Q3 FY2016                Up to 4,087e                    2,485                  1,605                      880
+ Q4 FY2016                Up to 4,087e                    2,992                  1,823                    1,169
+ Q1 FY2017                Up to 5,262f                    3,592                  2,035                    1,557
+
+    Sources: Force levels from Q4 FY2007-Q1FY2012 are drawn from the DOD’s “Boots on the Ground” monthly
+    reports to Congress. U.S. Armed Forces personnel figures for Q4 FY2007-Q1FY2012 include all active and
+    reserve component personnel. Force levels for Q1FY2015-Q1FY2017 are drawn from the White House’s
+    semiannual “War Powers Resolution Report” to Congress. All listed contractor levels are drawn from
+    CENTCOM Quarterly Contractor Census Reports.
+    Notes: DOD did not begin releasing data on contractors in CENTCOM until the second half of 2007, and
+    initially ceased reporting data on DOD contractor personnel in Iraq in December 2013.
+    Following the conclusion of the U.S. combat mission in Iraq, the “Boots on the Ground” monthly reports ceased
+    providing separate force levels for Iraq. However, a residual U.S. force remained in county to provide embassy
+    security and security cooperation assistance. Beginning in June 2014, in support of U.S. military operations against
+    the Islamic State (also known as ISIS/ISIL), additional U.S. military personnel were deployed to Iraq through OIR
+    to advise and train Iraqi forces, serve as observers, and secure U.S. personnel and facilities.
+    For further discussion of the U.S. and its coalition partners’ efforts to combat the Islamic State, see CRS Report
+    R43612, The Islamic State and U.S. Policy, by Christopher M. Blanchard and Carla E. Humud.
+    In Q1FY2015, CENTCOM resumed releasing data on DOD contractor personnel in Iraq—as the “Boots on the
+    Ground” reports do not currently provide OIR force levels, CRS is using the Force Management Levels for Iraq
+    reported biannually by the White House, beginning with the December 2014 “Six Month Consolidated War
+    Powers Resolution Report,” to provide an indication of the current number of U.S. forces estimated to be in
+    Iraq.
+
+
+
+
+Congressional Research Service              R44116 · VERSION 11 · UPDATED                                             9
+                  Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+    a.   CENTCOM reported that DOD contractors in Iraq from Q1FY2012 through Q1FY2014 were supporting
+         both U.S. Mission Iraq and the Office of Security Cooperation Iraq.
+    b.   Force Management Level for Iraq, as reported by The White House, Office of the Press Secretary, “Letter
+         from the President—Six Month Consolidated War Powers Resolution Report,” December 11, 2014, at
+         https://www.obamawhitehouse.archives.gov/the-press-office/2014/12/11/letter-president-six-month-
+         consolidated-war-powers-resolution-report.
+    c.   Force Management Level for Iraq, as reported by The White House, Office of the Press Secretary, “Letter
+         from the President—Six Month Consolidated War Powers Resolution Report,” June 11, 2015, at
+         https://www.obamawhitehouse.archives.gov/the-press-office/2015/06/11/letter-president-six-month-
+         consolidated-war-powers-resolution-report.
+    d.   Force Management Level for Iraq, as reported by The White House, Office of the Press Secretary, “Letter
+         from the President—War Powers Resolution,” December 11, 2015, at
+         https://www.obamawhitehouse.archives.gov/the-press-office/2015/12/11/letter-president-war-powers-
+         resolution.
+    e.   Force Management Level for Iraq, as reported by The White House, Office of the Press Secretary, “Letter
+         from the President—War Powers Resolution,” June 13, 2016, at
+         https://www.obamawhitehouse.archives.gov/the-press-office/2016/06/13/letter-president-war-powers-
+         resolution.
+    f.   Force Management Level for Iraq, as reported by The White House, Office of the Press Secretary, “Letter
+         from the President—Supplemental 6-month War Powers Letter,” December 5, 2016, at
+         https://obamawhitehouse.archives.gov/the-press-office/2016/12/05/letter-president-supplemental-6-month-
+         war-powers-letter.
+
+          Table 4. U.S. Armed Forces and Private Security Contractors in Iraq
+                                           (Q1 FY2008-Q4 FY2013)
+                                                                                            Foreign and Host
+                                                 Total Private         U.S. National        Country National
+                           U.S. Armed              Security           Private Security      Private Security
+                             Forces              Contractorsa           Contractors           Contractors
+
+ Q1 FY2008                    161,783                  9,952                    830                  9,122
+ Q2 FY2008                    159,700                  7,259                    515                  6,744
+ Q3 FY2008                    153,300                  7,704                  1,540                  6,164
+ Q4 FY2008                    146,900                 10,446                   886b                  9,560
+ Q1 FY2009                    148,500                  9,218                   727b                  8,436
+ Q2 FY2009                    141,300                 12,942                    681                 12,261
+ Q3 FY2009                    134,500                 15,279                    802                 14,477
+ Q4 FY2009                    129,200                 12,684                    670                 12,014
+ Q1 FY2010                    114,300                 11,095                    776                 10,319
+ Q2 FY2010                       95,900               11,610                  1,081                 10,529
+ Q3 FY2010                       88,320               11,413                  1,030                 10,383
+ Q4 FY2010                       48,410               11,628                  1,017                 10,611
+ Q1 FY2011                       47,305                8,327                    791                  7,536
+ Q2 FY2011                       45,660                9,207                    917                  8,290
+ Q3 FY2011                       46,010               10,414                    935                  9,479
+ Q4 FY2011                       44,755                9,554                    844                  8,710
+ Q1 FY2012                       11,445                8,995                    751                  8,244
+ Q2 FY2012                          —                  3,577                    288                  3,289
+
+
+
+Congressional Research Service            R44116 · VERSION 11 · UPDATED                                        10
+                  Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+                                                                                        Foreign and Host
+                                               Total Private         U.S. National      Country National
+                          U.S. Armed             Security           Private Security    Private Security
+                            Forces             Contractorsa           Contractors         Contractors
+
+ Q3 FY2012                        —                  2,407                  116                 2,291
+ Q4 FY2012                        —                  2,116                  102                 2,014
+ Q1 FY2013                        —                  2,281                  235                 2,046
+ Q2 FY2013                        —                  2,359                  259                 2,100
+ Q3 FY2013                        —                  2,148                  217                 1,931
+ Q4 FY2013                        —                  2,409                  147                 2,262
+
+    Sources: Force levels from Q1 FY2008-Q1FY2012 are drawn from the DOD’s “Boots on the Ground” monthly
+    reports to Congress. Contractor levels are drawn from CENTCOM Quarterly Contractor Census Reports.
+    Notes: DOD did not begin releasing data on private security contractor personnel levels in CENTCOM until
+    Q1FY2008, and ceased reporting data on DOD-funded private security contractor personnel in Iraq in Q4
+    FY2013. As of Q1 FY2017, CENTCOM has not resumed reporting data on DOD-funded private security
+    personnel in Iraq. See Table 3 for further discussion of recent U.S. troop and contractor levels in Iraq.
+    a. CENTCOM reported that DOD contractors in Iraq from December 2011 through December 2013 were
+        supporting both U.S. Mission Iraq and the Office of Security Cooperation Iraq.
+    b. CENTCOM Quarterly Census Reports from Q4 FY2008 and Q1FY2009 also included NATO coalition
+        personnel in the reported totals of U.S. private security contractor personnel.
+
+
+
+
+Congressional Research Service          R44116 · VERSION 11 · UPDATED                                     11
+                                                  Table 5. DOD Contract Obligations in Iraq and Afghanistan Theaters of Operation
+                                                                               (FY2007-FY2016; in millions of FY2017 dollars)
+                                             FY2007       FY2008        FY2009       FY2010        FY2011       FY2012        FY2013      FY2014       FY2015       FY2016            Total
+
+                                    Iraq    14,685.56     17,987.49    10,580.81      7,878.74     5,222.69       617.71       537.31        77.62       249.39      684.88        58,763.86
+
+                                 Bahrain       588.93      1,333.27     2,190.98       609.37       526.26        338.40       883.97       212.81       551.41      680.63         8,459.93
+
+                                 Kuwait      4,983.13      4,934.01     5,821.30      5,050.40     3,983.48     2,612.30      3,139.88    1,793.66     2,004.14     1,779.60       38,044.20
+Iraq Theater
+
+
+
+
+                                  Qatar        323.46       469.24       886.45        351.45       840.67        870.86       432.20       175.28       324.56      241.64         5,230.32
+
+                            Saudi Arabia       210.60       375.76       989.33        806.44       309.49        570.03       964.00     1,255.52     2,093.57     1,018.00       10,621.42
+
+                                 Turkey        375.90       193.21       311.79        143.24       185.94        286.34       191.65       184.99       203.56      242.26         2,516.19
+
+                                    UAE        261.33      1,326.57      305.78       2,662.15     1,060.54     1,467.74      2,281.36    1,757.70     1,306.55     1,422.39       15,124.87
+
+                                  Oman          94.29       107.54        85.31        125.88       142.16        214.68       228.80       106.60       124.73      123.02         1,473.89
+
+                                  Jordan        83.85        92.30        14.81         13.77        40.01         54.17       177.08       168.23       203.89      186.71         1,232.37
+                                                                                                                                                                   6,379.14      141,248.13
+                      Total Iraq Theater    21,607.05    26,819.41    21,186.57     17,641.43    12,311.23      7,032.23     8,836.25     5,732.41    6,842.88
+
+                                             3,800.69      6,893.02     8,200.70     13,079.75    18,149.95    19,426.34     15,003.74    6,176.46     3,274.96     1,999.80       99,178.23
+                             Afghanistan
+                                                 6.06        30.07        48.07         66.29        75.27         78.52        93.56        57.51        67.42       34.80          622.88
+                              Kazakhstan
+Afghanistan Theater
+
+
+
+
+                              Kyrgyzstan       426.99        20.29       374.47        134.14       906.81      1,988.82      2,022.96      684.07        -1.85        -6.64        6,548.27
+
+                                Pakistan        74.48       234.86       253.93        179.50        65.08         17.30         -3.65       23.91        74.88       35.08         1,027.95
+
+                                                 0.00          0.01         1.09          3.80         3.55         8.87          9.25        7.49         6.99         0.02          47.84
+                               Tajikistan
+                                                 0.45        19.30          9.24        24.21        10.45          4.44        13.97         1.48         0.15        -0.02          83.82
+                           Turkmenistan
+                                                13.94        16.06          9.90        22.73        16.44         23.82        19.09        22.16        32.22       10.87          218.45
+                              Uzbekistan
+
+                      Total Afghanistan
+                                             4,322.61     7,213.62     8,897.40     13,510.41    19,227.54     21,548.12    17,158.92     6,973.07    3,347.67     2,073.91      107,620.34
+                                Theater
+
+                         Total Iraq and
+                                            25,929.66    34,033.03    30,083.97     31,151.85    31,538.77     28,580.35    25,995.16    12,705.47   10,190.55     8,453.05      248,868.47
+                           Afghanistan
+
+                        Sources: Federal Procurement Data System, as of February 10, 2017 for FY2007-FY2016 data; CRS adjustments for inflation using deflators for converting into FY2017
+                        dollars derived from Office of the Under Secretary of Defense (Comptroller), Department of Defense, National Defense Budget Estimates for FY2017, “Department of
+                        Defense Deflators–TOA By Category ‘Total Non-Pay,’” Table 5-5, p. 58-59, March 2016.
+                        Note: Numbers may not add due to rounding.
+
+
+
+
+CRS-12
+CRS-13
+                  Department of Defense Contractor and Troop Levels in Iraq and Afghanistan: 2007-2017
+
+
+
+
+Author Information
+
+Heidi M. Peters, Coordinator                          Lawrence Kapp
+Information Research Specialist                       Specialist in Military Manpower Policy
+
+Moshe Schwartz
+Specialist in Defense Acquisition
+
+
+
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+
+
+
+Congressional Research Service         R44116 · VERSION 11 · UPDATED                                   14
+

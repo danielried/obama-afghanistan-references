@@ -1,0 +1,293 @@
+{
+ "diagnostics": {
+  "campaign12_withdraw_by_month": {
+   "1": {
+    "n": 16,
+    "w": 0.562
+   },
+   "2": {
+    "n": 14,
+    "w": 0.5
+   },
+   "3": {
+    "n": 77,
+    "w": 0.221
+   },
+   "4": {
+    "n": 15,
+    "w": 0.533
+   },
+   "5": {
+    "n": 280,
+    "w": 0.164
+   },
+   "6": {
+    "n": 35,
+    "w": 0.543
+   },
+   "7": {
+    "n": 41,
+    "w": 0.561
+   },
+   "8": {
+    "n": 48,
+    "w": 0.521
+   },
+   "9": {
+    "n": 73,
+    "w": 0.384
+   },
+   "10": {
+    "n": 81,
+    "w": 0.506
+   },
+   "11": {
+    "n": 29,
+    "w": 0.138
+   }
+  },
+  "campaign12_may_n": 280,
+  "campaign12_may_withdraw_share": 0.164,
+  "campaign12_nonmay_n": 429,
+  "campaign12_nonmay_withdraw_share": 0.422,
+  "campaign12_withdraw_hits_in_may": 46,
+  "campaign12_withdraw_hits_total": 227,
+  "withdraw_terms_2012_campaign": {
+   "transition": 82,
+   "end the war": 43,
+   "transitioning": 35,
+   "ending the war": 28,
+   "come home": 22,
+   "bring our troops home": 21,
+   "bringing our troops home": 13,
+   "coming home": 5,
+   "troops home": 5,
+   "bringing troops home": 3,
+   "bringing them home": 3,
+   "responsible transition": 2
+  },
+  "withdraw_terms_2012_nonmay": {
+   "transition": 57,
+   "end the war": 38,
+   "transitioning": 34,
+   "ending the war": 22,
+   "bring our troops home": 21,
+   "come home": 17,
+   "bringing our troops home": 13,
+   "troops home": 5,
+   "coming home": 3,
+   "bringing troops home": 3,
+   "bringing them home": 3,
+   "responsible transition": 2
+  },
+  "withdraw_terms_other_years": {
+   "transition": 134,
+   "responsible end": 27,
+   "coming home": 22,
+   "drawdown": 21,
+   "transitioning": 17,
+   "end the war": 15,
+   "come home": 14,
+   "bring our troops home": 13,
+   "troops home": 12,
+   "draw down": 11,
+   "drawing down": 11,
+   "ending the war": 9
+  },
+  "withdraw_terms_midterms": {
+   "transition": 27,
+   "coming home": 9,
+   "responsible end": 8,
+   "come home": 6,
+   "end the war": 3,
+   "troops home": 3,
+   "drawing down": 2,
+   "draw down": 2,
+   "combat mission ends": 2,
+   "bringing our troops home": 1,
+   "withdraw": 1,
+   "end our combat": 1
+  },
+  "transition_share_2012_campaign": 0.169,
+  "named_share_2012_campaign": 0.182,
+  "transition_share_2012_campaign_nonmay": 0.217,
+  "named_share_2012_campaign_nonmay": 0.226,
+  "transition_share_other_years": 0.05,
+  "named_share_other_years": 0.057,
+  "transition_share_midterms": 0.033,
+  "named_share_midterms": 0.05,
+  "withdraw_no_transition_share_by_period": {
+   "campaign_2012": 0.199,
+   "midterm_2010": 0.02,
+   "midterm_2014": 0.108,
+   "non_election": 0.057
+  },
+  "withdraw_no_transition_share_by_year": {
+   "2009": 0.029,
+   "2010": 0.017,
+   "2011": 0.113,
+   "2012": 0.197,
+   "2013": 0.055,
+   "2014": 0.116,
+   "2015": 0.065,
+   "2016": 0.035,
+   "2017": 0.222
+  },
+  "tests_campaign_nonMay_vs_midterms_withdraw": {
+   "A_yes": 181,
+   "A_n": 429,
+   "B_yes": 66,
+   "B_n": 821,
+   "chi2": 207.28,
+   "p_chi2": 5.397327147897506e-47,
+   "p_fisher": 4.7779313532280926e-45,
+   "OR_A_vs_B": 8.349
+  },
+  "tests_campaign_nonMay_vs_midterms_no_transition": {
+   "A_yes": 119,
+   "A_n": 429,
+   "B_yes": 41,
+   "B_n": 821,
+   "chi2": 130.6,
+   "p_chi2": 3.0318731404770064e-30,
+   "p_fisher": 1.899222459783515e-28,
+   "OR_A_vs_B": 7.303
+  },
+  "tests_2012_nonMay_vs_other_years_withdraw": {
+   "A_yes": 185,
+   "A_n": 446,
+   "B_yes": 297,
+   "B_n": 3151,
+   "chi2": 345.93,
+   "p_chi2": 3.2599657208222154e-77,
+   "p_fisher": 1.4122710910322004e-58,
+   "OR_A_vs_B": 6.811
+  },
+  "tests_2012_nonMay_vs_other_years_no_transition": {
+   "A_yes": 121,
+   "A_n": 446,
+   "B_yes": 172,
+   "B_n": 3151,
+   "chi2": 245.24,
+   "p_chi2": 2.8318369424325164e-55,
+   "p_fisher": 7.252081693450414e-40,
+   "OR_A_vs_B": 6.448
+  },
+  "within2012_post_election_n": 17,
+  "within2012_post_election_withdraw_share": 0.235,
+  "tests_2012_campaign_vs_postelection_withdraw": {
+   "A_yes": 227,
+   "A_n": 709,
+   "B_yes": 4,
+   "B_n": 17,
+   "chi2": 0.55,
+   "p_chi2": 0.45779344131780386,
+   "p_fisher": 0.6018232844794357,
+   "OR_A_vs_B": 1.531
+  },
+  "repeat_clusters_2012_campaign_top": [
+   {
+    "k": 9,
+    "n_speeches": 9,
+    "dates": "2012-09-07,2012-09-08,2012-09-09,2012-09-12,2012-09-13,2012-09-17,2012-09-21,2012-09-22",
+    "text": "I said we'd wind down the war in Afghanistan, and we are."
+   },
+   {
+    "k": 7,
+    "n_speeches": 7,
+    "dates": "2012-09-06,2012-09-07,2012-09-08,2012-09-09,2012-09-30,2012-10-04",
+    "text": "And he won't tell us how he'll end the war in Afghanistan."
+   },
+   {
+    "k": 7,
+    "n_speeches": 7,
+    "dates": "2012-11-02,2012-11-03,2012-11-04,2012-11-05",
+    "text": "Because of the service and sacrifice of our brave men and women in uniform, the war in Iraq is over, the war in Afghanistan is ending, Al Qaida has been decimat"
+   },
+   {
+    "k": 5,
+    "n_speeches": 5,
+    "dates": "2012-09-26,2012-09-27,2012-09-28,2012-10-04",
+    "text": "I said that we'd wind down the war in Afghanistan in a responsible way, and we are."
+   },
+   {
+    "k": 5,
+    "n_speeches": 5,
+    "dates": "2012-05-05,2012-05-10,2012-05-23,2012-06-12",
+    "text": "And by 2014, the war in Afghanistan will be over."
+   },
+   {
+    "k": 4,
+    "n_speeches": 4,
+    "dates": "2012-05-05,2012-05-10,2012-05-23",
+    "text": "He said he won't set a timeline for ending the war in Afghanistan."
+   },
+   {
+    "k": 4,
+    "n_speeches": 4,
+    "dates": "2012-10-18,2012-10-19,2012-10-24,2012-10-25",
+    "text": "I said we'd end the war in Afghanistan; we are."
+   },
+   {
+    "k": 3,
+    "n_speeches": 3,
+    "dates": "2012-11-03,2012-11-04,2012-11-05",
+    "text": "The war in Afghanistan is coming to a close."
+   }
+  ],
+  "n_repeat_clusters_2012_campaign": 23,
+  "n_repeat_passages_2012_campaign": 77,
+  "repeat_share_campaign_nonmay": 0.147,
+  "repeat_share_campaign_may": 0.05,
+  "repeat_share_midterms": 0.006,
+  "poisson_quasi_excl_may2012": {
+   "camp12": {
+    "rr": 1.505,
+    "p": 0.6832224746406146
+   },
+   "mid": {
+    "rr": 0.662,
+    "p": 0.3843966747595772
+   }
+  },
+  "withdraw_frame_nonMay_campaign_n": 181,
+  "withdraw_frame_nonMay_campaign_in_repeat_clusters": 23,
+  "withdraw_frame_nonMay_campaign_repeat_share": 0.127,
+  "withdraw_share_nonMay_campaign_excl_repeats": 0.432,
+  "n_nonMay_campaign_excl_repeats": 366,
+  "tests_nonMay_campaign_excl_repeats_vs_midterms_withdraw": {
+   "A_yes": 158,
+   "A_n": 366,
+   "B_yes": 63,
+   "B_n": 816,
+   "chi2": 208.87,
+   "p_chi2": 2.4230824719268776e-47,
+   "p_fisher": 4.3240107611062506e-44,
+   "OR_A_vs_B": 9.079
+  },
+  "tests_nonMay_campaign_excl_repeats_vs_other_years_withdraw": {
+   "A_yes": 158,
+   "A_n": 366,
+   "B_yes": 289,
+   "B_n": 3127,
+   "chi2": 337.96,
+   "p_chi2": 1.7721862613406418e-75,
+   "p_fisher": 4.104747108147231e-55,
+   "OR_A_vs_B": 7.459
+  }
+ },
+ "poisson_hi_per_speech_month": {
+  "camp12": {
+   "coef": 0.825,
+   "rate_ratio": 2.282,
+   "p": 0.4335272263518346
+  },
+  "mid": {
+   "coef": -0.412,
+   "rate_ratio": 0.662,
+   "p": 0.4186419552553936
+  },
+  "n_months": 96,
+  "dispersion_pearson": 47.838
+ }
+}

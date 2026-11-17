@@ -1,0 +1,195 @@
+{
+  "n_raw": 4741,
+  "n_questioner": 109,
+  "n_dup": 0,
+  "n_analysis": 4632,
+  "n_speeches": 1103,
+  "paired_win_n": 1037,
+  "paired_win_pct": 22.39,
+  "paired_passage_n": 495,
+  "paired_passage_pct": 10.69,
+  "iraq_in_window_pct": 23.53,
+  "mk_yearly_S": 4.0,
+  "mk_yearly_z": 0.313,
+  "mk_yearly_p": 0.7545,
+  "kendall_yearly_tau": 0.111,
+  "kendall_yearly_p": 0.7614,
+  "mk_monthly_n_months": 97,
+  "mk_monthly_z": 1.484,
+  "mk_monthly_p": 0.1378,
+  "pre_n": 2121,
+  "post_n": 2511,
+  "pre_paired_pct": 19.33,
+  "post_paired_pct": 24.97,
+  "period_chi2": 20.72,
+  "period_chi2_p": 5.3070804477401885e-06,
+  "period_fisher_p": 4.926770516354817e-06,
+  "ann_split_pre_pct": 18.37,
+  "ann_split_post_pct": 25.55,
+  "ann_split_chi2_p": 7.390547318935838e-09,
+  "monthly_mwu_p": 0.11677134063885218,
+  "logit_time_OR": 1.032,
+  "logit_time_p": 0.4749,
+  "logit_post_OR": 1.923,
+  "logit_post_CI": [
+    1.018,
+    3.63
+  ],
+  "logit_post_p": 0.0438,
+  "logit_time_adj_OR": 0.911,
+  "logit_time_adj_p": 0.2229,
+  "threshold_sensitivity": {
+    "thr30": {
+      "n": 4351,
+      "pre_pct": 19.31,
+      "post_pct": 24.23,
+      "chi2_p": 0.00010612234547143427
+    },
+    "thr50": {
+      "n": 3877,
+      "pre_pct": 20.07,
+      "post_pct": 25.47,
+      "chi2_p": 7.475215913825848e-05
+    },
+    "thr70": {
+      "n": 2332,
+      "pre_pct": 21.64,
+      "post_pct": 22.95,
+      "chi2_p": 0.4811108783789013
+    }
+  },
+  "tone_paired_mean": -0.08,
+  "tone_paired_median": 0.0,
+  "tone_unpaired_mean": 0.184,
+  "tone_unpaired_median": 0.25,
+  "tone_mwu_p": 3.7325520435148636e-42,
+  "tone_paired_n": 1037,
+  "tone_unpaired_n": 3595,
+  "tone_post_paired_mean": -0.187,
+  "tone_post_unpaired_mean": 0.171,
+  "tone_post_mwu_p": 1.5720888341062182e-43,
+  "tone_post_paired_n": 627,
+  "tone_label_pct": {
+    "False": {
+      "negative": 26.4,
+      "neutral": 17.9,
+      "positive": 55.6
+    },
+    "True": {
+      "negative": 44.6,
+      "neutral": 21.1,
+      "positive": 34.2
+    }
+  },
+  "tone_label_chi2_p": 1.9441973152268178e-36,
+  "category_pct": {
+    "False": {
+      "aid_diplomacy_civil": 6.5,
+      "incidental": 20.3,
+      "political_background": 0.3,
+      "unrelated": 0.5,
+      "war_adjacent": 29.8,
+      "war_direct": 42.6
+    },
+    "True": {
+      "aid_diplomacy_civil": 3.3,
+      "incidental": 10.8,
+      "political_background": 0.1,
+      "unrelated": 1.1,
+      "war_adjacent": 28.4,
+      "war_direct": 56.4
+    }
+  },
+  "category_chi2_p": 9.3989219427613e-19,
+  "category_n_paired": {
+    "aid_diplomacy_civil": 34,
+    "incidental": 112,
+    "political_background": 1,
+    "unrelated": 11,
+    "war_adjacent": 294,
+    "war_direct": 585
+  },
+  "score_paired_mean": 67.29,
+  "score_unpaired_mean": 67.75,
+  "score_mwu_p": 0.8778444363425274,
+  "framing_cues": {
+    "f_two_wars": {
+      "paired_n": 295,
+      "paired_pct": 28.45,
+      "unpaired_n": 264,
+      "unpaired_pct": 7.34
+    },
+    "f_war_choice": {
+      "paired_n": 2,
+      "paired_pct": 0.19,
+      "unpaired_n": 3,
+      "unpaired_pct": 0.08
+    },
+    "f_isil": {
+      "paired_n": 70,
+      "paired_pct": 6.75,
+      "unpaired_n": 177,
+      "unpaired_pct": 4.92,
+      "paired_pre_pct": 3.41,
+      "paired_post_pct": 8.93
+    }
+  },
+  "second_pass": {
+    "campaign_title_n": 748,
+    "campaign_title_speeches": 304,
+    "campaign_paired_pct": 50.94,
+    "campaign_n": 748,
+    "noncampaign_paired_pct": 16.89,
+    "noncampaign_n": 3884,
+    "noncampaign_pre_pct": 17.64,
+    "noncampaign_post_pct": 16.09,
+    "noncampaign_chi2_p": 0.21254321030883133,
+    "excl2012_pre_pct": 19.33,
+    "excl2012_post_pct": 17.25,
+    "excl2012_chi2_p": 0.11943661314405442,
+    "y2012_monthly_pct": {
+      "1": 44.0,
+      "2": 15.0,
+      "3": 8.7,
+      "4": 19.2,
+      "5": 12.7,
+      "6": 39.3,
+      "7": 57.1,
+      "8": 52.6,
+      "9": 72.2,
+      "10": 59.1,
+      "11": 54.3,
+      "12": 35.7
+    },
+    "y2012_monthly_n": {
+      "1": 25,
+      "2": 20,
+      "3": 92,
+      "4": 26,
+      "5": 300,
+      "6": 56,
+      "7": 70,
+      "8": 78,
+      "9": 108,
+      "10": 127,
+      "11": 70,
+      "12": 14
+    },
+    "two_wars_tight_pre_paired_n": 12,
+    "two_wars_tight_pre_paired_pct": 2.93,
+    "two_wars_tight_post_paired_n": 9,
+    "two_wars_tight_post_paired_pct": 1.44,
+    "two_wars_tight_paired_n": 21,
+    "two_wars_tight_unpaired_n": 234,
+    "tone_wardirect_paired_mean": -0.138,
+    "tone_wardirect_unpaired_mean": 0.216,
+    "tone_wardirect_mwu_p": 6.679273856059049e-37,
+    "tone_wardirect_paired_n": 585,
+    "logit_full_post_OR": 0.895,
+    "logit_full_post_p": 0.6935,
+    "logit_full_campaign_OR": 5.259,
+    "logit_full_campaign_p": 0.0,
+    "logit_full_time_OR": 1.016,
+    "logit_full_time_p": 0.8108
+  }
+}

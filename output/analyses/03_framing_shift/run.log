@@ -1,0 +1,73 @@
+dup-speech rows dropped: 0; 4-category passages 2009-2016: 4686; questioner-flagged among them: 104
+category counts: {'war_direct': 2148, 'war_adjacent': 1400, 'incidental': 869, 'aid_diplomacy_civil': 269}
+frame combat: n=430 (0.092)
+frame transition: n=630 (0.134)
+frame end: n=343 (0.073)
+  [combat] match='fight' | ..."omes home from Iraq or Afghanistan, that they don't have to fight for a job or a roof over their heads here in the United Sta"
+  [combat] match='combating' | ...'ed in the Bilateral Security Agreement, for the purposes of combating al-Qaeda and its affiliates, training the Afghan National S'
+  [combat] match='fighters' | ...'Under his command, fighters from the aircraft carrier USS Enterprise pounded Taliban po'
+  [transition] match='transfer' | ...'xt President, and Afghanistan will see its first democratic transfer of power in history.'
+  [transition] match='Afghan-led' | ...'We have seen Afghan-led efforts that have gone after police commanders, significant'
+  [transition] match='training' | ...'Meanwhile, the training and development of Afghan security forces continues so that'
+  [end] match='drawdown' | ...'e, we were entering a significant period of transition: the drawdown in Afghanistan, the need to prepare our forces for future m'
+  [end] match='troops home' | ...'We brought more of our troops home to their families, and we delivered justice to Usama bin La'
+  [end] match='come home' | ...'Now, even as our troops come home, the international community will continue to support Afgha'
+monthly n (main): min 3 median 26.0 max 300 months with n<10: 13
+[main_nonquestioner] cat_war_direct: n=4582 rate=0.460 | binseg=[('2012-12-03', 0.002), ('2016-09-06', 0.002)] | Pettitt={'date': '2012-05-02', 'K': 388110.0, 'p_approx': 0.000167}
+[main_nonquestioner] cat_war_adjacent: n=4582 rate=0.298 | binseg=[('2012-11-01', 0.006)] | Pettitt={'date': '2012-11-02', 'K': 247644.0, 'p_approx': 0.043669}
+[main_nonquestioner] cat_aid_diplomacy_civil: n=4582 rate=0.058 | binseg=[('2012-06-01', 0.018), ('2015-03-02', 0.012), ('2015-10-02', 0.022)] | Pettitt={'date': '2012-05-02', 'K': 143790.0, 'p_approx': 0.550936}
+[main_nonquestioner] cat_incidental: n=4582 rate=0.184 | binseg=[('2012-11-01', 0.002), ('2012-12-03', 0.026), ('2016-09-06', 0.002)] | Pettitt={'date': '2013-01-11', 'K': 123824.0, 'p_approx': 0.768782}
+[main_nonquestioner] frame_combat: n=4582 rate=0.092 | binseg=[('2011-09-10', 0.004), ('2013-02-07', 0.008), ('2015-11-02', 0.026)] | Pettitt={'date': '2013-05-23', 'K': 158062.0, 'p_approx': 0.421146}
+[main_nonquestioner] frame_transition: n=4582 rate=0.137 | binseg=[('2010-07-01', 0.002), ('2016-09-06', 0.028)] | Pettitt={'date': '2010-11-19', 'K': 354535.0, 'p_approx': 0.000789}
+[main_nonquestioner] frame_end: n=4582 rate=0.072 | binseg=[('2011-06-07', 0.002), ('2012-02-03', 0.026), ('2012-06-01', 0.002), ('2012-11-01', 0.002), ('2015-10-02', 0.002)] | Pettitt={'date': '2011-05-30', 'K': 414918.0, 'p_approx': 4.4e-05}
+[incl_questioner] cat_war_direct: n=4686 rate=0.458 | binseg=[('2012-12-03', 0.002), ('2016-09-06', 0.002)] | Pettitt={'date': '2012-05-02', 'K': 402240.0, 'p_approx': 0.00016}
+[incl_questioner] cat_war_adjacent: n=4686 rate=0.299 | binseg=[('2012-11-01', 0.02)] | Pettitt={'date': '2012-11-02', 'K': 246992.0, 'p_approx': 0.05708}
+[incl_questioner] cat_aid_diplomacy_civil: n=4686 rate=0.057 | binseg=[('2012-06-01', 0.032), ('2015-03-02', 0.02), ('2015-10-02', 0.014)] | Pettitt={'date': '2012-05-02', 'K': 142907.0, 'p_approx': 0.608089}
+[incl_questioner] cat_incidental: n=4686 rate=0.185 | binseg=[('2012-11-01', 0.002), ('2012-12-03', 0.034), ('2016-09-06', 0.002)] | Pettitt={'date': '2013-01-11', 'K': 138699.0, 'p_approx': 0.651583}
+[incl_questioner] frame_combat: n=4686 rate=0.092 | binseg=[('2011-09-10', 0.008), ('2013-02-07', 0.004), ('2015-11-02', 0.016)] | Pettitt={'date': '2013-05-23', 'K': 174166.0, 'p_approx': 0.341214}
+[incl_questioner] frame_transition: n=4686 rate=0.134 | binseg=[('2010-07-01', 0.002), ('2016-09-06', 0.014)] | Pettitt={'date': '2010-11-19', 'K': 383388.0, 'p_approx': 0.00038}
+[incl_questioner] frame_end: n=4686 rate=0.073 | binseg=[('2011-06-07', 0.002), ('2012-02-03', 0.032), ('2012-06-01', 0.002), ('2012-11-01', 0.002), ('2015-10-02', 0.002)] | Pettitt={'date': '2011-05-30', 'K': 433395.0, 'p_approx': 3.5e-05}
+[main_score_ge30] cat_war_direct: n=4330 rate=0.487 | binseg=[('2012-06-01', 0.002)] | Pettitt={'date': '2012-05-02', 'K': 462680.0, 'p_approx': 0.0}
+[main_score_ge30] cat_war_adjacent: n=4330 rate=0.282 | binseg=[('2012-06-01', 0.004), ('2012-09-01', 0.01)] | Pettitt={'date': '2012-05-28', 'K': 274321.0, 'p_approx': 0.007695}
+[main_score_ge30] cat_aid_diplomacy_civil: n=4330 rate=0.057 | binseg=[] | Pettitt={'date': '2012-05-02', 'K': 100380.0, 'p_approx': 0.949916}
+[main_score_ge30] cat_incidental: n=4330 rate=0.175 | binseg=[('2012-11-01', 0.002), ('2012-12-03', 0.034)] | Pettitt={'date': '2013-01-11', 'K': 177434.0, 'p_approx': 0.195318}
+[main_score_ge30] frame_combat: n=4330 rate=0.095 | binseg=[('2011-09-10', 0.026), ('2013-02-07', 0.02), ('2015-11-04', 0.008)] | Pettitt={'date': '2013-02-11', 'K': 133080.0, 'p_approx': 0.540386}
+[main_score_ge30] frame_transition: n=4330 rate=0.145 | binseg=[('2010-07-01', 0.002), ('2012-09-01', 0.032)] | Pettitt={'date': '2010-11-19', 'K': 372739.0, 'p_approx': 7e-05}
+[main_score_ge30] frame_end: n=4330 rate=0.076 | binseg=[('2011-05-01', 0.002), ('2012-06-01', 0.002), ('2012-11-01', 0.002), ('2015-10-02', 0.002)] | Pettitt={'date': '2011-05-30', 'K': 407920.0, 'p_approx': 9e-06}
+[main_score_ge50] cat_war_direct: n=3864 rate=0.544 | binseg=[('2012-06-01', 0.002), ('2012-10-03', 0.004)] | Pettitt={'date': '2012-05-02', 'K': 437542.0, 'p_approx': 0.0}
+[main_score_ge50] cat_war_adjacent: n=3864 rate=0.273 | binseg=[('2012-06-01', 0.002), ('2012-10-03', 0.008)] | Pettitt={'date': '2012-05-02', 'K': 256488.0, 'p_approx': 0.00214}
+[main_score_ge50] cat_aid_diplomacy_civil: n=3864 rate=0.053 | binseg=[] | Pettitt={'date': '2012-05-20', 'K': 68478.0, 'p_approx': 1.0}
+[main_score_ge50] cat_incidental: n=3864 rate=0.130 | binseg=[('2015-11-04', 0.028)] | Pettitt={'date': '2012-05-02', 'K': 130068.0, 'p_approx': 0.34443}
+[main_score_ge50] frame_combat: n=3864 rate=0.096 | binseg=[('2010-07-01', 0.028), ('2010-09-10', 0.034), ('2011-09-10', 0.01), ('2013-02-07', 0.002), ('2015-11-04', 0.026)] | Pettitt={'date': '2013-05-23', 'K': 145922.0, 'p_approx': 0.218535}
+[main_score_ge50] frame_transition: n=3864 rate=0.158 | binseg=[('2009-03-03', 0.028), ('2010-07-01', 0.002), ('2012-09-01', 0.014)] | Pettitt={'date': '2010-08-31', 'K': 336984.0, 'p_approx': 1.5e-05}
+[main_score_ge50] frame_end: n=3864 rate=0.079 | binseg=[('2011-03-07', 0.002), ('2012-06-01', 0.002), ('2012-11-01', 0.002), ('2015-10-02', 0.008)] | Pettitt={'date': '2011-05-30', 'K': 358342.0, 'p_approx': 3e-06}
+[main_score_ge70] cat_war_direct: n=2325 rate=0.788 | binseg=[('2009-10-13', 0.016), ('2010-05-12', 0.004), ('2010-06-05', 0.002), ('2011-04-01', 0.026), ('2012-06-01', 0.002)] | Pettitt={'date': '2012-05-28', 'K': 79777.0, 'p_approx': 0.095953}
+[main_score_ge70] cat_war_adjacent: n=2325 rate=0.144 | binseg=[] | Pettitt={'date': '2012-05-28', 'K': 45815.0, 'p_approx': 0.734554}
+[main_score_ge70] cat_aid_diplomacy_civil: n=2325 rate=0.027 | binseg=[('2013-04-16', 0.04)] | Pettitt={'date': '2010-06-24', 'K': 26505.0, 'p_approx': 1.0}
+[main_score_ge70] cat_incidental: n=2325 rate=0.041 | binseg=[('2009-12-01', 0.002)] | Pettitt={'date': '2009-12-01', 'K': 27702.0, 'p_approx': 1.0}
+[main_score_ge70] frame_combat: n=2325 rate=0.136 | binseg=[('2011-09-10', 0.002), ('2013-02-07', 0.012), ('2015-10-02', 0.026)] | Pettitt={'date': '2013-05-24', 'K': 67416.0, 'p_approx': 0.228627}
+[main_score_ge70] frame_transition: n=2325 rate=0.213 | binseg=[('2009-03-03', 0.036), ('2010-07-04', 0.002), ('2012-02-03', 0.04), ('2012-05-02', 0.004)] | Pettitt={'date': '2010-07-20', 'K': 118125.0, 'p_approx': 0.002566}
+[main_score_ge70] frame_end: n=2325 rate=0.099 | binseg=[('2011-01-10', 0.002), ('2012-06-01', 0.002), ('2012-11-01', 0.002), ('2016-04-04', 0.036)] | Pettitt={'date': '2011-06-22', 'K': 145386.0, 'p_approx': 8.3e-05}
+break-event match +/-30d: observed 6 of 12 breaks; null mean 2.98; p=0.0537
+break-event match +/-60d: observed 6 of 12 breaks; null mean 5.31; p=0.4493
+  event 2009-02-17 nearest break 2010-07-01 (+499 d) | First troop increase: 17,000 more US troops to Afghanistan
+  event 2009-03-27 nearest break 2010-07-01 (+461 d) | New Afghanistan-Pakistan (AfPak) strategy announced
+  event 2009-12-01 nearest break 2010-07-01 (+212 d) | West Point speech: 30,000-troop surge with July 2011 drawdown start
+  event 2010-06-23 nearest break 2010-07-01 (+8 d) | McChrystal relieved after Rolling Stone article; Petraeus named comman
+  event 2011-05-01 nearest break 2011-06-07 (+37 d) | Bin Laden killed in Abbottabad raid; effect on Afghanistan war debate
+  event 2011-06-22 nearest break 2011-06-07 (-15 d) | Drawdown announcement: 33,000 surge troops home by summer 2012
+  event 2012-05-01 nearest break 2012-06-01 (+31 d) | Kabul address and US-Afghan Strategic Partnership Agreement
+  event 2012-05-21 nearest break 2012-06-01 (+11 d) | Chicago NATO summit: transition to Afghan lead, end of combat role by 
+  event 2013-02-12 nearest break 2013-02-07 (-5 d) | State of the Union: 34,000 troops home within a year
+  event 2014-05-27 nearest break 2015-03-02 (+279 d) | Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016
+  event 2014-12-28 nearest break 2015-03-02 (+64 d) | Formal end of US combat mission (Operation Enduring Freedom ends)
+  event 2015-10-15 nearest break 2015-10-02 (-13 d) | Withdrawal halted: 5,500 troops to stay past 2016
+  event 2016-07-06 nearest break 2016-09-06 (+62 d) | 8,400 troops to remain through end of term
+period cat_war_direct: 2009-2011 906/2100 = 0.431 | 2012-2014 883/1804 = 0.489 | 2015-2016 320/678 = 0.472 | chi2 p=0.00112
+period cat_war_adjacent: 2009-2011 664/2100 = 0.316 | 2012-2014 515/1804 = 0.285 | 2015-2016 185/678 = 0.273 | chi2 p=0.0347
+period cat_aid_diplomacy_civil: 2009-2011 131/2100 = 0.062 | 2012-2014 91/1804 = 0.050 | 2015-2016 45/678 = 0.066 | chi2 p=0.176
+period cat_incidental: 2009-2011 399/2100 = 0.190 | 2012-2014 315/1804 = 0.175 | 2015-2016 128/678 = 0.189 | chi2 p=0.435
+period frame_combat: 2009-2011 194/2100 = 0.092 | 2012-2014 158/1804 = 0.088 | 2015-2016 68/678 = 0.100 | chi2 p=0.613
+period frame_transition: 2009-2011 241/2100 = 0.115 | 2012-2014 286/1804 = 0.159 | 2015-2016 100/678 = 0.147 | chi2 p=0.00026
+period frame_end: 2009-2011 80/2100 = 0.038 | 2012-2014 221/1804 = 0.123 | 2015-2016 31/678 = 0.046 | chi2 p=6.65e-25
+wrote output/analyses/03_framing_shift/results.json

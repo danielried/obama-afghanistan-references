@@ -1,0 +1,309 @@
+{
+  "n_refs_kept": 4737,
+  "groups": [
+    "remarks",
+    "press_conference|president",
+    "statement",
+    "address",
+    "weekly_address",
+    "interview|president",
+    "press_conference|questioner",
+    "other"
+  ],
+  "dropped_groups": {
+    "interview|questioner": 4
+  },
+  "kw_war_likelihood_score": {
+    "H": 145.90574535690675,
+    "df": 7,
+    "p": 2.937182310060132e-28,
+    "eta2_H": 0.02937317516534294,
+    "N": 4737
+  },
+  "kw_vader_tone": {
+    "H": 428.10648650878596,
+    "df": 7,
+    "p": 2.2267119427743912e-88,
+    "eta2_H": 0.089047681647026,
+    "N": 4737
+  },
+  "category_chi2": {
+    "chi2": 208.49746244986684,
+    "dof": 28,
+    "p": 1.6717594417172246e-29,
+    "cramers_v": 0.10489836009940569,
+    "share_cells_expected_lt5": 0.225,
+    "collapsed": "unrelated+political_background"
+  },
+  "hi_share_sensitivity": [
+    {
+      "threshold": 30,
+      "chi2": 138.5731775368635,
+      "dof": 7,
+      "p": 1.0115500143542713e-26,
+      "cramers_v": 0.17103614345490134,
+      "shares": {
+        "address": 0.966,
+        "interview|president": 0.9759,
+        "other": 0.78,
+        "press_conference|president": 0.9883,
+        "press_conference|questioner": 0.9375,
+        "remarks": 0.9091,
+        "statement": 0.9901,
+        "weekly_address": 0.9794
+      }
+    },
+    {
+      "threshold": 50,
+      "chi2": 207.61819132453704,
+      "dof": 7,
+      "p": 2.7911177939018865e-41,
+      "cramers_v": 0.20935387765503483,
+      "shares": {
+        "address": 0.8835,
+        "interview|president": 0.9518,
+        "other": 0.64,
+        "press_conference|president": 0.9262,
+        "press_conference|questioner": 0.5875,
+        "remarks": 0.7791,
+        "statement": 0.9229,
+        "weekly_address": 0.8454
+      }
+    },
+    {
+      "threshold": 70,
+      "chi2": 93.864955070998,
+      "dof": 7,
+      "p": 1.9853596252680883e-17,
+      "cramers_v": 0.14076673772693807,
+      "shares": {
+        "address": 0.6699,
+        "interview|president": 0.4699,
+        "other": 0.3,
+        "press_conference|president": 0.5515,
+        "press_conference|questioner": 0.1625,
+        "remarks": 0.4678,
+        "statement": 0.5178,
+        "weekly_address": 0.5876
+      }
+    }
+  ],
+  "questioner_vs_president_score": {
+    "n_q": 80,
+    "n_p": 1113,
+    "median_q": 53.5,
+    "median_p": 71.0,
+    "p": 2.7781410121449527e-16
+  },
+  "sensitivity_no_venue_title": {
+    "vt_share": {
+      "address": 0.485,
+      "interview|president": 0.169,
+      "other": 0.0,
+      "press_conference|president": 0.392,
+      "press_conference|questioner": 0.275,
+      "remarks": 0.31,
+      "statement": 0.711,
+      "weekly_address": 0.0
+    },
+    "H": 131.95024375791994,
+    "p": 2.4590003477134054e-25,
+    "eta2_H": 0.026422128094294763,
+    "medians": {
+      "address": 77.0,
+      "interview|president": 66.0,
+      "other": 63.0,
+      "press_conference|president": 69.0,
+      "press_conference|questioner": 51.5,
+      "remarks": 68.0,
+      "statement": 67.0,
+      "weekly_address": 74.0
+    }
+  },
+  "sensitivity_president_only": {
+    "groups": [
+      "remarks",
+      "press_conference|president",
+      "statement",
+      "address",
+      "weekly_address",
+      "interview|president",
+      "other"
+    ],
+    "H": 103.16286266386071,
+    "p": 5.486063968350027e-20
+  },
+  "rates": [
+    {
+      "unit": "interview|president",
+      "speeches": 21,
+      "passages": 83,
+      "chars": 390237,
+      "per_10k_chars": 2.1269,
+      "ci_lo": 1.6941,
+      "ci_hi": 2.6366
+    },
+    {
+      "unit": "interview",
+      "speeches": 21,
+      "passages": 87,
+      "chars": 428219,
+      "per_10k_chars": 2.0317,
+      "ci_lo": 1.6273,
+      "ci_hi": 2.5061
+    },
+    {
+      "unit": "address",
+      "speeches": 48,
+      "passages": 206,
+      "chars": 1069158,
+      "per_10k_chars": 1.9267,
+      "ci_lo": 1.6726,
+      "ci_hi": 2.2086
+    },
+    {
+      "unit": "press_conference|president",
+      "speeches": 170,
+      "passages": 1030,
+      "chars": 5459070,
+      "per_10k_chars": 1.8868,
+      "ci_lo": 1.7733,
+      "ci_hi": 2.0056
+    },
+    {
+      "unit": "press_conference|questioner",
+      "speeches": 170,
+      "passages": 80,
+      "chars": 428745,
+      "per_10k_chars": 1.8659,
+      "ci_lo": 1.4796,
+      "ci_hi": 2.3223
+    },
+    {
+      "unit": "press_conference",
+      "speeches": 170,
+      "passages": 1110,
+      "chars": 6007020,
+      "per_10k_chars": 1.8478,
+      "ci_lo": 1.7407,
+      "ci_hi": 1.9598
+    },
+    {
+      "unit": "statement",
+      "speeches": 1409,
+      "passages": 506,
+      "chars": 2854885,
+      "per_10k_chars": 1.7724,
+      "ci_lo": 1.6213,
+      "ci_hi": 1.9338
+    },
+    {
+      "unit": "interview|questioner",
+      "speeches": 21,
+      "passages": 4,
+      "chars": 23502,
+      "per_10k_chars": 1.702,
+      "ci_lo": 0.4637,
+      "ci_hi": 4.3578
+    },
+    {
+      "unit": "other",
+      "speeches": 8,
+      "passages": 50,
+      "chars": 434975,
+      "per_10k_chars": 1.1495,
+      "ci_lo": 0.8532,
+      "ci_hi": 1.5155
+    },
+    {
+      "unit": "remarks",
+      "speeches": 2966,
+      "passages": 2685,
+      "chars": 36987678,
+      "per_10k_chars": 0.7259,
+      "ci_lo": 0.6987,
+      "ci_hi": 0.7539
+    },
+    {
+      "unit": "weekly_address",
+      "speeches": 404,
+      "passages": 97,
+      "chars": 1608907,
+      "per_10k_chars": 0.6029,
+      "ci_lo": 0.4889,
+      "ci_hi": 0.7355
+    }
+  ],
+  "nb_glm": {
+    "alpha": 5.500780139384743,
+    "LR": 57.07932441198864,
+    "df": 6,
+    "p": 1.7605998633827286e-10,
+    "n_speeches": 5023,
+    "passages": 4741,
+    "base": "remarks"
+  },
+  "nb_irr": [
+    {
+      "type": "address",
+      "IRR_vs_remarks": 3.31075,
+      "ci_lo": 1.6636,
+      "ci_hi": 6.58877,
+      "p": 0.00065,
+      "p_holm": 0.0026
+    },
+    {
+      "type": "interview",
+      "IRR_vs_remarks": 2.97005,
+      "ci_lo": 1.05937,
+      "ci_hi": 8.32681,
+      "p": 0.03848,
+      "p_holm": 0.11545
+    },
+    {
+      "type": "other",
+      "IRR_vs_remarks": 0.94537,
+      "ci_lo": 0.17863,
+      "ci_hi": 5.00321,
+      "p": 0.94731,
+      "p_holm": 0.94731
+    },
+    {
+      "type": "press_conference",
+      "IRR_vs_remarks": 2.43528,
+      "ci_lo": 1.67875,
+      "ci_hi": 3.53272,
+      "p": 0.0,
+      "p_holm": 2e-05
+    },
+    {
+      "type": "statement",
+      "IRR_vs_remarks": 1.43972,
+      "ci_lo": 1.17873,
+      "ci_hi": 1.7585,
+      "p": 0.00036,
+      "p_holm": 0.00178
+    },
+    {
+      "type": "weekly_address",
+      "IRR_vs_remarks": 0.79009,
+      "ci_lo": 0.57369,
+      "ci_hi": 1.08811,
+      "p": 0.14906,
+      "p_holm": 0.29812
+    }
+  ],
+  "kw_speech_rate": {
+    "H": 430.5975435557403,
+    "df": 5,
+    "p": 7.514149169111687e-91,
+    "types": [
+      "remarks",
+      "statement",
+      "weekly_address",
+      "press_conference",
+      "address",
+      "interview"
+    ]
+  }
+}

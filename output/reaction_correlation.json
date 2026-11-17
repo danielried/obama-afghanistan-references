@@ -1,0 +1,18 @@
+{
+  "window_days": 14,
+  "min_n": 3,
+  "statement_tone_vs_press_index": {
+    "n": 12,
+    "pearson_r": 0.528,
+    "spearman_rho": 0.544,
+    "pearson_p": 0.077,
+    "spearman_p": 0.068
+  },
+  "statement_tone_vs_all_reaction_index": {
+    "n": 12,
+    "pearson_r": 0.371,
+    "spearman_rho": 0.454,
+    "pearson_p": 0.236,
+    "spearman_p": 0.138
+  }
+}

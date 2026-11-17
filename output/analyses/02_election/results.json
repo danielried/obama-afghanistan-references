@@ -1,0 +1,1044 @@
+{
+ "n_speeches_nondup": 5026,
+ "speeches_by_year": {
+  "2009": 716,
+  "2010": 754,
+  "2011": 658,
+  "2012": 643,
+  "2013": 567,
+  "2014": 623,
+  "2015": 558,
+  "2016": 492,
+  "2017": 15
+ },
+ "near_dup_pairs_checked": 5548,
+ "n_passages_total": 4741,
+ "n_hi50": 3935,
+ "n_hi50_nonquestioner": 3877,
+ "hi50_by_year": {
+  "2009": 735,
+  "2010": 732,
+  "2011": 391,
+  "2012": 731,
+  "2013": 422,
+  "2014": 339,
+  "2015": 373,
+  "2016": 203,
+  "2017": 9
+ },
+ "hi50_by_year_nonq": {
+  "2009": 718,
+  "2010": 720,
+  "2011": 388,
+  "2012": 726,
+  "2013": 416,
+  "2014": 335,
+  "2015": 367,
+  "2016": 198,
+  "2017": 9
+ },
+ "hi50_by_year_speeches_with_hit": {
+  "2009": 148,
+  "2010": 104,
+  "2011": 133,
+  "2012": 232,
+  "2013": 79,
+  "2014": 92,
+  "2015": 68,
+  "2016": 62,
+  "2017": 5
+ },
+ "questioner_by_year_hi50": {
+  "2009": 17,
+  "2010": 12,
+  "2011": 3,
+  "2012": 5,
+  "2013": 6,
+  "2014": 4,
+  "2015": 6,
+  "2016": 5
+ },
+ "hi50_per_speech_by_year": {
+  "2009": 1.027,
+  "2010": 0.971,
+  "2011": 0.594,
+  "2012": 1.137,
+  "2013": 0.744,
+  "2014": 0.544,
+  "2015": 0.668,
+  "2016": 0.413,
+  "2017": 0.6
+ },
+ "speeches_per_month_mean_by_year": {
+  "2009": 59.67,
+  "2010": 62.83,
+  "2011": 54.83,
+  "2012": 53.58,
+  "2013": 47.25,
+  "2014": 51.92,
+  "2015": 46.5,
+  "2016": 41.0,
+  "2017": 15.0
+ },
+ "hi50_repeat_share_by_year": {
+  "2009": 0.004,
+  "2010": 0.003,
+  "2011": 0.008,
+  "2012": 0.105,
+  "2013": 0.014,
+  "2014": 0.018,
+  "2015": 0.011,
+  "2016": 0.0,
+  "2017": 0.0
+ },
+ "hi50_distinct_clusters_by_year": {
+  "2009": 734,
+  "2010": 731,
+  "2011": 390,
+  "2012": 677,
+  "2013": 419,
+  "2014": 336,
+  "2015": 371,
+  "2016": 203,
+  "2017": 9
+ },
+ "hi50_by_period": {
+  "campaign_2012": {
+   "n": 714,
+   "repeat_share": 0.108,
+   "distinct": 660
+  },
+  "midterm_2010": {
+   "n": 550,
+   "repeat_share": 0.004,
+   "distinct": 549
+  },
+  "midterm_2014": {
+   "n": 283,
+   "repeat_share": 0.011,
+   "distinct": 282
+  },
+  "non_election": {
+   "n": 2388,
+   "repeat_share": 0.008,
+   "distinct": 2380
+  }
+ },
+ "top_speeches_2012": [
+  {
+   "title": "Joint Statement-Enduring Strategic Partnership Agreement Between the United States of America and the Islamic Republic of Afghanistan",
+   "date": "2012-05-02",
+   "n_hi": 81
+  },
+  {
+   "title": "Address to the Nation on Military Operations in Afghanistan From Bagram Air Base, Afghanistan",
+   "date": "2012-05-02",
+   "n_hi": 42
+  },
+  {
+   "title": "The President's News Conference With Prime Minister David Cameron of the United Kingdom",
+   "date": "2012-03-14",
+   "n_hi": 37
+  },
+  {
+   "title": "The President's News Conference in Chicago, Illinois",
+   "date": "2012-05-21",
+   "n_hi": 37
+  },
+  {
+   "title": "Presidential Debate in Boca Raton, Florida",
+   "date": "2012-10-22",
+   "n_hi": 28
+  },
+  {
+   "title": "Remarks With President Hamid Karzai of Afghanistan on Signing the Strategic Partnership Agreement in Kabul, Afghanistan",
+   "date": "2012-05-02",
+   "n_hi": 26
+  },
+  {
+   "title": "Remarks Following a Meeting With President Hamid Karzai of Afghanistan and an Exchange With Reporters in Chicago, Illinois",
+   "date": "2012-05-20",
+   "n_hi": 18
+  },
+  {
+   "title": "Remarks at the International Security Assistance Force Meeting on Afghanistan in Chicago, Illinois",
+   "date": "2012-05-21",
+   "n_hi": 13
+  },
+  {
+   "title": "Remarks at Fort Bliss, Texas",
+   "date": "2012-08-31",
+   "n_hi": 11
+  },
+  {
+   "title": "The President's News Conference",
+   "date": "2012-03-06",
+   "n_hi": 10
+  }
+ ],
+ "share_top5_speeches_2012": 0.308,
+ "n_speeches_with_hi_2012": 232,
+ "share_top5_speeches_2009": 0.252,
+ "n_speeches_with_hi_2009": 148,
+ "speech_type_mix_by_period": {
+  "campaign_2012": {
+   "address": 0.009,
+   "interview": 0.002,
+   "other": 0.005,
+   "press_conference": 0.016,
+   "remarks": 0.711,
+   "statement": 0.182,
+   "weekly_address": 0.076
+  },
+  "midterm_2010": {
+   "address": 0.011,
+   "interview": 0.006,
+   "other": 0.002,
+   "press_conference": 0.017,
+   "remarks": 0.577,
+   "statement": 0.318,
+   "weekly_address": 0.069
+  },
+  "midterm_2014": {
+   "address": 0.01,
+   "interview": 0.0,
+   "other": 0.0,
+   "press_conference": 0.033,
+   "remarks": 0.592,
+   "statement": 0.287,
+   "weekly_address": 0.079
+  },
+  "non_election": {
+   "address": 0.009,
+   "interview": 0.005,
+   "other": 0.001,
+   "press_conference": 0.04,
+   "remarks": 0.571,
+   "statement": 0.289,
+   "weekly_address": 0.084
+  }
+ },
+ "frame_by_year_hi50_nonq": {
+  "2009": {
+   "n": 718,
+   "withdraw": 0.038,
+   "escal": 0.323,
+   "named": 0.014,
+   "withdraw_minus_escal": -0.286
+  },
+  "2010": {
+   "n": 720,
+   "withdraw": 0.068,
+   "escal": 0.311,
+   "named": 0.054,
+   "withdraw_minus_escal": -0.243
+  },
+  "2011": {
+   "n": 388,
+   "withdraw": 0.209,
+   "escal": 0.26,
+   "named": 0.131,
+   "withdraw_minus_escal": -0.052
+  },
+  "2012": {
+   "n": 726,
+   "withdraw": 0.318,
+   "escal": 0.182,
+   "named": 0.182,
+   "withdraw_minus_escal": 0.136
+  },
+  "2013": {
+   "n": 416,
+   "withdraw": 0.118,
+   "escal": 0.252,
+   "named": 0.084,
+   "withdraw_minus_escal": -0.135
+  },
+  "2014": {
+   "n": 335,
+   "withdraw": 0.14,
+   "escal": 0.275,
+   "named": 0.066,
+   "withdraw_minus_escal": -0.134
+  },
+  "2015": {
+   "n": 367,
+   "withdraw": 0.087,
+   "escal": 0.327,
+   "named": 0.044,
+   "withdraw_minus_escal": -0.24
+  },
+  "2016": {
+   "n": 198,
+   "withdraw": 0.045,
+   "escal": 0.404,
+   "named": 0.025,
+   "withdraw_minus_escal": -0.359
+  },
+  "2017": {
+   "n": 9,
+   "withdraw": 0.333,
+   "escal": 0.444,
+   "named": 0.111,
+   "withdraw_minus_escal": -0.111
+  }
+ },
+ "frame_by_period_hi50_nonq": {
+  "campaign_2012": {
+   "n": 709,
+   "withdraw": 0.32,
+   "escal": 0.179,
+   "named": 0.182,
+   "withdraw_minus_escal": 0.141
+  },
+  "midterm_2010": {
+   "n": 542,
+   "withdraw": 0.057,
+   "escal": 0.315,
+   "named": 0.044,
+   "withdraw_minus_escal": -0.258
+  },
+  "midterm_2014": {
+   "n": 279,
+   "withdraw": 0.125,
+   "escal": 0.251,
+   "named": 0.061,
+   "withdraw_minus_escal": -0.125
+  },
+  "non_election": {
+   "n": 2347,
+   "withdraw": 0.1,
+   "escal": 0.308,
+   "named": 0.06,
+   "withdraw_minus_escal": -0.207
+  }
+ },
+ "n_unique_clusters_hi50_nonq": 3812,
+ "frame_by_year_unique": {
+  "2009": {
+   "n": 717,
+   "withdraw": 0.038,
+   "escal": 0.322,
+   "named": 0.014,
+   "withdraw_minus_escal": -0.285
+  },
+  "2010": {
+   "n": 719,
+   "withdraw": 0.068,
+   "escal": 0.312,
+   "named": 0.054,
+   "withdraw_minus_escal": -0.243
+  },
+  "2011": {
+   "n": 387,
+   "withdraw": 0.207,
+   "escal": 0.261,
+   "named": 0.129,
+   "withdraw_minus_escal": -0.054
+  },
+  "2012": {
+   "n": 672,
+   "withdraw": 0.315,
+   "escal": 0.195,
+   "named": 0.174,
+   "withdraw_minus_escal": 0.121
+  },
+  "2013": {
+   "n": 413,
+   "withdraw": 0.119,
+   "escal": 0.252,
+   "named": 0.085,
+   "withdraw_minus_escal": -0.133
+  },
+  "2014": {
+   "n": 332,
+   "withdraw": 0.133,
+   "escal": 0.271,
+   "named": 0.063,
+   "withdraw_minus_escal": -0.139
+  },
+  "2015": {
+   "n": 365,
+   "withdraw": 0.088,
+   "escal": 0.326,
+   "named": 0.044,
+   "withdraw_minus_escal": -0.238
+  },
+  "2016": {
+   "n": 198,
+   "withdraw": 0.045,
+   "escal": 0.404,
+   "named": 0.025,
+   "withdraw_minus_escal": -0.359
+  },
+  "2017": {
+   "n": 9,
+   "withdraw": 0.333,
+   "escal": 0.444,
+   "named": 0.111,
+   "withdraw_minus_escal": -0.111
+  }
+ },
+ "frame_by_period_unique": {
+  "campaign_2012": {
+   "n": 655,
+   "withdraw": 0.318,
+   "escal": 0.192,
+   "named": 0.174,
+   "withdraw_minus_escal": 0.125
+  },
+  "midterm_2010": {
+   "n": 541,
+   "withdraw": 0.057,
+   "escal": 0.316,
+   "named": 0.044,
+   "withdraw_minus_escal": -0.259
+  },
+  "midterm_2014": {
+   "n": 278,
+   "withdraw": 0.122,
+   "escal": 0.248,
+   "named": 0.058,
+   "withdraw_minus_escal": -0.126
+  },
+  "non_election": {
+   "n": 2338,
+   "withdraw": 0.099,
+   "escal": 0.307,
+   "named": 0.06,
+   "withdraw_minus_escal": -0.208
+  }
+ },
+ "tests": {
+  "withdraw_frame x year (all hi50 nonq)": {
+   "chi2": 335.07,
+   "dof": 8,
+   "p": 1.3894316948515253e-67,
+   "n": 3877
+  },
+  "escal_frame x year (all hi50 nonq)": {
+   "chi2": 67.3,
+   "dof": 8,
+   "p": 1.6896246598241223e-11,
+   "n": 3877
+  },
+  "withdraw_frame x period (all hi50 nonq)": {
+   "chi2": 258.97,
+   "dof": 3,
+   "p": 7.520484434979818e-56,
+   "n": 3877
+  },
+  "withdraw_frame x year (unique clusters)": {
+   "chi2": 319.63,
+   "dof": 8,
+   "p": 2.7232541443622395e-64,
+   "n": 3812
+  },
+  "withdraw_frame x period (unique clusters)": {
+   "chi2": 244.57,
+   "dof": 3,
+   "p": 9.786254444842905e-53,
+   "n": 3812
+  },
+  "2012 vs other years: withdraw share": {
+   "A_yes": 231,
+   "A_n": 726,
+   "B_yes": 297,
+   "B_n": 3151,
+   "chi2": 251.5,
+   "p_chi2": 1.2219749652730339e-56,
+   "p_fisher": 1.789955302808491e-47,
+   "OR_A_vs_B": 4.484
+  },
+  "2012 vs other years: escal share": {
+   "A_yes": 132,
+   "A_n": 726,
+   "B_yes": 958,
+   "B_n": 3151,
+   "chi2": 43.61,
+   "p_chi2": 4.0158866723176375e-11,
+   "p_fisher": 1.0055999995921678e-11,
+   "OR_A_vs_B": 0.509
+  },
+  "2012 campaign vs non-election: withdraw": {
+   "A_yes": 227,
+   "A_n": 709,
+   "B_yes": 235,
+   "B_n": 2347,
+   "chi2": 205.45,
+   "p_chi2": 1.3496977539013326e-46,
+   "p_fisher": 6.055940387550882e-41,
+   "OR_A_vs_B": 4.233
+  },
+  "2012 campaign vs 2010+2014 midterm windows: withdraw": {
+   "A_yes": 227,
+   "A_n": 709,
+   "B_yes": 66,
+   "B_n": 821,
+   "chi2": 141.28,
+   "p_chi2": 1.400395954770011e-32,
+   "p_fisher": 1.7217472191223117e-33,
+   "OR_A_vs_B": 5.387
+  },
+  "2012 campaign vs 2010+2014 midterm windows: escal": {
+   "A_yes": 127,
+   "A_n": 709,
+   "B_yes": 241,
+   "B_n": 821,
+   "chi2": 27.27,
+   "p_chi2": 1.772949251332085e-07,
+   "p_fisher": 1.6649446682504956e-07,
+   "OR_A_vs_B": 0.525
+  },
+  "2012 campaign vs midterm windows: withdraw(unique clusters)": {
+   "A_yes": 208,
+   "A_n": 655,
+   "B_yes": 65,
+   "B_n": 819,
+   "chi2": 136.83,
+   "p_chi2": 1.3155792106056289e-31,
+   "p_fisher": 5.838715254388681e-32,
+   "OR_A_vs_B": 5.398
+  },
+  "2012 campaign vs midterm windows: escal(unique clusters)": {
+   "A_yes": 126,
+   "A_n": 655,
+   "B_yes": 240,
+   "B_n": 819,
+   "chi2": 19.76,
+   "p_chi2": 8.769972595707978e-06,
+   "p_fisher": 9.050808346842092e-06,
+   "OR_A_vs_B": 0.575
+  },
+  "2012 campaign vs non-election: escal": {
+   "A_yes": 127,
+   "A_n": 709,
+   "B_yes": 722,
+   "B_n": 2347,
+   "chi2": 44.81,
+   "p_chi2": 2.1662800393788145e-11,
+   "p_fisher": 6.282889514307156e-12,
+   "OR_A_vs_B": 0.491
+  }
+ },
+ "logit": {
+  "W_base": {
+   "Intercept": {
+    "coef": -2.196,
+    "OR": 0.111,
+    "p": 9.787719746791249e-224
+   },
+   "camp12": {
+    "coef": 1.443,
+    "OR": 4.233,
+    "p": 2.7317303332115328e-42
+   },
+   "mid": {
+    "coef": -0.241,
+    "OR": 0.786,
+    "p": 0.09756447318487468
+   },
+   "n": 3877
+  },
+  "W_year_FE": {
+   "Intercept": {
+    "coef": -3.242,
+    "OR": 0.039,
+    "p": 2.3184332342077408e-61
+   },
+   "camp12": {
+    "coef": 0.426,
+    "OR": 1.531,
+    "p": 0.46100729089929726
+   },
+   "mid": {
+    "coef": -0.628,
+    "OR": 0.534,
+    "p": 0.008420922057238538
+   },
+   "n": 3877
+  },
+  "W_year_FE_type_repeat": {
+   "Intercept": {
+    "coef": -3.422,
+    "OR": 0.033,
+    "p": 1.9353766598020884e-31
+   },
+   "camp12": {
+    "coef": 0.508,
+    "OR": 1.662,
+    "p": 0.3861497425981446
+   },
+   "mid": {
+    "coef": -0.526,
+    "OR": 0.591,
+    "p": 0.031312027202198965
+   },
+   "repeat": {
+    "coef": 0.197,
+    "OR": 1.218,
+    "p": 0.3921125309351562
+   },
+   "n": 3877
+  },
+  "E_year_FE_type_repeat": {
+   "camp12": {
+    "coef": -0.609,
+    "OR": 0.544,
+    "p": 0.2626782975933827
+   },
+   "mid": {
+    "coef": -0.125,
+    "OR": 0.883,
+    "p": 0.4426557403362633
+   },
+   "repeat": {
+    "coef": -0.678,
+    "OR": 0.508,
+    "p": 0.033187175381619874
+   },
+   "n": 3877
+  },
+  "W_y12_vs_rest_type_repeat": {
+   "y12": {
+    "coef": 1.43,
+    "OR": 4.18,
+    "p": 3.3278806335200584e-40
+   },
+   "repeat": {
+    "coef": 0.251,
+    "OR": 1.286,
+    "p": 0.2758590170596832
+   },
+   "n": 3877
+  }
+ },
+ "poisson_hi_per_speech_month": {
+  "camp12": {
+   "coef": 0.825,
+   "rate_ratio": 2.282,
+   "p": 0.4335272263518346
+  },
+  "mid": {
+   "coef": -0.412,
+   "rate_ratio": 0.662,
+   "p": 0.4186419552553936
+  },
+  "n_months": 96,
+  "dispersion_pearson": 47.838
+ },
+ "sensitivity_threshold": {
+  "th30": {
+   "n": 4351,
+   "by_period": {
+    "campaign_2012": {
+     "n": 832,
+     "withdraw": 0.275,
+     "escal": 0.185,
+     "named": 0.155,
+     "withdraw_minus_escal": 0.09
+    },
+    "midterm_2010": {
+     "n": 607,
+     "withdraw": 0.054,
+     "escal": 0.305,
+     "named": 0.04,
+     "withdraw_minus_escal": -0.25
+    },
+    "midterm_2014": {
+     "n": 299,
+     "withdraw": 0.117,
+     "escal": 0.247,
+     "named": 0.057,
+     "withdraw_minus_escal": -0.13
+    },
+    "non_election": {
+     "n": 2613,
+     "withdraw": 0.1,
+     "escal": 0.294,
+     "named": 0.063,
+     "withdraw_minus_escal": -0.193
+    }
+   },
+   "chi2_withdraw_period": {
+    "chi2": 208.74,
+    "dof": 3,
+    "p": 5.440121189793492e-45,
+    "n": 4351
+   }
+  },
+  "th50": {
+   "n": 3877,
+   "by_period": {
+    "campaign_2012": {
+     "n": 709,
+     "withdraw": 0.32,
+     "escal": 0.179,
+     "named": 0.182,
+     "withdraw_minus_escal": 0.141
+    },
+    "midterm_2010": {
+     "n": 542,
+     "withdraw": 0.057,
+     "escal": 0.315,
+     "named": 0.044,
+     "withdraw_minus_escal": -0.258
+    },
+    "midterm_2014": {
+     "n": 279,
+     "withdraw": 0.125,
+     "escal": 0.251,
+     "named": 0.061,
+     "withdraw_minus_escal": -0.125
+    },
+    "non_election": {
+     "n": 2347,
+     "withdraw": 0.1,
+     "escal": 0.308,
+     "named": 0.06,
+     "withdraw_minus_escal": -0.207
+    }
+   },
+   "chi2_withdraw_period": {
+    "chi2": 258.97,
+    "dof": 3,
+    "p": 7.520484434979818e-56,
+    "n": 3877
+   }
+  },
+  "th70": {
+   "n": 2332,
+   "by_period": {
+    "campaign_2012": {
+     "n": 440,
+     "withdraw": 0.334,
+     "escal": 0.239,
+     "named": 0.191,
+     "withdraw_minus_escal": 0.095
+    },
+    "midterm_2010": {
+     "n": 295,
+     "withdraw": 0.081,
+     "escal": 0.475,
+     "named": 0.068,
+     "withdraw_minus_escal": -0.393
+    },
+    "midterm_2014": {
+     "n": 190,
+     "withdraw": 0.132,
+     "escal": 0.3,
+     "named": 0.047,
+     "withdraw_minus_escal": -0.168
+    },
+    "non_election": {
+     "n": 1407,
+     "withdraw": 0.129,
+     "escal": 0.422,
+     "named": 0.071,
+     "withdraw_minus_escal": -0.293
+    }
+   },
+   "chi2_withdraw_period": {
+    "chi2": 122.4,
+    "dof": 3,
+    "p": 2.3430755891119626e-26,
+    "n": 2332
+   }
+  }
+ },
+ "context_frame_by_period": {
+  "campaign_2012": 0.528,
+  "midterm_2010": 0.149,
+  "midterm_2014": 0.265,
+  "non_election": 0.238
+ },
+ "context_frame_chi2_period": {
+  "chi2": 282.11,
+  "dof": 3,
+  "p": 7.39653995900418e-61,
+  "n": 3877
+ },
+ "named_term_share_by_period": {
+  "campaign_2012": 0.182,
+  "midterm_2010": 0.044,
+  "midterm_2014": 0.061,
+  "non_election": 0.06
+ },
+ "diagnostics": {
+  "campaign12_withdraw_by_month": {
+   "1": {
+    "n": 16,
+    "w": 0.562
+   },
+   "2": {
+    "n": 14,
+    "w": 0.5
+   },
+   "3": {
+    "n": 77,
+    "w": 0.221
+   },
+   "4": {
+    "n": 15,
+    "w": 0.533
+   },
+   "5": {
+    "n": 280,
+    "w": 0.164
+   },
+   "6": {
+    "n": 35,
+    "w": 0.543
+   },
+   "7": {
+    "n": 41,
+    "w": 0.561
+   },
+   "8": {
+    "n": 48,
+    "w": 0.521
+   },
+   "9": {
+    "n": 73,
+    "w": 0.384
+   },
+   "10": {
+    "n": 81,
+    "w": 0.506
+   },
+   "11": {
+    "n": 29,
+    "w": 0.138
+   }
+  },
+  "campaign12_may_n": 280,
+  "campaign12_may_withdraw_share": 0.164,
+  "campaign12_nonmay_n": 429,
+  "campaign12_nonmay_withdraw_share": 0.422,
+  "campaign12_withdraw_hits_in_may": 46,
+  "campaign12_withdraw_hits_total": 227,
+  "withdraw_terms_2012_campaign": {
+   "transition": 82,
+   "end the war": 43,
+   "transitioning": 35,
+   "ending the war": 28,
+   "come home": 22,
+   "bring our troops home": 21,
+   "bringing our troops home": 13,
+   "coming home": 5,
+   "troops home": 5,
+   "bringing troops home": 3,
+   "bringing them home": 3,
+   "responsible transition": 2
+  },
+  "withdraw_terms_2012_nonmay": {
+   "transition": 57,
+   "end the war": 38,
+   "transitioning": 34,
+   "ending the war": 22,
+   "bring our troops home": 21,
+   "come home": 17,
+   "bringing our troops home": 13,
+   "troops home": 5,
+   "coming home": 3,
+   "bringing troops home": 3,
+   "bringing them home": 3,
+   "responsible transition": 2
+  },
+  "withdraw_terms_other_years": {
+   "transition": 134,
+   "responsible end": 27,
+   "coming home": 22,
+   "drawdown": 21,
+   "transitioning": 17,
+   "end the war": 15,
+   "come home": 14,
+   "bring our troops home": 13,
+   "troops home": 12,
+   "draw down": 11,
+   "drawing down": 11,
+   "ending the war": 9
+  },
+  "withdraw_terms_midterms": {
+   "transition": 27,
+   "coming home": 9,
+   "responsible end": 8,
+   "come home": 6,
+   "end the war": 3,
+   "troops home": 3,
+   "drawing down": 2,
+   "draw down": 2,
+   "combat mission ends": 2,
+   "bringing our troops home": 1,
+   "withdraw": 1,
+   "end our combat": 1
+  },
+  "transition_share_2012_campaign": 0.169,
+  "named_share_2012_campaign": 0.182,
+  "transition_share_2012_campaign_nonmay": 0.217,
+  "named_share_2012_campaign_nonmay": 0.226,
+  "transition_share_other_years": 0.05,
+  "named_share_other_years": 0.057,
+  "transition_share_midterms": 0.033,
+  "named_share_midterms": 0.05,
+  "withdraw_no_transition_share_by_period": {
+   "campaign_2012": 0.199,
+   "midterm_2010": 0.02,
+   "midterm_2014": 0.108,
+   "non_election": 0.057
+  },
+  "withdraw_no_transition_share_by_year": {
+   "2009": 0.029,
+   "2010": 0.017,
+   "2011": 0.113,
+   "2012": 0.197,
+   "2013": 0.055,
+   "2014": 0.116,
+   "2015": 0.065,
+   "2016": 0.035,
+   "2017": 0.222
+  },
+  "tests_campaign_nonMay_vs_midterms_withdraw": {
+   "A_yes": 181,
+   "A_n": 429,
+   "B_yes": 66,
+   "B_n": 821,
+   "chi2": 207.28,
+   "p_chi2": 5.397327147897506e-47,
+   "p_fisher": 4.7779313532280926e-45,
+   "OR_A_vs_B": 8.349
+  },
+  "tests_campaign_nonMay_vs_midterms_no_transition": {
+   "A_yes": 119,
+   "A_n": 429,
+   "B_yes": 41,
+   "B_n": 821,
+   "chi2": 130.6,
+   "p_chi2": 3.0318731404770064e-30,
+   "p_fisher": 1.899222459783515e-28,
+   "OR_A_vs_B": 7.303
+  },
+  "tests_2012_nonMay_vs_other_years_withdraw": {
+   "A_yes": 185,
+   "A_n": 446,
+   "B_yes": 297,
+   "B_n": 3151,
+   "chi2": 345.93,
+   "p_chi2": 3.2599657208222154e-77,
+   "p_fisher": 1.4122710910322004e-58,
+   "OR_A_vs_B": 6.811
+  },
+  "tests_2012_nonMay_vs_other_years_no_transition": {
+   "A_yes": 121,
+   "A_n": 446,
+   "B_yes": 172,
+   "B_n": 3151,
+   "chi2": 245.24,
+   "p_chi2": 2.8318369424325164e-55,
+   "p_fisher": 7.252081693450414e-40,
+   "OR_A_vs_B": 6.448
+  },
+  "within2012_post_election_n": 17,
+  "within2012_post_election_withdraw_share": 0.235,
+  "tests_2012_campaign_vs_postelection_withdraw": {
+   "A_yes": 227,
+   "A_n": 709,
+   "B_yes": 4,
+   "B_n": 17,
+   "chi2": 0.55,
+   "p_chi2": 0.45779344131780386,
+   "p_fisher": 0.6018232844794357,
+   "OR_A_vs_B": 1.531
+  },
+  "repeat_clusters_2012_campaign_top": [
+   {
+    "k": 9,
+    "n_speeches": 9,
+    "dates": "2012-09-07,2012-09-08,2012-09-09,2012-09-12,2012-09-13,2012-09-17,2012-09-21,2012-09-22",
+    "text": "I said we'd wind down the war in Afghanistan, and we are."
+   },
+   {
+    "k": 7,
+    "n_speeches": 7,
+    "dates": "2012-09-06,2012-09-07,2012-09-08,2012-09-09,2012-09-30,2012-10-04",
+    "text": "And he won't tell us how he'll end the war in Afghanistan."
+   },
+   {
+    "k": 7,
+    "n_speeches": 7,
+    "dates": "2012-11-02,2012-11-03,2012-11-04,2012-11-05",
+    "text": "Because of the service and sacrifice of our brave men and women in uniform, the war in Iraq is over, the war in Afghanistan is ending, Al Qaida has been decimat"
+   },
+   {
+    "k": 5,
+    "n_speeches": 5,
+    "dates": "2012-09-26,2012-09-27,2012-09-28,2012-10-04",
+    "text": "I said that we'd wind down the war in Afghanistan in a responsible way, and we are."
+   },
+   {
+    "k": 5,
+    "n_speeches": 5,
+    "dates": "2012-05-05,2012-05-10,2012-05-23,2012-06-12",
+    "text": "And by 2014, the war in Afghanistan will be over."
+   },
+   {
+    "k": 4,
+    "n_speeches": 4,
+    "dates": "2012-05-05,2012-05-10,2012-05-23",
+    "text": "He said he won't set a timeline for ending the war in Afghanistan."
+   },
+   {
+    "k": 4,
+    "n_speeches": 4,
+    "dates": "2012-10-18,2012-10-19,2012-10-24,2012-10-25",
+    "text": "I said we'd end the war in Afghanistan; we are."
+   },
+   {
+    "k": 3,
+    "n_speeches": 3,
+    "dates": "2012-11-03,2012-11-04,2012-11-05",
+    "text": "The war in Afghanistan is coming to a close."
+   }
+  ],
+  "n_repeat_clusters_2012_campaign": 23,
+  "n_repeat_passages_2012_campaign": 77,
+  "repeat_share_campaign_nonmay": 0.147,
+  "repeat_share_campaign_may": 0.05,
+  "repeat_share_midterms": 0.006,
+  "poisson_quasi_excl_may2012": {
+   "camp12": {
+    "rr": 1.505,
+    "p": 0.6832224746406146
+   },
+   "mid": {
+    "rr": 0.662,
+    "p": 0.3843966747595772
+   }
+  },
+  "withdraw_frame_nonMay_campaign_n": 181,
+  "withdraw_frame_nonMay_campaign_in_repeat_clusters": 23,
+  "withdraw_frame_nonMay_campaign_repeat_share": 0.127,
+  "withdraw_share_nonMay_campaign_excl_repeats": 0.432,
+  "n_nonMay_campaign_excl_repeats": 366,
+  "tests_nonMay_campaign_excl_repeats_vs_midterms_withdraw": {
+   "A_yes": 158,
+   "A_n": 366,
+   "B_yes": 63,
+   "B_n": 816,
+   "chi2": 208.87,
+   "p_chi2": 2.4230824719268776e-47,
+   "p_fisher": 4.3240107611062506e-44,
+   "OR_A_vs_B": 9.079
+  },
+  "tests_nonMay_campaign_excl_repeats_vs_other_years_withdraw": {
+   "A_yes": 158,
+   "A_n": 366,
+   "B_yes": 289,
+   "B_n": 3127,
+   "chi2": 337.96,
+   "p_chi2": 1.7721862613406418e-75,
+   "p_fisher": 4.104747108147231e-55,
+   "OR_A_vs_B": 7.459
+  }
+ }
+}

@@ -1,0 +1,6 @@
+a,b,date,title_a,title_b,jaccard,len_a,len_b
+govinfo:DCPD-200900164,govinfo:DCPD-200900165,2009-03-17,Remarks at a Saint Patrick's Day Reception,Remarks at a Saint Patrick's Day Reception,0.362,5802,6880
+govinfo:DCPD-201200345,govinfo:DCPD-201200346,2012-05-05,Remarks at an Obama Victory Fund 2012 Fundraiser in Columbus,Remarks at an Obama Victory Fund 2012 Fundraiser in Richmond,0.469,21377,22912
+govinfo:DCPD-201200842,govinfo:DCPD-201200843,2012-11-01,"Remarks at a Campaign Rally in Green Bay, Wisconsin","Remarks at a Campaign Rally in North Las Vegas, Nevada",0.384,20588,23462
+govinfo:DCPD-201200842,govinfo:DCPD-201200855,2012-11-01,"Remarks at a Campaign Rally in Green Bay, Wisconsin","Remarks at a Campaign Rally in Boulder, Colorado",0.313,20588,24282
+govinfo:DCPD-201400191,govinfo:DCPD-201400192,2014-03-24,Joint Statement by President Barack Obama and Prime Minister,Joint Statement by President Barack Obama and President Gior,0.311,1636,1771

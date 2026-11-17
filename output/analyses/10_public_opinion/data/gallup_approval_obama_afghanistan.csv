@@ -1,0 +1,5 @@
+fieldwork_label,fieldwork_start,fieldwork_end,pct_approve,pct_disapprove,date_precision,question_wording,source_url
+2009-11 (exact dates not given),2009-11-01,2009-11-30,35,,month,"Do You Approve or Disapprove of the Way Barack Obama Is Handling the Situation in Afghanistan? (wording per Gallup chart caption, 2010 article)",https://news.gallup.com/poll/144965/obama-gets-lowest-marks-deficit-highest-foreign-affairs.aspx
+2010-02 (exact dates not given),2010-02-01,2010-02-28,48,,month,same,https://news.gallup.com/poll/144944/americans-less-pessimistic-progress-afghanistan.aspx
+USA Today/Gallup 2010-07-27..08-01,2010-07-27,2010-08-01,36,,exact,same,https://news.gallup.com/poll/144965/obama-gets-lowest-marks-deficit-highest-foreign-affairs.aspx
+USA Today/Gallup 2010-11-19..21,2010-11-19,2010-11-21,44,49,exact,same,https://news.gallup.com/poll/144944/americans-less-pessimistic-progress-afghanistan.aspx

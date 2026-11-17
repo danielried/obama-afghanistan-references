@@ -1,0 +1,22 @@
+thr,check,n,rho,p
+30,opinion vs days since inauguration,11,0.815,0.0023
+30,pre_n_hi vs time,11,-0.755,0.0073
+30,partial rho opinion~pre_n_hi | time,11,-0.658,0.0387
+30,pre_hi_per_100_speeches vs time,11,-0.827,0.0017
+30,partial rho opinion~pre_hi_per_100_speeches | time,11,-0.376,0.2847
+30,post_n_hi vs time,11,-0.519,0.1016
+30,partial rho opinion~post_n_hi | time,11,-0.377,0.2824
+50,opinion vs days since inauguration,11,0.815,0.0023
+50,pre_n_hi vs time,11,-0.782,0.0045
+50,partial rho opinion~pre_n_hi | time,11,-0.542,0.1054
+50,pre_hi_per_100_speeches vs time,11,-0.7,0.0165
+50,partial rho opinion~pre_hi_per_100_speeches | time,11,-0.491,0.1499
+50,post_n_hi vs time,11,-0.545,0.0827
+50,partial rho opinion~post_n_hi | time,11,-0.395,0.2591
+70,opinion vs days since inauguration,11,0.815,0.0023
+70,pre_n_hi vs time,11,-0.592,0.0549
+70,partial rho opinion~pre_n_hi | time,11,-0.278,0.4367
+70,pre_hi_per_100_speeches vs time,11,-0.309,0.355
+70,partial rho opinion~pre_hi_per_100_speeches | time,11,-0.025,0.9459
+70,post_n_hi vs time,11,-0.565,0.0702
+70,partial rho opinion~post_n_hi | time,11,-0.404,0.2466

@@ -1,0 +1,1004 @@
+{
+ "results": {
+  "main_nonquestioner": {
+   "cat_war_direct": {
+    "overall_rate": 0.46027935399388914,
+    "binseg": [
+     {
+      "date": "2012-12-03",
+      "lr": 13.75,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2016-09-06",
+      "lr": 10.96,
+      "p_perm": 0.002
+     }
+    ],
+    "pettitt": {
+     "date": "2012-05-02",
+     "K": 388110.0,
+     "p_approx": 0.000167
+    },
+    "n": 4582
+   },
+   "cat_war_adjacent": {
+    "overall_rate": 0.29768659973810563,
+    "binseg": [
+     {
+      "date": "2012-11-01",
+      "lr": 6.38,
+      "p_perm": 0.006
+     }
+    ],
+    "pettitt": {
+     "date": "2012-11-02",
+     "K": 247644.0,
+     "p_approx": 0.043669
+    },
+    "n": 4582
+   },
+   "cat_aid_diplomacy_civil": {
+    "overall_rate": 0.058271497162811,
+    "binseg": [
+     {
+      "date": "2012-06-01",
+      "lr": 5.96,
+      "p_perm": 0.018
+     },
+     {
+      "date": "2015-03-02",
+      "lr": 5.73,
+      "p_perm": 0.012
+     },
+     {
+      "date": "2015-10-02",
+      "lr": 5.77,
+      "p_perm": 0.022
+     }
+    ],
+    "pettitt": {
+     "date": "2012-05-02",
+     "K": 143790.0,
+     "p_approx": 0.550936
+    },
+    "n": 4582
+   },
+   "cat_incidental": {
+    "overall_rate": 0.18376254910519424,
+    "binseg": [
+     {
+      "date": "2012-11-01",
+      "lr": 9.41,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-12-03",
+      "lr": 4.69,
+      "p_perm": 0.026
+     },
+     {
+      "date": "2016-09-06",
+      "lr": 11.32,
+      "p_perm": 0.002
+     }
+    ],
+    "pettitt": {
+     "date": "2013-01-11",
+     "K": 123824.0,
+     "p_approx": 0.768782
+    },
+    "n": 4582
+   },
+   "frame_combat": {
+    "overall_rate": 0.09166302924487124,
+    "binseg": [
+     {
+      "date": "2011-09-10",
+      "lr": 6.29,
+      "p_perm": 0.004
+     },
+     {
+      "date": "2013-02-07",
+      "lr": 7.04,
+      "p_perm": 0.008
+     },
+     {
+      "date": "2015-11-02",
+      "lr": 5.71,
+      "p_perm": 0.026
+     }
+    ],
+    "pettitt": {
+     "date": "2013-05-23",
+     "K": 158062.0,
+     "p_approx": 0.421146
+    },
+    "n": 4582
+   },
+   "frame_transition": {
+    "overall_rate": 0.1368398079441292,
+    "binseg": [
+     {
+      "date": "2010-07-01",
+      "lr": 29.55,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2016-09-06",
+      "lr": 5.79,
+      "p_perm": 0.028
+     }
+    ],
+    "pettitt": {
+     "date": "2010-11-19",
+     "K": 354535.0,
+     "p_approx": 0.000789
+    },
+    "n": 4582
+   },
+   "frame_end": {
+    "overall_rate": 0.07245744216499345,
+    "binseg": [
+     {
+      "date": "2011-06-07",
+      "lr": 62.71,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-02-03",
+      "lr": 4.07,
+      "p_perm": 0.026
+     },
+     {
+      "date": "2012-06-01",
+      "lr": 24.39,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-11-01",
+      "lr": 30.73,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2015-10-02",
+      "lr": 7.82,
+      "p_perm": 0.002
+     }
+    ],
+    "pettitt": {
+     "date": "2011-05-30",
+     "K": 414918.0,
+     "p_approx": 4.4e-05
+    },
+    "n": 4582
+   },
+   "_n_passages": 4582
+  },
+  "incl_questioner": {
+   "cat_war_direct": {
+    "overall_rate": 0.45838668373879643,
+    "binseg": [
+     {
+      "date": "2012-12-03",
+      "lr": 13.35,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2016-09-06",
+      "lr": 11.13,
+      "p_perm": 0.002
+     }
+    ],
+    "pettitt": {
+     "date": "2012-05-02",
+     "K": 402240.0,
+     "p_approx": 0.00016
+    },
+    "n": 4686
+   },
+   "cat_war_adjacent": {
+    "overall_rate": 0.2987622705932565,
+    "binseg": [
+     {
+      "date": "2012-11-01",
+      "lr": 5.92,
+      "p_perm": 0.02
+     }
+    ],
+    "pettitt": {
+     "date": "2012-11-02",
+     "K": 246992.0,
+     "p_approx": 0.05708
+    },
+    "n": 4686
+   },
+   "cat_aid_diplomacy_civil": {
+    "overall_rate": 0.057405036278275715,
+    "binseg": [
+     {
+      "date": "2012-06-01",
+      "lr": 5.49,
+      "p_perm": 0.032
+     },
+     {
+      "date": "2015-03-02",
+      "lr": 5.33,
+      "p_perm": 0.02
+     },
+     {
+      "date": "2015-10-02",
+      "lr": 5.55,
+      "p_perm": 0.014
+     }
+    ],
+    "pettitt": {
+     "date": "2012-05-02",
+     "K": 142907.0,
+     "p_approx": 0.608089
+    },
+    "n": 4686
+   },
+   "cat_incidental": {
+    "overall_rate": 0.18544600938967137,
+    "binseg": [
+     {
+      "date": "2012-11-01",
+      "lr": 9.98,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-12-03",
+      "lr": 5.01,
+      "p_perm": 0.034
+     },
+     {
+      "date": "2016-09-06",
+      "lr": 10.77,
+      "p_perm": 0.002
+     }
+    ],
+    "pettitt": {
+     "date": "2013-01-11",
+     "K": 138699.0,
+     "p_approx": 0.651583
+    },
+    "n": 4686
+   },
+   "frame_combat": {
+    "overall_rate": 0.09176269739650021,
+    "binseg": [
+     {
+      "date": "2011-09-10",
+      "lr": 6.46,
+      "p_perm": 0.008
+     },
+     {
+      "date": "2013-02-07",
+      "lr": 8.0,
+      "p_perm": 0.004
+     },
+     {
+      "date": "2015-11-02",
+      "lr": 5.57,
+      "p_perm": 0.016
+     }
+    ],
+    "pettitt": {
+     "date": "2013-05-23",
+     "K": 174166.0,
+     "p_approx": 0.341214
+    },
+    "n": 4686
+   },
+   "frame_transition": {
+    "overall_rate": 0.13444302176696543,
+    "binseg": [
+     {
+      "date": "2010-07-01",
+      "lr": 32.33,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2016-09-06",
+      "lr": 5.82,
+      "p_perm": 0.014
+     }
+    ],
+    "pettitt": {
+     "date": "2010-11-19",
+     "K": 383388.0,
+     "p_approx": 0.00038
+    },
+    "n": 4686
+   },
+   "frame_end": {
+    "overall_rate": 0.07319675629534785,
+    "binseg": [
+     {
+      "date": "2011-06-07",
+      "lr": 62.6,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-02-03",
+      "lr": 4.16,
+      "p_perm": 0.032
+     },
+     {
+      "date": "2012-06-01",
+      "lr": 23.9,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-11-01",
+      "lr": 29.73,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2015-10-02",
+      "lr": 8.66,
+      "p_perm": 0.002
+     }
+    ],
+    "pettitt": {
+     "date": "2011-05-30",
+     "K": 433395.0,
+     "p_approx": 3.5e-05
+    },
+    "n": 4686
+   },
+   "_n_passages": 4686
+  },
+  "main_score_ge30": {
+   "cat_war_direct": {
+    "overall_rate": 0.4868360277136259,
+    "binseg": [
+     {
+      "date": "2012-06-01",
+      "lr": 18.31,
+      "p_perm": 0.002
+     }
+    ],
+    "pettitt": {
+     "date": "2012-05-02",
+     "K": 462680.0,
+     "p_approx": 0.0
+    },
+    "n": 4330
+   },
+   "cat_war_adjacent": {
+    "overall_rate": 0.2815242494226328,
+    "binseg": [
+     {
+      "date": "2012-06-01",
+      "lr": 9.34,
+      "p_perm": 0.004
+     },
+     {
+      "date": "2012-09-01",
+      "lr": 6.36,
+      "p_perm": 0.01
+     }
+    ],
+    "pettitt": {
+     "date": "2012-05-28",
+     "K": 274321.0,
+     "p_approx": 0.007695
+    },
+    "n": 4330
+   },
+   "cat_aid_diplomacy_civil": {
+    "overall_rate": 0.05658198614318707,
+    "binseg": [],
+    "pettitt": {
+     "date": "2012-05-02",
+     "K": 100380.0,
+     "p_approx": 0.949916
+    },
+    "n": 4330
+   },
+   "cat_incidental": {
+    "overall_rate": 0.17505773672055427,
+    "binseg": [
+     {
+      "date": "2012-11-01",
+      "lr": 10.6,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-12-03",
+      "lr": 5.11,
+      "p_perm": 0.034
+     }
+    ],
+    "pettitt": {
+     "date": "2013-01-11",
+     "K": 177434.0,
+     "p_approx": 0.195318
+    },
+    "n": 4330
+   },
+   "frame_combat": {
+    "overall_rate": 0.09468822170900693,
+    "binseg": [
+     {
+      "date": "2011-09-10",
+      "lr": 4.86,
+      "p_perm": 0.026
+     },
+     {
+      "date": "2013-02-07",
+      "lr": 5.76,
+      "p_perm": 0.02
+     },
+     {
+      "date": "2015-11-04",
+      "lr": 6.09,
+      "p_perm": 0.008
+     }
+    ],
+    "pettitt": {
+     "date": "2013-02-11",
+     "K": 133080.0,
+     "p_approx": 0.540386
+    },
+    "n": 4330
+   },
+   "frame_transition": {
+    "overall_rate": 0.14480369515011549,
+    "binseg": [
+     {
+      "date": "2010-07-01",
+      "lr": 35.39,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-09-01",
+      "lr": 5.19,
+      "p_perm": 0.032
+     }
+    ],
+    "pettitt": {
+     "date": "2010-11-19",
+     "K": 372739.0,
+     "p_approx": 7e-05
+    },
+    "n": 4330
+   },
+   "frame_end": {
+    "overall_rate": 0.07598152424942263,
+    "binseg": [
+     {
+      "date": "2011-05-01",
+      "lr": 69.52,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-06-01",
+      "lr": 38.29,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-11-01",
+      "lr": 32.06,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2015-10-02",
+      "lr": 6.54,
+      "p_perm": 0.002
+     }
+    ],
+    "pettitt": {
+     "date": "2011-05-30",
+     "K": 407920.0,
+     "p_approx": 9e-06
+    },
+    "n": 4330
+   },
+   "_n_passages": 4330
+  },
+  "main_score_ge50": {
+   "cat_war_direct": {
+    "overall_rate": 0.5437370600414079,
+    "binseg": [
+     {
+      "date": "2012-06-01",
+      "lr": 24.27,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-10-03",
+      "lr": 8.66,
+      "p_perm": 0.004
+     }
+    ],
+    "pettitt": {
+     "date": "2012-05-02",
+     "K": 437542.0,
+     "p_approx": 0.0
+    },
+    "n": 3864
+   },
+   "cat_war_adjacent": {
+    "overall_rate": 0.2732919254658385,
+    "binseg": [
+     {
+      "date": "2012-06-01",
+      "lr": 11.27,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-10-03",
+      "lr": 6.49,
+      "p_perm": 0.008
+     }
+    ],
+    "pettitt": {
+     "date": "2012-05-02",
+     "K": 256488.0,
+     "p_approx": 0.00214
+    },
+    "n": 3864
+   },
+   "cat_aid_diplomacy_civil": {
+    "overall_rate": 0.05305383022774327,
+    "binseg": [],
+    "pettitt": {
+     "date": "2012-05-20",
+     "K": 68478.0,
+     "p_approx": 1.0
+    },
+    "n": 3864
+   },
+   "cat_incidental": {
+    "overall_rate": 0.12991718426501034,
+    "binseg": [
+     {
+      "date": "2015-11-04",
+      "lr": 5.51,
+      "p_perm": 0.028
+     }
+    ],
+    "pettitt": {
+     "date": "2012-05-02",
+     "K": 130068.0,
+     "p_approx": 0.34443
+    },
+    "n": 3864
+   },
+   "frame_combat": {
+    "overall_rate": 0.09575569358178054,
+    "binseg": [
+     {
+      "date": "2010-07-01",
+      "lr": 5.15,
+      "p_perm": 0.028
+     },
+     {
+      "date": "2010-09-10",
+      "lr": 4.61,
+      "p_perm": 0.034
+     },
+     {
+      "date": "2011-09-10",
+      "lr": 6.19,
+      "p_perm": 0.01
+     },
+     {
+      "date": "2013-02-07",
+      "lr": 9.29,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2015-11-04",
+      "lr": 5.06,
+      "p_perm": 0.026
+     }
+    ],
+    "pettitt": {
+     "date": "2013-05-23",
+     "K": 145922.0,
+     "p_approx": 0.218535
+    },
+    "n": 3864
+   },
+   "frame_transition": {
+    "overall_rate": 0.15838509316770186,
+    "binseg": [
+     {
+      "date": "2009-03-03",
+      "lr": 4.8,
+      "p_perm": 0.028
+     },
+     {
+      "date": "2010-07-01",
+      "lr": 38.35,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-09-01",
+      "lr": 6.19,
+      "p_perm": 0.014
+     }
+    ],
+    "pettitt": {
+     "date": "2010-08-31",
+     "K": 336984.0,
+     "p_approx": 1.5e-05
+    },
+    "n": 3864
+   },
+   "frame_end": {
+    "overall_rate": 0.07945134575569358,
+    "binseg": [
+     {
+      "date": "2011-03-07",
+      "lr": 74.3,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-06-01",
+      "lr": 51.72,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-11-01",
+      "lr": 38.88,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2015-10-02",
+      "lr": 6.01,
+      "p_perm": 0.008
+     }
+    ],
+    "pettitt": {
+     "date": "2011-05-30",
+     "K": 358342.0,
+     "p_approx": 3e-06
+    },
+    "n": 3864
+   },
+   "_n_passages": 3864
+  },
+  "main_score_ge70": {
+   "cat_war_direct": {
+    "overall_rate": 0.7879569892473118,
+    "binseg": [
+     {
+      "date": "2009-10-13",
+      "lr": 6.08,
+      "p_perm": 0.016
+     },
+     {
+      "date": "2010-05-12",
+      "lr": 5.35,
+      "p_perm": 0.004
+     },
+     {
+      "date": "2010-06-05",
+      "lr": 16.96,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2011-04-01",
+      "lr": 5.19,
+      "p_perm": 0.026
+     },
+     {
+      "date": "2012-06-01",
+      "lr": 10.15,
+      "p_perm": 0.002
+     }
+    ],
+    "pettitt": {
+     "date": "2012-05-28",
+     "K": 79777.0,
+     "p_approx": 0.095953
+    },
+    "n": 2325
+   },
+   "cat_war_adjacent": {
+    "overall_rate": 0.14408602150537633,
+    "binseg": [],
+    "pettitt": {
+     "date": "2012-05-28",
+     "K": 45815.0,
+     "p_approx": 0.734554
+    },
+    "n": 2325
+   },
+   "cat_aid_diplomacy_civil": {
+    "overall_rate": 0.02666666666666667,
+    "binseg": [
+     {
+      "date": "2013-04-16",
+      "lr": 4.76,
+      "p_perm": 0.04
+     }
+    ],
+    "pettitt": {
+     "date": "2010-06-24",
+     "K": 26505.0,
+     "p_approx": 1.0
+    },
+    "n": 2325
+   },
+   "cat_incidental": {
+    "overall_rate": 0.04129032258064516,
+    "binseg": [
+     {
+      "date": "2009-12-01",
+      "lr": 8.27,
+      "p_perm": 0.002
+     }
+    ],
+    "pettitt": {
+     "date": "2009-12-01",
+     "K": 27702.0,
+     "p_approx": 1.0
+    },
+    "n": 2325
+   },
+   "frame_combat": {
+    "overall_rate": 0.13591397849462367,
+    "binseg": [
+     {
+      "date": "2011-09-10",
+      "lr": 7.85,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2013-02-07",
+      "lr": 5.94,
+      "p_perm": 0.012
+     },
+     {
+      "date": "2015-10-02",
+      "lr": 4.63,
+      "p_perm": 0.026
+     }
+    ],
+    "pettitt": {
+     "date": "2013-05-24",
+     "K": 67416.0,
+     "p_approx": 0.228627
+    },
+    "n": 2325
+   },
+   "frame_transition": {
+    "overall_rate": 0.2129032258064516,
+    "binseg": [
+     {
+      "date": "2009-03-03",
+      "lr": 4.18,
+      "p_perm": 0.036
+     },
+     {
+      "date": "2010-07-04",
+      "lr": 18.22,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-02-03",
+      "lr": 3.91,
+      "p_perm": 0.04
+     },
+     {
+      "date": "2012-05-02",
+      "lr": 6.18,
+      "p_perm": 0.004
+     }
+    ],
+    "pettitt": {
+     "date": "2010-07-20",
+     "K": 118125.0,
+     "p_approx": 0.002566
+    },
+    "n": 2325
+   },
+   "frame_end": {
+    "overall_rate": 0.09935483870967741,
+    "binseg": [
+     {
+      "date": "2011-01-10",
+      "lr": 47.24,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-06-01",
+      "lr": 38.06,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2012-11-01",
+      "lr": 26.67,
+      "p_perm": 0.002
+     },
+     {
+      "date": "2016-04-04",
+      "lr": 4.25,
+      "p_perm": 0.036
+     }
+    ],
+    "pettitt": {
+     "date": "2011-06-22",
+     "K": 145386.0,
+     "p_approx": 8.3e-05
+    },
+    "n": 2325
+   },
+   "_n_passages": 2325
+  },
+  "period_summary": [
+   {
+    "measure": "cat_war_direct",
+    "2009-2011": "906/2100 = 0.431",
+    "2012-2014": "883/1804 = 0.489",
+    "2015-2016": "320/678 = 0.472",
+    "chi2_p_3periods": 0.0011156945548034516
+   },
+   {
+    "measure": "cat_war_adjacent",
+    "2009-2011": "664/2100 = 0.316",
+    "2012-2014": "515/1804 = 0.285",
+    "2015-2016": "185/678 = 0.273",
+    "chi2_p_3periods": 0.034663100122732125
+   },
+   {
+    "measure": "cat_aid_diplomacy_civil",
+    "2009-2011": "131/2100 = 0.062",
+    "2012-2014": "91/1804 = 0.050",
+    "2015-2016": "45/678 = 0.066",
+    "chi2_p_3periods": 0.17627813228380207
+   },
+   {
+    "measure": "cat_incidental",
+    "2009-2011": "399/2100 = 0.190",
+    "2012-2014": "315/1804 = 0.175",
+    "2015-2016": "128/678 = 0.189",
+    "chi2_p_3periods": 0.43473263952469043
+   },
+   {
+    "measure": "frame_combat",
+    "2009-2011": "194/2100 = 0.092",
+    "2012-2014": "158/1804 = 0.088",
+    "2015-2016": "68/678 = 0.100",
+    "chi2_p_3periods": 0.6125040868535017
+   },
+   {
+    "measure": "frame_transition",
+    "2009-2011": "241/2100 = 0.115",
+    "2012-2014": "286/1804 = 0.159",
+    "2015-2016": "100/678 = 0.147",
+    "chi2_p_3periods": 0.0002602724946985708
+   },
+   {
+    "measure": "frame_end",
+    "2009-2011": "80/2100 = 0.038",
+    "2012-2014": "221/1804 = 0.123",
+    "2015-2016": "31/678 = 0.046",
+    "chi2_p_3periods": 6.649583133922826e-25
+   }
+  ]
+ },
+ "comparison": {
+  "n_breaks_pooled_main": 12,
+  "breaks": [
+   "2010-07-01",
+   "2011-06-07",
+   "2011-09-10",
+   "2012-02-03",
+   "2012-06-01",
+   "2012-11-01",
+   "2012-12-03",
+   "2013-02-07",
+   "2015-03-02",
+   "2015-10-02",
+   "2015-11-02",
+   "2016-09-06"
+  ],
+  "window_30d": {
+   "breaks_within_window_of_an_event": 6,
+   "null_mean": 2.98,
+   "p_mc_ge": 0.0537
+  },
+  "window_60d": {
+   "breaks_within_window_of_an_event": 6,
+   "null_mean": 5.31,
+   "p_mc_ge": 0.4493
+  },
+  "nearest_break_per_event": [
+   {
+    "event": "2009-02-17",
+    "label": "First troop increase: 17,000 more US troops to Afghanistan",
+    "nearest_break": "2010-07-01",
+    "days": 499
+   },
+   {
+    "event": "2009-03-27",
+    "label": "New Afghanistan-Pakistan (AfPak) strategy announced",
+    "nearest_break": "2010-07-01",
+    "days": 461
+   },
+   {
+    "event": "2009-12-01",
+    "label": "West Point speech: 30,000-troop surge with July 2011 drawdown start",
+    "nearest_break": "2010-07-01",
+    "days": 212
+   },
+   {
+    "event": "2010-06-23",
+    "label": "McChrystal relieved after Rolling Stone article; Petraeus named comman",
+    "nearest_break": "2010-07-01",
+    "days": 8
+   },
+   {
+    "event": "2011-05-01",
+    "label": "Bin Laden killed in Abbottabad raid; effect on Afghanistan war debate",
+    "nearest_break": "2011-06-07",
+    "days": 37
+   },
+   {
+    "event": "2011-06-22",
+    "label": "Drawdown announcement: 33,000 surge troops home by summer 2012",
+    "nearest_break": "2011-06-07",
+    "days": -15
+   },
+   {
+    "event": "2012-05-01",
+    "label": "Kabul address and US-Afghan Strategic Partnership Agreement",
+    "nearest_break": "2012-06-01",
+    "days": 31
+   },
+   {
+    "event": "2012-05-21",
+    "label": "Chicago NATO summit: transition to Afghan lead, end of combat role by ",
+    "nearest_break": "2012-06-01",
+    "days": 11
+   },
+   {
+    "event": "2013-02-12",
+    "label": "State of the Union: 34,000 troops home within a year",
+    "nearest_break": "2013-02-07",
+    "days": -5
+   },
+   {
+    "event": "2014-05-27",
+    "label": "Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016",
+    "nearest_break": "2015-03-02",
+    "days": 279
+   },
+   {
+    "event": "2014-12-28",
+    "label": "Formal end of US combat mission (Operation Enduring Freedom ends)",
+    "nearest_break": "2015-03-02",
+    "days": 64
+   },
+   {
+    "event": "2015-10-15",
+    "label": "Withdrawal halted: 5,500 troops to stay past 2016",
+    "nearest_break": "2015-10-02",
+    "days": -13
+   },
+   {
+    "event": "2016-07-06",
+    "label": "8,400 troops to remain through end of term",
+    "nearest_break": "2016-09-06",
+    "days": 62
+   }
+  ]
+ },
+ "frame_regex": {
+  "combat": "\\b(?:combat\\w*|surge\\w*|fight\\w*|fought|offensive\\w*|insurgen\\w*|battl\\w*)\\b",
+  "transition": "\\b(?:transition\\w*|transfer\\w*|train\\w*|advis\\w*|handover|hand over|hand-over|Afghan[- ]led|Afghan[- ]lead|Afghan security forces|Afghan forces)\\b",
+  "end": "\\b(?:withdraw\\w*|drawdown|draw[- ]down|come home|coming home|bring\\w* (?:\\w+ ){0,3}home|return\\w* home|troops? home|home by|end(?:s|ed|ing)? (?:of )?(?:the |our |combat |this |its |a )*(?:war|combat|mission|involvement|role|conflict|campaign))\\b"
+ },
+ "params": {
+  "B_PERM": 499,
+  "ALPHA": 0.05,
+  "MIN_SEG": 30
+ }
+}

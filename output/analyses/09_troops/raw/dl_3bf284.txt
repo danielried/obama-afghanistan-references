@@ -1,0 +1,2985 @@
+The Cost of Iraq, Afghanistan, and Other
+Global War on Terror Operations Since 9/11
+
+Amy Belasco
+Specialist in U.S. Defense Policy and Budget
+
+March 29, 2011
+
+
+
+
+                                                  Congressional Research Service
+                                                                        7-5700
+                                                                   www.crs.gov
+                                                                        RL33110
+CRS Report for Congress
+Prepared for Members and Committees of Congress
+                     The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Summary
+With enactment of the sixth FY2011 Continuing Resolution through March 18, 2011, (H.J.Res.
+48/P.L. 112-6) Congress has approved a total of $1.283 trillion for military operations, base security,
+reconstruction, foreign aid, embassy costs, and veterans’ health care for the three operations initiated
+since the 9/11 attacks: Operation Enduring Freedom (OEF) Afghanistan and other counter terror
+operations; Operation Noble Eagle (ONE), providing enhanced security at military bases; and
+Operation Iraqi Freedom (OIF). This estimate assumes that the current CR level continues through the
+rest of the year and that agencies allocate reductions proportionately.
+Of this $1.283 trillion total, CRS estimates that Iraq will receive about $806 billion (63%), OEF $444
+billion (35%) and enhanced base security about $29 billion (2%), with about $5 billion that CRS
+cannot allocate (1/2%). About 94% of the funds are for DOD, 5% for foreign aid programs and
+diplomatic operations, and 1% for medical care for veterans.
+Between FY2009 and FY2010, average monthly DOD spending for Afghanistan grew from $4.4
+billion to $6.7 billion a month, a 50% increase while average troop strength almost doubled from
+44,000 to 84,000 as part of the troop surge announced by the President last year. Troop strength in
+Afghanistan is expected to average 102,000 in FY2011. DOD’s plans call for troop levels to fall by
+less than 4,000 in FY2012 unless the President decides otherwise as part of his decision to “begin
+transition to Afghan security lead in early 2011. . . [to a ] a responsible, conditions-based U.S. troop
+reduction in July 2011.” At the same time, the President announced a long-term U.S. commitment to a
+NATO summit goal of “a path to complete transition by the end of 2014.” It is currently unclear how
+quickly or slowly troop levels will fall this summer or in later years to meet these goals.
+While spending on Afghanistan grew between FY2010 and FY2011, DOD’s average spending in Iraq
+fell from $7.9 billion to $6.2 billion or by about 20% while troop strength dropped from 141,000 to
+96,000, by about one-third, as the U.S. withdrawal continues. Troop strength in Iraq is projected to
+average 43,000 in FY2011 and to fall to 4,450 in FY2012 with all troops out of Iraq by December
+2011 according to the U.S. security agreement with Iraq.
+On March 18th, 2011, the sixth FY2011 Continuing Resolution was enacted (H.J.Res. 48/P.L.
+111-6). In the case of DOD’s war funding, the current CR, H.R. 1, and S.Amdt. 149 to H.R. 1 all
+set DOD’s war funding at close to the FY2011 request. For State Department diplomatic
+operations and foreign aid, the current CR could reduce funding by about $1 billion below the
+FY2011 request of $7.6 billion. VA medical spending is likely to match the request.
+
+CRS has lowered its previous estimate of war funding in FY2010 to $165 billion because DOD spent
+about $3 billion less than anticipated, transferring $885 million of war funds to its base budget and
+allowing some $2 billion in funding to lapse and be returned to the Treasury. Congress also included
+about $5 billion in non-war programs in funding designated as for “Other Contingency Operations.”
+Although DOD’s FY2012 request of $118 billion fell in proportion to the 25% fall in troop levels from
+212,000 in FY2011 to 158,000 in FY2012, this funding could be more than necessary in light of
+recent experience and potential troop decreases. If the overall war FY2012 request of $132 billion is
+enacted, war funding since the 9/11 attacks would reach $1.415 trillion.
+According to CBO’s latest projection, war costs for FY2012-FY2021 could total another $496 billion
+if troop levels fell from 180,000 in FY2011 to 45,000 by FY2015 and remained at that level through
+FY2021. Under that scenario, war costs through FY2021 would total $1.8 trillion.
+
+
+
+
+Congressional Research Service
+                           The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Contents
+Introduction: War Funding to Date ..............................................................................................1
+    Total War Funding by Operation ...........................................................................................1
+    Total War Funding By Agency ..............................................................................................5
+Ongoing War Cost Issues ............................................................................................................6
+    FY2011 Continuing resolution and the FY2012 War Request ................................................9
+        Potential Effect on Total War Costs ............................................................................... 10
+    Potential Issues This Year.................................................................................................... 10
+    Changing Troop Levels ....................................................................................................... 11
+        NATO and Afghan Troops............................................................................................. 13
+    Estimating the Cost of the Iraq and Afghan Wars................................................................. 14
+Trends in Overall War Funding ................................................................................................. 14
+        Trends in Iraq War Funding........................................................................................... 15
+        Past Trends and Future Costs in Enhanced Security ....................................................... 19
+    Administration and CBO Projections of Future Costs .......................................................... 20
+        CBO Projections Based on One Alternative Scenarios ................................................... 20
+FY2011 Request May be High in Light of Per Troop Costs........................................................ 21
+    CBO and DOD Estimating Methods.................................................................................... 22
+    FY2011 Request Compared to Historical Averages.............................................................. 22
+Trends in DOD’s Average Monthly Spending ............................................................................ 25
+    Iraq Costs Change with Procurement and Troops Levels...................................................... 27
+    Afghanistan Costs Rise with Troop Levels and Training Efforts .......................................... 28
+    Funds to Train and Equip Afghan and Iraqi Security Forces................................................. 29
+        Trends in Funding of Afghan Security Forces ................................................................ 29
+        Trends in Funding of Iraq Security Forces ..................................................................... 30
+Explaining Changes in DOD’s War Costs over Time ................................................................. 31
+    Military Personnel Cost Is Not main Factor in Increases ...................................................... 32
+    Operation and Maintenance Costs Grow Faster Than Troop Levels ..................................... 32
+    Dramatic Growth in Investment Costs Now Moderated ....................................................... 35
+    Military Construction Grows Rapidly.................................................................................. 37
+    Special Funds and the Flexibility Issue................................................................................ 38
+        Short-Term Flexible Accounts ....................................................................................... 38
+        Special Purpose Accounts ............................................................................................. 39
+Questions To Raise About War Funding Issues .......................................................................... 39
+Congressional Options to Affect Military Operations................................................................. 40
+   The Vietnam Experience ..................................................................................................... 40
+   Recent Restrictions Proposed .............................................................................................. 42
+Improving War Cost Estimates and Reporting ........................................................................... 42
+
+
+
+Figures
+Figure 1. Boots on the Ground in Afghanistan and Iraq, 2001-2010 ........................................... 12
+
+
+
+
+Congressional Research Service
+                             The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Tables
+Table 1. Estimated War Funding by Operation: FY2001-FY2012 War Request ............................3
+Table 2. Estimated War Funding by Agency: FY2001-FY2012 War Request................................8
+Table 3. Estimated War Funding By Operation, Agency and Fiscal Year: FY2001-FY2012
+  Request.................................................................................................................................. 17
+Table 4. Army, Navy, US Marine Corps, and Air Force Annual Operational Costs Per
+  Troop in Afghanistan and Iraq FY2005-FY2011 Request........................................................ 23
+Table 5. DOD’s Obligations by Operation: FY2001- FY2010 to Date........................................ 26
+Table 6. Afghan and Iraq Security Forces Funding: FY2004-FY2011 Request ........................... 30
+Table 7. DOD’s War Budget Authority by Title: FY2004-FY2011 Request ................................ 33
+Table A-1. Boots on the Ground in Iraq and Afghanistan by Month ........................................... 44
+Table B-1. Defense Department, Foreign Operations Funding, and VA Medical Funding
+  for Iraq, Afghanistan and Other Global War on Terror Activities, FY2001-FY2010
+  Supplemental ......................................................................................................................... 46
+
+
+
+Appendixes
+Appendix A. Monthly Boots on the Ground in Iraq and Afghanistan.......................................... 44
+Appendix B. War Appropriations by Public Law and Agency .................................................... 46
+Appendix C. Estimating War Costs for Iraq and Afghanistan ..................................................... 49
+Appendix D. Reset and Higher Force Levels ............................................................................. 50
+
+
+Contacts
+Author Contact Information ...................................................................................................... 55
+
+
+
+
+Congressional Research Service
+                      The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Introduction: War Funding to Date
+Since the terrorist attacks of September 11, 2001, the United States has initiated three military
+operations:
+
+    •    Operation Enduring Freedom (OEF) covering primarily Afghanistan and other
+         small Global War on Terror (GWOT) operations ranging from the Philippines to
+         Djibouti that began immediately after the 9/11 attacks and continues;
+    •    Operation Noble Eagle (ONE) providing enhanced security for U.S. military
+         bases and other homeland security that was launched in response to the attacks
+         and continues at a modest level; and
+    •    Operation Iraqi Freedom (OIF) that began in the fall of 2002 with the buildup of
+         troops for the March 2003 invasion of Iraq, continued with counter-insurgency
+         and stability operations, and is slated to be renamed Operation New Dawn as
+         U.S. troops focus on an advisory and assistance role.
+In the tenth year of operations since the 9/11 attacks while troops are being withdrawn in Iraq and
+increased in Afghanistan, the cost of war continues to be a major issue including the total amount
+appropriated, the amount for each operation, average monthly spending rates, and the scope and
+duration of future costs. Information on costs is useful to Congress to assess the FY2010
+Supplemental for war costs for the Department of Defense (DOD) and State/USAID, FY2011 war
+requests, conduct oversight of past war costs, and consider the longer-term costs implications of
+the buildup of troops in Afghanistan and potential problems in the withdrawal of U.S. troops from
+Iraq. This report analyzes war funding for the Defense Department and tracks funding for USAID
+and VA Medical funding.
+
+
+Total War Funding by Operation
+Assuming an annual level of the current Continuing Resolution (H.J.Res. 44/P.L. 112-4) and
+based on DOD, State Department/USAID, and Department of Veterans Administration budget
+submissions, the cumulative total appropriated from the 9/11 for those war operations, diplomatic
+operations, and medical care for Iraq and Afghan war veterans is $1.283 trillion including:
+
+    •    $806 billion for Iraq;
+    •    $444 billion for Afghanistan;
+    •    $29 billion for enhanced security; and
+    •    $6 billion unallocated (see Table 1).1
+Of this total, 63% is for Iraq, 35% for Afghanistan, 2% for enhanced security and 1/2% is
+unallocated. Almost all of the funding for Operation Enduring Freedom (OEF) is for Afghanistan.
+This total includes funding provided in all appropriations act including the FY2010 Supplemental
+(H.R. 4899/P.L. 111-212) enacted July 29, 2010, and the 6th Continuing Resolution for FY2011
+
+
+1
+ These totals cover funding provided for DOD, State/USAID and VA Medical through FY2011, assuming the current
+CR would continue throughout the year.
+
+
+
+
+Congressional Research Service                                                                                  1
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+(H.Res. 48/P.L. 111-6) enacted March 18, 2011 assuming that level continues through the rest of
+the fiscal year.2
+
+Some 94% of this funding goes to the Department of Defense (DOD) to cover primarily
+incremental war-related costs, that is, costs that are in addition to DOD’s normal peacetime
+activities. These costs include:
+
+    •    military personnel funds to provide special pay for deployed personnel such as
+         hostile fire or separation pay and to cover the additional cost of activating
+         reservists, as well pay for expanding the Army and Marine Corps to reduce stress
+         on troops;
+    •    Operation and Maintenance (O&M) funds to transport troops and their equipment
+         to Iraq and Afghanistan, conduct military operations, provide in-country support
+         at bases, and repairing war-worn equipment;
+    •    Procurement funding to cover buying new weapons systems to replace war
+         losses, and upgrade equipment, pay modernization costs associated with
+         expanding and changing the structure of the size of the Army and Marine Corps,
+    •    Research, Development, Test & Evaluation costs to develop more effective ways
+         to combat war threats such as roadside bombs;
+    •    Working Capital Funds to cover expanding the size of inventories of spare parts
+         and fuel to provide wartime support; and
+    •    Military construction primarily to construct facilities in bases in Iraq or
+         Afghanistan or neighboring countries.
+In addition, the Administration initiated several programs specifically targeted at problems that
+developed in the Afghan and Iraq wars:
+
+    •    Coalition support to cover the logistical costs of allies, primarily Pakistan,
+         conducting counter-terror operations in support of U.S. efforts;
+    •    Commanders Emergency Response Program (CERP) providing funds to
+         individual commanders for small reconstruction projects and to pay local militias
+         in Iraq and Afghanistan to counter insurgent or Taliban groups;
+    •    Afghan Security Forces Fund and the Iraq Security Forces Fund to pay the cost
+         of training, equipping and expanding the size of the Afghan and Iraqi armies and
+         police forces; and
+    •    Joint Improvised Explosive Device (IEDs) Defeat Fund to develop, buy, and
+         deploy new devices to improve force protection for soldiers against roadside
+         bombs or IEDs.
+
+
+
+
+2
+ See CRS Report R41232, FY2010 Supplemental for Wars, Disaster Assistance, Haiti Relief, and Other Programs,
+coordinated by Amy Belasco.
+
+
+
+
+Congressional Research Service                                                                                 2
+                                 Table 1. Estimated War Funding by Operation: FY2001-FY2012 War Request
+                                                         (CRS estimates in billions of dollars of budget authority)
+                                                                                                                                                                Cum.
+                                                                                                                                                               Total w/
+   OPERATION                                                                                                                                Cumulative         FY2011
+      AND             FY01                                                                                      FY2011                        Enacted,         CRA &
+   SOURCE OF           &                                                                                       CRA P.L.        FY2012        FY01-FY11         FY2012
+     FUNDS            FY02       FY03      FY04      FY05      FY06      FY07     FY08      FY09      FY10       112-6a        Request      as of 3-18-11      Request
+
+  Iraq               0.0         53.0      75.9      85.5      101.6    131.2    142.1      95.5     71.3      49.3           17.7          805.5            823.2
+  Afghanistan        20.8        14.7      14.5      20.0      19.0     39.2     43.5       59.5     93.8      118.6          113.7         443.0            557.1
+  Enhanced           13.0        8.0       3.7       2.1       0.8      0.5      0.1        0.1      0.1       0.1            0.1           28.6             28.7
+  Security
+  Unallocated        0           5.5       0         0         0        0        0          0        0         0              0             5.5              5.5
+  Total              33.8        81.2      94.1      107.6     121.4    170.9    185.7      155.1    165.3     168.1          131.7         1,283.3          1,414.8
+  Annual Change      NA          140%      16%       13%       13%      41%      9%         -16%     7%        2%             -22%          NA               NA
+  Change Since       NA          NA        16%       33%       50%      111%     129%       91%      104%      107%           62%           NA               NA
+  FY03
+
+
+   Sources: Public laws, congressional appropriations reports, Department of Defense data, and CRS estimates. CRS budget authority (BA) totals may differ from DOD
+   figures because CRS includes all funding provided in supplementals, bridge funds, continuing resolutions, omnibus, consolidated, and baseline appropriations for Iraq,
+   Afghanistan and other counter-terror operations as well as transfers from DOD’s baseline funds for GWOT requirements beginning with P.L. 107-38, the first emergency
+   supplemental after 9/11 through the FY2010 request. CRS calls Operation Noble Eagle, Enhanced Security because these funds provide higher security at DOD bases,
+   support combat air patrol, and rebuilt the Pentagon. CRS includes additional $2 billion in BA in FY2003 included by DOD in its tally but not in DFAS obligations; source of
+   funds unclear. CRS splits the $25 billion provided in the FY2005 Title IX bridge between the $1.8 billion obligated in FY2004 and the remainder available for FY2005; all
+   those funds are scored as FY2004 because they were available upon enactment in August 2005. CRS estimates for DOD reflect obligations reported in DOD’s Defense
+   Finance Accounting Service (DFAS) reports, Supplemental & Cost of War Execution Reports and budget justification materials including DOD, FY2007 Supp, February 2007,
+   Table 1a.; http://www.dod.mil/comptroller/defbudget/fy2008/fy2007_supplemental/FY2007_Emergency_Supplemental_Request_for_the_GWOT.pdf; DOD, FY2008
+   Supplemental Requests, February, July, and October 2007, and DOD, Overseas Contingency Operations Request, FY2009 Supplemental: Summary Justification Material, April
+   2009, p. 81 and other data; http://www.defenselink.mil/comptroller/defbudget/fy2009/Supplemental/FY2009_Supplemental_Request/
+   pdfs/.FY_2009_Supplemental_Request_04-08-09.pdf. CRS excludes items that are clearly not war-related including for example,$5.2 billion in FY2007 and $8.0 billion in
+   FY2008, for example, for higher fuel prices for DOD’s regular program, base closure funding, and childcare centers, hospitals, medical facilities, and Army barracks
+   renovation funds in the United States. Foreign operations figures include monies for reconstruction, development and humanitarian aid, embassy operations, counter
+   narcotics, initial training of the Afghan and Iraqi army, foreign military sales credits, and Economic Support Funds. See also CRS Report R40699, Afghanistan: U.S. Foreign
+   Assistance, by Curt Tarnoff. Updates of foreign aid from State Department, U.S. Foreign Assistance, Congressional Budget Justification: Foreign Operations, Summary Tables,
+   Fiscal Year 2012, Feb. 2011; and FY2012 budget justification. Updates of diplomatic operations provided by State Department. Updates for VA Medical reflect CRS
+   estimates of shares for OIF and OEF veterans based on applying troop shares to totals shown in Department of Veterans Affairs, FY2012 budget justification materials;
+   Updated to reflect enactment of FY2011 Continuing Resolution (H.Res. 48/P.L. 112-6) and DOD, State Department and VA FY2012 budget justification materials.
+
+
+
+CRS-3
+   Notes: NA = not applicable. Totals may not add due to rounding. Total includes $5.5 billion in FY2003 of DOD funds that cannot be allocated between Iraq and
+   Afghanistan because DOD records are incomplete.
+   a.   The sixth FY2011 Continuing Resolution was signed by the President on March 18, 2011 and extended funding for all agencies till April 8, 2011 generally at the FY2010
+        enacted level. In the case of DOD and the Department of Veterans’ Affairs, war funding was close to the Administration’s request, but for the State Department and
+        USAID, FY2011 funding levels could be $1 billion lower than requested.
+
+
+
+
+CRS-4
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Most war funds were provided in either supplemental appropriations enacted after the fiscal year
+has begun and in bridge funds included in DOD’s regular appropriations acts to cover war costs
+before supplementals are requested. In both cases, Congress generally designated DOD’s war
+appropriations as emergency funding or designated for “overseas contingency operations,” which
+exempts these funds from the caps and budget rules that limit overall funding for discretionary
+spending.
+
+
+Total War Funding By Agency
+Of the $1.283 trillion enacted thus far, about $1.2 trillion, the lion’s share or 94%, goes to the
+Department of Defense. Another $67 billion, or 5%, went to State/USAID, and $8 billion or $1%
+for OEF and OIF veterans using the Medical Program in the Department of Veterans Affairs (VA)
+(see Table 2). Because the current as well as other pending versions of the FY2011 Continuing
+Resolution (H.R. 1 and S.Amdt. 149 to H.R. 1) include similar figures for war-related funding for
+the Defense Department, which makes up the bulk of the funds, this CRS update uses the current
+Continuing Resolution to estimate war-related funding through FY2011. These figures will be
+revised for final congressional action on FY2011.
+
+DOD war costs reflect incremental war costs, in other words, costs that are in addition to regular
+military salaries, training and support activities, and weapons procurement, RDT&E or military
+construction as described above, as well as new war-related programs such as coalition support or
+the Commanders Emergency Response Program designed to meet specific war needs. Allocations
+between Iraq and Afghanistan reflect DOD estimates, DOD war cost reporting, or CRS estimates
+based on other data.
+
+State/USAID figures reflect the cost of reconstruction, foreign aid programs, and embassy
+operation and construction costs in Iraq and Afghanistan included in both regular, omnibus,
+consolidated and supplemental appropriations acts. 3 The State Department and Congress
+generally designate the amount of funding for each country in either budget justification materials
+or congressional report language.
+
+The VA separately tracks the amount spent on OEF and OIF veterans in its medical program and
+CRS estimates the split based on troop levels in each country. Veterans of both the Afghan and
+Iraq wars also collect VA disability benefits but figures have not been published on the amounts
+attributable to these veterans.
+
+Over 90% of DOD’s funds were provided as emergency funds in supplemental or additional
+appropriations; the remainder were provided in regular defense bills or in transfers from regular
+appropriations. Emergency funding is exempt from ceilings applying to discretionary spending in
+Congress’s annual budget resolutions. Some Members have argued that continuing to fund
+ongoing operations in supplementals reduces congressional oversight. Generally, more of foreign
+and diplomatic funding has been funded in regular rather than emergency appropriations.
+
+
+
+
+3
+ Foreign operations activities are managed by both the State Department and USAID, which handles most U.S.
+development assistance programs.
+
+
+
+
+Congressional Research Service                                                                               5
+                     The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Ongoing War Cost Issues
+This report is designed to answer frequently asked questions and to provide information that can
+be used to address some of the major war cost issues that confront the 112th Congress.
+
+In addition to total costs to date for each war and altogether, other questions include:
+
+    •   How and why have war costs for each war changed over time?
+    •   What are current and likely future war costs, based on current Administration
+        plans, and how might those costs change under different scenarios?
+    •   How quickly or how slowly will troop levels be reduced in Afghanistan and how
+        will that affect immediate and longer-term costs?
+    •   Will the United States and Iraq continue to follow the Security Agreement
+        requiring final withdrawal of all U.S. troops from Iraq and if not, how will costs
+        change?
+This information can be used to address policy issues such as how Congress participates in setting
+troop levels, measuring the effectiveness of U.S. policies, delineating basing plans, and ensuring
+contractor oversight.
+
+Specific cost-related policy issues include:
+
+    •   What have been the cost and effectiveness of training Afghan and Iraqi security
+        forces and the prospects that they can take over their own defense and how will
+        that affect short and long-term costs?
+    •   How accurate are DOD estimates of war costs during the drawdown in Iraq and
+        buildup in Afghanistan, and what metrics can Congress use to evaluate its
+        requests?
+    •   What types of funding are appropriately related to the Afghan and Iraq wars, and
+        what types of costs are more appropriately part of DOD’s baseline preparing for
+        counter-insurgency missions?
+    •   How have war funds provided for DOD”s replacement and upgrading of war-
+        worn equipment contributed to DOD’s ongoing modernization, and affected
+        current requests?
+    •   How much is being spent and planned to be spent on bases in Afghanistan and
+        how does this relate to how long the United States plans to stay?
+
+
+
+
+Congressional Research Service                                                                        6
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+                                         Additional CRS Reports
+For more information about foreign assistance programs for Iraq and Afghanistan, see CRS Report RL31833, Iraq:
+Reconstruction Assistance, by Curt Tarnoff, and CRS Report R40699, Afghanistan: U.S. Foreign Assistance, by Curt
+Tarnoff. For political-military developments in both countries, see CRS Report RL31339, Iraq: Post-Saddam Governance
+and Security, by Kenneth Katzman and CRS Report RL30588, Afghanistan: Post-Taliban Governance, Security, and U.S.
+Policy, by Kenneth Katzman. For the FY2010 Supplemental, see CRS Report R41232, FY2010 Supplemental for Wars,
+Disaster Assistance, Haiti Relief, and Other Programs, coordinated by Amy Belasco.
+For DOD’s FY2011 request, see CRS Report R41254, Defense: FY2011 Authorization and Appropriations, coordinated
+by Pat Towell. For more on the FY2011 foreign assistance request, see CRS Report R41228, State, Foreign Operations,
+and Related Programs: FY2011 Budget and Appropriations, by Marian Leonardo Lawson, Susan B. Epstein, and Tamara J.
+Resler.
+
+
+
+
+Congressional Research Service                                                                                     7
+                                      Table 2. Estimated War Funding by Agency: FY2001-FY2012 War Request
+                                                         (CRS estimates in billions of dollars of budget authority)
+                                                                                                                                                                      Cum.
+                                                                                                                                                                     Total w/
+                                                                                                                                                                     FY2011
+                                                                                                                               FY2011                Cum.             CRA
+                                                                                                                                 CRA                Enacted,           and
+Funding       FY01 &                                                                                                           P.L. 112-    FY2012 FY2001-           FY2012
+Source         FY02         FY03       FY04          FY05         FY06        FY07         FY08         FY09        FY10          6a        Request FY2011           Request
+
+DOD               33.0         77.4         72.4       102.6        116.8        164.9       179.2        148.3        154.3       159.1        118.1      1,208.1      1,326.1
+State/USA           0.8         3.7         21.7          4.8         4.3          5.0          5.4          5.3         9.1          6.5        10.6         66.7         77.4
+ID
+VA                  0.0         0.0          0.0          0.2         0.4          1.0          1.0          1.5         1.9          2.4          3.0         8.4         11.4
+Medical
+Total             33.8         81.1        94.1        107.6       121.5        170.9        185.6       155.1        165.3        168.1       131.6      1,283.3      1,414.8
+
+
+
+    Source: Public laws, congressional appropriations reports, Department of Defense data, and CRS estimates; see Table 1 for list of sources. Updated to reflect enactment
+    of FY2011 Continuing Resolution (H.Res. 48/P.L. 112-6), 3-18-11.
+    Notes: NA = not applicable. Totals may not add due to rounding. CRS estimates based on sources listed in Table 1.
+    a.    The sixth FY2011 Continuing Resolution was signed by the President on March 18, 2011 and extended funding for all agencies till April 8, 2011 generally at the FY2010
+          enacted level. In the case of DOD and the Department of Veterans’ Affairs, war funding was close to the Administration’s request, but for the State Department and
+          USAID, FY2011 funding levels could be $1 billion lower than requested.
+
+
+
+
+CRS-8
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+FY2011 Continuing resolution and the FY2012 War Request
+In February 2010, the Administration requested $35.1 billion in supplemental funds for DOD and
+State/USAID to pay for the unanticipated cost of the December 2009 decision by President
+Obama to deploy an additional 30,000 troops to Afghanistan, bringing total troop levels there to
+98,000 by the fall of 2010.4 That supplemental was enacted on July 27, 2010. The December 2009
+decision to add more troops in Afghanistan was designed to reverse the deteriorating security
+situation and “break the Taliban’s momentum” by targeting the insurgency, securing key
+population centers, and training more Afghan forces.”5
+
+Congress has enacted six FY2011 continuing resolutions since the beginning of the fiscal year
+last October 1, 2010. At the same time, the House and Senate have proposed alternate versions to
+fund the remainder of the fiscal year – H.R. 1, passed by the House but not the Senate, and
+S.Amdt. 149 to H.R. 1, which was recently rejected by the Senate. Negotiations continue.
+
+Despite this uncertainty about agency spending levels for FY2011, there appears to some
+consensus to fund close to DOD’s request for war funding, as has been the case in the current and
+previous CRs, which have provided for $159.1 billion, some $300 million below the request.
+
+There is greater uncertainty about funding for State Department war-related diplomatic operations
+and foreign aid levels, which have been set at last year’s level in the current and previous CRs. If
+this action is in effect for the entire year, State/USAID war-related funding levels could be $1.1
+billion lower than the $7.6 billion request if the State Department chose to allocate cuts
+proportionately. The State Department could instead choose to protect war-funding levels and
+take deeper cuts in other areas. In its estimates, CRS assumes that the current FY2011 is
+annualized, or in effect for the entire year, and that the State Department cuts war funding
+requests proportionately (see Table 2).
+
+The Administration submitted its FY2012 war request this February, along with the regular
+budget. For FY2012, the Administration has requested $131.6 billion for DOD, State/USAID and
+VA Medical, $36.5 billion below last year reflecting largely DOD’s troop drawdown in Iraq, and a
+small drop in troop levels in Afghanistan. The State Department has requested higher levels in
+Iraq, part of its “civilian surge” intended to offset the troop withdrawals and capitalize on lower
+levels of violence.
+
+Total war costs for FY2010 and FY2011 are roughly the same despite the fact that average troop
+strength for both wars is projected to fall from 180,000 in FY2010 to 145,000 in FY2011 in-
+country, a decrease of about 20%. That total reflects the planned decrease in Iraq from 96,000 in
+
+4
+  The White House, “Remarks by the President in Address to the Nation on the Way Forward in Afghanistan and
+Pakistan,” Delivered at West Point, December 1, 2009; http://www.whitehouse.gov/the-press-office/remarks-president-
+address-nation-way-forward-afghanistan-and-pakistan. In the President’s speech, the additional troops were to be
+deployed in the first half of the year, but more recently, the Defense Department has estimated that all 30,000 troops
+will not be deployed until September 2010.
+5
+  The White House, “Remarks by the President in Address to the Nation on the Way Forward in Afghanistan and
+Pakistan,” Delivered at West Point, December 1, 2009; http://www.whitehouse.gov/the-press-office/remarks-president-
+address-nation-way-forward-afghanistan-and-pakistan. In the President’s speech, the additional troops were to be
+deployed in the first half of the year, but more recently, the Defense Department has estimated that all 30,000 troops
+will not be deployed until September 2010.
+
+
+
+
+Congressional Research Service                                                                                       9
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+FY2010 to 43,000 in FY2011 and the increase in Afghanistan from 84,000 in FY2010 to 102,000
+in FY2011 as the additional 30,000 troops are deployed this year plus an additional 4,000 support
+troops in FY2011.6
+
+
+Potential Effect on Total War Costs
+Between FY2009 and FY2011 war requests reflect the shift in costs to Afghanistan as troop levels
+grow there and fall in Iraq. In FY2011, Afghan war costs accounted for 71% of war costs and Iraq
+29%, a reversal of the split of two years earlier when Afghanistan’s share was one-third and Iraq’s
+share was two-thirds. In the FY2012 request, the $114 billion cost for Afghanistan is a 91%
+increase over FY2009, and a 161% higher than FY2008. In FY2012, the cost for Iraq drops to
+$18 billion, a decrease of $78 billion from FY2009 (see Table 1).
+
+Assuming a continuation of the funding level in the current FY2011 Continuing Resolution
+(H.Res. 44/P.L. 112-4), cumulative appropriations for the Afghan and Iraq wars would reach
+$1.283 trillion dollars, including $806 billion for Iraq, $444 billion for Afghanistan, $29 billion
+for enhanced security and $6 billion unallocated. Of that total, $1.208 trillion goes to DOD, $66.7
+billion to State/USAID, and $8.4 billion to VA.
+
+If Congress also approves the FY2012 war funding request of $132 billion, cumulative war
+funding would then reach $1.415 trillion total including:
+
+    •    $823 billion for Iraq (63%);
+    •    $557 billion for Afghanistan (35%);
+    •    $29 billion for enhanced security (2%); and
+    •    $6 billion unallocated DOD costs (1/2%) (see Table 1)
+
+Potential Issues This Year
+Members may raise several issues in DOD’s FY2010 Supplemental and the FY2011 war requests
+including:
+
+    •    the achievability of current plans to accelerate the training and expansion of
+         Afghan security forces and increase spending steeply to $9.2 billion in FY2010
+         (a 63% increase), $11.6 billion in FY2011, and $12.8 billion in light of shortages
+         of trainers and other problems such as extensive corruption (see Table 6);7
+    •    whether DOD’s estimates of operating costs in Afghanistan are too high in light
+         of recent experience;8
+
+
+
+6
+  See Figure 6-2 in DOD, FY2011 Budget Request: Overview, Feb. 1, 2010; http://comptroller.defense.gov/defbudget/
+fy2011/FY2011_Budget_Request_Overview_Book.pdf.
+
+7
+  For additional discussion, see CRS Report R41232, FY2010 Supplemental for Wars, Disaster Assistance, Haiti Relief,
+and Other Programs, coordinated by Amy Belasco.
+8
+  Ibid.
+
+
+
+
+Congressional Research Service                                                                                   10
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+    •    whether FY2011 funding assuming 102,000 troops in Afghanistan for the year is
+         appropriate in light of the President’s commitment to begin the withdrawal of
+         U.S. troops in June 2011;
+    •    whether setting a timeline in Afghanistan is appropriate; and
+    •    whether more of DOD’s war costs should be considered longer-term costs that
+         would more appropriately be part of DOD’s base budget funding, an issue raised
+         by Secretary Gates.
+These issues are also discussed in CRS Report FY2010 Supplemental for Wars, Disaster
+Assistance, Haiti Relief, and Court Cases, coordinated by Amy Belasco; http://www.crs.gov/
+ReportPDF/R41232.pdf.
+
+
+Changing Troop Levels
+One of the key factors in driving costs in the Afghan and Iraq wars are changes in troop levels.
+Until 2009, troop levels in Iraq were the driving factor, peaking in November 2007 during the
+troop surge launched by President Bush while troop levels in Afghanistan remained relatively
+stable (see Figure 1 and Appendix A). 9
+
+During 2009, troop levels declined gradually in Iraq while troop levels rose steadily in
+Afghanistan, growing from about 33,000 in January 2009 to about 45,000 in June 2009 (see
+Figure 1 and Appendix A). These initial increases in Afghanistan reflected a decision made by
+President Bush before leaving office to increase the number of troops in Afghanistan by about
+14,000 in response to concerns about the deteriorating security situation raised by the U.S.
+Commander in theater. 10
+
+In March 2009, shortly after President Obama took office, the Administration conducted a strategy
+review of both the Afghan and the Iraq wars. After that review, the President decided to shift forces
+in Iraq from a combat to an advisory and assistance mission, reduce troop levels from 140,000 in
+February 2009 to 50,000 by September 2010, and withdraw with all troops out by December 31,
+2011 to comply with the U.S-Iraq Security Agreement reached at the end of the Bush
+Administration. 11
+
+At that time, the President approved an increase of about 22,000 troops for the Afghan war, in
+addition to the Bush increases already underway, bringing the total to 68,000 by November 2009. 12
+9
+  For other ways to analyze troop levels, see CRS Report R40682, Troop Levels in the Afghan and Iraq Wars, FY2001-
+FY2012: Cost and Other Potential Issues, by Amy Belasco.
+10
+   See discussion in war funding section of CRS Report R40567, Defense: FY2010 Authorization and Appropriations,
+coordinated by Pat Towell; DOD, “Boots on the Ground Report,” May 1, 2009 show a total of 45,000. See CRS Report
+R40682, Troop Levels in the Afghan and Iraq Wars, FY2001-FY2012: Cost and Other Potential Issues, by Amy
+Belasco and Senate Armed Services Committee, Transcript, “Hearing on Nominations of Admiral Mullen for
+Reappointment to the Grade of Admiral and Reappointment as chairman of the Joint Chiefs of Staff,j” September 15,
+2009, p. 6. See also the White House, “Remarks by the President in Address to the Nation on the Way Forward in
+Afghanistan and Pakistan,” Delivered at West Point, December 1, 2009; http://www.whitehouse.gov/the-press-office/
+remarks-president-address-nation-way-forward-afghanistan-and-pakistan.
+11
+   See discussion in war funding section of CRS Report R40567, Defense: FY2010 Authorization and Appropriations,
+coordinated by Pat Towell.
+12
+   Washington Post, “Iraq exit will be on time, Biden says; U.S. expects to leave despite violence and political
+disarray,” May 27, 2010.
+
+
+
+
+Congressional Research Service                                                                                  11
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+In response to the Administration’s request, Congress approved $128.8 billion in war funding for
+Iraq and Afghanistan in the FY2010 DOD Appropriations Act (P.L. 111-118, enacted December
+19, 2009).
+
+In December 2009, after a second review in response to further pressures from military
+commanders for additional troops continuing to cite worsening security, President Obama approved
+an additional increase of 30,000 troops bringing the total number of U.S. total to 98,000 by this
+fall.13 The FY2011 budget adds another 4,000 support troops in Afghanistan. 14 Thus, President
+Obama has approved the deployment of from 56,000 to 60,000 additional troops for Afghanistan by
+FY2011 (see Figure 1 and Appendix A).
+
+             Figure 1. Boots on the Ground in Afghanistan and Iraq, 2001-2010
+
+
+
+
+     Source: DOD, Boots on the Ground Reports to Congress; CRS Report RL30588, Afghanistan: Post-Taliban
+     Governance, Security, and U.S. Policy, by Kenneth Katzman; CRS Report RL31339, Iraq: Post-Saddam Governance and
+     Security, by Kenneth Katzman; CRS Report RL34387, Operation Iraqi Freedom: Strategies, Approaches, Results, and
+
+
+
+13
+   DOD, “Press Conference with Secretary of Defense Gates,” December 14, 2009; http://www.defenselink.mil/
+transcripts/transcript.aspx?transcriptid=4333. The 21,000 increase was funded in the FY2009 Supplemental and the
+FY2010 DOD Appropriations Act (Title IX, P.L. 111-118, enacted December 16, 2009).
+14
+   Then-President Bush increased troops in Afghanistan by about 15,000. For FY2011 increase, see Figure 6-2, DOD,
+FY2011 Budget Request: Overview, February 1, 2010; http://comptroller.defense.gov/defbudget/fy2011/
+FY2011_Budget_Request_Overview_Book.pdf.
+
+
+
+
+Congressional Research Service                                                                                    12
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+     Issues for Congress, by Catherine Dale; CRS Report R40156, War in Afghanistan: Strategy, Operations, and Issues for
+     Congress, by Catherine Dale.
+     Notes: Actuals through May 2010; CRS estimates for June-September 2010. Figure design by Amber Wilhelm,
+     CRS Graphics.
+
+These new requests reversed the 8% decline in war costs in FY2009 when total troop levels fell
+from the earlier peak due to the Iraq surge. In FY2010, additional troops in Afghanistan offset
+ongoing withdrawals form Iraq, with average troop strength remaining at about 180,000 in both
+FY2009 and FY2010. Only in FY2011 does average strength fall by 20% to 145,000 as the
+withdrawal in Iraq accelerates and troop strength in Afghanistan levels off (see Figure 1 and
+Appendix A).
+
+As of June, 2010, the number of troops in Afghanistan exceeded the number in Iraq for the first
+time, 94,000 compared to 92,000. By September 2010, President Obama’s plans call for the
+number of troops in Afghanistan to reach 98,000 while troop levels fall to 45,000 in Iraq, a level
+recently reached. 15 DOD’s estimate for average strength in Afghanistan in FY2011 is 102,000,
+including slightly more than the 10% increase to the 30,000 troop level that Secretary Gates was
+allowed accommodate additional support troops.16
+
+For Afghanistan, President Obama is committed to evaluate current U.S. strategy in Afghanistan
+in December 2010 to “allow us to begin the transfer of our forces out of Afghanistan in July of
+2011,” about three-quarters of the way through FY201117 The extent and pace of decreases in
+U.S. troop levels in Afghanistan is not yet defined.
+
+NATO and Afghan Troops
+In addition to U.S. troops, NATO nations contributed about 41,000 troops as of June 2010,
+bringing the total foreign troops in Afghanistan to about 139,000.18 While U.S. troop levels will
+more than treble between September 2008 and 2010, NATO troop levels have grown by about
+one-third – from about 30,000 to 41,000 in July 2010.19 The United States has called on NATO
+partners to increase their contributions to troop levels, particularly for trainers of Afghan forces,
+but with limited success. By October 2010, plans call for Afghan security forces to reach 243,000,
+bringing the total number of foreign and Afghan forces to 382,000.20
+
+
+
+15
+   Some press accounts suggest the number could reach 105,000; see New York Times, “Setbacks Cloud U.S. Plans To
+Get Out Of Afghanistan;” June 15, 2010; New York Times, “Afghanistan Strategy Shifts To Focus On Civilian Effort,”
+June 9, 2010.
+16
+   See Figure 6-2, DOD, FY2011 Budget Request: Overview, Feb. 1, 2010; http://comptroller.defense.gov/defbudget/
+fy2011/FY2011_Budget_Request_Overview_Book.pdf.
+17
+   The White House, “Remarks by the President in Address to the Nation on the Way Forward in Afghanistan and
+Pakistan,” Delivered at West Point, December 1, 2009; http://www.whitehouse.gov/the-press-office/remarks-president-
+address-nation-way-forward-afghanistan-and-pakistan.
+18
+   CRS calculations based on DoD, ”Boots on the Ground” reports and International Security Assistance Force, “Facts
+and Figures,” June 10, 2010 and September 1, 2008; http://www.nato/int/isaf/docu/epub/pdf/placement.pdf.
+19
+   CRS calculations based on International Security Assistance Force, “Facts and Figures,” July 6, 2010 and September
+1, 2008; http://www.nato.int/isaf/docu/epub/pdf/placemat.pdf.
+20
+   Figure 6-3, DOD, FY2011 Budget Request: Overview, February 1, 2010; http://comptroller.defense.gov/defbudget/
+fy2011/FY2011_Budget_Request_Overview_Book.pdf.
+
+
+
+
+Congressional Research Service                                                                                        13
+                     The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Estimating the Cost of the Iraq and Afghan Wars
+Since the 9/11 attacks and particularly since the beginning of the Iraq war, Congress has been
+interested in the allocation of supplemental emergency funds between Afghanistan and Iraq.
+Congress does not, however, appropriate funds to DOD by individual operation. Rather,
+appropriations are provided to cover particular types of expenses, e.g., special combat pay for
+military personnel, the cost of supporting deployed troops in Operation and Maintenance (O&M),
+as well as war-related investment costs in Procurement, Research, Development, Test &
+Evaluation (RDT&E), and Military Construction.
+
+CRS has split DOD funds based on DOD’s Cost of War reports which capture obligations for
+each operation, by DOD estimates in budget requests, and other factors. After funds are
+appropriated, CRS re-estimates the allocation of DOD funds, excluding items in supplementals
+that are not war-related (e.g. barracks renovations, childcare centers, see Appendix C for
+methodology.)
+
+CRS uses report language and budget justification materials to allocate State Department and
+USAID funding for Iraq and Afghanistan for individual foreign aid programs and diplomatic
+operations. For VA Medical costs, CRS allocates VA estimates for medical care for veterans of
+both wars, based on data on troops deployed.
+
+Table 3 shows funding by operation and agency. This funding has been provided in regular
+appropriation acts for individual agencies, consolidated or omnibus appropriations act, and
+supplemental appropriation acts. For a breakdown by public law and by agency, see Appendix B.
+
+
+Trends in Overall War Funding
+From the time of the 9/11 attacks until FY2008, total war costs for all three operations – Iraq,
+Afghanistan, and other GWOT and enhanced security – rose steeply primarily because of the war
+in Iraq. Annual war appropriations more than doubled from about $34 billion in FY2001/FY2002
+to $81 billion for the preparation and invasion of Iraq in FY2003. By FY2007, annual
+appropriations for both wars doubled again to $170 billion, and peaked in FY2008 at $186 billion
+(see Table 3).
+
+In FY2009, overall war funding fell to $155 billion, reflecting the decline in troop levels in Iraq
+after the troop surge, and the beginning of troop withdrawals. Since FY2009, war costs are again
+growing, driven primarily by the commitment of the Obama Administration to higher troop levels
+as well as higher foreign aid commitments for the Afghan war, which have offset decreases in the
+costs of Iraq as U.S. troop levels there decline.
+
+In FY2010, for example, annual funding increases by 7% to $165 billion. The FY2011 level
+would maintain funding at $168 billion despite the overall 20% decrease in troop levels as the
+U.S. withdrawal from Iraq accelerates with all slated to be out of Iraq by December 31, 2011, the
+end of the first quarter of FY2012. In recent years, the cost of enhanced security in the United
+States particularly the initial responses to the 9/11 attacks, has had little effect on war costs.
+
+Except for a one-time appropriation of $20 billion for Iraq reconstruction in FY2004, foreign aid
+an diplomatic operations funding has hovered between $4 billion and $5 billion until FY2010.
+For FY2010 and FY2011, funding is much higher – $9.1 billion in FY2010, dropping to $6.5
+
+
+Congressional Research Service                                                                       14
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+billion in FY2011 if the CR level continues and State allocates cuts proportionately, and slated to
+increase to $10.6 billion in FY2012, reflecting the Administration’s new emphasis on civilian aid
+programs.
+
+DOD funding has grown far more rapidly than would be expected based on changes in troop
+levels or intensity of operations. Instead, much of the increase reflects other factors discussed
+below – higher than anticipated support costs, an expanded definition of war-related procurement,
+and the growth of programs to meet specific needs, such as training Afghan and Iraqi security
+forces.
+
+Although DOD has provided the standard budget justification materials for its war requests since
+FY2007, funding in the requests are not split by operation making it difficult to see what DOD
+assumes about how changes in force levels for each war affect costs, a factor of ever more
+importance as troop levels grow in Afghanistan and fall in Iraq. In fact, DOD’s requests in
+FY2010 and FY2011 include only one table showing the overall split in funding between the two
+wars.21 After the fact, war obligations are reported separately for Iraq and Afghanistan, which can
+be used to estimate how funding could change with troop strength. DOD justification materials do
+not provide explanations of why war funding changes in each war.
+
+
+Trends in Iraq War Funding
+Total war funding for Iraq rose sharply after initial war preparations in the fall of 2002 to $53
+billion in the invasion year of 2003, almost trebling to $131 billion in FY2007, and peaking at
+$142 billion during the surge in FY2008.22
+
+With the adoption of a withdrawal plan by President Obama in February 2009, total war costs for
+Iraq have begun to decline, dropping to $96 billion in FY2009 to $66 billion in FY2010 and $51
+billion in FY2011 when troop levels drop to 43,000. In FY2012, costs are likely to be
+substantially less was the U.S. withdrawal is completed (see Table 3).
+
+Except for some $2 billion to $3 billion for State/USAID programs (with the exception of the $20
+billion in reconstruction provided in FY2004), DOD costs account for most of war funding. With
+the Administration’s plan for foreign aid programs to pick up as U.S. troops withdraw, those
+State/USAID funding is slated to grow to $3.7 billion in FY2010 and $3.9 billion in FY2011
+(Table 3).
+
+Much of the large increases between FY2006 and FY2008 was due to higher procurement
+funding, that, in turn, reflects primarily an expansive definition adopted by the Bush
+Administration of the amounts needed to reset or reconstitute units returning from deployments,
+that included not only repairing and replacing war damaged equipment but also upgrading
+equipment to meet future needs for the “long war on terror” (see below and Appendix D).23
+
+
+21
+   See Table 8-4 in DOD, FY2011 Budget Request: Overview, Feb. 1, 2010; http://comptroller.defense.gov/defbudget/
+fy2011/FY2011_Budget_Request_Overview_Book.pdf.
+22
+   Initial funding was presumably drawn from DOD’s regular appropriations since supplemental funds were not
+available.
+23
+   See CRS, Testimony of Amy Belasco to House Budget Committee, “the Growing Cost of the Iraq War,” October 24,
+2007.
+
+
+
+
+Congressional Research Service                                                                                 15
+                     The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+In addition, DOD requested and Congress provided substantial funding for force protection gear
+and equipment and converting units to modular configurations as well as funding to train and
+equip Iraqi security forces, areas influenced by DOD policy decisions rather than troop levels.
+
+
+
+
+Congressional Research Service                                                                       16
+                       Table 3. Estimated War Funding By Operation, Agency and Fiscal Year: FY2001-FY2012 Request
+                                                      (CRS estimates in billions of dollars of budget authority)
+                                                                                                                                                            Cum. Total
+                                                                                                                                                  Cum.      w/ FY2011
+                                                                                                                            FY2011               Enacted     CRA &
+ Operation and        FY01 &                                                                                               CRA P.L.    FY2012    FY2001-     FY2012
+ Funding Source        FY02     FY03       FY04       FY05       FY06        FY07       FY08       FY09       FY10           112-6     Request   FY2011      Request
+
+                                                                               IRAQ
+DOD                        0      50.0       56.4       83.4        98.1      127.2      138.5        92.0          66.5        45.7      10.6      757.8       768.8
+State/USAID                0       3.0       19.5        2.0         3.2        3.2         2.7        2.2           3.3         2.3       6.2       41.4        47.6
+VA Medical                 0           0          0      0.2         0.4        0.9         0.9        1.2           1.5         1.3       0.9        6.3          7.2
+Total: Iraq                0     53.0       75.9        85.6      101.7       131.3      142.1       95.5           71.3       49.3       17.7     805.5        823.2
+                                                                            AFGHANISTAN
+DOD                      20.0     14.0       12.4       17.2        17.9       37.2        40.6       56.1          87.7       113.3     107.3      416.2       523.5
+State/USAID               0.8      0.7        2.2        2.8         1.1        1.9         2.7        3.1           5.7         4.1       4.3       25.1        29.4
+VA Medical                 0           0          0          0          0       0.1         0.1        0.2           0.5         1.1       2.1        2.1          4.2
+Total: Afghanistan      20.8     14.7       14.6        20.0       19.0        39.2       43.4       59.5           93.8      118.6      113.7     443.5        557.1
+                                                                     ENHANCED SECURITY
+DOD                      13.0      8.0        3.7        2.1          .8        0.5         0.1        0.1           0.1         0.1       0.1       28.6        28.7
+Total: Enhanced         13.0      8.0        3.7         2.1          .8        0.5        0.1         0.1           0.1        0.1        0.1      28.6         28.7
+Security
+                                                                            UNALLOCATED
+Unallocated DOD            0      5.5             0          0          0           0          0          0           0          0          0         5.5         5.5
+                                                                            ALL MISSIONS
+DOD                      33.0     77.4       72.4      102.6       116.8      164.9      179.2       148.3         154.3       159.1     118.0    1,208.1      1,326.3
+State/USAID               0.8      3.7       21.7        4.8         4.3        5.0         5.4        5.4           9.1         6.5      10.6       66.7        77.4
+VA Medical                 0           0          0      0.2         0.4        1.0         1.0        1.5           1.9         2.4       3.0        8.4        11.4
+Total: All Missions     33.8     81.1       94.1       107.6      121.5       170.9      185.6      155.1          165.3      168.1      131.6    1,283.3     1,414.8
+
+
+
+
+      CRS-17
+   Sources: Public laws, congressional appropriations reports, Department of Defense data, and CRS estimates; see Table 1 or list of sources. Updated to reflect passage of
+   FY2010 Supplemental, H.R. 4899/P.L. 111-212. 7-27-10, and Sixth Continuing Resolution (H.J.Res. 48/P.L. 111-6).
+   Notes: NA = not applicable. Totals may not add due to rounding. CRS estimates based on sources listed in Table 1. Updated to reflect enactment of the FY2011
+   Continuing Resolution (H.Res. 44/P.L. 112-4) on March 2, 2011.
+
+
+
+
+CRS-18
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Trends in Afghan War Funding
+The cost of the Afghan war has risen dramatically since FY2006, as troop levels and the intensity
+of conflict has grown, increasing from $19 billion in FY2006 to $60 billion in FY2009. Assuming
+Administration requests are approved, total war funding will rise to $105 billion in FY2010 and
+$119 billion in FY2011 (see Table 3).
+
+ After hovering around $15 billion in FY2003 and FY2004, total war costs for Afghanistan grew
+to about $20 billion in FY2005 and FY2006, with troop levels hovering around 20,000 Funding
+then doubled to $39 billion in FY2007, and $44 billion in FY2008, as troop levels increased to
+over 30,000 and the intensity of conflict grew (see Table 3 and Figure 1).
+
+Since then, costs have increased sharply to $60 billion in FY2009, and $105 billion in FY2010
+assuming the pending supplemental is approved, and $119 billion in the FY2011 request. Until
+FY2010, State/USAID costs accounted for about $2 billion to $3 billion of that total, but doubled
+to $5.2 billion in FY2010 and $4.6 billion in FY2011 assuming the requests are approved. VA
+Medical costs have also been small but are now expected to double in FY2010 and double again
+in FY2011 to $1.2 billion (see Table 3).
+
+Cost increases reflect not only higher troop levels and more intense operations but also substantial
+increases in amounts to train of Afghan forces, additional procurement costs, and in FY2010 and
+FY2011 higher foreign aid levels. Costs per troop in Afghanistan are also considerably higher
+than in Iraq, which DOD attributes to more expensive transportation costs for equipment and
+supplies, more difficult terrain, and establishing new facilities.
+
+Future costs in Afghanistan remain uncertain as it is not clear at what pace U.S. troops may
+withdraw starting in June 2011 or how long U.S. involvement will persist. Some observers see a
+long lasting U.S. commitment in Afghanistan, while others expect a more limited role. (See below
+for CBO estimates based on alternate troop scenarios.)
+
+Past Trends and Future Costs in Enhanced Security
+Funding for enhanced base security and other responses to the initial attacks – referred to by
+DOD as Operation Noble Eagle – fell from the $12 billion available in the first year after the
+9/11attacks to $8 billion in 2003. These decreases reflect the end of one-time costs like Pentagon
+reconstruction ($1.3 billion), the completion of security upgrades, the scaling back of combat air
+patrol (about $1.3 billion for around-the-clock coverage), and a cut in the number of reservists
+guarding bases.24 In FY2004, the cost of enhanced security more than halved again, dropping to
+$3.7 billion.
+
+Beginning in FY2005, DOD funded this operation in its baseline budget rather than in
+supplementals and costs fell to under $1 billion in FY2006, $500 million in FY2007, and about
+$100 million per year after FY2008 (see Table 3).
+
+24
+  DOD’s new estimate for ONE is $8 billion rather than the $6.5 billion shown in an earlier DOD briefing. For more
+information, see CRS Report RL31187, Combating Terrorism: 2001 Congressional Debate on Emergency
+Supplemental Allocations, and CRS Report RL31829, Supplemental Appropriations FY2003: Iraq Conflict,
+Afghanistan, Global War on Terrorism, and Homeland Security, both by Amy Belasco and Larry Nowels.
+
+
+
+
+Congressional Research Service                                                                                       19
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Administration and CBO Projections of Future Costs
+In its FY2012 budget, the Administration includes a $50 billion “placeholder” figure for war costs
+from FY2013-FY2021.25 Like the previous Administration, the Obama Administration argues that
+the uncertainties are too great to include formal estimates for later years.
+
+DOD’s FY2012 war request assumes average troop strength of 98,250 in FY2012 in Afghanistan,
+a small decrease from FY2011, and 4,450 troops in Iraq as the withdrawal is completed. Based on
+its 2009 spring strategy review, the Administration’s plans call for the withdrawal of all U.S.
+troops from Iraq by December 2011, and DOD’s war funding declines in FY2012 for Iraq to
+$10.6 billion assuming the withdrawal proceeds as planned.
+
+Presumably, if a decision were made to withdraw troops below the level assumed in the FY2012
+budget, the Administration would submit a budget amendment proposing decreases with the
+amount depending on the pace of any withdrawal plan adopted. Similarly, if a decision were
+made to slow the pace of withdrawal from Iraq, a budget amendment adding funds would be
+submitted this year.
+
+For FY2012, the Administration’s budget request reflect the withdrawal of the 43,000 troops from
+Iraq by December 2011. Any change to that plan would require re-negotiating the security
+agreement signed with Iraq. Any plans to reduce the number of troops in Afghanistan from the
+98,250 planned for FY2012 would probably require a budget amendment.
+
+CBO Projections Based on One Alternative Scenarios
+Based on one illustrative scenario (rather than the two estimated in previously years), CBO
+updated its previous projections for the cost of all three operations for the next ten years from
+2012 – 2021 in February 2011.
+
+Over the next ten years, CBO projects that war costs for DOD, State, and VA could require an
+additional $496 billion assuming troop levels fall to 45,000 in 2015 and remain at that level. This
+estimate is between its previous estimate for a faster drawdown by 2013 and a slower drawdown
+by 2015.26
+
+If this CBO projections are added to funding already appropriated, the total cost of Iraq,
+Afghanistan, and enhanced security or other contingency operations could reach $1.8 trillion by
+FY2021.
+
+Although CBO’s projections do not split funding for Iraq and Afghanistan, if all U.S. troops are
+withdrawn from Iraq by December 2011, then presumably, most war funding in FY2012 and
+thereafter would be for Afghanistan, or other contingency operations.
+
+
+
+25
+   See Table S-10 in OMB, FY2011 Budget, Summary Tables; http://www.whitehouse.gov/omb/budget/fy2011/assets/
+tables.pdf.
+26
+   CRS calculation subtracting CBO’s FY2011 from figures shown in footnotes a and c in Table 1-5, and text on p. 14
+in CBO, The Budget and Economic Outlook: Fiscal Years 2010:2020, January 2010; http://www.cbo.gov/ftpdocs/
+108xx/doc10871/01-26-Outlook.pdf.
+
+
+
+
+Congressional Research Service                                                                                    20
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+In this CBO projection where troop levels fall to a steady state of 45,000 troops by FY2015 from
+about 180,000, annual levels would be
+
+     •   $83 billion for 100,000 troops in FY2013;
+     •   $54 billion for 65,000 troops in FY2014;
+     •   $37 billion a year for 45,000 in FY2015; and
+     •   $33 billion a year from FY2015 on. 27
+CBO’s projections have generally been considerably below DOD’s estimates for similar troop
+strength.28 The differences may stem partly from CBO’s inability to capture programmatic
+decisions like increasing funding to train and expand the size of the Afghan security forces, and
+partly from CBO’s practice of extrapolating from current costs rather than DOD’s practice of
+estimating each year separately. There is some evidence in recently reported obligations that
+DOD’s war requests may be overstated. 29
+
+These CBO projections assume that troops withdrawn return to the United States. Yet another
+option would be for some number of troops to remain deployed in neighboring countries like
+Kuwait.
+
+CBO considers these to be rough projections rather than formal estimates in part because future
+costs are difficult to estimate given the limited DOD information on the factors driving costs
+incurred to date as well as the lack of a history of war outlays or actual expenditures because war
+and baseline funds are mixed in the same accounts. In CBO’s projections, costs initially fall
+somewhat more slowly than troops levels, and eventually catch up and become proportional.
+CBO does not identify separate per troop costs for Iraq and Afghanistan.
+
+
+FY2011 Request May be High in Light of Per Troop
+Costs
+While many observers use per troop costs to predict future costs – the Administration cited $1
+million per troop per year in Afghanistan to justify its $30 billion supplemental request for
+FY2010 – different types of war costs change for different reasons. While operational costs –
+incremental military personnel costs and operating and maintenance costs – would be expected to
+change with the number of troops deployed, other programs such as the training of Afghan
+Security Forces change because of policy decisions. Procurement costs have also changed
+because of policy decisions about what was considered as a war-related expense (see discussion
+of Investment costs below).
+
+
+
+
+27
+   CBO table provided. See Table 1-7 and footnotes in CBO, Budget and Economic Outlook, Fiscal Years 2011-2021;
+http://www.cbo.gov/ftpdocs/120xx/doc12039/01-26_FY2011Outlook.pdf.
+28
+   Average strength would be 145,000 troops for DOD and 150,000 for CBO.
+29
+   DOD, FY2011 Budget Request: Overview, Feb. 1, 2010; http://comptroller.defense.gov/defbudget/fy2011/
+FY2011_Budget_Request_Overview_Book.pdf. See discussion in CRS Report R41232, FY2010 Supplemental for
+Wars, Disaster Assistance, Haiti Relief, and Other Programs, coordinated by Amy Belasco.
+
+
+
+
+Congressional Research Service                                                                                21
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+CBO and DOD Estimating Methods
+In its estimates, CBO relies on previous trends in operational costs in recent years to project the
+effect of deploying additional troops in Afghanistan and withdrawing troops from Iraq, and then
+estimates other types of expenses, e.g. force protection, separately. 30 For each request, DOD uses
+a model to estimate the costs of deploying specific types of units in each service coupled with its
+deployment schedule plans.
+
+It does not appear that DOD uses per previous annual per troop costs as a general check of the
+validity of its model. Typically, CBO’s estimates, using per troop costs for operational costs, have
+been considerably lower than DOD estimates. For example, CBO estimated that the operational
+costs of deploying the additional 30,000 troops to Afghanistan ordered by President Obama
+would cost $7 billion whereas DOD requested $19 billion.31
+
+
+FY2011 Request Compared to Historical Averages
+There is some evidence that DOD’s recent estimates of operational costs are larger than would be
+expected based on previous experience and recently-reported obligations. As Table 4 shows,
+average operational costs for both wars hovered around $500,000 per troop per year between
+FY2006 and FY2009, with costs higher in Afghanistan than in Iraq in some years but lower in
+other years including the FY2011 request. For example, between FY2005 and FY2009, average
+annual operational costs per troop were $525,000 for Afghanistan and $462,000 for Iraq, or 12%
+higher in Afghanistan.
+
+These differences reflect higher military personnel costs in Afghanistan because DOD relied more
+heavily on activated reservists in Afghanistan, whose full-time salaries count as incremental war
+costs. O&M costs per troop were higher in Afghanistan in FY2008 and FY2005, which DOD has
+argued that supplying and support troops in Afghanistan is more costly because of logistical
+difficulties. That trend is not consistent, however, because in other years, however (FY2006,
+FY2007, and FY2009), historical obligations show per troop costs to be lower in Afghanistan.
+Compared to Iraq, DOD is projecting considerably higher costs for Afghanistan in FY2010 but
+lower costs in FY2011 (see Table 4).
+
+DOD’s requests for FY2010 and FY2011 generally include sharply higher annual per troop costs
+for Afghanistan, with operational costs projected to jump from $507,000 in FY2009 to $667,000
+in FY2010 and $694,000 in Afghanistan. Military personnel costs drop with lower reliance on
+reservists as more active-duty troops are available with the drawdown in Iraq. Some would argue
+that O&M these increases reflect the effect of deploying additional troops, mounting more
+operations and expanding infrastructure.
+
+
+30
+   CBO, “Letter to Congressman John Spratt on Analysis of Scenarios for Funding Iraq and Afghanistan,” January 21,
+2010; http://www.cbo.gov/ftpdocs/109xx/doc10995/01-20-CostOfChangesinTroops.pdf; Congressional Budget Office,
+Letter to Congressman John F. Tierney, Withdrawal of U.S. Forces from Iraq: Possible Timelines and Estimated Costs,
+October 7, 2009; http://www.cbo.gov/ftpdocs/105xx/doc10523/10-07-TierneyTroopWithdrawal.pdf.
+31
+   For CBO’s estimate, see Table 1 in 31 CBO, “Letter to Congressman John Spratt on Analysis of Scenarios for
+Funding Iraq and Afghanistan,” January 21, 2010; Table 8-5 in DOD, FY2011 Budget Request: Overview, Feb. 1,
+2010; http://comptroller.defense.gov/defbudget/fy2011/FY2011_Budget_Request_Overview_Book.pdf; these estimates
+exclude depot maintenance costs for reset.
+
+
+
+
+Congressional Research Service                                                                                  22
+                                           The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+                    Although troop increases began in FY2009 under former President Bush and continued under
+                    President Obama, the cost increases are reflected first in FY2010 (see Table 4). At the same time,
+                    O&M costs in Afghanistan would be expected to fall or level off once initial infrastructure is
+                    completed, and as more troops occupy bases, as appears to have happened in Iraq between
+                    FY2007 and FY2009. That does not appear to be DOD’s assumption for Afghanistan in its
+                    FY2011 request where O&M costs continue to rise.
+
+                    For Iraq, per troop operational costs are also projected to rise from $433,000 in FY2009 to
+                    $469,000 per troop in FY2010 and $802,000 in FY2011, which some observers would suggest
+                    reflect that troops may be withdrawn faster than infrastructure is dismantled., this sharp an
+                    increase in costs in FY2011 compared to either the previous five-year average or FY2010 may be
+                    an overly conservative assumption.
+
+                     Table 4. Army, Navy, US Marine Corps, and Air Force Annual Operational Costs Per
+                                              Troop in Afghanistan and Iraq
+                                                 FY2005-FY2011 Request
+                                                      in thousands of dollars per troop per year
+                                                                                                                  FY2010
+                                                                                                                 Amended      FY2011      FY05-
+                                                                                                                 Request in   Request,    FY09
+            Operation                      FY05          FY06          FY07           FY08           FY09        BA, 2-1-10    2-1-10    Average
+
+                                                                    AFGHANISTAN
+Average Strengtha                          18,129        20,424         23,154        30,103         42,117       84,000      102,000     26,785
+Military Personnel                            189           115            149           166            172           97          92        158
+Operation and Maintenance                     293           328            417           462            335          569         603        367
+Afghanistan Operational Costsb               483            442           566            628           507           667         694        525
+                                                                           IRAQa
+Average Strengtha                         142,574       117,640        145,066       156,534        141,155      100,000       43,000    140,594
+Military Personnel                             81           121             93             87            78           87         135         92
+Operation and Maintenance                     272           389            417           418            354          382         668        370
+Iraq Operational Costsb                      352            509           510            505           433           469         802        462
+                                      COMPARING AFGHANISTAN AND IRAQ OPERATIONAL COSTS
+Afghanistan less. Iraq Operational            130            -67            56           123             74          198         -108        63
+Costs
+% Difference                                   27%           -15%           10%           20%            15%          30%         -16%       12%
+                                          AVERAGE OPERATIONAL COSTS FOR BOTH WAR WARS
+Average Strength for Both Warsa           160,703       138,064        168,219       186,636        183,272      184,000      145,000    167,379
+Average Operational Cost for                 367            499           518            525           450           559         726        472
+Both Warsb
+
+                        Sources: DOD’s monthly Boots on the Ground reports for troop levels and DOD’s September 30, Cost of
+                        War Reports for each fiscal year.
+                        Notes: CRS calculations based on sources above. May not add to totals due to rounding.
+                        a.   Reflects average for each fiscal year of monthly troop levels reported by DOD.
+
+
+
+                    Congressional Research Service                                                                               23
+                          The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+       b.   Operational costs include appropriations for military personnel and Operation and Maintenance excluding
+            training of Afghan and Iraq security forces.
+
+Another sign that DOD’s FY2011 request may be high is that obligations reported by DOD three-
+quarters through FY2010, have not substantiated the increases projected for FY2010. For
+example, DOD’s obligations for military personnel and Operation and Maintenance for FY2010
+totaled $70.3 billion as of June 30, 2010, the most recent Cost of War report available. To use all
+of the funds appropriated for war, DOD would need to spend the $35 billion in military personnel
+and O&M funds, half as much as already spent for the first three-quarters of the fiscal year in the
+next three months. At the end of the year, monies not spent would lapse and revert to the
+Treasury.
+
+Through June, 2010, monthly obligations for military personnel and O&M averaged $7.8 billion
+gradually rising each month since last October with deployments of additional troops to
+Afghanistan while declines in Iraq were quite gradual. For the month of June, 2010, these
+obligations are running $8.8 billion, somewhat higher than the average for the fiscal year thus far,
+reflecting that 94,000 of the 98,00 troops to be deployed in Afghanistan have arrived. At the
+same, time, as of June, 2010, troop levels in Iraq there were still 92,000 troops but by August
+2010, troop levels had fallen to the goal of 50,000.32
+
+To spend its current appropriations, DOD’s monthly obligations would need to rise by about 50%
+from the June level of $8.8 billion to about $13.0 billon for the last three months of the fiscal
+year. Although monthly operational costs in Afghanistan did increase from $2.8 billion in
+December 2009 to $4.2 billion in June 2010, most of the additional troops were already deployed.
+Although some additional growth could be expected with higher operational tempo, and
+expansion in accommodations and services, this would be expected to be offset partially by
+decreases in Iraq as troop levels drop rapidly from about 92,000 in June to under 50,000 by the
+end of this August.33 Earlier in the year, costs in Iraq rose from $3.8 billion in December 2009 to
+$4.2 billion in June 2010 despite troop level declines.
+
+Typically, DOD’s operational war costs rise towards the end of the fiscal year, partly because
+some support contracts are renewed late in the year, partly because the enactment of
+supplementals reduces funding uncertainty, and partly because of the pressure to spend one-year
+monies before they expire. At the same time, when DOD spends heavily at the end of a fiscal
+year, less is needed in the early months of the new fiscal year.
+
+In the case of FY2011, and if costs in Iraq begin to fall in consonance with troop levels, that could
+mean that DOD has requested more funding for its operational costs than may be needed. If
+DOD’s future spending were to follow either average per troop costs for the past three or the past
+five years between FY2005-FY2009, Congress could reduce DOD’s war request for $116 billion
+for military personnel and O&M in FY2011 by substantial amounts. Even if Congress assumed
+the relatively high annual per troop levels projected for FY2010, reductions in operational costs
+could be made.
+
+
+
+
+32
+     Wall Street Journal, “Obama Marks End of Iraq War to Focus on Economy,” September 1, 2010.
+33
+     DOD, Cost of War Reports, December 2009 and June 2010.
+
+
+
+
+Congressional Research Service                                                                                    24
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Trends in DOD’s Average Monthly Spending
+DOD’s average monthly obligations are frequently used as a way to measure the rate of ongoing
+war spending. Obligations reflect the amount of budget authority (BA) for military and civilian
+pay and for contracts signed by the government or orders placed within DOD for parts, repairs,
+and purchase of weapons systems and supplies.
+
+Although obligations go up and down from month-to-month, average obligations for a fiscal year
+are a good indicator of ongoing operational costs (Military Personnel and Operation an d
+Maintenance) because these funds must be obligated – put on contract – within the first year. For
+investment costs, however, average monthly obligations lag appropriated budget authority since
+only some funds are obligated in the first year because of the time for the planning and
+negotiation of contracts. 34
+
+Obligations figures do not reflect outlays – or payments made when goods and services are
+delivered – which would be a better measure of spending rates and actual costs. Starting in
+FY2009, DOD now tracks outlays, reversing its previous stance that these could not be captured
+because war-related appropriations are co-mingled with regular or baseline funds. Outlays are
+useful in giving a better sense of actual spending rates.
+
+DOD’s average monthly obligations for both wars grew from $6.2 billion in FY2004 – after
+initial combat operations in Iraq – to a peak of $14.2 billion in FY2008, during the surge in Iraq,
+more than doubling in four years. Since FY2003, obligations for enhanced security (Operation
+Noble Eagle) have fallen substantially from $520 million per month to about $20 million in
+FY2010 as one-time costs ended and costs have been incorporated in day-to-day base operations
+
+As of the end of June 2010, DOD reported that the cumulative total of war-related obligations
+were $885.4 billion including:
+
+     •   $641.5 billion for Iraq (72% of total);
+     •   $217.1 billion for Afghanistan, almost all of Operation Enduring Freedom (25%);
+         and
+     •   $26.9 billion for enhanced security (Operation Noble Eagle) (3%) (see Table
+         5).35
+
+
+
+
+34
+   Military personnel and O&M monies are available for obligations for one year, RDT&E monies for two years and
+procurement and war-related military construction monies for three years rather than the five years for peacetime
+military construction (see military construction accounts in P.L. 111-117).
+35
+   DOD, “Cost of War Slides As of April 30, 2010,” June 2010.
+
+
+
+
+Congressional Research Service                                                                                      25
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+              Table 5. DOD’s Obligations by Operation: FY2001- FY2010 to Date
+                                              (in billions of dollars)
+                                                                                                        DOD
+                                                                                                      Reported
+                                                                                                     Cumulative
+                                                                                        Average      Obligations
+ Type of                                                                               thru June     FY01- June
+Spending        FY03     FY04       FY05      FY06      FY07       FY08      FY09        FY10         30, 2010a
+
+                                                       IRAQ
+Operationsb       4.2       4.3        4.7       5.9       7.1        7.6       6.1       4.3             NA
+Investmentc       0.2       0.6        1.6       1.3       3.2        3.5       1.8       1.1             NA
+Total             4.4       4.8        6.2       7.2      10.2      11.1        7.9       5.4          641.5
+                                                AFGHANISTANd
+Operationsb       1.1       0.9        0.9       1.2       2.0        2.8       3.7       4.6             NA
+Investmentc       0.2       0.1        0.1       0.2       0.1        0.3       0.7       1.1             NA
+Total             1.3       1.0        1.0       1.4       2.0        3.1       4.4       5.7          217.1
+                                             ENHANCED SECURITYe
+Operationsb       0.5       0.3        0.2       0.1       0          0         0         0               NA
+Investmentc       0         0          0         0         0          0         0         0               NA
+Total             0.5       0.3        0.2       0.1       0          0         0         0              26.9
+                                                 ALL MISSIONS
+Operationsb       5.8       5.5        5.8       7.2       9.1      10.4        9.8       8.9             NA
+Investmentc       0.4       0.7        1.7       1.5       3.2        3.8       2.5       2.2             NA
+Total             6.2       6.2        7.4       8.7      12.3      14.2       12.3      11.2          885.4
+
+    Sources: DOD, “Cost of War Reports,” September 30 of each fiscal year, FY2003-FY2009 and April 2010 and
+    CRS adjustments based on other DOD and congressional sources.
+    Notes: NA = Not available. Numbers may not add to totals due to rounding. DOD reported obligations do not
+    include adjustments to monthly averaged calculated by CRS which include national intelligence, modularity
+    expenses, and some congressional additions that DOD does not consider war-related and excludes from its
+    reporting (see Appendix C).
+    a.   DOD reporting does not include $47 billion in national intelligence and some congressional additions that
+         DOD does not consider to be war-related.
+    b.   Includes funds appropriated for military personnel, operation and maintenance, working capital, defense
+         health, Afghanistan Security Forces Fund, Iraq Security Forces Fund, and Pakistan Counterinsurgency Fund.
+    c.   Includes funds appropriated for procurement, RDT&E, and military construction.
+    d.   Operation Enduring Freedom funds Afghanistan and other global war on terror (GWOT) activities.
+    e.   Enhanced security includes additional security at defense bases, combat air patrol
+
+DOD-reported obligations do not include some expenses that CRS considers to be war-related
+such as $52 billion for war-related national intelligence, $10 billion for conversion to modular
+
+
+
+
+Congressional Research Service                                                                                       26
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+units by the Army justified as a war expense, and other congressional changes (see Appendix
+C).36
+
+To capture longer-term trends, average obligations for an entire fiscal year may be more useful
+than individual months, which may go up and down depending on when contracts tend to be let,
+as well as changes in troop levels. For example, war obligations to date in FY2010 (covering
+from October 2009 through June 2010) average $11.1 billion a month, or about 10% below the
+$12.3 billion monthly average in FY2009, reflecting, in part, the fact that obligations generally
+tend to be lower in the first half of the fiscal year.
+
+At the same time, DOD’s average obligations for the first nine months of the fiscal year are about
+the same for Iraq and Afghanistan as troops gradually leave Iraq and others deploy to
+Afghanistan—$5.4 billion for Iraq and $5.7 billion for Afghanistan (Table 5).
+
+Looking at changes in obligations over the past year from June 2009 to June 2010 also shows the
+effect of changing troop levels. For Iraq, June monthly obligations fell by 25% from $7.2.billion
+to $5.4 billion as troop levels dropped by 32%. In Afghanistan, June monthly obligations rose by
+63% from $3.5 billion to $5.7 billion while troop levels grew by 70%.37
+
+
+Iraq Costs Change with Procurement and Troops Levels
+In Iraq, average monthly obligations rose from $4.4 billion in FY2003 to $7.2 billion in FY2006
+while average troop strength grew from 68,000 to 141,000. Then in FY2007, these obligations
+grew sharply to $10.2 billion in FY2007 while troop strength rose modestly to 148,000. Iraq
+obligations peaked at $11.1 billion in FY2008 reflecting the Iraq surge.
+
+Much of this increase in Iraq obligations reflects a five-fold increase in investment obligations
+from $560 million in FY2004 to $3.2 billion in FY20007, as the services began to spend
+substantial amounts on reset – the procurement of new weapons systems and equipment not
+simply to replace war losses (a small share of the total) but more often to upgrade and replace
+“stressed” equipment, and enhanced force protection.
+
+Some observers have questioned whether all of DOD’s war-related procurement reflects the
+stresses of war. For example, a CBO study found that more than 40% of the Army’s spending for
+reset—the repair and replacement of war-worn equipment—was not for replacing lost equipment
+or repairing equipment sent home. Instead, Army funds were spent to upgrade systems to increase
+capability, to buy equipment to eliminate longstanding shortfalls in inventory, to convert new
+units to a modular configuration, and to replace equipment stored overseas for contingencies.38
+
+
+
+
+36
+   For expenses excluded in war cost obligations reports, see DOD, “Cost of War Slides As of April 30, 2010,” June
+2010. Examples where CRS counts items as war costs and DOD does not include congressional adds for C-17 aircraft,
+force-protection and other items.
+37
+   CRS calculations based on DOD, Cost of War Reports, June 2010 and June 2009 and DOD’s Monthly Boots on the
+Ground Reports for June 2009 and reported figures of June 2010.
+38
+   CBO, Replacing and Repairing Equipment Used In Iraq and Afghanistan: The Army’s Reset Program by Frances M.
+Lussier, September 2007, p. ix, pp. 35-37; available at http://www.cbo.gov/showdoc.cfm?index=8629&sequcence=0&
+from=7.
+
+
+
+
+Congressional Research Service                                                                                  27
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Since FY2008, obligations have fallen to $7.9 billion for Iraq in FY2009 with average strength of
+136,000.39 Both obligations and strength are continuing to fall in FY2010 to $5.4 billion with
+average strength of 109,000 for the first seven months of FY2010 (see Figure 1 and Table 5).40
+
+This year’s obligations reflects the decline in troop levels from 120,300 in October 2009 at the
+beginning of FY2010 to 94,250 as of May 1, 2010 and about 92,000 in June 2010 (see Appendix
+A).41 For example, DOD’s obligations for Afghanistan were $5.5 billion in the month of June
+2010 compared to an average of $7.9 billion for all of FY2009 (Table 5).42 Obligations for Iraq
+are likely to continue to decline as troop levels fall to 50,000 by September 2010.
+
+In addition, the new Administration changed the criteria for war-related procurement in February
+2009, restoring the earlier definition which limited procurement to war losses for items not
+already scheduled for replacement, limited upgrades to those directly supporting war operations,
+and required that procurements be obligated within 12 months (see Appendix D).43
+
+Since that time, monthly investment obligations for Iraq have fallen from a peak of $3.5 billion in
+FY2009 to $1.1 billion in June, three-quarters of the way through FY2010, presumably reflecting
+both the new stricter criteria and the decrease in troop levels and pace of combat operations as
+U.S. soldiers transition to advisory roles. It is not clear, however, that DOD’s requests are
+consistent with the requirement that procurement monies are to be obligated within 12 months
+since about 50% or $9.5 billion of $19.2 billion already appropriated for procurement in FY2010
+was not obligated as of April 30, 2010 almost 12 months after funding was provided. 44
+
+
+Afghanistan Costs Rise with Troop Levels and Training Efforts
+Average monthly obligations for Afghanistan hovered around $1 billion from FY2003 through
+FY2005 with average troop strength growing from10,400 to 19,100. Obligations doubled from
+$1.5 billion in FY2006 to $3.1 billion in FY2008 as average troop strength grew from about
+20,000 to 30,000. Between FY2008 and FY2009, average monthly obligations increased
+threefold from $1.3 billion to $4.4 billion while average strength more than doubled from about
+20,000 in FY2008 to 51,000 in FY2009.45
+
+This change reflects the growth in troop levels in Afghanistan from 65,800 in October 2009 to
+89,700 by May 1, 2010 (see Appendix A). Costs reflect these changes with Afghanistan
+obligations in June 2010 at $7.2 billion compared to an average of $4.4 billion for all of FY2009.
+By September 2010, troop strength in Afghanistan is expected to reach 98,000 and monthly
+
+39
+   See Table 1 in CRS Report R40682, Troop Levels in the Afghan and Iraq Wars, FY2001-FY2012: Cost and Other
+Potential Issues, by Amy Belasco.
+40
+   Ibid. CRS calculation of average for FY2010 based on DOD’s monthly Boots on the Ground reports.
+41
+   Department of Defense, “Boots on the Ground” reports, October 1, 2009 and May 1, 2010.
+42
+   See Table 1 in CRS Report R40682, Troop Levels in the Afghan and Iraq Wars, FY2001-FY2012: Cost and Other
+Potential Issues, by Amy Belasco.
+43
+   OMB, “ Criteria for War/Overseas Contingency Operations Funding Requests,” February 26, 2009.
+44
+   CRS calculation based on DOD, “Cost of War Report,” April 30, 2010; Congress provided procurement monies for
+FY2009 in both 2008 and 2009 in the FY2008 Supplemental (P.L. 110-252) enacted June 30, 2008, and in the FY2009
+Supplemental (P.L. 111-32) enacted June 24, 2009.
+45
+   See Table 1 in CRS Report R40682, Troop Levels in the Afghan and Iraq Wars, FY2001-FY2012: Cost and Other
+Potential Issues, by Amy Belasco.
+
+
+
+
+Congressional Research Service                                                                               28
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+obligations are likely to rise further. Spending rates in Afghanistan are also growing as operations
+intensify, and more is spent to upgrade Afghan Security forces.46
+
+
+Funds to Train and Equip Afghan and Iraqi Security Forces
+As of passage of the FY2010 bridge war act in September 2009 (P.L. 111-118), appropriated
+funding to train and equip these forces totals $49.1 billion including $25.9 billion for Afghanistan
+and $23.2 billion for Iraq (see Table 6). An additional $17.6 billion – primarily for Afghanistan –
+is requested in the FY2010 Supplemental (H.R. 4899) and the FY2011 request.
+
+U.S. commanders have argued for some time that the pace of withdrawal of U.S. forces from Iraq
+and the length of the U.S. commitment in Afghanistan depend on both conditions on the ground –
+the number and types of attacks by various insurgent groups – and the size, readiness and
+capabilities of Afghan and Iraqi security Forces.
+
+With the ongoing withdrawal of U.S. forces and declines in violence in Iraq, congressional
+concerns now focus on the problems and likely duration of training of the Afghan security forces.
+Some believe that it will be several years before the Afghan security forces can effectively take
+responsibility for their own security. Neither DOD nor the Administration have identified
+timelines for this transition.
+
+Trends in Funding of Afghan Security Forces
+Despite a wide range of congressional concerns about these training programs, particularly in
+Afghanistan, including problems with the performance of contractors, coordination between
+DOD, State Department and NATO coalition efforts, shortages in trainers, problems with
+corruption, absenteeism, and illiteracy, and most recently, a report by the Special Inspector
+General for Afghanistan Reconstruction questioning the reliability of DOD measures of Afghan
+force readiness, Congress has generally provided DOD with full funding, presumably because of
+the high stakes involved. 47 Congress did, however, Congress cut the ASFF request from $3.7
+billion to $2.0 billion in the FY2009 bridge.
+
+Since FY2005, annual funding to train Afghan forces has grown rapidly from $1.3 billion to $7.4
+billion in FY2007, then fallen to $2.8 billion in FY2008. In 2008, DOD announced plans to
+double the size of the Afghan security forces in the next four years at a cost of about $20 billion.
+Funding to train Afghan security forces doubled over the previous year to $5.6 billion in FY2009
+reflecting both these plans and the new focus on Afghanistan in the Obama administration. With
+
+
+46
+   See CRS Report R40682, Troop Levels in the Afghan and Iraq Wars, FY2001-FY2012: Cost and Other Potential
+Issues, by Amy Belasco and Senate Armed Services Committee, Transcript, “Hearing on Nominations of Admiral
+Mullen for Reappointment to the Grade of Admiral and Reappointment as chairman of the Joint Chiefs of Staff”
+September 15, 2009, p. 6. See also the White House, “Remarks by the President in Address to the Nation on the Way
+Forward in Afghanistan and Pakistan,” Delivered at West Point, December 1, 2009; http://www.whitehouse.gov/the-
+press-office/remarks-president-address-nation-way-forward-afghanistan-and-pakistan.
+47
+   CRS Report R41232, FY2010 Supplemental for Wars, Disaster Assistance, Haiti Relief, and Other Programs,
+coordinated by Amy Belasco and Special Inspector General for Afghanistan Reconstruction, “Actions Needed to
+Improve the Reliability of Afghan Security Force Assessments,” June 29, 2010; http://www.sigar.mil/pdf/audits/
+SIGAR%20Audit-10-11.pdf.
+
+
+
+
+Congressional Research Service                                                                                      29
+                                          The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+           approval of the FY2010 Supplemental, funding in FY2010 rises steeply to $9.2 billion. An
+           additional $11.6 billion is requested for FY2011 (see Table 6). 48
+
+                      Table 6. Afghan and Iraq Security Forces Funding: FY2004-FY2011 Request
+                                                               (in billions of dollars)
+                                                                                                                                        Total
+                                                                                                                        FY2011         Enacted
+Account         FY04          FY05             FY06         FY07            FY08           FY09           FY10          Request        to Date
+
+Afghan          [.3]a               1.3             1.9           7.4             2.8            5.6            9.2           11.6         28.5
+Security
+Forces
+Fundb
+Iraq            [5.0]a              5.7             3.0           5.5             3.0            1.0            1.0            2.0         24.2
+Security
+Forces
+Fundb
+Total           [5.3]               7.0             4.9          12.9             5.8            6.6            6.6           13.6         52.7
+
+                 Sources: Congressional appropriation reports and laws for each fiscal year. Updated to reflect enactment of
+                 FY2010 Supplemental (H.R. 4899/P.L.111-212) on July 29, 2010.
+                 a.      Includes all appropriations through FY2008 Supplemental/FY2009 bridge (H.R. 2642/P.L. 110-252), including
+                         funds provided to the President in FY2004 shown in square brackets.
+                 b.      Figures in [ ] brackets are funds to train Afghan and Iraqi security forces that were appropriated to the
+                         President and transferred to the Coalition Provisional Authority, and implemented by the Army. Iraq total
+                         includes enacted funds from all U.S. sources. Afghanistan total does not include about $1 billion to $2 billion
+                         that Afghan security forces received in FY2004 and FY2005 through State Department or foreign military
+                         sales financing according to GAO-05-575, Afghanistan Security: Efforts to Establish Army and Police Have Made
+                         Progress, but Future Plans Need to Be Better Defined, June 2005, p. 9. Figures reflect CRS calculations from
+                         public laws and conference reports.
+
+           In its FY2011 budget request, DOD announced a further expansion of the Afghan National
+           Security forces from 190,820 in November 2009 to 305,600 by October 2011.49 Despite efforts by
+           Secretary Gates to get additional support in training personnel from NATO partners over the past
+           several years, success has been limited and there continue to be shortages in trainers.50
+
+           Trends in Funding of Iraq Security Forces
+           Funding to train Iraqi forces fluctuated between $3.0 billion and $5.5 billion from FY2004 to
+           FY2008. In 2008, Congress became reluctant to rebuild Iraqi security forces as Iraqi government
+           revenues rose rapidly with the swell in oil prices.
+
+           In response to congressional concerns raised in a September 2008 House Budget Committee
+           hearing on a GAO report suggesting that there would be an Iraqi budget surplus of from $67
+
+           48
+              Total includes $5 billion appropriated to the State Department for Iraq training in FY2004. Afghanistan has also
+           received funding for its training from State Department accounts.
+           49
+              See Figure 6-3 in DOD, FY2011 Budget Request: Overview, Feb. 1, 2010; http://comptroller.defense.gov/defbudget/
+           fy2011/FY2011_Budget_Request_Overview_Book.pdf.
+           50
+              “U.S. Urges Allis to Fund Afghan Army Growth,” September 19, 2008.
+
+
+
+
+           Congressional Research Service                                                                                            30
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+billion to $79 billion in 2008 due to oil prices, members called for “burdensharing” by Iraq in the
+rebuilding of its security forces.
+
+This push to require Iraq to share the burden of rebuilding its security forces a;sp resulted in
+restrictions prohibiting U.S. funding of security forces as well as other “infrastructure” projects in
+Iraq, including those to rebuild security forces in the FY2008 Supplemental (P.L. 110-252), as
+well as various requirements to report the readiness and transfer of responsibility to Iraqi units,
+and the overall cost to train both Iraqi and Afghan security forces.51 DOD has not provided
+estimates of these total costs for either Iraq or Afghanistan.52
+
+In FY2008, U.S. funding dropped from $3 billion in FY2008 to $1 billion in FY2009 as Congress
+halved the ISFF request. In its initial FY2010 request, DOD did not ask for any funds but then
+modified that to request $1 billion in the FY2010 supplemental for expenses that DOD believed
+were necessary but the Iraqi government would not cover, an amount Congress approved (see
+Table 6).53
+
+
+Explaining Changes in DOD’s War Costs over Time
+Changes in war costs would be expected to vary with troop levels, war-related benefits, the
+intensity of operations, and levels of basing support services. The extent of competition in
+contracts and the price of oil would also be expected to affect the prices of goods and services
+purchased by DOD.
+
+A list of the primary war cost drivers would be expected to include:
+
+     •   the number of troops deployed or anticipated to deploy, including the number of
+         activated reservists;
+     •   changes in the pace of operations (optempo);
+     •   changes in the amount of equipment and number of personnel to be transported
+         to the theater of operations;
+     •   whether support is designed to be temporary or longer-term;
+     •   force protection needs;
+     •   how quickly equipment breaks down and how quickly it is to be replaced or
+         upgraded; and
+     •   military basing plans that underlie construction requests.
+Troop levels would be expected to be the basic factor that drives the cost of carrying out military
+activities including the number and intensity of operations conducted, providing support to troops
+
+51
+   See Explanatory Statement for H.R. 2642 in Congressional Record, May 19, 2008, p. S4337; and Sec. 1508 in S.
+3001, the FY2009 National Defense Authorization Act. Sec. 9205, P.L. 110-252.
+52
+   See Section 1321, P.L. 110-181 Report, ”United States Plan for Sustaining the Afghanistan National Security
+Forces,” April 2010.
+53
+   GAO-08-1144T,Statement of Joseph A. Christoff before the House Budget Committee, “Stabilizing and Rebuilding
+Iraq: Iraqi Revenues, Expenditures, and Surplus,” p. 3, September 16, 2008.
+
+
+
+
+Congressional Research Service                                                                                31
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+ranging from meals and housing to force protection items like uparmored trucks and body armor,
+and ultimately to the amount of repair and replacement needed for war-worn equipment. Troop
+levels, however, have risen far less than costs.
+
+
+Military Personnel Cost Is Not main Factor in Increases
+Changes in the number of military personnel participating in the two wars has not been the
+primary factor in the growth in war costs. In fact, little of the overall $107 billion or 150%
+increase in DOD costs between FY2004 and FY2008, the peak funding year during the Iraq
+surge, is attributable to changes in the average strength of military personnel either deployed or
+mobilized for the Afghan and Iraq wars. (In addition to those deployed, some 50,000 to 80,000
+reservists were mobilized and stationed in the United States to “backfill” the positions of active-
+duty personnel who were deployed.)54
+
+Between FY2004 and FY2008, the cost of military personnel changed little, changing by less than
+$1 billion (see Table 7). During the same period, average military strength for the two wars grew
+by 8% including all those either deployed or mobilized and stationed in the United States;
+military personnel costs crew by about 2% or $300 million, explaining little of the overall
+increase of $107 billion between those two years (see Table 7). 55
+
+Military personnel costs include not only the number of personnel receiving special war-related
+pay and benefits (e.g., hostile fire or imminent danger pay, separation pay, survivors benefits), but
+also the additional cost of activating reservists. In addition, DOD requested and received funding
+to cover the cost of “over strength” or additional active-duty personnel who have been recruited
+and retained to meet wartime needs above DOD’s pre-war strengths—482,000 for the Army and
+172,000 for the Marine Corps, originally intended as a temporary increase but than made
+permanent by the Defense Department.
+
+The fact that the cost of military personnel grew less than the increase in strength may reflect that
+DOD reduced its reliance on reservists, who cost more than active-duty personnel during wartime
+because of the additional cost of paying full-time rather than part-time salaries. In FY2008,
+reservists accounted for about a third (32%) of war-related average strength compared to close to
+half (48%) in FY2004.56
+
+
+Operation and Maintenance Costs Grow Faster Than Troop Levels
+Operation & Maintenance (O&M) funding nearly doubled between FY2004 and FY2008, from
+$42.0 billion to $79.1 billion, an increase of $37.1 billion (see Table 7). War-related O&M costs
+would be expected to reflect not only the number of military personnel deployed to Iraq and
+Afghanistan but also the intensity of operations, the costs of transporting military equipment to
+54
+   CRS calculation from Defense Manpower Data Center (DMDC), DRS 21198, “Average Number of Members By
+Month, 0109-1004,” April 30, 2010, which shows the average number of reservists activated but not deployed, i.e.
+serving in the United States as 80,271 in FY2004 and 47,442 in FY2004.
+55
+   These percentages reflect growth from average strength of 309, 997 in FY2004 to 335,456 in FY2008, figures higher
+than “Boots on the Ground” because personnel in surrounding areas supporting those operations (e.g., Kuwait) are
+included as well as those in Afghanistan and Iraq. CRS calculations from Defense Manpower Data Center (DMDC),
+DRS 21198, “Average Number of Members By Month, 0109-1004,” April 30, 2010.
+56
+   CRS calculation based on DRS Report R21198 cited above, April 30, 2010.
+
+
+
+
+Congressional Research Service                                                                                    32
+                            The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+theater, and the types of base support provided. The number of deployed personnel (excluding
+reservists stationed in the United States) increased by 25% between FY2004 and FY2008.57
+O&M costs grew over three-times as much as the number of deployed personnel.
+
+If O&M costs had grown proportionately with changes in the number of deployed troops, the
+amount in FY2008 would have been $52.5 billion rather than $79.1 billion, suggesting that about
+$26.6 billion of the increase reflected other factors.
+
+
+
+           Table 7. DOD’s War Budget Authority by Title: FY2004-FY2011 Request
+                                                (in billions of dollars)
+                                                         Enacted
+
+                                                                                                   FY2011
+            Title             FY04      FY05    FY06     FY07      FY08     FY09     FY2010        Request
+
+     Military Personnel        17.8      19.7    16.7      18.8      18.1    18.7       16.8         15.3
+     Operation &
+                               42.0      47.9    60.0      75.0      79.1    82.2       99.2        101.6
+     Maintenance
+     Defense Health             0.7       1.0     1.2       3.0       1.6     1.8        1.3          1.4
+     Other Defense
+                                0.1       0.2     0.2       0.4       0.3     0.3        0.4          0.5
+     Programsa
+     Procurementb               7.2      18.0    22.9      45.4      61.5    32.0       28.0         21.4
+     Research, Dev.,
+                                0.4       0.6     0.8       1.5       1.5     1.3        0.5          0.6
+     Testing & Evaluation
+     Working Capital
+                                1.6       3.0     3.0       1.1       1.6     0.9        0.4          0.5
+     Fundc
+     Military
+                                0.5       1.2     0.2       1.7       1.6     0.9        2.0          1.3
+     Construction
+     Subtotal: Regular         70.3     91.7    105.1    146.9     165.4    138.0     148.7        142.5
+     Titles
+     Special Funds and Caps
+     Iraq Freedom Fundd         2.0       3.8     3.3       0.4       3.8     0          0            0
+     Afghan Security
+     Forces Training
+     Funde                      0         1.3     1.9       7.4       2.8     5.6        9.2         11.6
+     Iraq Security Forces
+     Training Funde             [5.0]     5.7     3.0       5.5       3.0     1.0        1.0          2.0
+     Joint Improvised
+     Explosive Device
+     (IED) Defeat Fundf         0.0       0.0     3.3       4.4       4.3     3.1        1.8          3.3
+
+57
+  CRS calculation from Defense Manpower Data Center (DMDC), DRS 21198, “Average Number of Members By
+Month, 0109-1004,” April 30, 2010, which shows the average strength of deployed personnel growing from 229,726 in
+FY2004 to 288,013 in FY2008, including all personnel deployed for OEF and OIF rather than only those in
+Afghanistan or Iraq.
+
+
+
+
+Congressional Research Service                                                                                 33
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+                                                         Enacted
+
+                                                                                                        FY2011
+         Title            FY04       FY05      FY06     FY07       FY08      FY09        FY2010         Request
+
+  Strategic Reserve
+  Readiness Fundf            0.0        0.0       0.0       1.6       0         0             0             0
+  Coalition Support
+  Capg                      [1.2]     [1.2]     [1.3]     [1.4]     [1.1]      [1.5]         [1.6]         [2.0]
+  Cmdrs’ Emerg.
+  Response Cap
+  (CERP)g                    [.2]       [.8]     [.9]     [1.0]     [1.2]      [1.5]         [1.2]         [1.3]
+  Pakistan
+  Counterinsurgency
+  Fund                       0          0         0         0          .4       0             0             0
+  Special Transfer
+  Authority Caph            [3.0]     [3.0]     [4.5]     [3.5]     [6.5]      [4.0]         [4.0]         [3.5]
+  Subtotal: Special
+  Funds                      2.0      10.7      11.5      19.3      13.8      10.1          11.9          16.9
+  Dept. of Defense
+  Total                    72.3      102.4     116.7     166.2     179.2     148.2         160.7         159.3
+
+    Sources: CRS calculations based on congressional appropriation reports for each bill with DOD funding (see
+    Appendix B). Updated for FY2010 Supplemental, H.R. 4899/P.L. 111-212, enacted July 29, 2010.
+    Notes: Numbers may not add tot total due to rounding. This table separates funds with special purposes such
+    as the Afghan Security Forces Fund from the regular titles to better identify trends. Includes transfers to war
+    funding from baseline accounts to meet unanticipated needs.
+    a.   “Other Defense Programs” includes counter-drug and Office of Inspector General funds.
+    b.   Procurement includes funding provided in the Mine Resistant Ambush Protected (MRAP) vehicles.
+    c.   Working capital funds finance additional inventory for support items such as spare parts.
+    d.   IFF includes funds for national intelligence programs, as well as funds transferred for war operations
+         captured in the accounts where they were spent..
+    e.   Training Iraqi security forces was initially funded in the State Department [ shown in brackets ] but is now
+         funded in DOD. The Afghan Army also received some State Department funds.
+    f.   The Joint IED Defeat Fund finances responses to IED attacks through transfers to procurement, RDT&E,
+         and operation and maintenance programs; the FY2006 total includes $1.4 billion transferred from the Iraqi
+         Freedom Fund.
+    g.   Congress sets caps within O&M accounts for coalition support –reimbursements to allies conducting
+         operations or logistical support for OIF and OEF, and lift, support, training and equipping of allies
+         conducting other counter-terror operations, and for CERP, a program which permits military commanders
+         to fund small-scale reconstruction projects in Iraq and Afghanistan.
+    h.   Congress sets the amount of transfer authority in each bill. The table includes amounts provided for both
+         bridge and supplemental funds. Includes $10.4 billion for Iraqi Freedom Fund in FY2003 (deducting specified
+         floors) plus $2 billion in transfer authority.
+
+Several factors that may have contributed to this additional increase in O&M funding include:
+
+    •    Substantial unanticipated growth in requirements for force protection gear and
+         equipment ranging from night vision goggles to uparmored HMMWVs;
+
+
+
+
+Congressional Research Service                                                                                        34
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+     •   extensive increases in command, communications, control, computers and
+         intelligence support;
+     •   DOD policy decisions to carry as war costs the Army’s conversion to a modular
+         structure, a modernization change, including some O&M as well as equipment
+         costs;
+     •   O&M costs associated with increases in the size of the Army and Marine Corps
+         originally planned to be temporary and carried as a war cost, later adopted as
+         permanent;
+     •   the building of extensive and in some cases, elaborate, infrastructure to support
+         troops and equipment in-country, and in neighboring areas; and
+     •   poor wartime contracting practices increasing waste, fraud, and abuse and hence
+         the cost of providing services to deployed personnel as reported by the
+         Commission on Wartime Contracting. 58
+
+Dramatic Growth in Investment Costs Now Moderated
+Since FY2004, the rise in procurement costs has been dramatic – a seven-fold increase from $7.2
+billion in FY2004 to $61.5 billion in FY2008, the peak year, accounting for $54.3 billion or close
+to half of the total increase in war costs in that period. The peak year reflects a congressional
+decision to spend $16.8 billion to buy what was then anticipated to be the full requirement for
+Mine Resistant Ambush Protected (MRAP) vehicles, a heavy truck with a V-shaped hull found to
+increase soldier survivability against roadside bombs or Improvised Explosive Devices (IEDs)
+(see Table 7).
+
+As a share of DOD war appropriations, procurement grew from about 10% in FY2004 to about
+20% in FY2006 and 34% FY2008. Since FY2003, DOD has received about $214.5 billion in war-
+related procurement funds—equal to about 2 and ½ times DOD’s average peacetime procurement
+budgets in those years. Other investment costs – Research, Development, Test & Evaluation
+(RDT&E) and Military Construction have also grown rapidly though they generally account for
+about $2 billion in war funding (see Table 7).59
+
+58
+   See CRS, Statement of Amy Belasco before the House Budget Committee, Hearing on “The Rising Cost of the Iraq
+War,” October 24, 2007; http://budget.house.gov/hearings/2007/10.24Belasco_testimony.pdf; Commission on Wartime
+Contracting in Iraq and Afghanistan, “At What Cost: Contingency Contracting in Iraq and Afghanistan,” Interim
+Report, June 2009;
+http://www.wartimecontracting.gov/docs/CWC_Interim_Report_At_What_Cost_06-10-09.pdf;
+Commission on Wartime Contracting in Iraq and Afghanistan,” Special Report on Contractor Business Systems,
+“Defense Agencies must improve their oversight of contractor business systems to reduce waste, fraud, and abuse,”
+September 21, 2009; http://www.wartimecontracting.gov/docs/CWC_SR1_business-systems_2009-09-21.pdf.
+59
+   DOD’s base procurement was $74.7 billion in FY2004, $77.7 billion in FY2005, $76.5 billion in FY2006, $80.9
+billion in FY2007, $98.2 billion in FY2008, $101.1 billion in FY2009, and $104.3 billion in FY2010; for figures, see
+CRS Reports CRS Report RL31805, Authorization and Appropriations for FY2004: Defense, CRS Report RL32305,
+Authorization and Appropriations for FY2005: Defense, CRS Report RL32924, Defense: FY2006 Authorization and
+Appropriations, CRS Report RL33045, The Continued Dumping and Subsidy Offset Act ("Byrd Amendment"), CRS
+Report RL34278, FY2008 Supplemental Appropriations for Global War on Terror Military Operations, International
+Affairs, and Other Purposes, CRS Report RL34473, Defense: FY2009 Authorization and Appropriations, CRS Report
+R40467, Authority of State Legislatures to Accept Funds Under the American Recovery and Reinvestment Act of 2009
+(P.L. 111-5).
+
+
+
+
+Congressional Research Service                                                                                   35
+                     The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Typically, war funds do not include RDT&E or military construction because both activities take
+considerable time, and hence do not appear to meet an emergency criterion. In this respect, the
+Iraq and GWOT conflicts have broken new ground. DOD is now receiving substantial war
+funding for RDT&E in both titles, particularly the Joint IED Defeat Fund, a new account to
+develop and field new ways to counter roadside bombs or Improvised Explosive Devices, which
+are later transferred to individual accounts after enactment, which now receives $3 billion to $4
+billion annually (see Table 7).
+
+Some of the reasons for this surge in war-related investment costs are known:
+
+    •   a push by both DOD and Congress to provide more force protection equipment
+        and increase situational awareness (e.g., uparmored High Mobility Multipurpose
+        Wheeled Vehicles (HMMWVs), radios, sensors);
+    •   a decision to fund as war expenses equipment for newly configured Army and
+        Marine Corps units, known as modularity or restructuring;
+    •   the growing bill to rebuild or replace damaged equipment, a process known as
+        reset or reconstitution;
+    •   and perhaps most importantly, the adoption by DOD in 2006 of an expansive
+        definition of the types of programs that DOD considered to be war-related to
+        include those necessary to prepare for a “long war on terror,” rather than
+        specifically the Afghan and Iraq wars (see Appendix D).
+DOD ultimately requested and received as part of war funding considerable procurement funds
+for recapitalization of equipment, converting to modular units, force protection, and upgrades,
+much of which overlapped baseline budget requirements, since DOD is always purchasing new
+equipment to improve capability. In this way, DOD war funding, in fact, financed some of DOD’s
+modernization requirements sooner than anticipated.
+
+Other funding, for example, for force protection items like uparmored HMMWVs, MRAP
+vehicles and additional communication gear, was not anticipated in DOD’s long-term planning
+because the nature of the counterinsurgency warfare was not considered a high priority.
+
+Shifting funding from the regular budget to emergency funding is attractive because DOD’s
+emergency spending has not been subject to budget caps, allowing the services to substitute other
+less urgent requirements in their baseline budgets. On the other hand, DOD consistently faces
+budget pressure from unanticipated increases in the cost of its new weapon systems.
+
+With the new Administration, this trend may have been reversed with DOD’s adoption of stricter
+guidance for procurement and investment requests in FY2009, restoring the earlier definition of
+reset, which limited procurement to war losses, and excluded items currently scheduled for
+replacement, and limited upgrades to those directly supporting war operations. With this new
+guidance, procurement levels have dropped from the peak of $61.5 billion in FY2008 to $32.0
+billion in FY2009, $27.5 billion in FY2010 (including the pending request), and $21.4 billion in
+the FY2011 request (see Table 7).
+
+In addition, the new criteria required that procurement requests be limited to those which could be
+obligated, or put on contract, within 12 months, as would be appropriate for emergency war-
+
+
+
+
+Congressional Research Service                                                                       36
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+related requirements.60 It does not appear that all of DOD’s recent war procurement requests will
+comply with this requirement because as of April 2010, DOD Cost of War reports show some
+40% of funds appropriated in FY2009 for war as unobligated.61
+
+Procurement levels would also be expected to fall as troops are withdrawn from Iraq reducing the
+wear and tear on equipment. Although the Army has anticipated that reset requirements would
+persist even after forces are withdrawn, DOD’s reset requirements have largely been covered
+within its war funding requests. At the same time, higher troop levels in Afghanistan would not
+immediately require buying new equipment because the effect of operations on equipment takes
+time.
+
+In addition, in the past two years, Secretary of Defense Gates has pushed to move some war costs
+that he considers part of long-term requirements for counter-terrorism operations or those likely
+to persist after conflicts end to the base budget. This includes, for example moving an expansion
+of special operations forces, and higher funding for mental health to the base budget. While some
+$8 billion was transferred from the war to the base budget in FY2010, and smaller amounts in
+FY2011, DOD has not published its criteria, and the scope of likely transfers is unclear.62
+
+
+Military Construction Grows Rapidly
+Funding for military construction has been controversial for several reasons, with members
+particularly concerned about whether construction indicates an intent to set up permanent bases in
+Iraq and now in Afghanistan. Both recent defense appropriation and authorization acts prohibit
+the United States from establishing permanent bases in either Iraq or Afghanistan. 63
+
+In addition, the timing of construction may prove problematic since building facilities often takes
+several years, and future plans for Afghanistan remain uncertain. DOD has also requested funds
+for some construction in the United States that may be only marginally war-related (e.g., soldier
+readiness centers, childcare centers, and barracks improvements).
+
+Although DOD guidelines emphasize building relocatable structures in Iraq and Afghanistan,
+some structures could be either temporary or permanent. While concerns about Iraq have
+dissipated with troop withdrawals, concerns in Afghanistan are growing, as is funding and use of
+DOD’s contingency contracting authority where DOD can draw funds from O&M for
+construction projects that were not anticipated at the time of the request (see discussion of this
+issue in CRS Report R41232, FY2010 Supplemental for Wars, Disaster Assistance, Haiti Relief,
+and Other Programs, coordinated by Amy Belasco). In light of the uncertainty about the timeline
+of the U.S. presence in Afghanistan, this issue is likely to continue to be a significant concern.
+
+
+
+60
+   OMB, “ Criteria for War/Overseas Contingency Operations Funding Requests,” February 26, 2009.
+61
+   CRS calculation based on DOD, “Cost of War Report,” April 30, 2010.
+62
+   CRS Report R40567, Defense: FY2010 Authorization and Appropriations, coordinated by Pat Towell, p.17.
+63
+   See Sec. 314 and Sec. 315 and Sec. P.L. 110-32 in the FY2009 Supplemental Appropriations Act applying to “this or
+any other act”, and Secs. 1237 and Sec. 2806, P.L. 111-84, the FY2010 National Defense Authorization Act; see also
+section, “More Spending for Bases in Afghanistan Raises Questions of Permanency and Execution,” in CRS Report
+R41232, FY2010 Supplemental for Wars, Disaster Assistance, Haiti Relief, and Other Programs, coordinated by Amy
+Belasco.
+
+
+
+
+Congressional Research Service                                                                                   37
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+In addition, DOD built up a far more extensive infrastructure than anticipated to support troops
+and equipment in and around Iraq and Afghanistan. Military construction funding more than
+doubled from $.5 billion in FY2005 to $1.7 billion in FY2007, continuing at that level in
+FY2008.In FY2010, this funding reaches $2.0 billion with another $1.3 billion requested in the
+FY2011 request, all reflecting the expansion of U.S. operations in Afghanistan (see Table 7).
+
+
+Special Funds and the Flexibility Issue
+Shortly after the 9/11 attacks, Congress gave DOD additional flexibility to respond to the
+uncertainty of wartime needs by providing lump sums in certain special accounts.64 Once the Iraq
+war operations began, Congress also gave DOD funding for those war operations in the Iraq
+Freedom Fund (IFF), which were then transferred to regular individual accounts as requirements
+became clear. Later Congress agreed to set up special accounts or set caps to meet specific
+wartime needs, which didn’t neatly fit into traditional accounts, such as the Afghan Security
+Forces Fund or the Commanders Emergency Response Program (CERP).
+
+The issue for Congress is the amount of flexibility to give DOD to meet needs which it cannot
+define when appropriations are requested, and whether after-the-fact reporting is an adequate
+method of control. With problems identified by the Special Inspectors General for Iraq and for
+Afghanistan, GAO, and other inspection agencies in the Afghan and Iraq Security Forces Funds
+and in the Commanders Emergency Response Program, congressional concerns have grown as
+have reporting requirements.
+
+Short-Term Flexible Accounts
+DOD initially received $17 billion in its Defense Emergency Response Fund (DERF), spending
+those funds directly out of the account based on broadly defined allocations such as “increased
+situational awareness,” and “increased worldwide posture.”65 In the FY2002 Supplemental,
+Congress appropriated $13 billion for war costs including $11.9 billion in the DERF, which was
+transformed into a transfer account where funds, with guidelines by accounts set in the
+conference report.66
+
+Another example of short-term flexible accounts is the $77.4 billion in war funding appropriated
+by Congress in the FY2003 Supplemental, including $15.6 billion in a new Iraq Freedom Fund
+(IFF) where DOD could transfer funds after enactment, and then report to Congress.67 As the
+Afghan and Iraq wars continued, Congress insisted that DOD receive war funding in its
+traditional accounts. Since FY2004, Congress has appropriated most war funds to DOD’s regular
+accounts, but has given DOD larger amounts of transfer authority where DOD can move funds
+after enactment with the consent of the four congressional defense committees.
+64
+   Congress appropriated $20 billion in the government-wide Emergency Response Fund which could be spent by the
+President at his discretion (P.L. 107-38). DOD also received another $3.5 billion in the DERF but had to follow
+allocations that were set in the FY2002 DOD Conference report (H.Rept. 107-350, p. 423).
+65
+   Congress appropriated $20 billion in the government-wide Emergency Response Fund which could be spent by the
+President at his discretion (P.L. 107-38). DOD also received another $3.5 billion in the DERF but had to follow
+allocations that were set in the FY2002 DOD Conference report (H.Rept. 107-350, p. 423).
+66
+   H.Rept. 107-593, p. 17 and 128.
+67
+   Congress rescinded $3.5 billion of the $15.6 billion originally appropriated to the IFF and included ceilings for
+certain purposes, such as intelligence, within the total.
+
+
+
+
+Congressional Research Service                                                                                         38
+                     The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Special Purpose Accounts
+To meet particular requirements, however, Congress agreed to establish special accounts which
+allow DOD free to allocate funds as requirements evolve. For example, DOD receives funds in
+the Afghan Security Forces Fund (ASFF) that can be used for either Operation and Maintenance
+or Procurement.
+
+Higher funding levels in these new accounts generally does not reflect troop levels or immediate
+operational needs and accounts for some of the growth of war costs since FY2004. Between
+FY2004 and FY2008, the peak war funding year, these accounts grew from $2.0 billion to $13.8
+billion, thus helping explain about $10 billion of the $107 billion overall increase (see Table 7).
+
+These flexible accounts include:
+
+    •   Afghan and Iraq Security Forces Funds for training and equipping police and
+        security forces, with changes reflecting plans to increase the force size;
+    •   the Joint Improvised Explosive Device (IED) Defeat Fund for providing funds to
+        be transferred to procurement, RDT&E, or operation and maintenance to develop
+        and field solutions to the IED threat with funding reflecting anticipated
+        breakthroughs; and
+    •   the Iraq Freedom Fund, set up to cover war operations cost in the first year of the
+        invasion and occupation (IFF), which DOD later transferred to regular accounts.
+The Afghan and Iraq Security Forces Funds provide lump sums which DOD can allocate between
+equipment and training needs. Similarly the Joint IED Defeat Fund allows DOD to decide where
+funds are needed to meet this threat. Although the new accounts are designated to meet particular
+goals, they provide additional funding flexibility to DOD.
+
+Congress has also set caps or ceilings on funding within O&M accounts for specific purposes
+rather than setting up separate accounts. These include funding for
+
+    •   Coalition support primarily to support Pakistan’s counter-terror operations related
+        to OIF and OEF or other counter-terror operations; and the
+    •   Commanders Emergency Response Program (CERP) for small reconstruction
+        projects selected and run by individual commanders including support for local
+        militia groups;
+Typically, Congress has given DOD wide latitude in how to use these funds and required after-
+the-fact quarterly reporting.
+
+
+Questions To Raise About War Funding Issues
+To evaluate DOD’s war-related war funding requests, Congress may want to consider asking the
+following questions:
+
+    •   whether reset requirements accurately reflect changes in force levels and the pace
+        of operations;
+
+
+
+
+Congressional Research Service                                                                       39
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+    •    whether OMB’s new guidelines to restrict equipment upgrades, emphasize
+         quickly-spending funds, cut programs already scheduled for modernization are
+         being followed;
+    •    how previous war procurement funding could reduce DOD’s regular maintenance
+         and procurement needs by fixing and buying equipment earlier than planned;
+    •    whether DOD extensive investments in the past nine years could reduce base
+         budget funding requirements as troop level drop and the equipment is returned;
+         and
+    •    what types of expenses are appropriately funded in DOD’s baseline budget for
+         long lasting requirements for counterinsurgency conflicts as opposed to funding
+         of the specific needs for the Afghan and Iraq wars?
+    •    what are the long-term costs of training, equipping, and maintaining Afghan and
+         Iraqi security forces, coalition support, and the Commanders Emergency
+         Response Program (CERP)?
+
+
+Congressional Options to Affect Military
+Operations
+As interest in alternate policies for first Iraq and now Afghanistan has grown, Congress may turn
+to the Vietnam, and other experience to look for ways to affect military operations and troop
+levels in Iraq. In the past, Congress has considered both funding and non-funding options. Most
+observers would maintain that restrictions tied to appropriations have been more effective. 68
+
+Restrictive funding options generally prohibit the obligation or expenditure of current or
+previously appropriated funds. Obligations occur when the government pays military or civilian
+personnel, or the services sign contracts or place orders to buy goods or services. Expenditures, or
+outlays, take place when payment is provided.
+
+
+The Vietnam Experience
+Past attempts or provisions to restrict funding have followed several patterns, including those that
+cut off funding
+
+    •    for particular types of military activities but permit funding for other activities
+         (e.g., prohibiting funds for combat activities but permitting funds to withdraw
+         troops);
+    •    as of a certain date in a specific country;
+
+
+68
+   For an analysis of the legal issues in restricting military operations, see CRS Report RL33837, Congressional
+Authority to Limit U.S. Military Operations in Iraq, by Jennifer K. Elsea, Michael John Garcia, and Thomas J. Nicola.
+For examples of past enacted and proposed restrictions, see CRS Report RL33803, Congressional Restrictions on U.S.
+Military Operations in Vietnam, Cambodia, Laos, Somalia, and Kosovo: Funding and Non-Funding Approaches, by
+Amy Belasco et al. For recent proposals to restrict military operations, see CRS Report RL33900, FY2007
+Supplemental Appropriations for Defense, Foreign Affairs, and Other Purposes, coordinated by Stephen Daggett.
+
+
+
+
+Congressional Research Service                                                                                     40
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+    •    “at the earliest practical date,” which essentially gives the president leeway to set
+         the date; or
+    •    if certain conditions are met (such as a new authorization) or certain events take
+         place (such as the release of U.S. prisoners of war).
+Other non-funding approaches to restrict military operations have
+
+    •    required that troops be withdrawn by a specified date or at the “earliest practical
+         date;”
+    •    withdrawn funds unless there was a declaration of war or a specific congressional
+         authorization of the war activities; or
+    •    repealed previous congressional resolutions authorizing military activities.
+One or both houses may also state a “sense of the Congress,” or non-binding resolution that does
+not need to be signed by the President, that U.S. military operations should be wound down or
+ended or forces withdrawn.
+
+While only a handful of provisions have been enacted, congressional consideration of these
+various limiting provisions did place pressure on the Administration and thus influenced the
+course of events. For example, the well-known Cooper-Church provision that prohibited the
+introduction of U.S. ground troops into Cambodia was enacted in early 1971 after U.S. forces had
+invaded and then been withdrawn from Cambodia. That provision was intended to prevent the
+reintroduction of troops.69 Although President Nixon did not reintroduce U.S. troops, the United
+States continued to bomb Cambodia for the next three years.
+
+Later in 1973, Congress passed two provisions that prohibited the obligation or expenditures of
+“any funds in this or any previous law on or after August 15, 1973” for combat “in or over or
+from off the shores of North Vietnam, South Vietnam, Laos or Cambodia.”70 The final version of
+that provision reflected negotiations between the Administration and Congress about when the
+prohibition would go into effect, with August 15, 1973 set in the enacted version. Bombing did, in
+fact, stop on that day.
+
+Several well-known proposals that were not enacted—two McGovern-Hatfield amendments and
+an earlier Cooper-Church amendment—were also part of this Vietnam-era jockeying between the
+Administration and Congress. One McGovern-Hatfield amendment prohibited expenditure of
+previously appropriated funds after a specified date “in or over Indochina,” except for the purpose
+of withdrawing troops or protecting our Indochinese allies, while another also prohibited
+spending funds to support more than a specified number of troops unless the president notified
+the Congress of the need for a 60 day extension. The earlier Cooper-Church amendment
+
+
+
+69
+   See discussion and language of the Cooper-Church amendment (Sec.7, P.L. 91-652) in CRS Report RL33803,
+Congressional Restrictions on U.S. Military Operations in Vietnam, Cambodia, Laos, Somalia, and Kosovo: Funding
+and Non-Funding Approaches, by Amy Belasco et al..
+70
+   One provision was included in both P.L. 93-52, the Continuing Appropriations Act of 1974 and the Second
+Supplemental Appropriations Act of 1973, P.L. 93-50, both enacted July 1, 1973; see CRS Report RL33803,
+Congressional Restrictions on U.S. Military Operations in Vietnam, Cambodia, Laos, Somalia, and Kosovo: Funding
+and Non-Funding Approaches.
+
+
+
+
+Congressional Research Service                                                                                41
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+prohibited the expenditure of any funds after July 1, 1970 to retain troops in Cambodia “unless
+specifically authorized by law hereafter.”71
+
+Generally, Congress continued to provide funds for U.S. troops in Vietnam at the requested levels
+as the Nixon Administration reduced troop levels. Overall, funding restrictions have generally
+proven more effective than the War Powers Act, which has been challenged by the executive
+branch on constitutional grounds.72
+
+
+Recent Restrictions Proposed
+Most recently, as part of the July 1, 2010 debate over the House amended version of H.R. 4899,
+the FY2010 Supplemental, the House considered three amendments designed to restrict funding
+or troop levels for the Afghan war. The amendments are similar to some of those proposed during
+the Vietnam war.
+
+Amendment No. 3 would delete all military funding for the Afghan war , and was defeated 25 to
+376.73
+
+Amendment No. 4 would limit the obligation and expenditure of funds to the protection and “safe
+and orderly withdrawal from Afghanistan of all members of the Armed Forces and Department of
+Defense contractor personnel who are in Afghanistan,” and was defeated 100 to 321.74
+
+Amendment No. 5 would require the President to submit a plan for a “safe, orderly, and
+expeditious redeployment of the Armed Forces from Afghanistan,” along with a “timetable for the
+completion of that redeployment and information regarding variables that could alter that
+timetable,” as well as require that none of the funds in the act be obligated or expended “in a
+manner that is inconsistent with the President’s policy announced on December 1, 2009, to begin
+the orderly withdrawal of United States troops from Afghanistan after July 1, 2011,” unless the
+Congress approves a joint resolution that would receive expedited consideration in both houses.75
+This amendment was defeated 162 to 260.
+
+
+Improving War Cost Estimates and Reporting
+GAO, CBO, and CRS have all testified before Congress about the limited transparency in DOD’
+war cost estimating and reporting. 76 While DOD has provided considerably more justification
+material for its war cost requests beginning with the FY2007 Supplemental, many questions
+
+
+71
+   See H.R. 17123, H.R. 6531, and H.R. 15628 in Table 1 and Appendix of CRS Report RL33803, Congressional
+Restrictions on U.S. Military Operations in Vietnam, Cambodia, Laos, Somalia, and Kosovo: Funding and Non-
+Funding Approaches.
+72
+   CRS Report RS20775, Congressional Use of Funding Cutoffs Since 1970 Involving U.S. Military Forces and
+Overseas Deployments, by Richard F. Grimmett.
+73
+   See H.Rept. 111-522, p. 5 and p. 58 and Congressional Record, July 1,2 010, pp. H5358-H. 5407.
+74
+   See H.Rept. 111-522, p. 5 and p. 59ff and Congressional Record, July 1, 2010, pp. H5358-H5407.
+75
+   Ibid, p. 5 and p. 59ff and Congressional Record, July 1, 2010, pp. H5358-H5407.
+76
+   See testimony to House Budget Committee, October 24, 2007, July 31, 2007, and testimony to Subcommittee on
+National Security, Emerging Threats and International Affairs, House Government Reform, July 18, 2006.
+
+
+
+
+Congressional Research Service                                                                                  42
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+remain difficult to answer – such as the effect of changes in troop levels on costs—and there
+continue to be unexplained discrepancies in DOD’s war cost reports.
+
+DOD also now reports the budget authority appropriated for war, the amounts within
+supplementals or other bills with war funding that DOD does not consider to be war-related and
+are not included in its monthly obligation reports, the amounts transferred between the base
+budget and war funding, and amounts that remain unobligated each month by account. This
+information is useful in tracking war costs.
+
+To provide Congress a better basis for oversight, DOD could:
+
+     •   provide estimates of the allocations of all budget authority provided for OIF and
+         OEF by account, and compare requests to outlays to date;
+     •   provide past, current, and future estimates of deployed average troop strength – –
+         for each operation, and explain how troop strength relates to military personnel
+         and O&M requests, and how that changes as troop levels increase or decrease;
+     •   set up separate appropriation accounts for war funding to create visibility on
+         outlays and increase accuracy;
+     •   explain the rationale and assumptions underlying procurement requests
+         segregating funding by operation and by goals – reset requirements related to
+         replacing combat losses, worn-out equipment not repairable, and other goals such
+         as force protection explaining the rationales, as well as tracking amounts spent;
+     •   show how funding in prior war appropriations may reduce DOD’s baseline
+         requests by funding maintenance or procurement earlier than anticipated;
+     •   estimate future costs under various scenarios.
+In its Section 9010 report, the Iraq Metrics Report, and Section 1231 Report on Progress Toward
+Security and Stability in Afghanistan, the Administration provides Congress with fairly detailed
+reporting on trends and various metrics for success – ranging from average daily hours of
+electrical power by province to average weekly attacks on civilians, the size and training levels of
+Afghan and Iraq Security Forces. These measures, however, are not related to changes in U.S.
+military costs, which is also not one of the metrics included. Detailed reporting of different
+military costs and troop levels could be another metric for assessing operations in Iraq,
+Afghanistan and other counter terror operations.77
+
+
+
+
+77
+  H.Rept. 109-72, p. 97; DOD, Section 9010 Report to Congress, “Measuring Stability and Security in Iraq”
+http://www.defenselink.mil/pubs/iraq_measures.html.
+
+
+
+
+Congressional Research Service                                                                              43
+Appendix A. Monthly Boots on the Ground in Iraq and Afghanistan
+                                    Table A-1. Boots on the Ground in Iraq and Afghanistan by Month
+                                                           September 2001-September 2010
+               Jan        Feb         Mar        Apr         May        Jun        Jul       Aug        Sep        Oct       Nov       Dec
+                                                                        2001
+Afghanistan                                                                                                   0          0         0         0
+Iraq                                                                                                          0          0         0         0
+Both                                                                                                          0          0         0         0
+                                                                         2002
+Afghanistan     4,100      4,200       5,000      6,600       6,900      7,300      8,900      9,500    10,400     10,500     10200      9,700
+Iraq                 0          0           0          0           0        0            0         0          0          0         0         0
+Both            4,100      4,200       5,000      6,600       6,900      7,300      8,900      9,500    10,400     10,500     10200      9,700
+                                                                         2003
+Afghanistan     9,800      9,500      11,450      9,300       9,900     10,900     10,900     12,700     9,800     12,100     12,000    13,100
+Iraq                 0          0           0    93,900     145,700    147,400    149,400    146,000   130,300    136,900    131,300   123,700
+Both            9,800      9,500      11,450    103,200     155,600    158,300    160,300    158,700   140,100    149,000    143,300   136,800
+                                                                         2004
+Afghanistan    13,500     12,300      14,100     19,500      17,700     17,800     17,400     15,700    16,800     17,500     17,800    18,300
+Iraq          126,900    108,400     119,600    131,700     139,800    144,300    140,600    126,800   137,700    134,600    135,900   142,600
+Both          140,400    120,700     133,700    151,200     157,500    162,100    158,000    142,500   154,500    152,100    153,700   160,900
+                                                                         2005
+Afghanistan    18,700     20,300      20,900     19,500      20,000     19,200     21,100     17,400    18,000     17,800     17,400    18,500
+Iraq          152,300    161,200     147,800    147,900     140,000    141,100    139,300    139,200   143,700    150,000    159,800   156,200
+Both          171,000    181,500     168,700    167,400     160,000    160,300    160,400    156,600   161,700    167,800    177,200   174,700
+                                                                         2006
+Afghanistan    20,300     22,700      20,000     23,300      21,800     22,300     20,800     19,700    20,400     19,800     20,500    21,800
+Iraq          155,100    139,300     133,500    132,500     132,300    130,300    127,300    133,500   143,400    142,600    151,200   136,900
+Both          175,400    162,000     153,500    155,800     154,100    152,600    148,100    153,200   163,800    162,400    171,700   158,700
+
+
+
+
+CRS-44
+                     Jan          Feb           Mar           Apr           May            Jun           Jul          Aug            Sep           Oct          Nov            Dec
+                                                                                            2007
+Afghanistan         26,000        24,800        24,400        23,900         26,400        23,800        24,000        24,000        24,500        24,400        24,800        24,600
+Iraq               131,500       138,300       141,200       147,900       147,400       152,500       159,600       161,400       169,000       164,700       170,300       165,700
+Both               157,500       163,100       165,600       171,800       173,800       176,300       183,600       185,400       193,500       189,100       195,100       190,300
+                                                                                            2008
+Afghanistan         27,000        28,000        28,800        33,100         35,600        34,000        33,700        34,200        33,500        33,000a       33,000a       32,500
+Iraq               160,200       158,100        160500       152,300       158,900       153,300       147,400       145,100       146,800        147,650a      148,075a     148,500
+Both               187,200       186,100       189,300       185,400       194,500       187,300       181,100       179,300       180,300       180,650a       181,075a     181,000
+                                                                                            2009
+Afghanistan         32,800        35,900        38,350        39,000         44,700        55,100        56,500        62,600        62,300        65,800        67,500        69,000
+Iraq               144,100       146,400       141,300       139,400       134,100       134,500       132,300       132,600       129,200       120,300       119,300       114,300
+Both               176,900       182,300       179,650       178,400       178,800       189,600       188,800       195,200       191,500       186,100       186,800       183,300
+                                                                                            2010
+Afghanistan         70,200        74,600        85,000        87,600         89,700        91,775        95,925b       95,920b       98,000b
+Iraq               112,400       101,100        95,900        98,850        94,250b       92,000b        78,000b       64,000b       50,000b
+Both               182,600       175,700       180,900       186,450       178,760b      171,070b      163,380b      155,690b      148,000b
+
+       Sources: DOD, Joint Staff, Summary and Monthly Boots on the Ground Reports to Congress; for troops in country through August 2009; interpolated for October and
+       November 2008 and August 2009 because not reported. Estimates for Afghanistan reflect Figure 6-2, “Force Level Assumptions in DoD Budgets,” in DOD, FY2011 Budget
+       Request: Overview, Feb. 1, 2010; http://comptroller.defense.gov/defbudget/fy2011/FY2011_Budget_Request_Overview_Book.pdf.
+       Notes: Estimates for Iraq reflect DOD press conference cited above.
+       a.   DOD did not send Congress reports for Oct. and Nov. 2008 so CRS interpolated these months.
+       b.   CRS estimates for the rest of FY2010 reflect DOD plans for average strength of 84,000 in Afghanistan. CRS estimates for Iraq are based on a DOD, Press Conference
+            of January 27, 2010, where he said that shortly after the elections (on March 7, 2010), “ there’s going to be a pretty steep drop-off to get down to basically six advise-
+            and-assist brigades, under 50,000 forces.” U.S. Status of Forces agreement with Iraq requires that U.S. forces in Iraq are down to 50,000 by August 31,2010; see also,
+            CRS estimates the months from June to September 2010 by distributing the difference between the reported May 2010 level and the September 2010 endpoint of
+            50,000 non-combat troops for Iraq and the same method for Afghanistan, distributing the difference between the May 2010 report and the September goal of 98,000.
+
+
+
+
+CRS-45
+                                 The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+         Appendix B. War Appropriations by Public Law and
+         Agency
+         The table below shows enacted appropriations by act from FY2001-FY2011 Supplemental. 78
+
+              Table B-1. Defense Department, Foreign Operations Funding, and VA Medical
+                Funding for Iraq, Afghanistan and Other Global War on Terror Activities,
+                                     FY2001-FY2010 Supplemental
+                                             (in billions of dollars of budget authority)
+                                                   Public           Date        DOD            State/         VA
+Name of Law                                        Law No.          Enacted     Funds          USAID          Medical           Total cost
+
+FY2001 Emerg. Supp. Approp. Act for Recovery       P.L. 107-38      9/18/01         13.6            0.3            0                 13.9
+from and Response to Terrorist Attacks on the
+United States
+FY2002 Dept. Of Defense and Emergency              P.L. 107-117     1/10/02          3.4            0              0                  3.4
+Terrorism Response Act
+FY2002 Emergency Supplemental                      P.L. 107-206     8/2/02          13.8            0.4            0                 14.1
+FY2002 Regular Foreign Operations                  P.L. 107-115     1/10/02          0.0            0.2            0                  0.2
+FY2003 Consolidated Appropriations                 P.L. 108-7       2/20/03         10.0            0.4            0                 10.4
+FY2003 Emergency Supplemental                      P.L. 108-11      4/16/03         62.6            3.4            0                 66.0
+FY2003 DOD Appropriationsa                         P.L. 107-248     10/23/02         7.1            0              0                  7.1
+FY2004 DOD Appropriations Acta                     P.L. 108-87      9/30/03         -3.5            0              0                 -3.5
+FY2004 Emergency Supplemental                      P.L. 108-106     11/6/03         64.9           21.2            0                 86.1
+FY2004 Foreign Operations Appropriations           P.L. 108-199     1/23/04          0              0.5            0                  0.5
+FY2005 DOD Appropriations Act                      P.L. 108-287     8/5/04          25.0            0.7            0                 25.7
+FY2005 DOD Appropriations Actc                     P.L. 108-287     8/5/04           2.1            0              0                  2.1
+FY2005 Consolidated Approps.                       P.L. 108-447     12/8/04          0              1.0            0                  1.0
+FY2005 Supplemental Approps.d                      P.L. 109-13      5/11/05         75.9            3.1            0                 79.0
+FY2006 Interior & Rel. Ag. Approps.e               P.L. 109-54      8/2/05           0              0              0.2                0.2
+FY2006 Foreign Operations Approps.                 P.L. 109-102     11/14/05         0              1.0            0                  1.0
+FY2006 Science, State, & Rel. Agencies             P.L. 109-108     11/22/05         0              0.1            0                  0.1
+Appropriations Act
+FY2006 Military Quality of Life & Veterans         P.L. 109-114     11/30/05         0              0              0.4                0.4
+Affairse
+FY2006 DOD Approps Act                             P.L. 109-148     12/30/05        50.0            0              0                 50.0
+FY2006 DOD Appropriations Actc                     P.L. 109-148     12/30/05         0.8            0              0                  0.8
+
+         78
+           Totals reflect budget authority for war-related expenses from appropriations and transfers, and exclude contingent
+         appropriations not approved, rescissions that do not affect war-related funds, non-war-related funds included in
+         supplementals, and transfers that were later restored in supplemental appropriations.
+
+
+
+
+         Congressional Research Service                                                                                         46
+                                  The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+                                                    Public           Date        DOD            State/         VA
+Name of Law                                         Law No.          Enacted     Funds          USAID          Medical        Total cost
+
+FY2006 Emergency Supplemental                       P.L. 109-234     6/15/06         66.0            3.2            0                  69.2
+FY2007 DOD Appropriations Actb                      P.L. 109-289     9/29/06         70.5            0              0                  70.5
+FY2007 Continuing Resolutionf                       P.L. 110-5       2/15/07          0              1.3            0.6                 1.8
+FY2007 Supplemental                                 P.L. 110-28      5/25/07         94.5            3.8            0.4                98.7
+FY2008 Continuing Resolution                        P.L. 110-92      9/29/07          5.2            0              0                   5.2
+FY2008 DOD Appropriations Act                       P.L. 110-116     11/13/07        11.6            0              0                  11.6
+FY2008 Consolidated Approps. Act                    P.L. 110-161     12/26/07        70.0            2.3            0.9                73.2
+FY2008 Supplemental Approps. Actg                   P.L. 110-252     6/30/08        157.9            5.0            0.4            163.2
+FY2009 Consolidated Security, Disaster              P.L. 110-329     9/30/08          2.5            0              1.5                 4.0
+Assistance, and Continuing Appropriations Act
+FY2009 Omnibus Appropriations Act                   P.L. 111-8       3/11/09          0              1.1            0                   1.1
+FY2009 Supplemental Appropriations Act              P.L. 111-32      6/24/09         80.0            2.5            0                  82.5
+FY2010 Consolidated Appropriations Act              P.L. 111-117     12/16/09         1.4            4.8            2.0                 8.2
+FY2010 DOD Appropriations Act, Title IX             P.L. 111-118     12/19/09       127.3            0              0              127.3
+FY2010 Supplemental                                 P.L. 111-212     7/27/10         30.8            3.4            0                  34.2
+Subtotal                                                                         1,043.3            59.3            6.3       1,109.0
+Unidentified Transfersh                             unknown          unknown          2.2            0              0                   2.2
+FY2003 Transfersh                                   various          NA               1.2            0              0                   1.2
+FY2004 Transfersh                                   various          NA               5.7            0              0                   5.7
+FY2005 Transfersh                                   various          NA               1.5            0              0                   1.5
+Subtotal Transfersh                                                                  10.6            0              0                  10.6
+Total Enacted (w/transfers)                         NA               NA          1,054.0            59.3            6.3       1,119.6
+
+              Source: CRS calculations based on public laws, reports, explanatory statements, and DOD documents.
+              Notes: NA = Not applicable. Numbers may not add to totals due to rounding. DOD’s regular appropriations
+              bills included a separate Title IX for additional emergency appropriations for war costs from FY2005 – FY2010
+              to “bridge” the gap between the beginning of the fiscal year and passage of a supplemental.
+              a.    FY2003 Appropriations Act included $7.1 billion in regular FY2003 defense appropriations for GWOT that
+                    DOD cannot track; the FY2004 DOD Appropriations Act rescinded $3.5 billion in FY2003 war monies.
+              b.    Title IX funds in FY2005 do not include a $1.8 billion scoring adjustment that reverses the previous
+                    rescission of FY2004 funds because this did not change wartime monies.
+              c.    Reflects funds obligated for Operation Noble Eagle from DOD’s regular appropriations as reported by the
+                    Defense Finance Accounting Service.
+              d.    Excludes funds for Tsunami relief.
+              e.    Includes VA medical funds for Iraq and Afghan veterans in emergency funding in Interior bill and in regular
+                    VA appropriations.
+              f.    State Department figures for foreign and diplomatic operations; CRS estimates for VA medical.
+              g.    The FY2008 Supplemental included funds for both FY2008 and bridge funds for FY2009.
+              h.    CRS calculations of transfers from DOD’s regular appropriations to war funding based on DOD’s 1414
+                    reports on prior approval reprogrammings, and other sources. From DOD documents, it appears that
+
+
+
+         Congressional Research Service                                                                                           47
+                      The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+        DOD transferred about $2.0 billion from its baseline funds to prepare for the Iraq invasion during the
+        summer and fall of 2002 but the source of those funds is not identified.
+
+
+
+
+Congressional Research Service                                                                                   48
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Appendix C. Estimating War Costs for Iraq and
+Afghanistan
+The figures in the tables in this report largely reflect DOD’s monthly and cumulative Cost of War
+reports, which track war obligations (contracts signed, orders placed, and military and civilian
+personnel paid) for Operation Iraqi Freedom (OIF), and Operation Enduring Freedom
+(Afghanistan), and DOD estimates of its request. CRS has made certain adjustments to include
+some items that DOD does not capture in its war cost reports (e.g., national intelligence), and to
+exclude some funding provided in supplementals not linked to ongoing operations like childcare
+centers or barracks improvements.79 Starting in 2009, DOD improved its cost of war reporting to
+include listing those items that it excludes as not war-related, and tracking transfers between
+accounts. For these reasons, the total funding levels in this report are not necessarily the same as
+those reported for supplemental appropriations acts.
+
+CRS uses budget justification material and other data from the State Department for diplomatic
+operations and USAID programs, and from the Veterans Administration for VA medical costs for
+OEF/OIF veterans to compile the total funding for war-related activities in Afghanistan and Iraq.
+CBO has also estimated total war funding, excluding some funds appropriated in supplementals
+that are not war-related. CRS and CBO estimates are generally close.80
+
+GAO has raised questions about whether DOD war cost reporting accurately captures the split
+between Afghanistan and Iraq, noting that the services have considerable difficulty in allocating
+funds between the two operations, and have tended to overstate the amounts attributable to Iraq
+“since it is viewed as the larger of the two operations ... ”81 This is particularly the case with
+procurement funding which peaked in FY2008 at over $60 billion.
+
+Judging the overall accuracy of DOD-reported war obligations is problematic because other
+sources are not available.
+
+
+79
+   See for example, Table 1 in FY2009 Supplemental Justification, DOD, Overseas Contingency Operations Request,
+FY2009 Supplemental: Summary Justification Material, April 2009;
+http://www.defenselink.mil/comptroller/defbudget/fy2009/Supplemental/FY2009_Supplemental_Request/pdfs/
+FY_2009_Supplemental_Request_04-08-09.pdf. In some cases, CRS and DOD differ about what is considered to be
+war-related. For example, DOD excludes Congressional adds for C-17 aircraft, a transport aircraft that has seen heavy
+use in Afghanistan and Iraq. CRS includes those funds on the basis that additional purchases may be needed because
+aircraft may not last as long as anticipated because of their heavy use. CRS war cost estimates also exclude funding in
+supplementals for other emergency programs such as additional food aid, military and economic assistance to Pakistan,
+and foreign assistance activities in several African countries.
+80
+   See for example, Box 1-1, CBO, The Budget and Economic Outlook: An Update, September 2008, p. 13. For DOD,
+see Office of the Secretary of Defense, Comptroller, “Cost of War Update as of February 28, 2009,” p. 6. DOD
+justification material for its FY2007 and FY2008 war requests shows that budget authority for war fell $2 billion short
+in FY2001 and $4 billion short in FY2004—a gap presumably met by transferring funds from its regular
+appropriations. CRS added $2 billion to its estimates to reflect these funds. Specifically, CRS calculations of DOD
+funding include some $5 billion appropriated for GWOT in FY2003 in P.L. 107-48, and about $10 billion in transfers
+from DOD’s baseline appropriations that were transferred to meet war needs, as well as intelligence and other funding
+not tracked by DOD.
+81
+   GAO, Global War on Terrorism: DOD Needs to More Accurately Capture and Report the Costs of Operation Iraqi
+Freedom and Operation Enduring Freedom. GAO-09-302, March 17, 2009, p. 17, see discussion, p. 15-17.
+http://www.gao.gov/new.items/d09302.pdf.
+
+
+
+
+Congressional Research Service                                                                                       49
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Appendix D. Reset and Higher Force Levels
+Another major war cost issue that has arisen and may re-surface is the amount of funds needed to
+“reset” or restore the services’ equipment to pre-war levels. The largest single reason for the
+increase in war costs between FY2004 and FY2008 was the amount requested and received by
+DOD for reset. While repair and replacement costs might be expected to grow over time as
+operations wear down equipment, much of the growth from FY2006-FY2008 reflects a policy
+decision to broaden the definition of what was considered a war-related cost.82
+
+If the FY2010 supplemental is approved, DOD will have requested and received about $151
+billion for reset, defined as the “process of bringing a unit back to full readiness once it has been
+rotated out of a combat operation,” by repairing and replacing equipment and resting and
+retraining troops. 83 Another $21 billion is requested in FY2011. Generally, about half of this
+funding has been for repair and half for purchasing new equipment.
+
+
+DOD Changes Definition of War Costs
+From the mid 1990s until 2006, DOD’s financial regulations defined the cost of contingencies to
+include only incremental costs directly related to operations. Until October 2006, that guidance
+was largely used by the services to prepare their estimates for Iraq and GWOT. The guidance
+required that the service show assumptions about troop levels, operational tempo, and
+reconstitution and limit requests to incremental costs—“that would not have been incurred had
+the contingency operation not been supported.” Investment requests are also to be incremental
+and included “only if the expenditures were necessary to support a contingency operation.”84
+(Little of this information was provided to Congress in DOD’s requests.) The services are to
+repair equipment if economical or replace it if replacement costs almost as much as repair.
+
+In the July 19, 2006 guidance to the services for developing the FY2007 Supplemental and
+FY2008 war cost requests, these strictures were reiterated. That guidance also prohibited
+including Army modularity “because it is already programmed in FY2007 and the outyears,” and
+warned that the services would have to demonstrate that investment items were “directly
+associated with GWOT operations,” rather than to offset “normal recurring replacement of
+
+
+82
+   CRS, Statement of Amy Belasco before the House Budget Committee, “The Growing Cost of the Iraq War,” October
+24, 2007 http://budget.house.gov/hearings/2007/10.24Belasco_testimony.pdf.
+83
+   For total through FY2008, see Center for Strategic and Budgetary Assessments, Steve Kosiak, Cost of Wars in Iraq
+and Afghanistan and Other Military Operations, 12-15-08; http://www.csbaonline.org/4Publications/PubLibrary/
+R.20081215.Cost_of_the_Wars_i/R.20081215.Cost_of_the_Wars_i.pdf; for FY2009, see Table 5-11 in DOD, Fiscal
+Year 2010: Summary Justification, May 2009;
+http://www.defenselink.mil/comptroller/defbudget/fy2010/fy2010_SSJ.pdf; for FY2010 and FY2011, see Table 8-5 in
+DOD, FY2011 Budget Request: Overview, Feb. 1, 2010; http://comptroller.defense.gov/defbudget/fy2011/
+FY2011_Budget_Request_Overview_Book.pdf.
+For definition, see Office of the Secretary of Defense, Report to Congress, Ground Force Equipment Repair, Replacement,
+and Recapitalization Requirements Resulting from Sustained Combat Operations, April 2005, p. 8; see also GAO-06-604T,
+Defense Logistics: Preliminary Observations on Equipment Reset Challenges and Issues for the Army and Marine Corps, p.
+3.
+84
+   DOD, Financial Management Regulations, Chapter 12, Sec. 23, “Contingency Operations,” p. 23-11ff, 23-21, 23-25,
+23-27; http://www.dod.mil/comptroller/fmr/12/12_23.pdf.
+
+
+
+
+Congressional Research Service                                                                                      50
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+equipment.”85 In addition, the services would have to show that reset plans were executable in
+FY2007, presumably the last several months of the fiscal year.
+
+On October 25, 2006, Deputy Secretary of Defense Gordon England issued guidance for
+requesting war funds to the services, requiring them to submit new requests within two weeks that
+reflected the “longer war on terror” rather than strictly the requirements for war operations in
+Iraq, Afghanistan and other counter-terror operations.86 Such a substantial change would be
+expected to reflect guidance from the Secretary of Defense, the Office of Management and
+Budget, and the President. This new definition appeared to have paved the way for including a far
+broader range of requirements particularly since the needs of the “longer war” were not defined.
+
+Since the war on terror is now considered part of DOD’s national strategy, some might argue that
+these types of expenses should be included in DOD’s regular budget where they would compete
+with other defense needs. 87
+
+
+Front Loading Reset Funding
+The FY2007 Supplemental included an additional $14 billion for reset—the replacement of war-
+worn equipment. DOD’s request appeared to front load (or fund in advance) DOD’s reset
+requirements, a fact acknowledged by then-OMB Director Robert Portman in recent testimony. 88
+According to DOD figures, Army and Marine Corps reset requirements were fully met in the
+enacted FY2007 fund when Congress provided $23.7 billion for Army and Marine Corps reset
+costs, the amount that the services said was needed. 89
+
+As substantial amounts of equipment were sent back to the United States for repair, the Army and
+Marine Corps could compare its previous estimates with experience. The FY2007 Supplemental
+and the FY2008 war request both appear to include an extra year of Army and Marine Corps reset
+requirements. According to 2007 statements by Army Chief of Staff, General Peter J.
+Schoomaker, and other military spokesman, Army reset is estimated to be $12 billion to $13
+billion a year as long as the conflict lasts at the current level and “for a minimum of two to three
+years beyond.”90 According to 2006 testimony by Marine Corps Commandant, General Michael
+
+85
+   Under Secretary of Defense, Memorandum for Secretaries of the Military Departments, “Fiscal Year (FY) 2008-
+2013 Program and Budget Review,” July 19, 2006, p. 34-49, specifically p. 36, 39, 41.
+86
+   Deputy Secretary of Defense Gordon England, Memorandum for Secretaries of the Military Departments, “Ground
+Rules and Process for FY’07 Spring Supplemental,” October 25, 2006.
+87
+   See Chapter III, pp 19ff in The White House, “National Security Strategy,” May 2010;
+https://digitalndulibrary.ndu.edu/cdm4/document.php?CISOROOT=/strategy&CISOPTR=8929&REC=1;
+See Chapter III in The White House, “The National Security Strategy of the United States of America,” March 2006;
+https://digitalndulibrary.ndu.edu/cdm4/document.php?CISOROOT=/strategy&CISOPTR=5286&REC=2.
+88
+   Testimony of OMB Director Robert Portman before the House Budget Committee, Hearing on the FY2008 DOD
+Budget, February 6, 2007, p. 41 of transcript.
+89
+   See table inserted by Senator Stevens in Congressional Record, August 2, 2006, p. S8571 showing $23.7 billion for
+reset, including $14 billion in procurement; total funded also provided $4.9 billion for unfunded FY2006 requirement;
+see also DOD’s Report to Congress, Long-Term Equipment Repair Costs, September 2006.
+90
+   Statement of Peter J. Schoomaker, Chief of Staff, Department of the Army, before the House Armed Services
+Committee, “Reset Strategies for Ground Equipment and Rotor Craft,” June 27, 2006, p.2; see also testimony of
+Brigadier General Charles Anderson, U.S. Army, House Armed Services Subcommittee on Readiness and
+Subcommittee on Air and Land Forces Hold, transcript, “Joint Hearing on Costs and Problems of Maintaining Military
+Equipment in Iraq,” January 31, 2007, p. 6.
+
+
+
+
+Congressional Research Service                                                                                     51
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Hagee, their requirements are about $5 billion a year for a total of about $17 billion for the two
+services most heavily affected.91 It is not clear whether these estimates are or remain valid.
+
+DOD estimated that reconstitution would total $37.5 billion in FY2007 and $46 billion in
+FY2008, which was largely supported by Congress in FY2007.92 The front loading of
+requirements may have been an attempt by the services to avoid being in the position of
+requesting reset funds after U.S. troops started to withdraw. While Congress endorsed most of the
+repair piece of reconstitution (funded in O&M) in the $70 billion FY2008 fund, only $6 billion of
+procurement monies related to reconstitution was included. 93
+
+
+Carryover of DOD War Investment Funding
+DOD’s procurement requests for reconstitution may be less urgent than apparent because DOD
+has carried a substantial amount of war-related investment funds from previous appropriations –
+for example, a $45 billion carryover from previous years that had not been obligated or placed on
+contract – as of the beginning of FY2008.94 Because investment funding is available for two to
+three (RDT&E for two years, procurement and military construction for three years), some of the
+funds may be obligated beyond the first year as contracts are written and processed.
+
+DOD continues to have a substantial backlog of unobligated procurement monies. For example,
+DOD received $6 billion in P.L. 110-252 on June 30, 2008, and $25.8 billion in June 24, 2009 for
+FY2009 war-related procurement. As of April 30, 2010, about 40% of FY2009 procurement funds
+remain unobligated.95
+
+
+Accuracy and Expansion of Reconstitution Requests
+Although reset requirements reflect the stress on equipment from operations, it is not clear that
+the services checked the accuracy of previous estimates. In 2007, GAO testified that the Army,
+with the largest reset requirement, could not track reset or ensure that funds appropriated for reset
+were in fact spent for that purpose, making it more difficult to assess the accuracy of DOD’s
+requests.96 In addition, presumably much of the equipment that is being repaired because of war
+operations, was originally slated for repair or replacement at a later date, and so is being repaired
+or replaced sooner than anticipated. That could mean DOD’s baseline budget could be reduced to
+offset war funding already provided.
+
+
+91
+   Testimony of General Michael Hagee, Marine Corps Commandant before the House Armed Services Committee,
+“Army and Marine Corps Reset Strategies for Ground Equipment and Rotor Craft,” June 27, 2006, p. 41.
+92
+   DOD, FY2008 Global War on Terror Request, February 2007, Table 3; http://www.dod.mil/comptroller/defbudget/
+fy2008/fy2007_supplemental/FY2008_Global_War_On_Terror_Request.pdf hereinafter, DOD, FY2008 GWOT
+Request.
+93
+   Congress also provided $16.8 billion to buy and support MRAPS, a force protection request not related to
+reconstitution; see December 18, 2007 Congressional Record, p. S15858 for procurement items funded in the FY2008
+included in Division L of the FY2008 Consolidated Appropriations Act.
+94
+   CRS, Statement of Amy Belasco before the House Budget Committee, “The Rising Cost of the Iraq War,” October
+24, 2007; http://budget.house.gov/hearings/2007/10.24Belasco_testimony.pdf.
+95
+   CRS calculations based on DOD, “Cost of War Execution Report,” April 30, 2010.
+96
+   GAO-07-439T, Testimony of William Solis before the Subcommittee on Readiness and Air and Land Forces, House
+Armed Services Committee, January 31, 2007, p. 2 and 3.
+
+
+
+
+Congressional Research Service                                                                                52
+                       The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+Reset requirements may also be uncertain because the number of troops and the nature of
+operations may change. Service estimates of requirements have changed in recent years. In a
+September 2006 report to Congress, for example, annual reset requirements in FY2008 were
+estimated to be $13 billion for the Army and about $1 billion for the Marine Corps.97 Several
+months earlier in the spring of 2006, the Army estimated that reset requirements would decrease
+from $13 billion a year to $10.5 billion a year for the next two years and then decline to $2 billion
+a year if troops were withdrawn over a two-year period.98
+
+A year earlier, in March 2005, CBO estimated that annual repair and replacement costs would run
+about $8 billion a year based on the current pace of operations and service data.99 In a 2007
+report, CBO estimated that 40% of the Army’s war requests were not directly for reset needs. 100
+More recently, use of equipment in Iraq may be less intense than previously as U.S. troops
+predominantly adopt advisory and assistance rather than combat roles.
+
+DOD’s earlier definition of reset included not only replacing battle losses (typically about 10% of
+the total), equipment repair (about half of the total), and also recapitalization that typically
+upgrades current equipment, and repair and replacement of prepositioned equipment stored
+overseas that has been tapped to meet war needs. The Army had been planning to recapitalize
+equipment and modernize prepositioned equipment stocks to match the new modular designs as
+part of its ongoing modernization. For this reason, the case for these expenses as incremental
+wartime requirements has proven questionable.
+
+
+Modularity as an Emergency Expense
+The distinction between war-related and regular funding was also been made murky by DOD
+requests to treat conversion of Army and Marine Corps units to new standard configurations—
+known as modularity and restructuring—as a war requirement. In a 2007 report, for example, the
+Army acknowledged that “since modularity requirements mirror the equipment requirements the
+Army already procures for its units, the ability to precisely track modularity funds is lost.”101
+
+At DOD’s request, Congress agreed to provide $5 billion in the FY2005 and in FY2006
+supplementals for converting units with the understanding that DOD would move these funds
+back to its regular budget in later years. The FY2007 Supplemental again included $3.6 billion to
+convert two Army brigade teams and create an additional Marine Corps regimental combat team,
+highlighting the issue of whether funds within DOD’s regular requirements are being shifted to
+emergency funding. The FY2008 war request also included $1.6 billion to accelerate the creation
+of more modular brigades plus additional funds for equipping them. 102
+
+97
+   Office of the Secretary of Defense, Report to the Congress, “Long-Term Equipment Repair Costs,” September 2006,
+p. 24 and p. 25.
+98
+   Army Briefing, “Army Equipment Reset Update,” May 18, 2006, p. 8.
+99
+   CBO Testimony by Douglas Holtz-Eakin, Director, “The Potential Costs Resulting from Increased Usage of Military
+Equipment in Ongoing Operations,” before the Subcommittee on Readiness, House Armed Services Committee April
+6, 2005, p. 2.
+100
+    CBO, Replacing and Repairing Equipment Used In Iraq and Afghanistan: The Army’s Reset Program by Frances
+M. Lussier, September 2007; http://www.cbo.gov/showdoc.cfm?index=8629&sequcence=0&from=7, p. ix.
+101
+    Secretary of the Army, “Sec. 323 report required by the FY2007 National Defense Authorization Act, P.L. 109-
+364,” February 14, 2007, p. 4.
+102
+    DOD, FY2008 Global War on Terror Amendment, October 2007, http://www.defenselink.mil/comptroller/
+(continued...)
+
+
+
+Congressional Research Service                                                                                  53
+                        The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+DOD argued that these costs should be considered war-related because having more modular
+units makes it easier to rotate units to the war zone and hence would extend the time between
+deployments giving soldiers more time at home, or “dwell time,” and hence improving readiness.
+This conclusion has been questioned in studies by CBO and RAND. Both studies found that
+modularity would only marginally improve rotation schedules. CBO estimated that the Army’s
+modularity initiative would only make available an additional 6,000 to 7,000 troops.103 DOD does
+not estimate the effect of either its previous or new funding for modularity on the amount of time
+soldiers have at home between deployments.
+
+Congress included the funds in the FY2005 and FY2006 war appropriations acts with some
+reluctance (effectively giving the Army more room in its regular budget for two years) based on
+an understanding with DOD that this funding would return to the regular budget after FY2006
+and that $25 billion was set aside for the Army in future years to cover these costs.104 Congress
+appears to have approved these costs in FY2007 as well.
+
+
+Growing the Force as a War Cost
+Previously, Congress has provided funding to cover “overstrength” or the cost of recruiting and
+retaining additional personnel above the Army’s pre-war end strength of 482,000 and the Marine
+Corps end strength of 175,000. DOD has argued that these increases were required to reduce the
+stress on forces and that the increases would be temporary. In January 2007, the President
+announced plans to permanently increase the size of the Army and Marine Corps by 92,000 over
+the next six years including the almost 30,000 additional personnel already on board.
+
+The FY2007 Supplemental included $4.9 billion to cover the military personnel cost of additional
+troops plus $1.7 billion for equipment and infrastructure for the forces to be added in FY2007.
+DOD promises that funding to equip future increases in the force would be funded in the regular
+budget starting in FY2009.
+
+In a reversal of its previous position, DOD argued that the Army and Marine Corps need to be
+permanently expanded by 92,000 by 2012. The President’s proposal marks a major change and
+appears to assume that the United States needs to be able to deploy substantial numbers of troops
+on a permanent basis. CBO estimates that adding two divisions to the Army—roughly equivalent
+to the President’s proposal—would require an additional $108 billion between FY2008 and
+FY2017, a major investment.105 With the new guidance adopted in February 2009 that restricts
+war funding to costs strictly tied to overseas contingency operations, these would not be
+considered appropriate war costs.
+
+
+
+(...continued)
+defbudget/fy2008/Supplemental/FY2008_October_Global_War_On_Terror_Amendment.pdf, p. 48 and 49.
+103
+    The RAND study argued that the types of units created were not those most needed. RAND, Stretched Thin: Army
+Forces for Sustained Operations, 7-15-05; http://www.rand.org/pubs/monographs/2005/RAND_MG362.pdf. CBO, An
+Analysis of the Military’s Ability to Sustain an Occupation in Iraq: an Update, October 5, 2005; http://www.cbo.gov/
+ftpdocs/66xx/doc6682/10-05-05-IraqLetter.pdf.
+104
+    Program Budget Decision 753, “Other Secretary of Defense Decisions,” December 23, 2004, p. 1.
+105
+    CBO, Budget Options, February 2007, p. 9-10 http://www.cbo.gov/ftpdocs/78xx/doc7821/02-23-
+BudgetOptions.pdf.
+
+
+
+
+Congressional Research Service                                                                                    54
+                     The Cost of Iraq, Afghanistan, and Other Global War on Terror Operations Since 9/11
+
+
+
+
+DOD is currently including as a war cost $1.4 billion to cover the cost of an additional 22,000
+service members added by the Army and Navy to reduce the stress on deploying troops and offset
+the effect of ending the policy of stop-loss, where deployed service members were retained
+beyond their enlistment periods. DOD is presenting this as a temporary increase to be reversed as
+withdrawals pick up pace in Iraq. Members could be concerned that this increase could end up
+becoming permanent.
+
+
+
+Author Contact Information
+
+Amy Belasco
+Specialist in U.S. Defense Policy and Budget
+abelasco@crs.loc.gov, 7-7627
+
+
+
+
+Congressional Research Service                                                                       55
+

@@ -1,0 +1,83 @@
+event,label,item_type,group,outlet,stance,stance_num,statement_tone,political_lean
+2009-02-17,"First troop increase: 17,000 more US troops to Afghanistan",news_report,news,Salon / Alex Koppelman,neutral,0,0.262,left
+2009-02-17,"First troop increase: 17,000 more US troops to Afghanistan",news_report,news,UPI / Shaun Waterman,mixed,0,0.262,center
+2009-02-17,"First troop increase: 17,000 more US troops to Afghanistan",news_report,news,Al Jazeera English,neutral,0,0.262,international
+2009-02-17,"First troop increase: 17,000 more US troops to Afghanistan",news_report,news,Long War Journal / Bill Roggio,neutral,0,0.262,right
+2009-02-17,"First troop increase: 17,000 more US troops to Afghanistan",opinion,opinion,"The Nation (Katrina vanden Heuvel), reposted by Common Dreams",negative,-1,0.262,left
+2009-02-17,"First troop increase: 17,000 more US troops to Afghanistan",opinion,opinion,Socialist Worker / Elizabeth Schulte (per search snippet),negative,-1,0.262,left
+2009-03-27,New Afghanistan-Pakistan (AfPak) strategy announced,news_report,news,Pew Research Center,neutral,0,0.144,center
+2009-03-27,New Afghanistan-Pakistan (AfPak) strategy announced,analysis,opinion,Media Matters for America,negative,-1,0.144,left
+2009-03-27,New Afghanistan-Pakistan (AfPak) strategy announced,news_report,news,Jim Lobe / Common Dreams,neutral,0,0.144,left
+2009-03-27,New Afghanistan-Pakistan (AfPak) strategy announced,opinion,opinion,Kathleen (K.T.) McFarland / Fox News,positive,1,0.144,right
+2009-03-27,New Afghanistan-Pakistan (AfPak) strategy announced,editorial,opinion,Arab News (editorial),negative,-1,0.144,international
+2009-03-27,New Afghanistan-Pakistan (AfPak) strategy announced,opinion,opinion,Brahma Chellaney,negative,-1,0.144,international
+2009-03-27,New Afghanistan-Pakistan (AfPak) strategy announced,analysis,opinion,"Ed Kilgore (reposting J.P. Green), The Democratic Strategist",mixed,0,0.144,left
+2009-03-27,New Afghanistan-Pakistan (AfPak) strategy announced,news_report,news,Speaker Nancy Pelosi (press release),positive,1,0.144,left
+2009-12-01,"West Point speech: 30,000-troop surge with July 2011 drawdown start",news_report,news,"Patrick Martin, World Socialist Web Site",negative,-1,0.068,
+2009-12-01,"West Point speech: 30,000-troop surge with July 2011 drawdown start",analysis,opinion,Heritage Foundation (Phillips and Curtis),mixed,0,0.068,
+2009-12-01,"West Point speech: 30,000-troop surge with July 2011 drawdown start",news_report,news,Christian Science Monitor,neutral,0,0.068,
+2009-12-01,"West Point speech: 30,000-troop surge with July 2011 drawdown start",news_report,news,Asharq Al-Awsat,negative,-1,0.068,
+2009-12-01,"West Point speech: 30,000-troop surge with July 2011 drawdown start",opinion,opinion,"Karl Rove, Fox News",mixed,0,0.068,
+2010-06-23,McChrystal relieved after Rolling Stone article; Petraeus named commander,news_report,news,ABC News,neutral,0,0.285,
+2010-06-23,McChrystal relieved after Rolling Stone article; Petraeus named commander,news_report,news,Roll Call,neutral,0,0.285,
+2010-06-23,McChrystal relieved after Rolling Stone article; Petraeus named commander,news_report,news,Government Executive,neutral,0,0.285,
+2010-06-23,McChrystal relieved after Rolling Stone article; Petraeus named commander,news_report,news,Al Jazeera English,mixed,0,0.285,
+2010-06-23,McChrystal relieved after Rolling Stone article; Petraeus named commander,opinion,opinion,"Common Dreams (republished from FlaglerLive), Pierre Tristam",negative,-1,0.285,
+2010-06-23,McChrystal relieved after Rolling Stone article; Petraeus named commander,editorial,opinion,Honolulu Star-Advertiser (editorial board),negative,-1,0.285,
+2010-06-23,McChrystal relieved after Rolling Stone article; Petraeus named commander,analysis,opinion,Pew Research Center (PEJ New Media Index),neutral,0,0.285,
+2010-06-23,McChrystal relieved after Rolling Stone article; Petraeus named commander,news_report,news,"The White House (Office of the Press Secretary, blog)",positive,1,0.285,
+2011-05-01,Bin Laden killed in Abbottabad raid; effect on Afghanistan war debate,opinion,opinion,"Marwan Bishara, Al Jazeera",negative,-1,0.006,international
+2011-05-01,Bin Laden killed in Abbottabad raid; effect on Afghanistan war debate,opinion,opinion,"Medea Benjamin, Common Dreams",negative,-1,0.006,left
+2011-05-01,Bin Laden killed in Abbottabad raid; effect on Afghanistan war debate,analysis,opinion,"Stephen Biddle, Council on Foreign Relations (interview)",neutral,0,0.006,center
+2011-05-01,Bin Laden killed in Abbottabad raid; effect on Afghanistan war debate,analysis,opinion,"Peter Bergen, Foreign Policy",negative,-1,0.006,center
+2011-05-01,Bin Laden killed in Abbottabad raid; effect on Afghanistan war debate,opinion,opinion,"George Will, Washington Post column (reprinted on Patriot Post)",negative,-1,0.006,right
+2011-05-01,Bin Laden killed in Abbottabad raid; effect on Afghanistan war debate,news_report,news,UPI,negative,-1,0.006,unknown
+2011-06-22,"Drawdown announcement: 33,000 surge troops home by summer 2012",news_report,news,NBC News / msnbc.com (news services),neutral,0,0.076,
+2011-06-22,"Drawdown announcement: 33,000 surge troops home by summer 2012",news_report,news,Al Jazeera English,neutral,0,0.076,
+2011-06-22,"Drawdown announcement: 33,000 surge troops home by summer 2012",analysis,opinion,Rob Koenig / St. Louis Public Radio (originally St. Louis Beacon),mixed,0,0.076,
+2011-06-22,"Drawdown announcement: 33,000 surge troops home by summer 2012",opinion,opinion,RAND Corporation (commentary first run in The Guardian),negative,-1,0.076,
+2011-06-22,"Drawdown announcement: 33,000 surge troops home by summer 2012",news_report,news,Fox News,negative,-1,0.076,
+2011-06-22,"Drawdown announcement: 33,000 surge troops home by summer 2012",news_report,news,Christian Science Monitor,mixed,0,0.076,
+2012-05-01,Kabul address and US-Afghan Strategic Partnership Agreement,news_report,news,Mark Landler / The New York Times (carried on NBC News site),neutral,0,0.369,left
+2012-05-01,Kabul address and US-Afghan Strategic Partnership Agreement,news_report,news,Associated Press (carried on Fox News site),mixed,0,0.369,center
+2012-05-01,Kabul address and US-Afghan Strategic Partnership Agreement,editorial,opinion,The City Wire staff / Talk Business (talkbusiness.net),negative,-1,0.369,unknown
+2012-05-01,Kabul address and US-Afghan Strategic Partnership Agreement,news_report,news,Al Jazeera English,mixed,0,0.369,international
+2012-05-01,Kabul address and US-Afghan Strategic Partnership Agreement,news_report,news,Daniel Stone / The Daily Beast,neutral,0,0.369,left
+2012-05-21,"Chicago NATO summit: transition to Afghan lead, end of combat role by 2014",news_report,news,Al Jazeera,neutral,0,0.038,international
+2012-05-21,"Chicago NATO summit: transition to Afghan lead, end of combat role by 2014",news_report,news,Al Jazeera,mixed,0,0.038,international
+2012-05-21,"Chicago NATO summit: transition to Afghan lead, end of combat role by 2014",opinion,opinion,"Ahmed Rashid, The New York Review of Books",negative,-1,0.038,left
+2012-05-21,"Chicago NATO summit: transition to Afghan lead, end of combat role by 2014",news_report,news,Christian Science Monitor,neutral,0,0.038,center
+2014-05-27,"Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016",news_report,news,Fox News,neutral,0,0.162,
+2014-05-27,"Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016",news_report,news,PJ Media (Bridget Johnson),negative,-1,0.162,
+2014-05-27,"Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016",news_report,news,Al Jazeera English (Patty Culhane),neutral,0,0.162,
+2014-05-27,"Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016",news_report,news,Roll Call (Chris Riback),neutral,0,0.162,
+2014-05-27,"Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016",opinion,opinion,Truthdig (Peter Z. Scheer),mixed,0,0.162,
+2014-05-27,"Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016",news_report,news,Inter Press Service (republished by The Militarist Monitor),neutral,0,0.162,
+2014-05-27,"Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016",news_report,news,RFE/RL,mixed,0,0.162,
+2014-05-27,"Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016",news_report,news,Office of Rep. Nancy Pelosi (press statement),positive,1,0.162,
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),news_report,news,"Andrew Tilghman, Military Times",neutral,0,0.257,center
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),news_report,news,Associated Press (datelined Honolulu; hosted by Hurriyet Daily News),neutral,0,0.257,center
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),opinion,opinion,"Amy Miller, Legal Insurrection",negative,-1,0.257,right
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),opinion,opinion,ericlewis0 (Daily Kos community diary),positive,1,0.257,left
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),opinion,opinion,"Brian Adam Jones, This Is Not Cool / Task and Purpose",neutral,0,0.257,center
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),news_report,news,"Carey Reed, PBS NewsHour",positive,1,0.257,center
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),news_report,news,Al Jazeera,neutral,0,0.257,international
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),news_report,news,"AFP (published by Dawn, Pakistan)",neutral,0,0.257,international
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),opinion,opinion,Peter Van Buren (FireDogLake; republished by Common Dreams),negative,-1,0.257,left
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),news_report,news,White House (official statement),positive,1,0.257,unknown
+2015-10-15,"Withdrawal halted: 5,500 troops to stay past 2016",news_report,news,"Associated Press (Julie Pace, Lolita C. Baldor), via PBS NewsHour",neutral,0,0.256,center
+2015-10-15,"Withdrawal halted: 5,500 troops to stay past 2016",news_report,news,Roll Call (Matt Danzer),neutral,0,0.256,center
+2015-10-15,"Withdrawal halted: 5,500 troops to stay past 2016",news_report,news,"Washington Examiner (Nicole Duran), syndicated on Fox News",neutral,0,0.256,right
+2015-10-15,"Withdrawal halted: 5,500 troops to stay past 2016",news_report,news,Foreign Policy (Paul McLeary),neutral,0,0.256,center
+2015-10-15,"Withdrawal halted: 5,500 troops to stay past 2016",opinion,opinion,Common Dreams (Jon Queally),negative,-1,0.256,left
+2015-10-15,"Withdrawal halted: 5,500 troops to stay past 2016",opinion,opinion,Jeffrey Eggers (RAND commentary; first published by Politico),mixed,0,0.256,center
+2015-10-15,"Withdrawal halted: 5,500 troops to stay past 2016",opinion,opinion,Bangor Daily News (Opinion Contributor),negative,-1,0.256,unknown
+2015-10-15,"Withdrawal halted: 5,500 troops to stay past 2016",news_report,news,"Stabroek News (Guyana), wire-style report; original wire source not confirmed",neutral,0,0.256,international
+2016-07-06,"8,400 troops to remain through end of term",news_report,news,Breaking Defense (Sydney J. Freedberg Jr.),mixed,0,0.186,center
+2016-07-06,"8,400 troops to remain through end of term",news_report,news,"Defense One (Kevin Baron), reprinted on GovExec",mixed,0,0.186,center
+2016-07-06,"8,400 troops to remain through end of term",news_report,news,Free Beacon (Natalie Johnson),neutral,0,0.186,right
+2016-07-06,"8,400 troops to remain through end of term",news_report,news,Foreign Policy (Dan De Luce and Molly O'Toole),neutral,0,0.186,center
+2016-07-06,"8,400 troops to remain through end of term",opinion,opinion,Commondreams (Andrea Germanos),negative,-1,0.186,left
+2016-07-06,"8,400 troops to remain through end of term",opinion,opinion,Reason (Ed Krayewski),negative,-1,0.186,unknown
+2016-07-06,"8,400 troops to remain through end of term",news_report,news,Fox News transcript (Sen. John McCain on Your World),negative,-1,0.186,right
+2016-07-06,"8,400 troops to remain through end of term",news_report,news,"Dawn (Pakistan), Correspondent report",neutral,0,0.186,international

@@ -1,0 +1,19 @@
+test,metric,n,rho,p_exact,p_perm
+A: opinion_t vs pre-window (contemporaneous),n_hi,11,-0.865,0.0006,0.0007
+A: opinion_t vs pre-window (contemporaneous),hi_per_100_speeches,11,-0.796,0.0034,0.0037
+A: opinion_t vs pre-window (contemporaneous),tone_mean,11,-0.256,0.4468,0.4412
+A: opinion_t vs pre-window (contemporaneous),share_war_direct,11,0.618,0.0428,0.0451
+A: opinion_t vs pre-window (contemporaneous),share_war_adjacent,11,-0.517,0.1033,0.0983
+A: opinion_t vs pre-window (contemporaneous),share_aid_civil,11,-0.572,0.0659,0.0684
+B: opinion_t vs post-window (rhetoric t..t+30),n_hi,11,-0.61,0.0462,0.0458
+B: opinion_t vs post-window (rhetoric t..t+30),hi_per_100_speeches,11,-0.613,0.0448,0.0466
+B: opinion_t vs post-window (rhetoric t..t+30),tone_mean,11,-0.769,0.0057,0.0066
+B: opinion_t vs post-window (rhetoric t..t+30),share_war_direct,11,-0.535,0.0896,0.0914
+B: opinion_t vs post-window (rhetoric t..t+30),share_war_adjacent,11,0.149,0.6618,0.6539
+B: opinion_t vs post-window (rhetoric t..t+30),share_aid_civil,11,-0.141,0.6802,0.6835
+C: opinion drop (since prev poll) vs rhetoric change (post-pre),n_hi,10,0.375,0.2851,0.2853
+C: opinion drop (since prev poll) vs rhetoric change (post-pre),hi_per_100_speeches,10,0.276,0.44,0.4475
+C: opinion drop (since prev poll) vs rhetoric change (post-pre),tone_mean,10,0.841,0.0023,0.0038
+C: opinion drop (since prev poll) vs rhetoric change (post-pre),share_war_direct,10,0.227,0.5282,0.5327
+C: opinion drop (since prev poll) vs rhetoric change (post-pre),share_war_adjacent,10,-0.006,0.9866,1.0
+C: opinion drop (since prev poll) vs rhetoric change (post-pre),share_aid_civil,10,-0.215,0.5513,0.5535

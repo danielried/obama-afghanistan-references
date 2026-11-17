@@ -1,0 +1,146 @@
+speeches index: 5026 rows, dup_of non-empty excluded: 0, kept: 5026
+references.csv rows: 4741
+refs in kept speeches: 4741
+index text_len == len(raw_text): 0.9994
+para_label counts: {'speaker': 4632, 'questioner': 109}
+passage span inside labelled paragraph: 1.0000
+crosstab computed questioner vs rationale flag:
+ rationale   False  True 
+para_label              
+False        4632      0
+True            0    109
+questioner-labelled passages in non-press/interview types: {'remarks': 24, 'other': 1}
+editor-labelled passages (should be 0): 0
+groups kept (n>=10): {'remarks': 2685, 'press_conference|president': 1030, 'statement': 506, 'address': 206, 'weekly_address': 97, 'interview|president': 83, 'press_conference|questioner': 80, 'other': 50}
+groups dropped (n<10): {'interview|questioner': 4}
+
+GROUP SUMMARY
+                           g    n  score_median  score_mean  tone_median  tone_mean  n_speeches  war_share  hi50_share
+                    address  206          79.0      74.636        0.000      0.048          31      0.825       0.883
+        interview|president   83          67.0      70.916        0.000      0.146          11      0.675       0.952
+                      other   50          63.0      55.260        0.000      0.004           5      0.760       0.640
+ press_conference|president 1030          71.0      71.271        0.340      0.270          98      0.739       0.926
+press_conference|questioner   80          53.5      54.875        0.000     -0.018          29      0.688       0.588
+                    remarks 2685          69.0      65.283        0.000      0.011         825      0.750       0.779
+                  statement  506          71.0      69.891        0.637      0.478          87      0.753       0.923
+             weekly_address   97          74.0      67.526        0.000      0.077          47      0.845       0.845
+
+KRUSKAL war_likelihood_score: H=145.906, df=7, p=2.94e-28, eta2_H=0.0294, N=4737
+pairwise war_likelihood_score: 28 tests, Holm p<0.05: 18
+             outcome                           a                           b  n_a  n_b  median_a  median_b       U_a      p  rank_biserial_a_vs_b  p_holm
+war_likelihood_score                     remarks  press_conference|president 2685 1030      69.0      71.0 1186867.0 0.0000               -0.1417  0.0000
+war_likelihood_score                     remarks                   statement 2685  506      69.0      71.0  619070.5 0.0015               -0.0887  0.0168
+war_likelihood_score                     remarks                     address 2685  206      69.0      79.0  195176.5 0.0000               -0.2943  0.0000
+war_likelihood_score                     remarks              weekly_address 2685   97      69.0      74.0  121781.0 0.2772               -0.0648  1.0000
+war_likelihood_score                     remarks         interview|president 2685   83      69.0      67.0   98874.0 0.0799               -0.1127  0.6391
+war_likelihood_score                     remarks press_conference|questioner 2685   80      69.0      53.5  144803.0 0.0000                0.3483  0.0000
+war_likelihood_score                     remarks                       other 2685   50      69.0      63.0   84967.0 0.0013                0.2658  0.0150
+war_likelihood_score  press_conference|president                   statement 1030  506      71.0      71.0  276612.0 0.0498                0.0615  0.4481
+war_likelihood_score  press_conference|president                     address 1030  206      71.0      79.0   87176.0 0.0001               -0.1783  0.0008
+war_likelihood_score  press_conference|president              weekly_address 1030   97      71.0      74.0   54035.5 0.1828                0.0817  1.0000
+war_likelihood_score  press_conference|president         interview|president 1030   83      71.0      67.0   43762.5 0.7179                0.0238  1.0000
+war_likelihood_score  press_conference|president press_conference|questioner 1030   80      71.0      53.5   63784.5 0.0000                0.5482  0.0000
+war_likelihood_score  press_conference|president                       other 1030   50      71.0      63.0   36173.0 0.0000                0.4048  0.0000
+war_likelihood_score                   statement                     address  506  206      71.0      79.0   40323.5 0.0000               -0.2263  0.0000
+war_likelihood_score                   statement              weekly_address  506   97      71.0      74.0   25024.5 0.7585                0.0197  1.0000
+war_likelihood_score                   statement         interview|president  506   83      71.0      67.0   20068.0 0.5171               -0.0443  1.0000
+war_likelihood_score                   statement press_conference|questioner  506   80      71.0      53.5   30520.0 0.0000                0.5079  0.0000
+war_likelihood_score                   statement                       other  506   50      71.0      63.0   17245.5 0.0000                0.3633  0.0004
+war_likelihood_score                     address              weekly_address  206   97      79.0      74.0   12778.0 0.0001                0.2790  0.0013
+war_likelihood_score                     address         interview|president  206   83      79.0      67.0   10292.0 0.0067                0.2039  0.0668
+war_likelihood_score                     address press_conference|questioner  206   80      79.0      53.5   13152.5 0.0000                0.5962  0.0000
+war_likelihood_score                     address                       other  206   50      79.0      63.0    7782.5 0.0000                0.5112  0.0000
+war_likelihood_score              weekly_address         interview|president   97   83      74.0      67.0    3764.0 0.4531               -0.0650  1.0000
+war_likelihood_score              weekly_address press_conference|questioner   97   80      74.0      53.5    5685.0 0.0000                0.4652  0.0000
+war_likelihood_score              weekly_address                       other   97   50      74.0      63.0    3243.5 0.0008                0.3375  0.0105
+war_likelihood_score         interview|president press_conference|questioner   83   80      67.0      53.5    5078.0 0.0000                0.5295  0.0000
+war_likelihood_score         interview|president                       other   83   50      67.0      63.0    2863.5 0.0002                0.3800  0.0033
+war_likelihood_score press_conference|questioner                       other   80   50      53.5      63.0    1921.5 0.7087               -0.0393  1.0000
+
+KRUSKAL vader_tone: H=428.106, df=7, p=2.23e-88, eta2_H=0.0890, N=4737
+pairwise vader_tone: 28 tests, Holm p<0.05: 12
+   outcome                           a                           b  n_a  n_b  median_a  median_b       U_a      p  rank_biserial_a_vs_b  p_holm
+vader_tone                     remarks  press_conference|president 2685 1030     0.000     0.340 1012718.0 0.0000               -0.2676  0.0000
+vader_tone                     remarks                   statement 2685  506     0.000     0.637  347380.5 0.0000               -0.4886  0.0000
+vader_tone                     remarks                     address 2685  206     0.000     0.000  267007.5 0.4070               -0.0345  1.0000
+vader_tone                     remarks              weekly_address 2685   97     0.000     0.000  121551.5 0.2632               -0.0666  1.0000
+vader_tone                     remarks         interview|president 2685   83     0.000     0.000   96665.0 0.0389               -0.1325  0.5450
+vader_tone                     remarks press_conference|questioner 2685   80     0.000     0.000  110944.5 0.6134                0.0330  1.0000
+vader_tone                     remarks                       other 2685   50     0.000     0.000   67551.5 0.9384                0.0064  1.0000
+vader_tone  press_conference|president                   statement 1030  506     0.340     0.637  182510.0 0.0000               -0.2996  0.0000
+vader_tone  press_conference|president                     address 1030  206     0.340     0.000  132670.5 0.0000                0.2505  0.0000
+vader_tone  press_conference|president              weekly_address 1030   97     0.340     0.000   59779.0 0.0013                0.1967  0.0217
+vader_tone  press_conference|president         interview|president 1030   83     0.340     0.000   50690.0 0.0046                0.1859  0.0730
+vader_tone  press_conference|president press_conference|questioner 1030   80     0.340     0.000   55612.5 0.0000                0.3498  0.0000
+vader_tone  press_conference|president                       other 1030   50     0.340     0.000   33571.5 0.0003                0.3037  0.0047
+vader_tone                   statement                     address  506  206     0.637     0.000   77773.5 0.0000                0.4923  0.0000
+vader_tone                   statement              weekly_address  506   97     0.637     0.000   35042.5 0.0000                0.4279  0.0000
+vader_tone                   statement         interview|president  506   83     0.637     0.000   30695.0 0.0000                0.4617  0.0000
+vader_tone                   statement press_conference|questioner  506   80     0.637     0.000   31824.5 0.0000                0.5724  0.0000
+vader_tone                   statement                       other  506   50     0.637     0.000   19648.5 0.0000                0.5532  0.0000
+vader_tone                     address              weekly_address  206   97     0.000     0.000    9657.5 0.6392               -0.0334  1.0000
+vader_tone                     address         interview|president  206   83     0.000     0.000    7620.0 0.1469               -0.1087  1.0000
+vader_tone                     address press_conference|questioner  206   80     0.000     0.000    8772.0 0.3952                0.0646  1.0000
+vader_tone                     address                       other  206   50     0.000     0.000    5377.0 0.6288                0.0441  1.0000
+vader_tone              weekly_address         interview|president   97   83     0.000     0.000    3770.5 0.4627               -0.0633  1.0000
+vader_tone              weekly_address press_conference|questioner   97   80     0.000     0.000    4247.5 0.2767                0.0947  1.0000
+vader_tone              weekly_address                       other   97   50     0.000     0.000    2618.5 0.4290                0.0798  1.0000
+vader_tone         interview|president press_conference|questioner   83   80     0.000     0.000    3993.0 0.0231                0.2027  0.3464
+vader_tone         interview|president                       other   83   50     0.000     0.000    2371.5 0.1641                0.1429  1.0000
+vader_tone press_conference|questioner                       other   80   50     0.000     0.000    1923.5 0.7129               -0.0383  1.0000output/analyses/01_venue/analysis.py:316: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  axes[0].boxplot([d.loc[d.g == g, "score"].values for g in order], vert=False, showfliers=False)
+
+
+CATEGORY chi2=208.50, dof=28, p=1.67e-29, Cramer V=0.1049, share cells expected<5=0.225
+cat                          aid_diplomacy_civil  incidental  non_war_or_background  war_adjacent  war_direct
+g                                                                                                            
+address                                        7          25                      4            58         112
+interview|president                            1          26                      0            23          33
+other                                          1          10                      1            27          11
+press_conference|president                    59         208                      2           290         471
+press_conference|questioner                    2          21                      2            26          29
+remarks                                      116         526                     30           782        1231
+statement                                     81          41                      3           171         210
+weekly_address                                 3          11                      1            25          57
+
+HI>=30: chi2=138.57, dof=7, p=1.01e-26, V=0.1710
+{'address': 0.966, 'interview|president': 0.976, 'other': 0.78, 'press_conference|president': 0.988, 'press_conference|questioner': 0.938, 'remarks': 0.909, 'statement': 0.99, 'weekly_address': 0.979}
+
+HI>=50: chi2=207.62, dof=7, p=2.79e-41, V=0.2094
+{'address': 0.883, 'interview|president': 0.952, 'other': 0.64, 'press_conference|president': 0.926, 'press_conference|questioner': 0.588, 'remarks': 0.779, 'statement': 0.923, 'weekly_address': 0.845}
+
+HI>=70: chi2=93.86, dof=7, p=1.99e-17, V=0.1408
+{'address': 0.67, 'interview|president': 0.47, 'other': 0.3, 'press_conference|president': 0.551, 'press_conference|questioner': 0.163, 'remarks': 0.468, 'statement': 0.518, 'weekly_address': 0.588}
+
+questioner vs president (press+interview) score: n=80 vs 1113, median 53.5 vs 71.0, p=2.78e-16
+
+venue_title bonus share by group: {'address': 0.485, 'interview|president': 0.169, 'other': 0.0, 'press_conference|president': 0.392, 'press_conference|questioner': 0.275, 'remarks': 0.31, 'statement': 0.711, 'weekly_address': 0.0}
+KW score without venue_title bonus: H=131.95, p=2.46e-25, eta2_H=0.0264
+median score without venue_title bonus: {'address': 77.0, 'interview|president': 66.0, 'other': 63.0, 'press_conference|president': 69.0, 'press_conference|questioner': 51.5, 'remarks': 68.0, 'statement': 67.0, 'weekly_address': 74.0}
+KW score, questioner groups excluded (k=7): H=103.16, p=5.49e-20
+
+RATES per 10k chars
+                        unit  speeches  passages    chars  per_10k_chars  ci_lo  ci_hi
+        interview|president        21        83   390237          2.127  1.694  2.637
+                  interview        21        87   428219          2.032  1.627  2.506
+                    address        48       206  1069158          1.927  1.673  2.209
+ press_conference|president       170      1030  5459070          1.887  1.773  2.006
+press_conference|questioner       170        80   428745          1.866  1.480  2.322
+           press_conference       170      1110  6007020          1.848  1.741  1.960
+                  statement      1409       506  2854885          1.772  1.621  1.934
+       interview|questioner        21         4    23502          1.702  0.464  4.358
+                      other         8        50   434975          1.149  0.853  1.515
+                    remarks      2966      2685 36987678          0.726  0.699  0.754
+             weekly_address       404        97  1608907          0.603  0.489  0.735
+
+NB GLM speech-level (exposure=text_len), base=remarks: alpha=5.5008, LR=57.08, df=6, p=1.76e-10, n speeches=5023, passages=4741
+            type  IRR_vs_remarks  ci_lo  ci_hi      p  p_holm
+         address          3.3107 1.6636 6.5888 0.0007  0.0026
+       interview          2.9701 1.0594 8.3268 0.0385  0.1155
+           other          0.9454 0.1786 5.0032 0.9473  0.9473
+press_conference          2.4353 1.6788 3.5327 0.0000  0.0000
+       statement          1.4397 1.1787 1.7585 0.0004  0.0018
+  weekly_address          0.7901 0.5737 1.0881 0.1491  0.2981
+KW per-speech rate across types (n>=10): H=430.60, df=5, p=7.51e-91
+
+wrote output/analyses/01_venue/results.json

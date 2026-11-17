@@ -1,0 +1,1568 @@
+[
+ {
+  "result": {
+   "key": "01_venue",
+   "question": "Do Afghanistan passages differ in war-likelihood score, category mix, VADER tone, and mentions per 10k chars by speech type (weekly_address, press_conference, remarks, statement, address, interview), with press conference and interview answers split from questioner passages?",
+   "data_used": [
+    "output/references.csv (4,741 passages)",
+    "output/speeches_index.csv (5,026 speeches; 0 dup_of)",
+    "data/speeches.db (raw_text, read-only, used for paragraph speaker labels and text length)",
+    "src/obama_afghan/score.py and detect.py (read-only, for questioner regex and score features)"
+   ],
+   "method": "Speaker split from raw-text paragraph labels (same regex as detect.py; 109/109 agree with questioner rationale flag). Groups with n>=10 tested. Kruskal-Wallis with eta\u00b2_H; pairwise two-sided Mann-Whitney with Holm (28 pairs per outcome) and rank-biserial r; chi-square group x category with Cram\u00e9r's V; high-likelihood share at 30/50/70; exact Poisson CIs for mentions per 10k chars; speech-level negative binomial GLM (exposure = text length, base remarks) with LR test; sensitivity removing the venue_title score bonus and excluding questioner groups.",
+   "n": "4741 passages across 5023 speeches. Test groups: remarks 2685, press_conference|president 1030, statement 506, address 206, weekly_address 97, interview|president 83, press_conference|questioner 80, other 50. interview|questioner n=4 (rates only).",
+   "key_numbers": [
+    {
+     "name": "Score KW H (df 7), p, eta2_H",
+     "value": "145.9, p=2.9e-28, eta2_H=0.029 (small)"
+    },
+    {
+     "name": "Tone KW H (df 7), p, eta2_H",
+     "value": "428.1, p=2.2e-88, eta2_H=0.089"
+    },
+    {
+     "name": "Category chi2 (df 28), p, Cramer V",
+     "value": "208.5, p=1.7e-29, V=0.105; 22.5% cells expected<5"
+    },
+    {
+     "name": "High-likelihood share >=50 chi2, V",
+     "value": "207.6, p=2.8e-41, V=0.21 (>=30: V=0.17; >=70: V=0.14)"
+    },
+    {
+     "name": "Rate per 10k chars: remarks",
+     "value": "0.726 [0.699, 0.754]"
+    },
+    {
+     "name": "Rate per 10k chars: press_conference|president",
+     "value": "1.887 [1.773, 2.006]"
+    },
+    {
+     "name": "Rate per 10k chars: press_conference|questioner",
+     "value": "1.866 [1.480, 2.322]"
+    },
+    {
+     "name": "Rate per 10k chars: statement / address / weekly_address",
+     "value": "1.772 [1.621, 1.934] / 1.927 [1.673, 2.209] / 0.603 [0.489, 0.735]"
+    },
+    {
+     "name": "NB GLM IRR vs remarks: press_conference / address / statement",
+     "value": "2.44 [1.68, 3.53] Holm p<0.001 / 3.31 [1.66, 6.59] Holm p=0.003 / 1.44 [1.18, 1.76] Holm p=0.002"
+    },
+    {
+     "name": "NB GLM IRR: interview / weekly_address",
+     "value": "2.97 [1.06, 8.33] Holm p=0.12 (n.s.) / 0.79 [0.57, 1.09] Holm p=0.30 (n.s.)"
+    },
+    {
+     "name": "Score pairwise: address vs remarks (rank-biserial, Holm p)",
+     "value": "-0.29, p<0.001"
+    },
+    {
+     "name": "Score pairwise: press_conference|questioner vs press_conference|president",
+     "value": "r=0.55, p<0.001 (circular: -18 scorer penalty)"
+    },
+    {
+     "name": "Score median questioner vs president (press+interview)",
+     "value": "53.5 (n=80) vs 71.0 (n=1113), p=2.8e-16 (circular)"
+    },
+    {
+     "name": "Score KW without venue_title bonus (approx -4)",
+     "value": "H=132.0, p=2.5e-25, eta2_H=0.026"
+    },
+    {
+     "name": "venue_title bonus share by group",
+     "value": "statement 71%, address 49%, press|president 39%, remarks 31%, weekly_address 0%"
+    },
+    {
+     "name": "Tone pairwise: statement vs remarks; press|president vs remarks",
+     "value": "r=-0.49 p<0.001; r=-0.27 p<0.001 (VADER word valence, not stance)"
+    }
+   ],
+   "finding": "Venue shifts the war-likelihood score and mention rate, but effects are small (eta\u00b2_H 0.03). Address and press-conference-president passages score higher than remarks, and questioner passages score much lower. Both questioner and venue-title effects are partly built into the scorer, so they are circular for a venue-framing question. Mention rates are about 2.4-3.3x higher in press conferences, addresses, and statements than in remarks (speech-level NB GLM), and weekly addresses are not significantly different from remarks. Tone differs by venue (statements most positive), but VADER measures word valence, not stance. High-likelihood share ranking is stable across thresholds 30/50/70.",
+   "strength": "moderate",
+   "caveats": [
+    "Scores are rule-based, not ground truth; the scorer was tuned on 30 labels.",
+    "Score differences by venue are partly built into the rules: questioner penalty (-18) and venue_title bonus (+4, keyed on speech title words). The venue_title sensitivity is an approximation (subtract 4).",
+    "Questioner labels cover only the first paragraph of each Q&A turn, so some questions may be misattributed and rates for split groups are approximate.",
+    "Passages are clustered in speeches (e.g. 98 press conferences give 1030 passages). Mann-Whitney and chi-square treat them as independent, which overstates significance; the speech-level GLM is the more appropriate rate test.",
+    "Category chi-square has 22.5% of cells with expected count <5; p-value is approximate. unrelated and political_background were merged.",
+    "interview|questioner n=4 and other n=50 (8 speeches, mixed) are too small for reliable inference.",
+    "VADER tone is word valence, not stance; most group medians are 0.",
+    "Index text_len differs from raw_text length for 3 speeches; raw_text length used as denominator.",
+    "Full write-up in output/analyses/01_venue/RESULT.md; no LLM scores used (llm_score blank)."
+   ],
+   "files": [
+    "output/analyses/01_venue/analysis.py",
+    "output/analyses/01_venue/RESULT.md",
+    "output/analyses/01_venue/run_log.txt",
+    "output/analyses/01_venue/results.json",
+    "output/analyses/01_venue/chart_venue.png",
+    "output/analyses/01_venue/group_summary.csv",
+    "output/analyses/01_venue/pairwise_war_likelihood_score.csv",
+    "output/analyses/01_venue/pairwise_vader_tone.csv",
+    "output/analyses/01_venue/category_crosstab.csv",
+    "output/analyses/01_venue/hi_share_sensitivity.csv",
+    "output/analyses/01_venue/rates_per_10k_chars.csv",
+    "output/analyses/01_venue/nb_glm_irr_vs_remarks.csv"
+   ]
+  },
+  "verdict": {
+   "key": "01_venue",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "Finding text misstates NB GLM statement IRR: says statements are 2.4-3.3x vs remarks; GLM IRR is 1.44 [1.18,1.76]. 2.4 is press only, 3.3 is address only."
+    },
+    {
+     "severity": "major",
+     "issue": "Address rate IRR (3.31) depends on one speech (DCPD-201200336 holds 42 of 206 passages). Excluding top-3 passage-heavy speeches per type: address IRR 1.55 [0.78,3.09] p=0.21 (n.s.); press 2.44->1.66 [1.15,2.38]; statement 1.44->1.31 [1.07,1.61]. Trim is not neutral across types (3 of 31 address speeches vs 3 of 825 remarks speeches), so treat as influence diagnostic only."
+    },
+    {
+     "severity": "major",
+     "issue": "Score gaps are specification-sensitive. Passage OLS, speech-clustered SE: type only press +4.8 (p<0.001), statement +4.6 (p=0.004). Adding year FE and log(hit_count): press -1.96 (p=0.15), statement +0.70 (p=0.62); address +6.6 (p=0.0002) persists. log(hit_count) is a scorer input and possibly post-treatment, so this is a sensitivity result, not a correction."
+    },
+    {
+     "severity": "major",
+     "issue": "Circularity under-addressed: analyst removes only venue_title (+4) and questioner (-18). score.py also adds speech_focus_8+/3+ hits (+10/+6, speech-level) and date features in_administration (+5) and near_inflection (+8). Not sensitivity-tested; venue-score effects are partly scorer-built."
+    },
+    {
+     "severity": "minor",
+     "issue": "25 questioner-labelled passages (remarks 24, other 1) are not split out of remarks/other, though method text says Q&A answers are split."
+    },
+    {
+     "severity": "minor",
+     "issue": "Inconsistent rate denominators: split groups use speaker/questioner paragraph chars (exclude editor NOTE text); whole-type rates use full raw_len."
+    },
+    {
+     "severity": "minor",
+     "issue": "n reporting: data_used says 5026 speeches; n field says 5023 (3 zero-length raw_text speeches dropped in GLM). Not stated."
+    },
+    {
+     "severity": "minor",
+     "issue": "Claim 'high-likelihood share ranking stable across 30/50/70' is loose: ranks shift (weekly_address vs press_conference|president reverses between >=50 and >=70). Only address top and other bottom hold."
+    },
+    {
+     "severity": "minor",
+     "issue": "VADER tone not independently verified: vaderSentiment not installed in venv; tone numbers reproduce from the stored references.csv column only."
+    },
+    {
+     "severity": "minor",
+     "issue": "Rerun overwrote the analyst's output files in place (headline numbers matched; not diffed byte-for-byte)."
+    }
+   ],
+   "external_data_checked": "n/a",
+   "corrected_finding": "Reproduction clean: all headline numbers (KW score H=145.9, tone H=428.1, category chi2=208.5, high-likelihood chi2=207.6, per-10k rates, NB GLM IRRs, questioner medians 53.5 vs 71.0) reproduce exactly. Remarks have the lowest mention rate per character except weekly addresses. Press-conference and statement passages occur about 1.3-2.4x as often as in remarks (NB GLM IRR 2.44 press, 1.44 statement); press falls to about 1.7x and statement to about 1.3x when the top-3 passage-heavy speeches per type are removed. The address IRR (3.31) depends on a few speeches (one speech holds 42 of 206 passages) and is not significant without the top-3 speeches. Venue differences in war-likelihood score are small (eta2_H about 0.03) and significant at the speech level (KW H=59.96, p=1.2e-11), but press/statement score gaps are sensitive to year and hit-count controls; only the address gap persists. Scores are partly built into the scorer (questioner -18, venue_title +4, speech-focus hit bonus, date features). Questioner passages score lower by construction. VADER tone differences are word valence, not stance, and were not independently recomputed (vaderSentiment not installed). No causal claims are supported. Recommended strength: weak (downgrade from moderate). Full notes: output/analyses/01_venue/REVIEW.md",
+   "corrected_strength": "weak"
+  }
+ },
+ {
+  "result": {
+   "key": "02_election",
+   "question": "Is 2012 (esp. Jan-Nov 6 2012) framed more around withdrawal than other years, and is the 2012 spike just campaign stump-line repetition?",
+   "data_used": [
+    "output/references.csv (read-only, 4,741 passages)",
+    "output/speeches_index.csv (read-only, 5,026 speeches, none dup_of)",
+    "src/obama_afghan/score.py (scorer reference)"
+   ],
+   "method": "Lexical withdrawal vs escalation frame regexes on passage text; hi = final_score_pct>=50 (sensitivity 30/70); questioner passages excluded (n=3,877). Periods: campaign_2012 (Jan 1-Nov 6 2012), midterm_2010, midterm_2014, non_election. Near-duplicate clusters via 8-gram Jaccard>=0.5. Chi-square, Fisher exact, logistic regression (year FE, speech type, repeat flag), quasi-Poisson hi per speech-month (dispersion 47.8). Context-window robustness. Script: output/analyses/02_election/analysis.py",
+   "n": "3,877 non-questioner high-likelihood passages (4,741 total); 5,026 speeches; 96 speech-months",
+   "key_numbers": [
+    {
+     "name": "hi50 count 2009 / 2010 / 2012",
+     "value": "735 / 732 / 731"
+    },
+    {
+     "name": "hi50 per non-dup speech 2009 / 2010 / 2012",
+     "value": "1.03 / 0.97 / 1.14 (2012 highest)"
+    },
+    {
+     "name": "withdrawal share 2012 vs other years (nonq hi50)",
+     "value": "31.8% vs 9.4%; OR 4.48, chi2 251.5, p=1.2e-56"
+    },
+    {
+     "name": "escalation share 2012 vs other years",
+     "value": "18.2% vs 30.4%; OR 0.51, p=4e-11"
+    },
+    {
+     "name": "withdrawal share by period (campaign_2012 / midterm_2010 / midterm_2014 / non_election)",
+     "value": "32.0% / 5.7% / 12.5% / 10.0%; chi2 259 df3 p=7.5e-56"
+    },
+    {
+     "name": "non-May 2012 campaign vs midterm windows, withdrawal",
+     "value": "42.2% (181/429) vs 8.0% (66/821); OR 8.35 p=5e-47"
+    },
+    {
+     "name": "same excluding 'transition'",
+     "value": "27.7% vs 5.0%; OR 7.30 p=3e-30"
+    },
+    {
+     "name": "May 2012 campaign passages (Kabul SPA/Bagram/Chicago) withdrawal share",
+     "value": "16.4% of n=280"
+    },
+    {
+     "name": "repeat share of non-May campaign withdrawal passages",
+     "value": "23 of 181 (12.7%)"
+    },
+    {
+     "name": "non-May campaign withdrawal, repeats removed, vs midterms",
+     "value": "43.2% (158/366) vs 7.7%; OR 9.08 p=2e-44"
+    },
+    {
+     "name": "logit campaign_2012 with year FE",
+     "value": "OR 1.66 p=0.39 (not identified; only 17 post-Nov-6 2012 hi passages)"
+    },
+    {
+     "name": "quasi-Poisson campaign_2012 rate ratio (year FE)",
+     "value": "2.28 p=0.43; excl May 2012: 1.51 p=0.68"
+    },
+    {
+     "name": "threshold sensitivity campaign vs 2010 midterm withdrawal",
+     "value": "th30 27.5% vs 5.4%; th50 32.0% vs 5.7%; th70 33.4% vs 8.1%; all p<1e-25"
+    },
+    {
+     "name": "repeat share hi50 2012 vs other years",
+     "value": "10.5% vs <=1.8%"
+    }
+   ],
+   "finding": "2012 is more withdrawal-framed than other years on this lexical measure (31.8% vs 9.4%, OR 4.5, p~1e-56), and escalation framing is lower. The result holds at thresholds 30/50/70, with or without 'transition', and with context coding. The 2012 count spike is real per speech (1.14 hi passages per speech, the highest year) and speech volume did not rise. Stump-line repetition is a minor part: 12.7% of non-May campaign withdrawal passages are repeated near-duplicates, and the effect persists after removing repeats (OR 9.1). The campaign window cannot be separated from 2012 as a year because there are only 17 hi passages after Nov 6 2012.",
+   "strength": "strong",
+   "caveats": [
+    "Frame coding is lexical, not human-coded. 'transition' is ambiguous, and 'withdraw*' / 'end the war' may be negated or refer to Iraq (not manually checked).",
+    "Campaign-window effect is not separately identifiable from 2012-as-year with year fixed effects (17 post-election 2012 hi passages); campaign-vs-midterm contrasts compare different years.",
+    "May 2012 event coverage (Kabul SPA, Bagram, Chicago NATO) is in the campaign window; it has lower withdrawal share (16.4%), so the non-May result is the cleaner comparison.",
+    "Scores come from a rule-based scorer tuned on 30 hand labels; they are estimates, not ground truth. VADER tone not used (word valence, not stance).",
+    "Near-dup threshold (Jaccard>=0.5, 8-grams, boilerplate cap 150) is a judgment; unique-cluster results were similar.",
+    "Poisson p-values use quasi-Poisson (dispersion 47.8); plain Poisson would be far too liberal.",
+    "Speech volume is from speeches_index.csv, which covers all sources including zero-hit speeches."
+   ],
+   "files": [
+    "output/analyses/02_election/analysis.py",
+    "output/analyses/02_election/RESULT.md",
+    "output/analyses/02_election/results.json",
+    "output/analyses/02_election/election_frame.png",
+    "output/analyses/02_election/monthly_counts.csv",
+    "output/analyses/02_election/run_log.txt"
+   ]
+  },
+  "verdict": {
+   "key": "02_election",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "Passages treated as iid in chi2/Fisher/logit; they nest in 922 speeches. Speech-clustered p-values: 2012 vs other OR 4.48 p=1.6e-14 (naive 1.2e-56); campaign vs midterm OR 5.39 p=5.8e-10. Direction holds, reported p-values overstated."
+    },
+    {
+     "severity": "major",
+     "issue": "Campaign-window effect not identified from 2012-as-year. With year FE camp12 uses only 17 post-election hi passages: OR 1.66 p=0.39; Poisson RR 2.28 p=0.43. Campaign-specific claim unsupported; only year-level 2012 vs others supported."
+    },
+    {
+     "severity": "major",
+     "issue": "WITHDRAW regex has no Iraq filter. 44 of 227 campaign withdraw passages mention Iraq. Iraq-local (120-char window) exclusion: campaign 27.2% vs midterm 6.5%, OR 5.42 p=5e-29. Effect survives, but analyst did not check it."
+    },
+    {
+     "severity": "minor",
+     "issue": "'Spike' overstated. Raw counts flat (726 vs 718 in 2009, 720 in 2010). Per-speech 1.13 vs 1.00 (2009) binomial p=0.025, unclustered; speech volume fell 716/754 to 643, so partly denominator effect."
+    },
+    {
+     "severity": "minor",
+     "issue": "Stump-line 'minor' claim depends on near-dup rule. Repeat share of non-May campaign withdraw passages: 12.7% (8-gram J>=0.5, analyst), 17.7% (J>=0.3), 33.7% (5-gram J>=0.3). Effect after repeat removal stays OR 8.4-9.1 under all rules."
+    },
+    {
+     "severity": "minor",
+     "issue": "May 2012 exclusion chosen post hoc and carried as 'cleaner comparison'; it inflates the effect (May share lower). Full-campaign 32.0% vs 5.7% should be headline."
+    },
+    {
+     "severity": "minor",
+     "issue": "'transition\\w*' drives much of signal (82+35 campaign hits). No-transition sensitivity (27.7% vs 5.0%) should be reported next to full result."
+    },
+    {
+     "severity": "minor",
+     "issue": "Context-window coding levels not comparable to passage-only (campaign 52.8% from wider window); 'holds' is directional only."
+    },
+    {
+     "severity": "minor",
+     "issue": "Method text says questioner passages excluded n=3,877; actually 58 hi50 questioner passages excluded (3,935 to 3,877). Wording error."
+    },
+    {
+     "severity": "minor",
+     "issue": "Poisson year FE makes camp12 and mid identified only from Nov-Dec months; not flagged. Multiple tests uncorrected (immaterial for main contrast)."
+    }
+   ],
+   "external_data_checked": "n/a",
+   "corrected_finding": "2012 is more withdrawal-framed than other years on the lexical measure: 31.8% vs 9.4% (231/726 vs 297/3151), OR 4.48. Reproduces exactly. Survives Iraq-local exclusion (OR 4.49), speech-clustered SEs (p=1.6e-14, not 1e-56), and removal of repeats. Campaign-specific claim is NOT supported: year-FE models cannot separate campaign from 2012 (OR 1.66, p=0.39). The 2012 count spike is not present (726 vs 718/720 for 2009/2010); per-speech excess is modest (1.13 vs 1.00, unclustered p=0.025). Stump-line repetition is threshold-dependent (12.7% to 33.7% repeated), but removing repeats leaves the effect large (OR 8.4-9.1).",
+   "corrected_strength": "moderate"
+  }
+ },
+ {
+  "result": {
+   "key": "03_framing_shift",
+   "question": "Framing shift over the term: monthly shares of categories (war_direct, war_adjacent, aid_diplomacy_civil, incidental) and lexical frames (combat, transition, end) 2009-2016; change points vs reaction_events announcement dates.",
+   "data_used": [
+    "output/references.csv",
+    "output/speeches_index.csv",
+    "output/reaction_events.csv",
+    "output/analyses/03_framing_shift/analysis.py"
+   ],
+   "method": "Main sample: 4,582 non-questioner passages in the four categories, 2009-01-01 to 2016-12-31. Frames are regex matches on passage text. Change points: binary segmentation on passage-level indicators, binomial LR, month-boundary splits, min 30 passages per side, 499 within-segment permutations, alpha 0.05, plus Pettitt (approximate p). Event match: breaks within \u00b130/\u00b160 days of 13 announcements vs Monte Carlo null (10,000 draws). Sensitivity: questioner-inclusive and score >=30/50/70 subsets. Period chi-square across 2009-11, 2012-14, 2015-16.",
+   "n": "4582 main passages (4686 incl. questioners); 96 months (median 26 passages/month, range 3-300); 13 announcement events",
+   "key_numbers": [
+    {
+     "name": "end frame share 2009-11 / 2012-14 / 2015-16",
+     "value": "0.038 / 0.123 / 0.046 (chi2 p=6.7e-25)"
+    },
+    {
+     "name": "transition frame share 2009-11 / 2012-14 / 2015-16",
+     "value": "0.115 / 0.159 / 0.147 (chi2 p=0.00026)"
+    },
+    {
+     "name": "war_direct share 2009-11 / 2012-14 / 2015-16",
+     "value": "0.431 / 0.489 / 0.472 (chi2 p=0.0011)"
+    },
+    {
+     "name": "war_adjacent share 2009-11 / 2012-14 / 2015-16",
+     "value": "0.316 / 0.285 / 0.273 (chi2 p=0.035)"
+    },
+    {
+     "name": "combat frame share 2009-11 / 2012-14 / 2015-16",
+     "value": "0.092 / 0.088 / 0.100 (chi2 p=0.61)"
+    },
+    {
+     "name": "aid_diplomacy_civil and incidental",
+     "value": "no reliable shift (chi2 p=0.18 and 0.44)"
+    },
+    {
+     "name": "Break-event match \u00b130 d",
+     "value": "6 of 12 pooled breaks vs null mean 2.98; MC p=0.054"
+    },
+    {
+     "name": "Break-event match \u00b160 d",
+     "value": "6 of 12 vs null mean 5.31; MC p=0.45"
+    },
+    {
+     "name": "Robust breaks across thresholds",
+     "value": "transition 2010-07-01 (all subsets); end 2011-2012 and 2015-10-02 recur; war_direct 2012-06-01 (>=30/50/70)"
+    }
+   ],
+   "finding": "Biggest framing change is the end/withdraw frame: it roughly triples in 2012-14 (12.3%) versus 2009-11 (3.8%) and 2015-16 (4.6%), with breaks in 2011-2012 that recur across score thresholds. The transition/advise/Afghan-lead frame rises from about 11.5% to about 15-16%, with a stable break near July 2010. War_direct share edges up in 2012-14 (p=0.001). Combat frame is flat, and aid/diplomacy and incidental show no reliable shift. Breaks match announcements only weakly: \u00b130 d p=0.054, \u00b160 d p=0.45. Early-2009 surge announcements have no nearby break.",
+   "strength": "moderate",
+   "caveats": [
+    "Passage-level tests treat passages as independent; passages cluster by speech and day, so permutation and Pettitt p-values are anti-conservative.",
+    "Binary segmentation not multiplicity-corrected across 7 series x 5 subsets.",
+    "Monthly n is small and uneven (13 of 96 months <10; 2012-05 has 300 passages); monthly shares partly track speech volume.",
+    "Categories are rule-derived from the detector, not stance labels.",
+    "Frame lexicon precision not measured; spot checks show false positives (fight for a job, combating al-Qaeda, fighters, democratic transfer of power).",
+    "VADER tone not used; tone is word valence, not stance.",
+    "Pooled break set for event matching is not independent (2012 cluster repeats across series); the event match is loose."
+   ],
+   "files": [
+    "output/analyses/03_framing_shift/analysis.py",
+    "output/analyses/03_framing_shift/RESULT.md",
+    "output/analyses/03_framing_shift/framing_shift.png",
+    "output/analyses/03_framing_shift/results.json",
+    "output/analyses/03_framing_shift/monthly_shares.csv",
+    "output/analyses/03_framing_shift/period_shares.csv",
+    "output/analyses/03_framing_shift/run.log"
+   ]
+  },
+  "verdict": {
+   "key": "03_framing_shift",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "End frame is Iraq-contaminated: 111 of 332 END hits (33%) mention Iraq; 48 of 155 in 2012. Excluding them, 2012-14 share is 8.6% (not 12.3%) vs 1.8% in 2009-11 (chi2 p=5e-22). Headline magnitude inflated; 2011-12 end-break cluster not re-tested without Iraq."
+    },
+    {
+     "severity": "major",
+     "issue": "Break-level claims weak: binseg on passage-level indicators with no multiplicity control across 7 series x 5 subsets; 'robust across thresholds' is recurrence of overlapping tests. Transition break 2010-07-01 is driven by the token 'transition' (107->169 hits) while 'train' falls 102->54->38."
+    },
+    {
+     "severity": "major",
+     "issue": "Event alignment not significant at the analyst's own alpha: +/-30 d MC p=0.054, +/-60 d p=0.45. Null ignores clustering of pooled breaks (2012 repeats). 'Drawdown-era turn' wording over-reads this."
+    },
+    {
+     "severity": "minor",
+     "issue": "Campaign-season confound not checked: END share 0.23-0.28 Jun-Oct 2012 (with Iraq), drops to 0.057 in Nov 2012 after election. 2012-14 period mixes campaign and governing months. Hypothesis only; speech type not verified."
+    },
+    {
+     "severity": "minor",
+     "issue": "Concentration: 2012-05 300 passages, 157 from three speeches. 2015-16 END 9 of 31 hits from one speech (top-5 share 0.55), so 2015-16 rate rests on one speech."
+    },
+    {
+     "severity": "minor",
+     "issue": "Chi-square and Pettitt/permutation p-values assume passage independence. Speech-cluster bootstrap (B=3000) still significant for END (diff 0.084, CI 0.061-0.110), TRA (0.044, CI 0.018-0.068), war_direct (0.058, CI 0.018-0.098), so period contrasts survive clustering. Break p-values not re-tested with clustering."
+    },
+    {
+     "severity": "minor",
+     "issue": "47 passage texts (140 rows) repeat across different speech_ids not flagged dup_of. Deduping leaves period results essentially unchanged (END 0.038/0.120/0.047; TRA 0.116/0.164/0.152; war_direct 0.434/0.496/0.488)."
+    },
+    {
+     "severity": "minor",
+     "issue": "Frame lexicon precision unmeasured; analyst's own spot checks show false positives (fight for a job, combating al-Qaeda, fighters on carrier aircraft)."
+    }
+   ],
+   "external_data_checked": "n/a",
+   "corrected_finding": "Reproduces exactly (re-run log identical; period shares and chi2 p-values match). Period-level contrasts hold: END 1.8% (2009-11, ex-Iraq) to 8.6% (2012-14, ex-Iraq), vs 3.8% to 12.3% with Iraq-mentioning passages; speech-cluster bootstrap CI for the ex-Iraq difference is [0.051, 0.087]. TRA and war_direct rises also hold under clustering and dedupe. Not supported as stated: that the 2011-12 end breaks are a framing shift (Iraq-contaminated, untested without Iraq, no multiplicity control); the July 2010 transition break (token-driven, 'train' falls); and event alignment (+/-30 d p=0.054, +/-60 d p=0.45, not significant at alpha 0.05). 2012-14 period label mixes campaign and governing months, unverified confound. Reviewer REVIEW.md at output/analyses/03_framing_shift/REVIEW.md; reviewer scripts in output/analyses/03_framing_shift/reviewer_scripts/.",
+   "corrected_strength": "moderate"
+  }
+ },
+ {
+  "result": {
+   "key": "04_iraq_pairing",
+   "question": "Do Afghanistan passages pair with Iraq (passage + context), how does this change by year/month, did pairing fall after the Dec 2011 Iraq withdrawal, and do paired passages differ in tone/category/framing?",
+   "data_used": [
+    "output/references.csv (read-only)",
+    "output/speeches_index.csv (read-only, dup_of check)",
+    "README.md"
+   ],
+   "method": "Paired = Iraq and Afghan both in passage+context_before/after (regex, case-insensitive). Excluded 109 questioner passages; 0 dup speeches; n=4,632 passages, 1,103 speeches. Split 2011-12-18 (sens. 2011-10-21). Mann-Kendall (yearly and monthly), Kendall tau, speech-clustered logit (post, campaign, time), chi-square/Fisher pre vs post, Mann-Whitney on VADER passage tone and rule score, chi-square on category, threshold sensitivity at score 30/50/70, campaign-title regex confound check. Script: analysis.py.",
+   "n": "4632 passages (1103 speeches); pre 2121, post 2511; paired 1037; campaign-titled 748 passages / 304 speeches",
+   "key_numbers": [
+    {
+     "name": "Overall paired share (passage+context)",
+     "value": "22.4% (1037/4632); passage-only 10.7%"
+    },
+    {
+     "name": "Paired share pre vs post 2011-12-18",
+     "value": "19.3% vs 25.0%, chi2=20.7, p=5.3e-6"
+    },
+    {
+     "name": "Logit post effect, time-adjusted, speech-clustered",
+     "value": "OR 1.92 (1.02-3.63), p=0.044"
+    },
+    {
+     "name": "Logit post + campaign + time",
+     "value": "post OR 0.90 p=0.69; campaign OR 5.26 p<0.001; time OR 1.02 p=0.81"
+    },
+    {
+     "name": "Non-campaign titles pre vs post",
+     "value": "17.6% vs 16.1%, p=0.21"
+    },
+    {
+     "name": "Excluding 2012 pre vs post",
+     "value": "19.3% vs 17.3%, p=0.12"
+    },
+    {
+     "name": "Campaign-titled vs other paired share",
+     "value": "50.9% vs 16.9%"
+    },
+    {
+     "name": "Mann-Kendall yearly / monthly trend",
+     "value": "yearly z=0.31 p=0.75 (tau=0.11); monthly z=1.48 p=0.14"
+    },
+    {
+     "name": "Threshold sensitivity pre vs post (score>=30/50/70)",
+     "value": "p=1e-4 / 7e-5 / 0.48"
+    },
+    {
+     "name": "Tone paired vs unpaired (mean VADER)",
+     "value": "-0.080 vs +0.184, MWU p=3.7e-42; within war_direct -0.138 vs +0.216 p=6.7e-37"
+    },
+    {
+     "name": "Category war_direct share paired vs unpaired",
+     "value": "56.4% vs 42.6%, chi2 p=9.4e-19"
+    },
+    {
+     "name": "Explicit 'ending two wars' framing",
+     "value": "21 of 1037 paired passages (broad regex 295 discarded as loose match); 'war of choice' 2 passages"
+    },
+    {
+     "name": "Rule score paired vs unpaired",
+     "value": "67.3 vs 67.8, p=0.88"
+    }
+   ],
+   "finding": "Pairing did not fall after the Dec 2011 withdrawal. It rose from 19.3% to 25.0% of Afghan-referencing passages (p<0.001 unadjusted). That rise is campaign-driven: campaign-titled speeches pair 51% vs 17% elsewhere, and once campaign titles are controlled the post-2011 effect vanishes (OR 0.90, p=0.69). No monotone yearly or monthly trend (MK p=0.75 and 0.14). Paired passages are more negative in VADER tone and more often war_direct; the tone gap persists within war_direct. VADER measures word valence, not stance. Explicit \"ending two wars\" framing is rare (21 passages).",
+   "strength": "moderate",
+   "caveats": [
+    "Denominator is references.csv (passages already selected for Afghanistan content), so shares are of Afghan-referencing passages, not all speeches; speech-level co-mention from speeches.db not computed.",
+    "Campaign flag is a title regex (Campaign|Fundraiser|Debate|Victory Fund|Convention); not hand-checked.",
+    "Tone is VADER on passage wording only; context not scored; word valence not stance.",
+    "Context windows come from detector adjacent paragraphs, so pairing may reflect neighbouring text.",
+    "Post-2011 includes ISIL-era Iraq references (ISIL terms in 70 paired passages; 3.4% pre vs 8.9% post).",
+    "Mann-Kendall on 9 yearly points (2017 n=11) has low power.",
+    "Broad 'two wars' regex gave 295 paired hits but matched loose phrasing; tight regex gives 21. Reported tight count.",
+    "Score>=70 subset shows no significant pre/post difference (p=0.48)."
+   ],
+   "files": [
+    "output/analyses/04_iraq_pairing/analysis.py",
+    "output/analyses/04_iraq_pairing/RESULT.md",
+    "output/analyses/04_iraq_pairing/results.json",
+    "output/analyses/04_iraq_pairing/pairing_by_year.png",
+    "output/analyses/04_iraq_pairing/pairing_by_year.csv",
+    "output/analyses/04_iraq_pairing/pairing_by_month.csv",
+    "output/analyses/04_iraq_pairing/run_log.txt"
+   ]
+  },
+  "verdict": {
+   "key": "04_iraq_pairing",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "Denominator selection is partly circular: detect.py INDIRECT cues ('two wars', 'Iraq and Afghanistan') admitted 437 rows; 207 of 1037 paired (about 20%) came in via those cues (47% of cue rows paired). Not disclosed."
+    },
+    {
+     "severity": "major",
+     "issue": "Speech type confounds pairing: press_conference 6.2% and statement 6.3% vs remarks 30.0%, weekly_address 43.3%. Adding speech-type FE to the speech-clustered logit gives post OR 1.013, p=0.96 (analyst's post OR 1.92 p=0.044 was without type control)."
+    },
+    {
+     "severity": "major",
+     "issue": "Headline pre/post p<0.001 (chi2 p=5.3e-6) treats 4632 passages as independent though they come from 1103 speeches. Speech-cluster bootstrap of post-pre diff (+5.6 pts): 95% CI -0.1 to +11.7, p about 0.06."
+    },
+    {
+     "severity": "major",
+     "issue": "Post effect fragile: non-cue rows with post+campaign+time logit gives OR 0.857, p=0.62. Campaign control alone already removes it (OR 0.90, p=0.69)."
+    },
+    {
+     "severity": "minor",
+     "issue": "Tone gap is passage-wording valence, partly category-confounded. Stratified check holds: Iraq only in context, paired -0.075 (n=522) vs unpaired +0.236 (n=3349), p=3e-36. Not stance."
+    },
+    {
+     "severity": "minor",
+     "issue": "Category and rule score are not independent of Iraq wording (score.py Iraq penalty and war-language terms). Category chi2 is partly circular."
+    },
+    {
+     "severity": "minor",
+     "issue": "Mann-Kendall low power (9 yearly points, 2017 partial n=11); monthly series unweighted; null trend is low-power, not evidence of absence."
+    },
+    {
+     "severity": "minor",
+     "issue": "About 15 p-values with no multiplicity correction; thresholds 30/50/70 and tight/broad two-wars regex chosen after seeing results, not disclosed as choices."
+    }
+   ],
+   "external_data_checked": "n/a (no outside data; all checks on output/references.csv and speeches_index.csv)",
+   "corrected_finding": "Paired share (Iraq and Afghan in passage+context) is 22.4% overall (1037/4632). Pre/post rise 19.3% to 25.0% is not robust: speech-clustered CI borderline (about p=0.06 by bootstrap), vanishes after campaign control (OR 0.90, p=0.69), after removing detector Iraq-cue rows (OR 0.86, p=0.62), and after speech-type fixed effects (OR 1.01, p=0.96). No significant yearly or monthly trend (low power). Paired passages have more negative VADER passage tone (-0.08 vs +0.18), robust to Iraq-in-passage stratification, reflecting war-word valence not stance. Explicit two-wars framing rare (21).",
+   "corrected_strength": "weak"
+  }
+ },
+ {
+  "result": {
+   "key": "05_salience_tone",
+   "question": "Is monthly salience of high-likelihood (>=50%) Afghanistan passages (count per speech) correlated with mean VADER tone of those passages? Checked on detrended levels (primary), first differences, and lags -3..+3.",
+   "data_used": [
+    "output/references.csv",
+    "output/speeches_index.csv",
+    "src/obama_afghan/detect.py (questioner flag)",
+    "src/obama_afghan/tone.py (VADER)"
+   ],
+   "method": "Monthly panel, 97 months 2009-01..2017-01. Salience = high-likelihood passages / speeches with status ok and empty dup_of. Tone = mean VADER compound of those passages. 109 questioner passages excluded. Primary: OLS-detrended levels, Pearson and Spearman. Secondary: first differences, with circular-shift permutation p (2000 shifts). Effective-n Bartlett-type correction (approximate). Lags -3..+3. Sensitivity: thresholds 30/70, questioners included, log1p, min-5 months, drop top-3 spike months. Category-mix check (war_direct share, press-conference share).",
+   "n": "97 months (96 for first differences); 5,023 speeches; 3,877 high-likelihood passages",
+   "key_numbers": [
+    {
+     "name": "Detrended levels, thr50, Pearson r (primary)",
+     "value": "0.158, p=0.121, n=97"
+    },
+    {
+     "name": "Detrended levels, thr50, Spearman rho",
+     "value": "0.083, p=0.421"
+    },
+    {
+     "name": "Raw levels, thr50, Pearson r",
+     "value": "0.184, p=0.071 (eff-n 0.069)"
+    },
+    {
+     "name": "First differences, thr50, Pearson r (secondary)",
+     "value": "0.279, p=0.006; eff-n p=0.037; circular-shift perm p=0.008; n=96"
+    },
+    {
+     "name": "Detrended levels thr30 Pearson r",
+     "value": "0.258, p=0.011"
+    },
+    {
+     "name": "Detrended levels thr70 Pearson r",
+     "value": "0.045, p=0.666"
+    },
+    {
+     "name": "First diff thr50, drop top-3 salience months",
+     "value": "r=0.101, p=0.344, n=90"
+    },
+    {
+     "name": "Lag -1 first diff (artifact pattern)",
+     "value": "r=-0.204, p=0.048, n=95"
+    },
+    {
+     "name": "War_direct share vs tone (monthly)",
+     "value": "r=-0.286, p=0.005, n=97"
+    },
+    {
+     "name": "Press-conference share vs tone",
+     "value": "r=0.059, p=0.564, n=97"
+    }
+   ],
+   "finding": "Weak and not significant on the primary spec. Detrended monthly salience and mean tone correlate r=0.16 (p=0.12, n=97) at the 50% threshold, with no robust lead or lag. The association is clearer at a 30% threshold (r=0.26, p=0.011) and vanishes at 70%. First differences give r=0.28 (p=0.006), but that spec is inflated by differencing and a few spike months; it falls to r=0.10 without the top three salience months. A monthly war_direct share correlates negatively with tone (r=-0.29), consistent with word-valence (VADER) tracking war vocabulary, not stance.",
+   "strength": "weak",
+   "caveats": [
+    "Primary detrended result is not significant at the 50% threshold; the association depends on threshold (30 yes, 70 no).",
+    "First-difference significance is inflated by differencing near-white series (mechanical lag +/-1 artifact) and by spike months 2012-05, 2013-01, 2015-03; removing them gives r=0.10, p=0.34.",
+    "Salience is heavy-tailed (max 4.67 high passages per speech); monthly tone means from 1-4 passages are noisy.",
+    "VADER is word valence on passage wording, not the President's stance; war vocabulary pulls tone negative.",
+    "Effective-n corrections are approximate, especially for differenced series.",
+    "Scores are a rule-based estimate, not ground truth. About 7 lags x 4 variants examined; no multiple-testing correction applied.",
+    "109 questioner passages excluded from primary; including them changes nothing material (FD r 0.272)."
+   ],
+   "files": [
+    "output/analyses/05_salience_tone/analysis.py",
+    "output/analyses/05_salience_tone/RESULT.md",
+    "output/analyses/05_salience_tone/results.json",
+    "output/analyses/05_salience_tone/robustness.json",
+    "output/analyses/05_salience_tone/category_check.json",
+    "output/analyses/05_salience_tone/monthly_panel_thr50.csv",
+    "output/analyses/05_salience_tone/monthly_panel_thr30.csv",
+    "output/analyses/05_salience_tone/monthly_panel_thr70.csv",
+    "output/analyses/05_salience_tone/salience_tone.png"
+   ]
+  },
+  "verdict": {
+   "key": "05_salience_tone",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "Category-mix confound untested. War_direct share correlates with salience (r=-0.276) and tone (r=-0.286). Partial correlation of salience and tone controlling for war share: levels 0.184 to 0.114 (p=0.27); detrended 0.158 to 0.105 (p=0.31). Analyst reports only marginal correlations."
+    },
+    {
+     "severity": "major",
+     "issue": "RESULT.md says spike months are war-heavy. Data: war_direct share in 2012-05, 2013-01, 2015-03 is 0.471, 0.534, 0.470, below the overall 0.543. Wrong sentence; the corrected fact reinforces the mix confound."
+    },
+    {
+     "severity": "major",
+     "issue": "Threshold dependence with no multiplicity correction. Significant only at thr30 (p=0.011); thr50 p=0.12; thr70 p=0.67. About 28 tests (thresholds x specs x lags) with no correction."
+    },
+    {
+     "severity": "minor",
+     "issue": "Drop-months-with-fewer-than-5-high-passages robustness filter selects on n_hi, which is correlated with salience. The FD r=0.34 jump is partly selection, not evidence that noise does not drive the result."
+    },
+    {
+     "severity": "minor",
+     "issue": "FD association is carried by spike months: dropping top-3 salience months gives r=0.10, p=0.34. Circular-shift permutation p is 1/96=0.0104 exactly (reported 0.008 is Monte Carlo below the floor); observed alignment is the strict max of the 96 shifts."
+    },
+    {
+     "severity": "minor",
+     "issue": "Effective-n for FD (56) uses a Bartlett-type formula with ACF1 about -0.51; MA(1)-form gives 63. Approximate; direction correct."
+    },
+    {
+     "severity": "minor",
+     "issue": "FD lag-0 r (0.279) is level lag-0 r (0.184) plus about +0.09 from negative neighbour cross-lags (c(+1)=-0.060, c(-1)=-0.119). Identity 2c0-c+1-c-1 over 2*sqrt((1-acf_x)(1-acf_y)) gives 0.277. Lag +/-1 'artifact' label only partly supported (simple -rho/2 predicts -0.09; observed -0.18/-0.20); p=0.048 not meaningful after multiplicity."
+    }
+   ],
+   "external_data_checked": "n/a",
+   "corrected_finding": "No reliable monthly salience-tone association for high-likelihood (>=50) Afghanistan passages. Primary detrended spec: r=0.158, p=0.12, n=97 (Spearman p=0.42). Controlling for war_direct share (vocabulary mix), partial r=0.105, p=0.31. First-difference r=0.279 (perm p=0.0104 exact, 1/96) is carried by spike months (drop top-3: r=0.10, p=0.34) and inflated by negative neighbour cross-lags. Only thr30 is significant on the primary spec (r=0.258, p=0.011), which is threshold selection. Do not report FD p=0.006 as a finding. Tone is VADER word valence; the war-vocabulary mix explains part of the tone signal.",
+   "corrected_strength": "null_result"
+  }
+ },
+ {
+  "result": {
+   "key": "06_reaction_lean",
+   "question": "Does statement tone vs press reaction correlation differ by outlet political lean (left/center/right/international/unknown)? Item-level: stance ~ statement tone + lean.",
+   "data_used": [
+    "output/references.csv (4,741 passages with tone)",
+    "data/reactions.json (13 events, 92 items)",
+    "output/reaction_events.csv",
+    "output/reaction_items.csv",
+    "output/reaction_correlation.json",
+    "src/obama_afghan/reactions.py (reused via import)"
+   ],
+   "method": "Recomputed statement tone and press index with project's reactions.analyse (reproduces shipped values exactly: overall press r=0.528, n=12). Per-lean event-level Pearson/Spearman (min 1 and 2 items/event sensitivity; press+tweet variant). Item-level OLS (stance -1/0/+1, mixed=0) on event tone + lean dummies (ref center), event-clustered SE and HC1; ordinal logit (naive and clustered); sensitivity excluding weak_evidence and with missing-lean category. 30 of 92 items lack political_lean and were not imputed.",
+   "n": "Items: 92 total, 62 with lean (center 19, left 15, international 11, unknown 9, right 8). Events: 13 total; lean-specific correlations use 6-8 events (4 or fewer at >=2 items/event). Item-level models: 62 items/8 clusters (main), 60/8, 92/12.",
+   "key_numbers": [
+    {
+     "name": "Overall press r (statement tone vs press index, reproduced)",
+     "value": "r=0.528, p=0.077, n=12 events"
+    },
+    {
+     "name": "Left press r (>=1 item/event)",
+     "value": "r=0.528, p=0.178, n_events=8, items=15"
+    },
+    {
+     "name": "Center press r",
+     "value": "r=0.222, p=0.598, n_events=8, items=19"
+    },
+    {
+     "name": "Right press r",
+     "value": "r=0.174, p=0.742, n_events=6, items=7 (8 incl 1 tweet; press+tweet r=-0.342, p=0.507)"
+    },
+    {
+     "name": "International press r",
+     "value": "r=0.578, p=0.134, n_events=8, items=11"
+    },
+    {
+     "name": "Unknown press r",
+     "value": "r=0.274, p=0.599, n_events=6, items=7"
+    },
+    {
+     "name": "Item OLS tone coef (main, 62 items, 8 clusters)",
+     "value": "b=+0.521, cluster SE 0.323, p=0.107 (HC1 p=0.526)"
+    },
+    {
+     "name": "Item OLS left vs center",
+     "value": "b=-0.466, cluster SE 0.176, p=0.008 (HC1 p=0.028)"
+    },
+    {
+     "name": "Item OLS international vs center",
+     "value": "b=-0.324, cluster p=0.085 (HC1 p=0.049)"
+    },
+    {
+     "name": "Item OLS right vs center",
+     "value": "b=-0.168, cluster p=0.509"
+    },
+    {
+     "name": "Item OLS unknown vs center",
+     "value": "b=-0.066, cluster p=0.831"
+    },
+    {
+     "name": "Ordinal logit cluster-robust tone / left",
+     "value": "tone b=+2.01 p=0.039; left b=-1.50 p=0.036 (unstable SEs, direction check only)"
+    },
+    {
+     "name": "With missing-lean category (92 items, 12 clusters)",
+     "value": "tone b=+0.704 p=0.007; left b=-0.470 p=0.006; missing b=-0.173 p=0.024"
+    },
+    {
+     "name": "Missing lean",
+     "value": "30 of 92 items (29 press, 1 tweet) across 5 events; 4 events fully unlabelled"
+    }
+   ],
+   "finding": "Within every outlet-lean group the event-level correlation between statement tone and press stance is positive (r 0.17 to 0.58), but none is significant (all p >= 0.13, n = 6-8 events). The lean-specific magnitudes do not clearly differ. Item-level, the one lean effect that holds across specifications is that left-leaning items are more negative toward the decision than center items (about -0.4 to -0.5 on a -1/+1 scale; cluster p 0.006-0.011, HC1 p 0.03-0.06). Statement tone has a positive coefficient (about +0.5 to +0.7) that reaches p<0.05 only in the with-missing model and is borderline elsewhere (p 0.08-0.11), on 8-12 event clusters. Right-leaning cell is 7-8 items across 6 events, so all of this is descriptive.",
+   "strength": "weak",
+   "caveats": [
+    "Right = 8 items total (7 press + 1 tweet), 6 events; lean-specific correlations are underpowered and not significant.",
+    "30 of 92 items (33%) lack political_lean in reactions.json (4 events fully unlabelled); not imputed; missing-lean robustness model added.",
+    "Tone is event-level (13 events); effective sample for tone is 8-12 clusters. Cluster-robust SE unreliable at this count; HC1 shown alongside.",
+    "Ordinal logit cluster-robust SEs are unstable (tone SE shrinks when clustered); treat as direction check only.",
+    "Stance is a researcher judgment label (mixed coded 0); 10 items stance_agree=False, 9 weak_evidence (excluded in sensitivity model: lean and tone results unchanged in direction).",
+    "VADER tone is word valence in statements, not stance toward the war or the decision; this analysis tests word tone vs press stance, not position.",
+    "No multiple-comparison correction across 5 lean cells and 3 model specifications.",
+    "High-likelihood threshold not applicable (no references final_score_pct used)."
+   ],
+   "files": [
+    "output/analyses/06_reaction_lean/analysis.py",
+    "output/analyses/06_reaction_lean/RESULT.md",
+    "output/analyses/06_reaction_lean/results.json",
+    "output/analyses/06_reaction_lean/lean_split_correlation.png",
+    "output/analyses/06_reaction_lean/run.log"
+   ]
+  },
+  "verdict": {
+   "key": "06_reaction_lean",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "Question (does tone-reaction correlation differ by lean) not tested directly. Tone x lean interaction joint Wald p=0.13 (4 df, 8 clusters), so no significant difference. Analyst answers by eye from lean-specific r values."
+    },
+    {
+     "severity": "major",
+     "issue": "Finding overclaims 'every lean group positive (r 0.17-0.58)'. Only true for press-only. Press+tweet variant: right r=-0.342, unknown r=-0.095."
+    },
+    {
+     "severity": "major",
+     "issue": "Tone coefficient not robust. Main cluster p=0.107, HC1 p=0.526. With-missing model cluster p=0.007 but HC1 p=0.315 (12 clusters). Headlining p<0.05 for tone is unjustified."
+    },
+    {
+     "severity": "major",
+     "issue": "Left-vs-center stance gap survives event fixed effects (left b=-0.56, cluster p=0.007; within multi-lean events OLS p=0.032) and HC1 (p 0.025-0.028). But stance is a researcher judgment with no evidence it was coded blind to outlet lean; left items concentrated in 2009 events; 8 clusters."
+    },
+    {
+     "severity": "minor",
+     "issue": "Missing-lean category (30/92 items, 4 events fully unlabelled) is a catch-all; its tone result is not informative for lean."
+    },
+    {
+     "severity": "minor",
+     "issue": "Lean-specific event correlations use 6-8 events and are sensitive to item threshold: min-2 variant gives left r=-0.03. No multiple-comparison correction across 5 cells x 3 specs."
+    },
+    {
+     "severity": "minor",
+     "issue": "Statement tone averages all Afghanistan-mention passages incl incidental/unrelated (~900 of 4,741). Core-only sensitivity r=0.508 p=0.092, same direction. Not in caveats. dup_of filter is a no-op; 47 cross-speech repeated passages negligible (r 0.510)."
+    },
+    {
+     "severity": "minor",
+     "issue": "Tone uses 12 events (MIN_N gate) while item models use 13 events. Undocumented mismatch."
+    }
+   ],
+   "external_data_checked": "n/a (no outside data; checked against project files: references.csv, reactions.json, speeches_index.csv, reactions.py)",
+   "corrected_finding": "Analyst's 06_reaction_lean reproduces exactly (overall press r=0.528, p=0.077, n=12; left press r=0.527 p=0.18 independently). No significant evidence that the tone-reaction correlation differs by lean (tone x lean interaction joint Wald p=0.13, 4 df, 8 clusters). Only robust item-level pattern: left-leaning press items more negative toward the decision than center items (b about -0.56 with event FE, cluster p=0.007; HC1 p 0.025-0.03 without FE), but stance is a researcher-coded judgment with unknown blinding and rests on 8 event clusters. Statement tone is not significant under HC1 (p=0.526 main; 0.315 with missing-lean category). All-press 'positive in every lean group' claim is false under press+tweet variant (right r=-0.342, unknown r=-0.095). Full notes: output/analyses/06_reaction_lean/REVIEW.md",
+   "corrected_strength": "weak"
+  }
+ },
+ {
+  "result": {
+   "key": "07_opinion_vs_news",
+   "question": "Do opinion/editorial/analysis reaction items track statement tone differently than news_report items across the 13 key events?",
+   "data_used": [
+    "data/reactions.json",
+    "output/reaction_items.csv",
+    "output/reaction_events.csv",
+    "output/references.csv",
+    "output/speeches_index.csv"
+   ],
+   "method": "Groups: news=news_report (51), opinion=opinion+editorial+analysis (31); polls/tweets excluded from main model. Statement tone = mean VADER tone of Afghan passages in event+14 days, questioners excluded (recomputed, matches reaction_events.csv). Stance coded +1/0/-1 (mixed=0). Per-event Pearson/Spearman of tone vs group index; paired news-vs-opinion test; chi2/Fisher/Mann-Whitney on stance by group; OLS stance ~ tone*is_opinion with event-clustered SE (12 clusters) plus 10,000-perm event-level test; sensitivity on stance source, weak evidence, mixed, polls/tweets, tone thresholds 30/50/70, leave-one-event-out.",
+   "n": "92 items total; 82 in item model (51 news, 31 opinion) across 12 events with statements and press items; 12 events in per-event correlations",
+   "key_numbers": [
+    {
+     "name": "Negative share news vs opinion",
+     "value": "11.8% (6/51) vs 64.5% (20/31); Fisher p<0.0001"
+    },
+    {
+     "name": "Chi2 stance x group",
+     "value": "29.35, df=3, p<0.0001"
+    },
+    {
+     "name": "Paired news-opinion index difference (12 events)",
+     "value": "mean +0.506; t p=0.008; Wilcoxon p=0.011"
+    },
+    {
+     "name": "Per-event r tone vs news index",
+     "value": "r=0.625, p=0.030; rho=0.559, p=0.059 (n=12)"
+    },
+    {
+     "name": "Per-event r tone vs opinion index",
+     "value": "r=-0.213, p=0.507 (n=12)"
+    },
+    {
+     "name": "Item model interaction tone x opinion",
+     "value": "b=-1.74, cluster SE 1.01, p=0.113, 95% CI [-3.97, 0.49]; event-permutation p=0.070"
+    },
+    {
+     "name": "Interaction sensitivity range",
+     "value": "b -0.68 to -2.50; cluster p 0.046 to 0.662 across variants; leave-one-event-out p 0.050 to 0.189"
+    }
+   ],
+   "finding": "Opinion-type items are far more negative toward the President's decisions than news reports (negative share 65% vs 12%, p<0.0001). That level difference is robust. Whether opinion items track statement tone differently is not established: news index rises with tone (r=0.63, p=0.03, n=12 events) while opinion index is flat (r=-0.21). The tone x opinion interaction is negative but not significant (b=-1.74, cluster p=0.11, permutation p=0.07), and sensitivity variants range from p=0.05 to 0.66. Treat as suggestive only; much of the contrast is a ceiling/level effect because opinion items are negative regardless of tone.",
+   "strength": "weak",
+   "caveats": [
+    "12 event clusters: cluster-robust SEs unreliable; permutation p=0.07 is the more honest figure",
+    "Stance labels are researcher judgments; 10 items differ between first pass and final; 9 items weak evidence (snippet only)",
+    "VADER tone is word valence, not stance; statement tone uses Afghanistan-mention passages only",
+    "Opinion items mostly negative regardless of tone, so flat slope partly ceiling effect; news event 2011-05-01 rests on 1 item",
+    "Polls (6) and tweets (4) excluded from main model; 2013-02-12 has no press items and drops out of item model",
+    "Events have dependent items (same outlets/authors); no independence assumption holds"
+   ],
+   "files": [
+    "output/analyses/07_opinion_vs_news/analysis.py",
+    "output/analyses/07_opinion_vs_news/RESULT.md",
+    "output/analyses/07_opinion_vs_news/chart.png",
+    "output/analyses/07_opinion_vs_news/numbers_log.txt",
+    "output/analyses/07_opinion_vs_news/model_sensitivity.csv",
+    "output/analyses/07_opinion_vs_news/model_main.csv",
+    "output/analyses/07_opinion_vs_news/per_event_indices.csv",
+    "output/analyses/07_opinion_vs_news/per_event_correlations.csv",
+    "output/analyses/07_opinion_vs_news/item_model_data.csv"
+   ]
+  },
+  "verdict": {
+   "key": "07_opinion_vs_news",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "Headline news tone-tracking r=0.625 (p=0.030) depends on a 1-item event (2011-05-01). Dropping it gives r=0.465, p=0.149 (n=11). Slope claim is fragile."
+    },
+    {
+     "severity": "major",
+     "issue": "Opinion-vs-news level difference is confounded by political lean. Opinion group is left-heavy (10 of 31 left vs 5 of 51 news); 8 of 10 left opinion items are negative. Stance may capture antiwar ideology, not genre. Not in analyst caveats."
+    },
+    {
+     "severity": "major",
+     "issue": "Headline p<0.0001 for stance x group uses item-level chi2/Fisher/MWU ignoring event clustering. Cluster-robust level test p=0.0002 and event-level paired test p=0.014 still significant, so direction holds but headline p is overstated."
+    },
+    {
+     "severity": "minor",
+     "issue": "Multiple comparisons not corrected: 4 per-event correlations, ~12 sensitivity models, 12 LOEO fits, thresholds 30/50/70. Headline r p=0.03 would not survive correction."
+    },
+    {
+     "severity": "minor",
+     "issue": "Sensitivity range misreported: variants B (p=0.046) and D (p=0.048) are below 0.05; RESULT summary says 0.05 to 0.66. Should be 0.046 to 0.66."
+    },
+    {
+     "severity": "minor",
+     "issue": "Only 12 clusters: cluster-robust SEs unreliable. Permutation p=0.070 is the better figure, as analyst notes. Interaction OLS treats ordinal stance as continuous, and mixed=0 merges with neutral; not stated as caveat."
+    },
+    {
+     "severity": "minor",
+     "issue": "Duplicate URLs across items: Media Matters URL (analysis + tweet, 2009-03-27), PBS URL (news + tweet, 2014-12-28). Tweets excluded from main model; affects only sensitivity E. Two Al Jazeera news items on 2012-05-21 may be one report."
+    },
+    {
+     "severity": "minor",
+     "issue": "Statement tone recomputed matches reaction_events.csv within 0.0005 (rounding), n matches all events. Date alignment OK: item lags 0-11 days, all inside 14-day window."
+    }
+   ],
+   "external_data_checked": "n/a (no outside data; checked against project files reactions.json, reaction_items.csv, reaction_events.csv, item_model_data.csv)",
+   "corrected_finding": "Level finding holds: opinion-type reaction items are more negative toward the President's Afghan decisions than news_report items (negative share 20/31 vs 6/51). It survives cluster-robust (b=-0.561, p=0.0002) and event-level paired (p=0.014) tests, but is confounded by outlet political lean (8 of 10 left-leaning opinion items are negative), so it cannot be separated from ideology in this sample. The slope claim is not supported: the tone x opinion interaction is b=-1.74, cluster p=0.113, event-permutation p=0.070, and the sensitivity range is p=0.046 to 0.66. The news-only tone correlation (r=0.63, p=0.03, n=12) falls to r=0.47, p=0.15 without the single-item event 2011-05-01. No multiple-comparison correction was applied.",
+   "corrected_strength": "weak"
+  }
+ },
+ {
+  "result": {
+   "key": "08_casualties",
+   "question": "Do monthly US military deaths in Afghanistan (2009-2016) predict monthly volume or mean tone of high-likelihood Afghanistan passages in Obama presidency speeches, using first-differenced cross-correlations, lags 0-6 Granger causality both directions, and ADF stationarity checks?",
+   "data_used": [
+    "output/references.csv",
+    "output/speeches_index.csv",
+    "https://en.wikipedia.org/wiki/United_States_military_casualties_in_the_War_in_Afghanistan (monthly DoD table, secondary; all OEF/OFS theaters)",
+    "https://www.everycrsreport.com/files/20121206_R41084_f61416a669ea9d115f8867df20c7e944ca927c0d.html (CRS R41084, annual DoD totals, cross-check)",
+    "https://dcas.dmdc.osd.mil/dcas/conflictCasualties/oef/byMonth (attempted; dynamic, not readable)",
+    "https://dcas.dmdc.osd.mil/dcas/pages/report_ofs_month.xhtml (attempted; dynamic, not readable)"
+   ],
+   "method": "Monthly panel 2009-01..2016-12 (96 months). Mention rate = high-likelihood (final_score_pct>=50) non-questioner passages per non-duplicate speech in month. Mean VADER tone of same passages. ADF on levels and differences. First-differenced cross-correlations at lags -6..+6 with Bonferroni adjustment. Granger causality both directions on first differences, lags 1-6, statsmodels. Sensitivity at thresholds 30/50/70 and per-1000-words normalization. Robustness: residuals after trend and month-of-year dummies.",
+   "n": "96 monthly observations (95 after differencing); 4,741 passages (3,868 high-likelihood, non-questioner); 5,008 speeches",
+   "key_numbers": [
+    {
+     "name": "ADF deaths level stat / p",
+     "value": "-0.20 / 0.94 (non-stationary)"
+    },
+    {
+     "name": "ADF deaths first-diff stat / p",
+     "value": "-2.57 / 0.099 (borderline)"
+    },
+    {
+     "name": "ADF rate per speech level stat / p",
+     "value": "-10.43 / <0.0001 (stationary)"
+    },
+    {
+     "name": "Spearman deaths vs rate, levels",
+     "value": "rho 0.32, p=0.0014 (confounded by shared trend)"
+    },
+    {
+     "name": "Partial r deaths vs rate, trend+month controlled",
+     "value": "r=0.001, p=0.99"
+    },
+    {
+     "name": "CCF first-diff deaths vs rate, lag 0",
+     "value": "r=0.025, p=0.81 (n=95)"
+    },
+    {
+     "name": "CCF first-diff max |r| across lags -6..6",
+     "value": "r=0.18 at lag -2, p=0.083 (n=93); none significant"
+    },
+    {
+     "name": "Granger deaths->rate p_F lags 1-6",
+     "value": "0.94, 0.52, 0.91, 0.90, 0.76, 0.83 (all n.s.)"
+    },
+    {
+     "name": "Granger rate->deaths p_F lags 1-6",
+     "value": "0.24, 0.28, 0.32, 0.47, 0.61, 0.65 (all n.s.)"
+    },
+    {
+     "name": "Granger deaths->tone p_F lags 1-6",
+     "value": "0.77 to 0.31 (all n.s.)"
+    },
+    {
+     "name": "Sensitivity thresholds 30/50/70, both norms, lag-0 diff r",
+     "value": "-0.004 to 0.048, all p>=0.64"
+    },
+    {
+     "name": "Residual robustness Granger rate->deaths",
+     "value": "lag 6 p_F=0.025 only; lags 1-5 p=0.07-0.17 (weak, boundary lag)"
+    },
+    {
+     "name": "Total US deaths 2009-2016 (Wikipedia/DoD, all theaters)",
+     "value": "1,752; CRS annual cross-check matches 2009 exactly (311)"
+    }
+   ],
+   "finding": "No evidence that monthly US deaths in Afghanistan predict Afghanistan passage volume or mean tone in either direction at lags 0-6 months. Raw level correlation (rho 0.32) disappears after controlling for a shared trend and month-of-year pattern (partial r 0.001). The only nominally significant result is a residual rate->deaths Granger effect at lag 6 only (p=0.025), which is one of about 12 tests and sits at the AIC lag boundary; treat as noise. Casualty series is secondary (Wikipedia, DoD-attributed, all theaters), so this is a partial-verification result.",
+   "strength": "null_result",
+   "caveats": [
+    "Casualty monthly series is secondary: Wikipedia table attributed to DoD DCAS. Primary DCAS monthly pages were dynamic and not readable via WebFetch. Annual cross-check vs CRS R41084 matches 2009 (311) and is within 1-3 for 2010-2011 (differences likely civilian-death inclusion, unverified).",
+    "Covers all OEF/OFS theaters, not Afghanistan alone; excludes six DoD civilian deaths. No coalition (non-US) series obtained; iCasualties returned 404 and a fan-wiki mirror was not used.",
+    "96 monthly observations give low power; a true effect around r=0.2 would be hard to detect.",
+    "Rhetoric measure depends on the rule-based scorer, tuned on 30 hand labels with no held-out set. Monthly rate is sensitive to speech count per month.",
+    "Granger AIC lag selection hit the maximum (6) for all pairs, so the selected lag is unreliable; all lags 1-6 reported.",
+    "Deaths series is non-stationary in levels (ADF p=0.94) and borderline stationary in first differences (p=0.099). Differencing used for CCF and Granger.",
+    "VADER tone is word valence, not stance. The contemporaneous rate-tone change correlation (r=0.28, p=0.006, Bonferroni 0.23) is not about casualties.",
+    "Brookings Afghanistan Index and Gallup/Pew not fetched in this run."
+   ],
+   "files": [
+    "output/analyses/08_casualties/RESULT.md",
+    "output/analyses/08_casualties/analysis.py",
+    "output/analyses/08_casualties/SOURCES.md",
+    "output/analyses/08_casualties/casualties_monthly_dod_wiki.csv",
+    "output/analyses/08_casualties/casualties_annual_crs_r41084.csv",
+    "output/analyses/08_casualties/panel_monthly.csv",
+    "output/analyses/08_casualties/adf.csv",
+    "output/analyses/08_casualties/ccf.csv",
+    "output/analyses/08_casualties/ccf_residual_robustness.csv",
+    "output/analyses/08_casualties/granger.csv",
+    "output/analyses/08_casualties/granger_residual_robustness.csv",
+    "output/analyses/08_casualties/sensitivity.csv",
+    "output/analyses/08_casualties/numbers.json",
+    "output/analyses/08_casualties/casualties_vs_rhetoric.png"
+   ]
+  },
+  "verdict": {
+   "key": "08_casualties",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "rate_per_speech is stationary in levels (ADF p<0.0001) but was first-differenced for CCF and Granger. d(rate) lag-1 ACF is -0.515, so this is over-differencing and the wrong test for the data. Residual robustness repeats it."
+    },
+    {
+     "severity": "major",
+     "issue": "Deaths stationarity claim is spec-dependent. Constant-only ADF with AIC lags (max 9) gives p=0.94. Trend ADF with fixed lags 0/1/3 gives p=0.0009/0.003/0.001, i.e. trend-stationary. 'Non-stationary in levels' is not robust."
+    },
+    {
+     "severity": "major",
+     "issue": "CCF and Granger p-values assume iid. No autocorrelation correction or effective-n adjustment. Combined with over-differencing, nominal p-values are not calibrated."
+    },
+    {
+     "severity": "major",
+     "issue": "VAR AIC selected lag 6 (the maximum) for all four pairs. Lag range is at the boundary, so the lag-6-only residual Granger signal (p=0.025) is not interpretable as a specific lag effect."
+    },
+    {
+     "severity": "major",
+     "issue": "Multiplicity under-accounted: about 24 primary Granger, 39 CCF, 12 residual Granger, 13 residual CCF, 12 sensitivity tests. Residual Granger p=0.025 has Bonferroni p about 0.3 over its 12 tests. RESULT says 'one of about 12 tests' without adjustment."
+    },
+    {
+     "severity": "minor",
+     "issue": "Casualty series is all OEF/OFS theaters, US only, not Afghanistan-only. Share of non-Afghanistan deaths for 2009-2016 not quantified. No coalition series."
+    },
+    {
+     "severity": "minor",
+     "issue": "RESULT.md Granger deaths->tone p range '0.77 to 0.31' is wrong; actual values 0.774, 0.448, 0.194, 0.203, 0.251, 0.307, so range is 0.19-0.77."
+    },
+    {
+     "severity": "minor",
+     "issue": "Wikipedia printed row totals for 2015 (21) and 2016 (10) differ from their monthly cell sums (22, 9). Analyst used cells (total 1,752 unaffected). Not disclosed in SOURCES.md."
+    },
+    {
+     "severity": "minor",
+     "issue": "Civilian-death attribution inconsistent: CRS note says 'addition of three DoD civilian personnel', Wikipedia says six civilians omitted. The 2010 (+1) and 2011 (+3) CRS-vs-Wikipedia differences attributed to civilians remain unverified."
+    },
+    {
+     "severity": "minor",
+     "issue": "Causal wording: 'predict' is Granger-sense only. Acceptable but should not be read as causal."
+    }
+   ],
+   "external_data_checked": "Wikipedia US military casualties page: 96 monthly cells 2009-2016 match casualties_monthly_dod_wiki.csv exactly (0 mismatches); printed 2015/2016 totals differ from cell sums. CRS R41084 annual table: 2009 311, 2010 499, 2011 414, 2012 306 (thru Dec 6) match SOURCES.md; Wikipedia 2010 498 and 2011 411 differ by -1 and -3 from CRS, civilian attribution unverified. DCAS primary monthly page fetched but returned only title (not readable), consistent with SOURCES.md.",
+   "corrected_finding": "No evidence in these data that monthly US OEF/OFS deaths predict Afghanistan high-likelihood passage volume or mean tone at lags 0-6 in either direction. Reproduces exactly. The test design is weak: rate is over-differenced (stationary in levels), deaths stationarity is spec-dependent (trend-stationary under trend ADF), p-values ignore autocorrelation, and VAR lag selection sits at the max of 6. Power is low at n=95. Residual lag-6 Granger (p=0.025) does not survive multiplicity adjustment and is not evidence of a relation. Casualty input is secondary but matches its cited Wikipedia table cell-for-cell; primary DCAS was not readable.",
+   "corrected_strength": "weak"
+  }
+ },
+ {
+  "result": {
+   "key": "09_troops",
+   "question": "Do US troop levels in Afghanistan (2009-2016) relate to monthly/quarterly frame shares (combat, transition, withdrawal) and mention volume of Obama-speech Afghanistan passages? Does rhetoric lead or lag posture?",
+   "data_used": [
+    "https://www.congress.gov/crs_external_products/R/PDF/R44116/R44116.11.pdf (CRS R44116 v11, Apr 28 2017, Table 1 US Armed Forces in Afghanistan, quarterly, FY2007Q4-FY2016Q4)",
+    "https://www.everycrsreport.com/files/20110329_RL33110_be1a00c99d668bee3b4ec4f6fc82e914f62c39f0.pdf (CRS RL33110 Belasco Mar 29 2011, Table A-1 monthly Afghanistan Jan 2002-Sep 2010)",
+    "https://www.policyarchive.org/download/2588 (RL33110 Sep 2010 copy, 2009-2010 values checked as identical)",
+    "https://www.brookings.edu/wp-content/uploads/2016/07/index20120229.pdf, index20130228.pdf, 21csi_20170525_afghanistan_index.pdf (examined; chart-only, not used)",
+    "output/references.csv (read-only, 4,741 passages)",
+    "output/speeches_index.csv (read-only; no dup-flagged speeches in references)"
+   ],
+   "method": "Troops: CRS quarterly Table 1 mapped to calendar quarter-ends (31 usable quarters 2009Q1-2016Q3) and CRS monthly Table A-1 for 2009-01..2010-09 (21 months; Aug 2009 interpolated, Jul-Sep 2010 CRS estimates). Rhetoric: high-likelihood set (final_score_pct>=50, questioner excluded); frames by transparent keyword regex (combat, transition, withdrawal; non-exclusive). Analysis: levels and first differences (Pearson/Spearman), ACF and Ljung-Box, cross-correlation of differences at lags -4..+4 with AR(1) Bartlett effective-n adjustment, HAC (2 lags) OLS on differences with lag/lead troop terms, threshold sensitivity 30/50/70, monthly check. Code: analysis.py; all numbers from results.json.",
+   "n": "Quarterly n=31 (levels), n=30 (differences), n=28 (lagged regressions); monthly n=21 (levels), n=20 (differences). 4,741 passages total, 109 questioner-flagged, HL set per quarter 19-334.",
+   "key_numbers": [
+    {
+     "name": "Quarterly level r, troops vs combat share of HL (n=31)",
+     "value": "-0.432 (p=0.015 naive; Spearman rho=-0.331, p=0.069)"
+    },
+    {
+     "name": "Quarterly level r, troops vs HL volume (n=31)",
+     "value": "0.413 (p=0.021); all-passage volume r=0.467 (p=0.008)"
+    },
+    {
+     "name": "First-difference r, dTroops vs dCombat share (n=30)",
+     "value": "-0.195 (p=0.30)"
+    },
+    {
+     "name": "First-difference r, dTroops vs dHL volume (n=30)",
+     "value": "0.172 (p=0.36)"
+    },
+    {
+     "name": "Troops lag-1 ACF / Ljung-Box(4) p",
+     "value": "0.945 / <0.001"
+    },
+    {
+     "name": "CCF combat-share, troop change at t-1 vs rhetoric at t (Bartlett-adjusted)",
+     "value": "r=0.267, p_adj=0.061"
+    },
+    {
+     "name": "HAC OLS dCombat share on dTroops(t-1) (n=28)",
+     "value": "beta=+5.0e-6 per troop (~+2.5pp per 5,000 troops), p_HAC=0.0085, R2=0.074; one of 12 uncorrected specs"
+    },
+    {
+     "name": "Lead specs (rhetoric leads troops): dCombat share on dTroops(t+1)",
+     "value": "p_HAC=0.80; CCF lag -1 r=-0.033 p=0.82"
+    },
+    {
+     "name": "Monthly 2009-01..2010-09 levels: HL volume r (n=21)",
+     "value": "0.072 (p=0.76); combat share r=0.187 (p=0.42)"
+    },
+    {
+     "name": "Threshold sensitivity (30/50/70) level HL volume r",
+     "value": "0.446 / 0.413 / 0.349; combat-share r -0.369 / -0.432 / -0.324; all difference-based p > 0.30"
+    }
+   ],
+   "finding": "Level correlations look meaningful (combat-frame share r=-0.43 and HL volume r=+0.41 with troop levels), but troop levels are highly autocorrelated (ACF 0.95), so these largely reflect a shared downward trend after 2010. On first differences, no contemporaneous association is significant (all p>=0.20). The only nominally significant lead-lag result is weak: a one-quarter-lagged troop change predicts the change in combat-frame share (HAC p=0.0085, R2=0.07), but the Bartlett-adjusted CCF gives p=0.06 and the result is uncorrected for 12 specs. Rhetoric shows no lead over posture changes. Overall: weak or inconclusive evidence that rhetoric lags troop changes by about one quarter; null for lead and for contemporaneous changes.",
+   "strength": "weak",
+   "caveats": [
+    "Small n (31 quarters; 21 months monthly); per-quarter HL counts 19-334, so shares in small quarters are noisy.",
+    "Monthly troop data end Sep 2010; Aug 2009 interpolated and Jul-Sep 2010 are CRS estimates. No monthly Oct 2010-2016 series obtained; quarterly used as primary.",
+    "Quarterly (R44116) and monthly (RL33110) CRS series disagree for some dates (Mar 2010: 79,100 vs 85,000).",
+    "Calendar quarter-end mapping of FY troop snapshots is my derivation; source does not state snapshot timing precisely.",
+    "2016Q4 has no troop value in the source (Q1 FY2017 not yet available); rhetoric for that quarter excluded from level tests.",
+    "Frames are keyword rules, not validated by hand labels; withdrawal terms catch campaign rhetoric (2012Q3 withdrawal share 0.63 on 162 HL passages); frame terms not Afghanistan-specific (Iraq guard from score.py not applied).",
+    "p-values in level and difference tables are naive and not multiplicity-corrected.",
+    "VADER tone not used (word valence, not stance).",
+    "Brookings Afghanistan Index troop charts are vector-only; monthly values not extractable, so not used. Cloudflare-blocked everycrsreport/crsreports HTML was not bypassed; the PDF used came from a direct congress.gov URL."
+   ],
+   "files": [
+    "output/analyses/09_troops/analysis.py",
+    "output/analyses/09_troops/RESULT.md",
+    "output/analyses/09_troops/SOURCES.md",
+    "output/analyses/09_troops/results.json",
+    "output/analyses/09_troops/troop_vs_rhetoric.png",
+    "output/analyses/09_troops/troops_quarterly_CRS_R44116_Table1.csv",
+    "output/analyses/09_troops/troops_monthly_CRS_RL33110_TableA1.csv",
+    "output/analyses/09_troops/quarterly_panel.csv",
+    "output/analyses/09_troops/monthly_panel.csv",
+    "output/analyses/09_troops/quarterly_table_for_report.csv"
+   ]
+  },
+  "verdict": {
+   "key": "09_troops",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "Level correlations (combat share r=-0.432, HL volume r=+0.413) are trend artifacts. Troops vs time r=-0.77; partial r controlling for linear time: combat share -0.174 (p=0.35), HL volume 0.075 (p=0.69). RESULT.md line 78 'Level associations are real in the data' overstates and must be removed."
+    },
+    {
+     "severity": "major",
+     "issue": "Only nominal lag result (combat share on prior-quarter troop change, HAC(2) p=0.0085, n=28) is fragile: HAC(1) p=0.027; HC3 p=0.169; with linear time trend p=0.015; Holm across 12 specs p=0.102; Bartlett CCF p_adj=0.061. Treat as exploratory, not a finding."
+    },
+    {
+     "severity": "major",
+     "issue": "'Rhetoric does not show a lead' is a null from low power (n=28, lead p=0.80). Should read 'no evidence of a lead'."
+    },
+    {
+     "severity": "minor",
+     "issue": "Frame regex runs on passage + context_before + context_after while HL membership uses passage score only. Context may include interviewer/questioner text; not quantified."
+    },
+    {
+     "severity": "minor",
+     "issue": "Regex term 'train(ing|ed|s)?' matches 14.1% and 'taliban' 14.5% of HL passages; 'train' captures generic training language. 'surge' (1.2% of HL) is not a material confound (dropping it: combat level r -0.432 -> -0.457)."
+    },
+    {
+     "severity": "minor",
+     "issue": "Monthly check (n=21) includes modeled values: Aug 2009 interpolated (note only, unflagged in table), Jul-Sep 2010 flagged b (CRS estimates), Jun 2010 unflagged but a CRS estimate per source note. 5 of 21 troop values are not DoD counts."
+    },
+    {
+     "severity": "minor",
+     "issue": "Dup-exclusion step is a no-op: speeches_index.dup_of is entirely empty. Result correct; step does nothing."
+    },
+    {
+     "severity": "minor",
+     "issue": "Multiplicity uncorrected across 6 series x levels/diffs, 9 CCF lags x 6 series, 12 OLS specs. Bartlett n_eff uses single-series AR(1) acf, approximate."
+    },
+    {
+     "severity": "minor",
+     "issue": "SOURCES.md does not give per-file fetch dates or the pdftotext options beyond -layout; policyarchive copy and Brookings PDFs were not re-fetched by reviewer (no effect on results since unused)."
+    }
+   ],
+   "external_data_checked": "Fetched congress.gov R44116 v11 PDF and everycrsreport RL33110 PDF via curl; SHA-256 identical to analyst raw copies (0407abba..., 5382ca28...). Confirmed in text: R44116 Table 1 Q2 FY2010=79,100; Q2 FY2015=9,100; Q3 FY2016=9,365; Q1 FY2017 Not Yet Available. RL33110 Table A-1 Afghanistan: Mar 2010=85,000; Jun 2010=91,775 (unflagged); Jul/Aug/Sep 2010=95,925b/95,920b/98,000b; Aug 2009=62,600 (note: interpolated). Calendar-quarter snapshots match monthly values for Mar/Jun/Sep/Dec 2009. Not fetched: policyarchive copy, Brookings PDFs.",
+   "corrected_finding": "No robust association between US troop levels in Afghanistan and the frame shares or mention volume of Obama-speech Afghanistan passages (2009-2016, n=31 quarters). Level correlations reflect a shared post-2010 time trend (partial r with time, combat share: -0.17, p=0.35). First differences show no significant contemporaneous association (all p>=0.20). One nominal association (combat share vs prior-quarter troop change, HAC p=0.0085, n=28) is not robust: HC3 p=0.17, Holm across 12 specs p=0.10, Bartlett CCF p=0.06. Exploratory only. No evidence rhetoric leads posture changes; power is low.",
+   "corrected_strength": "inconclusive_data_gap"
+  }
+ },
+ {
+  "result": {
+   "key": "10_public_opinion",
+   "question": "Does US public opinion on the Afghanistan war (Gallup 'mistake' item, Gallup approval of Obama's Afghanistan handling, Pew right-decision) track Obama's Afghanistan passage volume, VADER tone and frame shares in the 30 days before/after each poll, and do opinion drops precede rhetoric shifts?",
+   "data_used": [
+    "https://news.gallup.com/file/poll/352841/210727Afghanistan.pdf (Gallup topline, Q25 trend; read via pdftotext)",
+    "https://news.gallup.com/poll/122816/americans-say-afghanistan-going-badly-not-mistake.aspx",
+    "https://news.gallup.com/poll/144965/obama-gets-lowest-marks-deficit-highest-foreign-affairs.aspx",
+    "https://news.gallup.com/poll/144944/americans-less-pessimistic-progress-afghanistan.aspx",
+    "https://news.gallup.com/poll/141716/New-High-Call-Afghanistan-War-Mistake.aspx",
+    "https://www.pewresearch.org/politics/2014/01/30/more-now-see-failure-than-success-in-iraq-afghanistan/",
+    "https://www.pewresearch.org/politics/2011/06/21/record-number-favors-removing-u-s-troops-from-afghanistan/",
+    "output/references.csv",
+    "output/speeches_index.csv"
+   ],
+   "method": "Gallup mistake series (11 polls, Jul 2009-Jun 2015 inside presidency) joined to 30-day pre/post windows (t=fieldwork midpoint) of high-likelihood passages (final_score_pct>=50; sensitivity 30/70), questioner and duplicate passages removed. Volume (count, per 100 speeches), mean VADER tone, category shares. Spearman with exact and 10k-permutation p; tests A (opinion vs pre), B (opinion vs post), C (opinion drop vs rhetoric change). Time-trend partial correlation check. Approval (n=4) and Pew (n=3) descriptive only.",
+   "n": "Mistake polls n=11 (per window test; 9-10 for tests needing a change or missing tone); approval n=4; Pew n=3 covered; passages 4,632 after filters; speeches 5,026 non-dup.",
+   "key_numbers": [
+    {
+     "name": "A: opinion vs pre-window high-likelihood count rho (thr50, n=11)",
+     "value": "-0.83, p_exact=0.0015, p_perm=0.003"
+    },
+    {
+     "name": "A: opinion vs pre-window share war_direct rho (thr50)",
+     "value": "+0.73, p=0.010, p_perm=0.014"
+    },
+    {
+     "name": "B: opinion vs post-window count rho (thr50)",
+     "value": "-0.64, p=0.035, p_perm=0.041"
+    },
+    {
+     "name": "Opinion vs days since inauguration rho",
+     "value": "+0.82, p=0.002"
+    },
+    {
+     "name": "Partial rho opinion~pre count | time (thr50 / thr30 / thr70)",
+     "value": "-0.54 (p=0.11) / -0.66 (p=0.04) / -0.28 (p=0.44)"
+    },
+    {
+     "name": "A: opinion vs pre-window tone mean rho (thr50)",
+     "value": "-0.37, p=0.27 (no relation)"
+    },
+    {
+     "name": "C: opinion drop vs tone change rho (thr50, n=9)",
+     "value": "+0.78, p=0.014, p_perm=0.018; thr30 +0.84 (n=10); thr70 +0.52 (n=8, p=0.19); sign opposite to hypothesis"
+    },
+    {
+     "name": "C: opinion drop vs count change rho (thr50, n=10)",
+     "value": "+0.34, p=0.34"
+    },
+    {
+     "name": "Gallup 'mistake' readings range",
+     "value": "28% (Jul 2008) to 49% (Feb 2014); 36-43% across 2009-2010"
+    },
+    {
+     "name": "Gallup Obama Afghanistan approval (n=4)",
+     "value": "35 (Nov 2009), 48 (Feb 2010), 36 (Jul-Aug 2010), 44 (Nov 2010)"
+    }
+   ],
+   "finding": "Weak and inconclusive. The public-opinion 'mistake' share and Obama's Afghanistan passage volume are negatively correlated in the 30-day windows around each poll (contemporaneous rho -0.83, p=0.002 at thr 50), but opinion rose and rhetoric fell over 2009-2015, so most of this is a shared time trend; with time partialled out, the link is not significant at thr 50 or 70. Tone shows no reliable relation to opinion level. Opinion drops do not predict a rhetoric shift in the hypothesized direction: when opinion fell, following-window tone was higher (rho +0.78, p=0.014 at thr 50), which is fragile across thresholds and not corrected for about 54 tests. Approval (n=4) and Pew (n=3) are too small to test.",
+   "strength": "inconclusive_data_gap",
+   "caveats": [
+    "n=11 Gallup mistake readings; 54 uncorrected tests; power is low, p-values are indicative only.",
+    "Volume correlations are confounded by the time trend (opinion vs time rho +0.82); partial correlations are mostly non-significant.",
+    "Opinion-drop tone result (C) is fragile: significant at thr 50 and 30, not at thr 70; VADER is word valence, not stance; sign is opposite to the hypothesis.",
+    "Gallup question wording changed: 2009-2011 'U.S. military action ... sending military forces' vs 2013-2015 'sending troops to fight'; both pooled as one series.",
+    "Approval series is Gallup USA Today only, 4 points; Nov 2009 and Feb 2010 are month-only, mid-month used as placeholder dates (labelled in data CSV).",
+    "Pew values come from WebFetch small-model summaries of pewresearch.org pages; question wording not verified; Pew 2011-11 (56) comes from the 2014 page only.",
+    "Gallup S1 table has no 2012 or 2016 readings; windows after Jun 2015 have no opinion point; Jan 2009 reading excluded (pre-window before inauguration).",
+    "Passage scores are rule-based estimates (no LLM judge); high-likelihood threshold is a choice, tested at 30/50/70.",
+    "Approval for 2011-2016 from other pollsters (ABC/WaPo, AP-GfK, Quinnipiac, Pew) was not verifiable from readable sources and is not in the analysis."
+   ],
+   "files": [
+    "output/analyses/10_public_opinion/analysis.py",
+    "output/analyses/10_public_opinion/confound_check.py",
+    "output/analyses/10_public_opinion/RESULT.md",
+    "output/analyses/10_public_opinion/SOURCES.md",
+    "output/analyses/10_public_opinion/out/chart_opinion_vs_volume.png",
+    "output/analyses/10_public_opinion/out/correlations_thr50.csv",
+    "output/analyses/10_public_opinion/out/mistake_windows_thr50.csv",
+    "output/analyses/10_public_opinion/out/confound_time_check.csv",
+    "output/analyses/10_public_opinion/data/gallup_mistake.csv",
+    "output/analyses/10_public_opinion/data/gallup_approval_obama_afghanistan.csv",
+    "output/analyses/10_public_opinion/data/pew_right_decision.csv"
+   ]
+  },
+  "verdict": {
+   "key": "10_public_opinion",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "Dedupe filter is a no-op: speeches_index dup_of is empty for all 5,026 rows. Text hash finds one group of 3 identical speeches (DCPD-201000797, DCPD-201400210, DCPD-201500307), none removed. Dropping repeated (speech_id,passage) or (date,passage) rows leaves test A unchanged (rho -0.833). Impact nil here, but the claim that duplicates were removed is false."
+    },
+    {
+     "severity": "major",
+     "issue": "Selective reporting in finding text: significant frame-share results (A share_war_direct +0.73 p=0.010; A share_aid_civil -0.65 p=0.03) are not discussed. Partial correlation at thr30 (-0.66, p=0.04) is omitted when the finding says partial is not significant at thr 50 or 70."
+    },
+    {
+     "severity": "major",
+     "issue": "Test C (opinion drop vs tone change, rho +0.78 p=0.014) has no hypothesised direction in analysis.py, so the 'sign opposite to hypothesis' claim is untraceable in code. Design is also not a clean lead test: pre-window overlaps the drop interval. Exploratory at best; fragile across thresholds."
+    },
+    {
+     "severity": "major",
+     "issue": "Gallup Nov 2009 approval value 35 is not traced. Fetched Gallup article (S3) did not contain 35 or the Jul-Aug 2010 36. Nov 2010 'up by eight points' implies summer 36 (consistent with CSV), but the 2009 value is unverified. Nov 2010 (44/49) and Feb 2010 (48) verified."
+    },
+    {
+     "severity": "minor",
+     "issue": "Overstatement: 'most of this is a shared time trend'. Time partial reduces thr50 rho from -0.83 to -0.54 (p=0.11), attenuated, not removed."
+    },
+    {
+     "severity": "minor",
+     "issue": "Gallup 2009-2011 'military forces' comparison item pooled with 2013-2015 'sending troops to fight' item; level/trend confounded with wording change. Not tested. Gallup footnote 'asked of a half sample' (2008-08, 2009-07, 2010-07) not in caveats."
+    },
+    {
+     "severity": "minor",
+     "issue": "Non-independence and autocorrelation unaddressed: overlapping 30-day windows; 2010-07 poll pair 3 weeks apart; permutation ignores time order; effective n below 11."
+    },
+    {
+     "severity": "minor",
+     "issue": "Pew wording not verified (caveated). Pew 2011-06 57 not re-fetched. Denominator per 100 speeches includes interviews and press conferences, type mix not controlled."
+    }
+   ],
+   "external_data_checked": "Gallup Nov 2010 approval 44/49 and Feb 2010 approval 48 (VERIFIED, news.gallup.com/poll/144944); Gallup Nov 2009 approval 35 (NOT TRACED, news.gallup.com/poll/144965 did not contain it); Pew right-decision 69 (2006), 64 (2009), 56 (2011), 51 (2014, n=1,504) VERIFIED on pewresearch.org 2014 page, wording not verified; Gallup mistake series 2008-2021 matches local S1 PDF text (data/gallup_210727.txt).",
+   "corrected_finding": "Correlations reproduce exactly. Contemporaneous 30-day count of high-likelihood passages vs Gallup mistake share is negatively correlated (rho -0.83, p=0.0015 exact / 0.003 perm, n=11, thr50), and the war_direct share is positively correlated (rho +0.73, p=0.010). Both are confounded by a strong time trend (opinion vs days since inauguration rho +0.82; partial rho count vs opinion at thr50 -0.54, p=0.11; at thr30 -0.66, p=0.04; at thr70 -0.28, p=0.44). Tone shows no reliable relation. The opinion-drop vs tone-change result (rho +0.78, p=0.014, n=9) has no hypothesised direction in code, is fragile across thresholds, and is exploratory. No dedupe was applied (dup_of empty). Approval (n=4; Nov 2009 value 35 untraced) and Pew (n=3; wording unverified) are too small to test. Overall: weak, exploratory, not a causal or lead-lag finding.",
+   "corrected_strength": "weak"
+  }
+ },
+ {
+  "result": {
+   "key": "11_approval",
+   "question": "Does Obama's monthly job approval move with monthly Afghanistan passage volume (normalized) and tone? Levels, first differences, lags, Granger both directions.",
+   "data_used": [
+    "https://www.presidency.ucsb.edu/statistics/data/barack-obama-public-approval (weekly approval table, 418 rows, 01/19/2009-01/19/2017; saved raw HTML and parsed CSV)",
+    "https://news.gallup.com/poll/151025/obama-job-approval-monthly.aspx (monthly 2016 values for validation, WebFetch)",
+    "https://news.gallup.com/poll/113980/presidential-approval-ratings-barack-obama.aspx (Jan 2017 daily averages, WebFetch)",
+    "Gallup article snippets via WebSearch: news.gallup.com/poll/152123, 149966, 148394, 153152 (2011-2012 validation values)",
+    "https://www.presidency.ucsb.edu/statistics/data/presidential-job-approval and its Google Sheet (13 gid tabs + default checked; no Obama 2009-2017 tab found)",
+    "output/references.csv",
+    "output/speeches_index.csv",
+    "data/speeches.db (raw_text word counts)"
+   ],
+   "method": "Monthly mean of UCSB weekly approve % (Feb 2009-Dec 2016, n=95; partial months in sensitivity). Exposure = high-likelihood (final_score_pct>=50, questioner passages excluded) Afghan passages per 10k presidential words per month. Tone = monthly mean VADER compound of those passages (word valence, not stance). Pearson/Spearman levels and first differences; cross-correlation lags 0-6 both directions; ADF; statsmodels Granger (lags 1-3) on first differences both directions; threshold 30/50/70, inclusion, and outlier sensitivities; validation vs 16 published Gallup monthly values.",
+   "n": "95 monthly observations (94 for first differences); 4,741 passages (3,853 high-likelihood in primary window); 8.58M words; 16 validation points",
+   "key_numbers": [
+    {
+     "name": "Level r approval vs Afghan rate (>=50)",
+     "value": "r=0.117, p=0.261, n=95 (Spearman rho=0.147, p=0.156)"
+    },
+    {
+     "name": "Diff lag-0 r (d approval vs d rate)",
+     "value": "r=0.037, p=0.720, n=94 (Spearman p=0.988)"
+    },
+    {
+     "name": "Lag Afghan->approval 1/2/3 mo r",
+     "value": "0.059 (p=0.575) / -0.091 (p=0.386) / -0.123 (p=0.246)"
+    },
+    {
+     "name": "Granger Afghan->approval lags 1/2/3 p",
+     "value": "0.592 / 0.642 / 0.224"
+    },
+    {
+     "name": "Granger approval->Afghan lags 1/2/3 p",
+     "value": "0.112 / 0.112 / 0.190"
+    },
+    {
+     "name": "Level r approval vs monthly VADER tone",
+     "value": "r=0.031, p=0.763, n=95"
+    },
+    {
+     "name": "Sensitivity: exclude Jan 2013 spike (level r / diff r)",
+     "value": "0.077 (p=0.464) / 0.014 (p=0.897)"
+    },
+    {
+     "name": "Sensitivity thresholds 30/70 (level r)",
+     "value": "0.122 (p=0.240) / 0.094 (p=0.365)"
+    },
+    {
+     "name": "Validation vs published Gallup monthly (n=16)",
+     "value": "mean abs diff 0.37 pts, max 0.8"
+    },
+    {
+     "name": "Approval monthly mean (range)",
+     "value": "47.8 sd 5.1; 40.5 (Aug 2011) to 64.3 (May 2009)"
+    }
+   ],
+   "finding": "No detectable relationship between monthly Afghanistan passage volume and Obama approval, in levels or first differences, at lag 0 or lags 1-3. Granger tests do not support Afghan mentions predicting approval (p=0.59-0.64 at lags 1-2, 0.22 at lag 3). The reverse direction is also non-significant (p=0.11-0.19). VADER tone of the Afghan passages is unrelated to approval (r=0.03). Null result with 95 monthly observations. Obama's Gallup-labelled series for 2009-2016 was not obtained; the UCSB weekly table used matches the 16 published Gallup values checked.",
+   "strength": "null_result",
+   "caveats": [
+    "Approval series is the UCSB-hosted weekly Obama table; the page does not name the pollster. Values match 16 Gallup points (max abs diff 0.8), but the Obama Gallup Google Sheet was not located (UCSB sheets checked are for other presidents). Some validation values come from search snippets, not fetched pages.",
+    "Monthly approval is an unweighted mean of overlapping 7-day windows.",
+    "Passage volume is event-driven (press conferences, foreign-policy events); approval is driven mostly by other issues; no controls included.",
+    "Jan 2013 peak is one Karzai press conference and joint statement; excluding it leaves the null (r=0.077, p=0.464).",
+    "VADER tone is word valence, not stance.",
+    "About 30 tests reported with no multiple-comparison correction; ADF on approval levels borderline (p=0.046), so the differenced model is primary.",
+    "Granger lags limited to 1-3 months; low power with n=94."
+   ],
+   "files": [
+    "output/analyses/11_approval/analysis.py",
+    "output/analyses/11_approval/RESULT.md",
+    "output/analyses/11_approval/SOURCES.md",
+    "output/analyses/11_approval/results.json",
+    "output/analyses/11_approval/approval_vs_afghan.png",
+    "output/analyses/11_approval/monthly_panel_primary.csv",
+    "output/analyses/11_approval/monthly_panel_full_2009-01_2017-01.csv",
+    "output/analyses/11_approval/approval_weekly_clean.csv",
+    "output/analyses/11_approval/lag_correlations.csv",
+    "output/analyses/11_approval/validation_vs_published_gallup.csv"
+   ]
+  },
+  "verdict": {
+   "key": "11_approval",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "Exposure is rule-only. llm_score is blank in all 4,741 rows of references.csv, so final_score_pct is the rule score. The 'high-likelihood' (>=50) label was never LLM-validated, and RESULT.md does not say so."
+    },
+    {
+     "severity": "major",
+     "issue": "Tone is under-tested. The question asks for tone in levels, first differences, lags and Granger. Only the level correlation (r=0.031, p=0.763) was run. The finding 'tone unrelated to approval' overstates what was tested."
+    },
+    {
+     "severity": "major",
+     "issue": "Validation is partly unverified. Of 16 published points, 9 are 2016 Gallup values confirmed by WebFetch of gallup.com/poll/151025 (all match exactly), and May 2011=50 is confirmed in gallup.com/poll/152123. The other 6 (Jan 2011 49, Jun 2011 46, Aug 2011 41, Sep 2011 41, Feb 2012 45, Aug 2012 45) come from search snippets. The 152123 article gives only a 38 August low, not a monthly mean of 41. On the 10 verified points, mean abs diff is 0.36 and max is 0.5, so the conclusion that the UCSB series tracks Gallup holds, but the 0.37/0.8 figures rest partly on unverified values."
+    },
+    {
+     "severity": "major",
+     "issue": "Level p-values ignore autocorrelation. Approval ADF p=0.046 is borderline and the Afghan rate is stationary. Level Pearson p-values assume independent observations. The null is not inflated by this, but the stated level p-values are not valid as reported. No HAC or prewhitening check was run."
+    },
+    {
+     "severity": "minor",
+     "issue": "Caveat 'overlapping 7-day windows' is false. The UCSB windows are consecutive: 415 of 417 start-to-start gaps are 7 days, one is 10 days and one is 4 days, and two windows span 3 and 5 days."
+    },
+    {
+     "severity": "minor",
+     "issue": "Dedup filter is a no-op. dup_of is empty for all rows. Near-duplicate same-title same-date pairs remain, e.g. DCPD-200900164/165 (Jaccard 0.77) and DCPD-201200746/747 (0.57). The SOURCES 'non-dup' wording implies dedup that did not happen. Effect is likely small."
+    },
+    {
+     "severity": "minor",
+     "issue": "Exposure partly speech-level. The rule score includes speech_focus_8+_hits, so the rate partly reflects how Afghan-focused a speech is. This is not disclosed."
+    },
+    {
+     "severity": "minor",
+     "issue": "Misleading file name. raw/obama_ucsb_gallup_sheet.csv (282 rows, last date 2009-01-10, Gallup-style 1-4 day windows) is pre-2009 Bush-era data, not Obama. This is consistent with SOURCES saying the Obama tab was not found, but the name suggests otherwise."
+    },
+    {
+     "severity": "minor",
+     "issue": "Power and multiplicity. About 30 unadjusted tests, all null, minimum nominal p=0.112. No power analysis at n=95, so the null is weak evidence of no relationship. Threshold 50 is the stated primary; 30 and 70 are also null, so no p-hacking signal."
+    },
+    {
+     "severity": "minor",
+     "issue": "Jan 2013 is one event. 154 of 174 non-questioner high-likelihood passages in Jan 2013 come from the Karzai press conference and joint statement. Excluding the month gives r=0.077, p=0.464, which matches the reported figure."
+    }
+   ],
+   "external_data_checked": "Re-ran analysis.py with the venv python -I. results.json and lag_correlations.csv are byte/row identical to the originals. Key numbers reproduce: levels r=0.117 p=0.2608; diff r=0.037 p=0.7202; Granger afg->approval p=0.5915/0.6418/0.224; approval->afg p=0.1116/0.1124/0.1903; ADF approval level p=0.0464; validation 0.37/0.8; n=95, 3,853 hi passages, 8,578,374 words, 109 questioner rows. Fetched UCSB Obama page: no pollster named (SOURCES caveat accurate); first rows 59/57/55 (Jan 2017) and earliest 67/66 (Jan 2009) match approval_weekly_clean.csv. Fetched Gallup poll/151025: all 9 Apr-Dec 2016 values match (50,51,52,51,51,52,54,56,56). Fetched Gallup poll/152123: May 2011 average 50, matches the validation value; Jan/Jun/Sep 2011 and Feb/Aug 2012 are not stated there; Aug 2011 article reports a 38 low, not a monthly 41. Not checked: Gallup 2011 monthly values from other snippet pages (148394, 149966, 153152).",
+   "corrected_finding": "No detectable relationship between monthly high-likelihood Afghan passage rate (rule-scored, not LLM-validated) and UCSB approval (Gallup-consistent on 10 verified points) in levels or first differences. Lag 0-3 correlations p>0.2; Granger Afghan->approval p>=0.22 at lags 1-3; approval->Afghan p>=0.11. Tone was tested in levels only (r=0.03). With n=95, no power analysis and rule-based exposure, this is a narrow null and weak evidence that Afghan rhetoric volume is unrelated to approval.",
+   "corrected_strength": "weak"
+  }
+ },
+ {
+  "result": {
+   "key": "12_congress",
+   "question": "Do Congressional Afghanistan-war actions (2009 and 2010 war supplementals, Afghanistan-specific votes, McGovern/Jones/Kucinich withdrawal amendments, NDAA/DoD appropriations milestones) 2009-2016 coincide with changes in Obama presidency Afghanistan passage volume, rate or tone in [-14,+14] day windows vs matched baseline? Do close votes attract more mentions?",
+   "data_used": [
+    "https://clerk.house.gov/evslegacy/{2009..2016}/index.asp and ROLL_NNN.asp range pages (House roll index, 5,795 rolls parsed)",
+    "https://clerk.house.gov/evs/{YYYY}/rollNNN.xml (65 House-side and Senate-side votes; 60+ House per-vote XML files)",
+    "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_{111..114}_{1,2}.xml (Senate vote menus)",
+    "https://www.rollcall.com/2010/07/01/anti-war-liberals-put-afghanistan-to-three-votes/ (WebFetch; July 1 2010 Afghanistan votes)",
+    "WebSearch snippets: livableworld.org McGovern-Jones 2011; thenation.com 2011; npr.org 2011-03-17; himes.house.gov 2010; propublica (inconsistent, not used)",
+    "output/references.csv",
+    "output/speeches_index.csv",
+    "output/reaction_events.csv"
+   ],
+   "method": "Votes from clerk/senate.gov XML only (votes.csv via build_votes.py; fetch_house.py for raw). Clusters: votes within 14 days merged. Event study: [-14,+14] windows; mentions = final_score_pct>=50 non-questioner; denominators = status-ok non-dup speeches; tone = VADER column. Null: one random day per cluster from same calendar year, excluding +-14 of any vote date; 10,000 draws, seed 20260116; one-sided and two-sided p. Sensitivities: thresholds 30/70, drop reaction-overlap clusters, +-180d null. Close-vote: Spearman of margin share vs excess mentions, per vote and per cluster. analysis.py reads only saved CSVs.",
+   "n": "65 roll calls (10 Afghanistan-verified, 6 supplemental, 14 withdrawal-amendment unverified, 34 NDAA/DoD, 1 OCO); 30 Afghanistan-related votes in 18 clusters; 3,877 high-likelihood non-questioner passages; 5,023 speeches; 10,000 permutation draws",
+   "key_numbers": [
+    {
+     "name": "afg verified: mentions per window obs / null mean (excess)",
+     "value": "37.0 / 49.6 (-25.4%), p_up=0.758, p_two=0.460, 10 votes, 7 clusters"
+    },
+    {
+     "name": "supplementals (bill-level): obs / null (excess)",
+     "value": "35.3 / 63.4 (-44.4%), p_up=0.889, p_two=0.249, 6 votes, 4 clusters"
+    },
+    {
+     "name": "withdrawal amendments (unverified): obs / null (excess)",
+     "value": "36.2 / 42.7 (-15.3%), p_up=0.665, p_two=0.615, 14 votes, 10 clusters"
+    },
+    {
+     "name": "NDAA/DoD milestones: obs / null (excess)",
+     "value": "37.1 / 38.9 (-4.7%), p_up=0.576, p_two=0.799, 34 votes, 28 clusters"
+    },
+    {
+     "name": "all Afghan-related: obs / null (excess)",
+     "value": "35.8 / 47.3 (-24.3%), p_up=0.888, p_two=0.241, 30 votes, 18 clusters"
+    },
+    {
+     "name": "afg verified sensitivity p_up: thr30 / thr70 / drop-reaction / +-180d null",
+     "value": "0.784 / 0.778 / 0.827 / 0.675"
+    },
+    {
+     "name": "afg verified tone obs vs null (n)",
+     "value": "0.247 vs 0.158 (n=259), p_up=0.189"
+    },
+    {
+     "name": "Close-vote Spearman (all 65 votes), vote-level rho, p",
+     "value": "-0.113, p=0.369"
+    },
+    {
+     "name": "Close-vote Spearman (Afghan-related 30), vote-level rho, p",
+     "value": "-0.211, p=0.263; cluster-level rho=-0.330, p=0.181 (18 clusters)"
+    },
+    {
+     "name": "Close-vote Spearman (afg verified 10), vote-level rho, p",
+     "value": "+0.086, p=0.813; cluster-level rho=-0.429, p=0.337 (7 clusters)"
+    }
+   ],
+   "finding": "No Congressional Afghanistan action in 2009-2016 shows a detectable change in Afghanistan passage volume, rate or tone in [-14,+14] windows versus same-year matched baselines. All groups show negative mean excess (-5% to -44%), and no one-sided p is below 0.25. Close votes do not draw more mentions: Spearman signs are weakly negative (closer votes slightly more mentions) but none is significant. Power is very low: only 7 verified-Afghanistan clusters, so only large effects are detectable. Treat as a null result.",
+   "strength": "null_result",
+   "caveats": [
+    "Power very low: 10 verified Afghanistan votes (7 clusters); closeness tests n=10 to 65 with overlapping windows.",
+    "Content verification: only the 10 afg-group votes are verified by XML title, Senate menu title, or a secondary source (Roll Call, Council for a Livable World/The Nation snippet, NPR, Himes). 6 supplemental (H.R.2346, H.R.4899 bill-level) and 14 McGovern/Jones/Kucinich House amendments are NOT verified against bill or amendment text; XML gives author only. Kucinich 2011 roll 498/530 had no second source confirming Afghanistan content; the WebSearch snippet for 530 (119-116) did not match XML (169-251) and was not used.",
+    "H.R.4899 FY2010 supplemental: the July 1 2010 Afghanistan votes are House rolls 431-433 (Roll Call article tallies match XML). The House final passage of the war-funding portion was not located; roll 430 (passed 239-182) is not identified as war funding and was excluded.",
+    "Excluded as non-Afghanistan war-powers: 2011 rolls 411 and 412 (Libya), 2014 roll 452 and 2015 roll 370 (Iraq/Syria). No House 2013 war-powers vote on Afghanistan was found in the House index (2013 Kucinich war-powers absent from index; 2013 McGovern/Jones amendments are in the unverified group).",
+    "Senate roll tallies from senate.gov vote menus (yeas/nays), not per-vote XML. House tallies from clerk per-vote XML totals-by-vote block.",
+    "NDAA/DoD: only final passage and conference/concurrence per chamber used, not every stage (per brief). Congress.gov returned HTTP 403 (Cloudflare) and was not used.",
+    "Mention definition: final_score_pct>=50 and not questioner-flagged (rationale contains 'questioner'; 109 rows). Undetected questioner paragraphs may remain. Thresholds 30/70 tested; conclusions unchanged.",
+    "VADER tone is word valence, not stance; tone n per window is thin for some clusters (cluster_table.csv).",
+    "Multiple tests: 5 groups x 3 metrics. None significant, so no correction changes the conclusion.",
+    "Windows of nearby clusters overlap; cluster center is the first vote date of each chain-merged cluster.",
+    "Outside sources: WebFetch of one Roll Call article; WebSearch snippets only (not fetched in full) for Livable World, The Nation, NPR, Himes, ProPublica. ProPublica roll-498 page is internally inconsistent and was not used for numbers."
+   ],
+   "files": [
+    "output/analyses/12_congress/analysis.py",
+    "output/analyses/12_congress/build_votes.py",
+    "output/analyses/12_congress/fetch_house.py",
+    "output/analyses/12_congress/votes.csv",
+    "output/analyses/12_congress/event_study_results.csv",
+    "output/analyses/12_congress/cluster_table.csv",
+    "output/analyses/12_congress/closeness_results.csv",
+    "output/analyses/12_congress/event_study.png",
+    "output/analyses/12_congress/SOURCES.md",
+    "output/analyses/12_congress/RESULT.md",
+    "output/analyses/12_congress/raw/house_xml",
+    "output/analyses/12_congress/raw/senate"
+   ]
+  },
+  "verdict": {
+   "key": "12_congress",
+   "rerun_ok": true,
+   "numbers_match": true,
+   "issues": [
+    {
+     "severity": "major",
+     "issue": "Confounding by concurrent Afghan policy events: positive-excess clusters are driven by single presidential events inside the window (2010-07-01 McChrystal resignation, 20 passages on 06-23; 2011-07-06 drawdown address 06-22, 27 passages; 2012-05-18 NATO summit 05-21, 33; 2014-05-22 Bagram/drawdown remarks 05-25/05-27, 75; 2015-10-01 strategy speech 10-15, 64). Design cannot separate vote timing from Afghan news."
+    },
+    {
+     "severity": "major",
+     "issue": "Key text errors: finding says no one-sided p below 0.25, but afg-verified tone p_up = 0.189 (listed in key_numbers). Finding says Spearman signs weakly negative, but afg-verified vote-level rho = +0.086."
+    },
+    {
+     "severity": "major",
+     "issue": "Headline 'all Afghan-related' includes 14 unverified McGovern/Jones/Kucinich amendments and 6 bill-level supplemental votes (incl. 2010-07-22 cloture, not war-funding passage); NDAA/DoD milestones are not Afghanistan-specific. Caveat needed next to headline."
+    },
+    {
+     "severity": "minor",
+     "issue": "Livable World 204-215 tally not found in fetched page (page gives no tally); matches XML roll 373 only. NPR 321-93 fetch timed out; matches XML roll 193 only. Attribution in SOURCES needs correction."
+    },
+    {
+     "severity": "minor",
+     "issue": "SOURCES.md fetch provenance incomplete: raw House XML for 2010 rolls 312, 419-425, 431-436 and 2011 roll 146 not produced by fetch_house.py and not all listed in SOURCES. Tallies used in votes.csv are unaffected."
+    },
+    {
+     "severity": "minor",
+     "issue": "Dedupe filter vacuous: dup_of is NULL for all rows (dedupe is cross-source only, all rows govinfo). Same-date same-title pairs checked: max 5-gram Jaccard 0.47, none duplicates. No numeric impact."
+    },
+    {
+     "severity": "minor",
+     "issue": "Null design: no weekday or session-calendar matching; overlapping windows of neighboring clusters treated as independent; vote-level closeness p-values share overlapping windows; cluster-level all-65 result (rho -0.0375, p=0.83) omitted from key; OCO vote silently excluded from event-study groups; cluster_table n_votes counts dates not votes."
+    }
+   ],
+   "external_data_checked": "Fetched and compared: Roll Call 2010-07-01 (162-260, 100-321, 25-376 match XML rolls 433/432/431; McGovern 2009 138-278 matches roll 453; Kucinich 2010 65 votes matches roll 98). Himes 2010 356-65 matches roll 98 totals (65 yea, 356 nay). NPR 2011-03-17 fetch timed out (321-93 matches XML roll 193 only). Livable World 2011 fetch gave no tally (204-215 matches XML roll 373 only, not confirmed by source). Raw XML totals-by-vote checked for 2010_098, 2011_193, 2011_373.",
+   "corrected_finding": "No detectable change in Afghanistan passage volume, rate or tone around Congressional Afghanistan-related votes 2009-2016 (all mention excess negative, p_up >= 0.576 for mention counts; afg-verified tone p_up = 0.189, not below 0.25 as originally written). Close-vote Spearman signs are mixed (afg-verified vote-level rho +0.086; all-Afghan-related -0.211; all 65 votes -0.113), none significant. Positive excess clusters are driven by concurrent Afghan policy events (McChrystal resignation, drawdown address, NATO summit, Bagram/drawdown remarks, strategy speeches), not identified as vote effects. Per-day capping at 5/10/20 keeps all groups null. Power very low: 7 verified-Afghanistan clusters. Treat as no detectable effect with this design, not evidence of no effect.",
+   "corrected_strength": "null_result"
+  }
+ }
+]

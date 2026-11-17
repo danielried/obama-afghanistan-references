@@ -1,0 +1,110 @@
+{
+  "war_direct_share_vs_salience": {
+    "n": 97,
+    "pearson_r": -0.2765,
+    "pearson_p": 0.0061,
+    "spearman_rho": -0.2995,
+    "spearman_p": 0.0029,
+    "n_eff": 96.8081,
+    "pearson_p_eff": 0.0062,
+    "spearman_p_eff": 0.0029
+  },
+  "war_direct_share_vs_tone": {
+    "n": 97,
+    "pearson_r": -0.286,
+    "pearson_p": 0.0045,
+    "spearman_rho": -0.3949,
+    "spearman_p": 0.0001,
+    "n_eff": 97.2404,
+    "pearson_p_eff": 0.0045,
+    "spearman_p_eff": 0.0001
+  },
+  "press_conf_share_of_speeches_vs_salience": {
+    "n": 97,
+    "pearson_r": 0.047,
+    "pearson_p": 0.6477,
+    "spearman_rho": 0.0344,
+    "spearman_p": 0.7383,
+    "n_eff": 95.2821,
+    "pearson_p_eff": 0.6507,
+    "spearman_p_eff": 0.7406
+  },
+  "press_conf_share_of_speeches_vs_tone": {
+    "n": 97,
+    "pearson_r": 0.0592,
+    "pearson_p": 0.5644,
+    "spearman_rho": 0.0839,
+    "spearman_p": 0.4139,
+    "n_eff": 99.1911,
+    "pearson_p_eff": 0.5599,
+    "spearman_p_eff": 0.4086
+  },
+  "tone_by_category_hi": {
+    "mean": {
+      "aid_diplomacy_civil": 0.417,
+      "incidental": 0.1515,
+      "political_background": 0.0573,
+      "war_adjacent": 0.2461,
+      "war_direct": 0.1179
+    },
+    "count": {
+      "aid_diplomacy_civil": 206,
+      "incidental": 503,
+      "political_background": 4,
+      "war_adjacent": 1057,
+      "war_direct": 2107
+    }
+  },
+  "spike_months": {
+    "2012-05": {
+      "n_hi": 280,
+      "category_counts": {
+        "war_direct": 132,
+        "war_adjacent": 85,
+        "aid_diplomacy_civil": 32,
+        "incidental": 31
+      },
+      "speech_types": {
+        "remarks": 42,
+        "statement": 9,
+        "address": 4,
+        "weekly_address": 4,
+        "press_conference": 1
+      },
+      "mean_tone": 0.3151
+    },
+    "2013-01": {
+      "n_hi": 174,
+      "category_counts": {
+        "war_direct": 93,
+        "war_adjacent": 47,
+        "incidental": 22,
+        "aid_diplomacy_civil": 12
+      },
+      "speech_types": {
+        "statement": 19,
+        "remarks": 15,
+        "weekly_address": 4,
+        "press_conference": 2,
+        "address": 1
+      },
+      "mean_tone": 0.3471
+    },
+    "2015-03": {
+      "n_hi": 164,
+      "category_counts": {
+        "war_direct": 77,
+        "war_adjacent": 40,
+        "incidental": 29,
+        "aid_diplomacy_civil": 18
+      },
+      "speech_types": {
+        "remarks": 27,
+        "statement": 14,
+        "weekly_address": 4,
+        "press_conference": 1
+      },
+      "mean_tone": 0.3879
+    }
+  }
+}

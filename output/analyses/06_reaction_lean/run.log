@@ -1,0 +1,89 @@
+refs with tone: 4741  events: 13
+reproduction check: max |statement_tone diff| = 0.000000, max |n_statements diff| = 0
+shipped overall press corr: {'n': 12, 'pearson_r': 0.528, 'spearman_rho': 0.544, 'pearson_p': 0.077, 'spearman_p': 0.068}
+recalc  overall press corr: {'n': 12, 'pearson_r': 0.528, 'spearman_rho': 0.544, 'pearson_p': 0.077, 'spearman_p': 0.068}
+
+items: 92 | lean counts:
+ lean           kind 
+center         press    19
+international  press    11
+left           press    15
+missing        press    29
+               tweet     1
+right          press     7
+               tweet     1
+unknown        press     7
+               tweet     2
+missing lean n: 30 events: ['2009-03-27', '2009-12-01', '2010-06-23', '2011-06-22', '2014-05-27']
+events with no lean at all: ['2009-12-01', '2010-06-23', '2011-06-22', '2014-05-27']
+
+== press, >=1 item/event ==
+left           items= 15 n_events= 8 r=0.528 p=0.178 rho=0.574 p=0.137
+center         items= 19 n_events= 8 r=0.222 p=0.598 rho=0.247 p=0.555
+right          items=  7 n_events= 6 r=0.174 p=0.742 rho=0.088 p=0.868
+international  items= 11 n_events= 8 r=0.578 p=0.134 rho=0.63 p=0.094
+unknown        items=  7 n_events= 6 r=0.274 p=0.599 rho=0.37 p=0.47
+
+== press, >=2 items/event ==
+left           items= 15 n_events= 4 r=-0.029 p=0.971 rho=-0.258 p=0.742
+center         items= 19 n_events= 4 r=0.455 p=0.545 rho=0.775 p=0.225
+right          items=  7 n_events= 1 r=None p=None rho=None p=None
+international  items= 11 n_events= 3 r=0.018 p=0.988 rho=0.0 p=1.0
+unknown        items=  7 n_events= 1 r=None p=None rho=None p=None
+
+== press+tweet, >=1 ==
+left           items= 15 n_events= 8 r=0.528 p=0.178 rho=0.574 p=0.137
+center         items= 19 n_events= 8 r=0.222 p=0.598 rho=0.247 p=0.555
+right          items=  8 n_events= 6 r=-0.342 p=0.507 rho=-0.395 p=0.439
+international  items= 11 n_events= 8 r=0.578 p=0.134 rho=0.63 p=0.094
+unknown        items=  9 n_events= 6 r=-0.095 p=0.858 rho=0.059 p=0.912
+
+== known lean only (mixed=0) n=62 clusters=8 ==
+n per lean: {'center': 19, 'left': 15, 'international': 11, 'unknown': 9, 'right': 8}
+OLS-cluster const                  b=-0.042 se=0.033 p=0.201
+OLS-cluster tone                   b=+0.521 se=0.323 p=0.107
+OLS-cluster lean_international     b=-0.324 se=0.188 p=0.085
+OLS-cluster lean_left              b=-0.466 se=0.176 p=0.008
+OLS-cluster lean_right             b=-0.168 se=0.254 p=0.509
+OLS-cluster lean_unknown           b=-0.066 se=0.308 p=0.831
+ordlogit_model tone                   b=+2.007 se=2.352 p=0.394
+ordlogit_model lean_international     b=-0.856 se=0.697 p=0.219
+ordlogit_model lean_left              b=-1.497 se=0.693 p=0.031
+ordlogit_model lean_right             b=-0.555 se=0.850 p=0.514
+ordlogit_model lean_unknown           b=-0.177 se=0.883 p=0.841
+ordlogit_cluster tone                   b=+2.007 se=0.971 p=0.039
+ordlogit_cluster lean_international     b=-0.856 se=0.437 p=0.050
+ordlogit_cluster lean_left              b=-1.497 se=0.714 p=0.036
+ordlogit_cluster lean_right             b=-0.555 se=0.870 p=0.524
+ordlogit_cluster lean_unknown           b=-0.177 se=1.428 p=0.902
+
+== known lean, excl weak_evidence n=60 clusters=8 ==
+n per lean: {'center': 18, 'left': 14, 'international': 11, 'unknown': 9, 'right': 8}
+OLS-cluster const                  b=-0.054 se=0.037 p=0.141
+OLS-cluster tone                   b=+0.580 se=0.331 p=0.080
+OLS-cluster lean_international     b=-0.322 se=0.191 p=0.091
+OLS-cluster lean_left              b=-0.420 se=0.166 p=0.011
+OLS-cluster lean_right             b=-0.165 se=0.255 p=0.516
+OLS-cluster lean_unknown           b=-0.065 se=0.308 p=0.832
+ordlogit_model tone                   b=+2.193 se=2.400 p=0.361
+ordlogit_model lean_international     b=-0.834 se=0.702 p=0.235
+ordlogit_model lean_left              b=-1.323 se=0.704 p=0.060
+ordlogit_model lean_right             b=-0.535 se=0.853 p=0.531
+ordlogit_model lean_unknown           b=-0.167 se=0.884 p=0.850
+ordlogit_cluster tone                   b=+2.193 se=0.986 p=0.026
+ordlogit_cluster lean_international     b=-0.834 se=0.456 p=0.067
+ordlogit_cluster lean_left              b=-1.323 se=0.650 p=0.042
+ordlogit_cluster lean_right             b=-0.535 se=0.858 p=0.533
+ordlogit_cluster lean_unknown           b=-0.167 se=1.411 p=0.906
+
+lean x stance:
+ stance         mixed  negative  neutral  positive
+lean                                             
+center             5         1       11         2
+international      2         3        6         0
+left               1         8        4         2
+missing            7         8       11         4
+right              0         3        3         2
+unknown            1         4        0         4
+
+wrote output/analyses/06_reaction_lean/results.json and chart

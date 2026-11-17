@@ -1,0 +1,5 @@
+label,n_events,pearson_r,pearson_p,spearman_rho,spearman_p
+news (any n>=1),12,0.625,0.03,0.559,0.059
+opinion (any n>=1),12,-0.213,0.507,-0.218,0.496
+news (n>=2),11,0.465,0.149,0.421,0.198
+opinion (n>=2),9,-0.252,0.512,-0.252,0.513

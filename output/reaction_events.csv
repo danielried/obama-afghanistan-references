@@ -1,0 +1,14 @@
+date,label,window_end,n_statements,statement_tone,statement_pos,statement_neg,n_press,press_index,n_tweets,tweet_index,all_index,dropped_unverified
+2009-02-17,"First troop increase: 17,000 more US troops to Afghanistan",2009-03-03,69,0.262,40,14,7,-0.143,0,,-0.143,0
+2009-03-27,New Afghanistan-Pakistan (AfPak) strategy announced,2009-04-10,159,0.144,90,39,8,-0.125,1,-1.0,-0.222,0
+2009-12-01,"West Point speech: 30,000-troop surge with July 2011 drawdown start",2009-12-15,94,0.068,46,32,5,-0.4,0,,-0.4,1
+2010-06-23,McChrystal relieved after Rolling Stone article; Petraeus named commander,2010-07-07,97,0.285,61,16,9,0.0,0,,0.0,2
+2011-05-01,Bin Laden killed in Abbottabad raid; effect on Afghanistan war debate,2011-05-15,39,0.006,20,16,8,-0.5,2,1.0,-0.2,0
+2011-06-22,"Drawdown announcement: 33,000 surge troops home by summer 2012",2011-07-06,74,0.076,33,25,7,-0.143,0,,-0.143,3
+2012-05-01,Kabul address and US-Afghan Strategic Partnership Agreement,2012-05-15,186,0.369,131,40,5,-0.2,0,,-0.2,0
+2012-05-21,"Chicago NATO summit: transition to Afghan lead, end of combat role by 2014",2012-06-04,90,0.038,41,36,4,-0.25,0,,-0.25,2
+2013-02-12,"State of the Union: 34,000 troops home within a year",2013-02-26,13,0.311,9,2,0,,0,,,0
+2014-05-27,"Rose Garden: 9,800 troops after 2014, full withdrawal by end of 2016",2014-06-10,77,0.162,33,20,8,0.0,0,,0.0,1
+2014-12-28,Formal end of US combat mission (Operation Enduring Freedom ends),2015-01-11,16,0.257,9,3,10,0.1,1,1.0,0.182,0
+2015-10-15,"Withdrawal halted: 5,500 troops to stay past 2016",2015-10-29,80,0.256,51,16,9,-0.222,0,,-0.222,1
+2016-07-06,"8,400 troops to remain through end of term",2016-07-20,70,0.186,39,17,8,-0.375,0,,-0.375,3

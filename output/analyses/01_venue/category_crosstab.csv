@@ -1,0 +1,9 @@
+g,aid_diplomacy_civil,incidental,non_war_or_background,war_adjacent,war_direct
+address,7,25,4,58,112
+interview|president,1,26,0,23,33
+other,1,10,1,27,11
+press_conference|president,59,208,2,290,471
+press_conference|questioner,2,21,2,26,29
+remarks,116,526,30,782,1231
+statement,81,41,3,171,210
+weekly_address,3,11,1,25,57

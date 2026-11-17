@@ -1,0 +1,105 @@
+                                        GALLUP NEWS SERVICE
+
+                                   GALLUP POLL SOCIAL SERIES:
+                                      CONSUMPTION HABITS
+                                              -- FINAL TOPLINE --
+
+
+                                                                                                Timberline: 937614
+                                                                                                             T: 446
+                                                                                         Princeton Job #: 21-07-009
+
+                                                                                                    July 6-21, 2021
+
+Results are based on telephone interviews conducted July 6-21, 2021 with a random sample of –1,007—adults,
+ages 18+, living in all 50 U.S. states and the District of Columbia. For results based on this sample of national
+adults, the margin of sampling error is ±4 percentage points at the 95% confidence level.
+
+For results based on the sample of –517—national adults in Form A, the margin of sampling error is ±5
+percentage points.
+
+For results based on the sample of –490—national adults in Form B, the margins of sampling error is ±5
+percentage points.
+
+For results based on the sample of –130—smokers, the maximum margin of sampling error is ±11 percentage
+points.
+
+For results based on the sample of –877—non-smokers, the maximum margin of sampling error is ±4
+percentage points.
+
+For results based on the sample of –636—adults who drink alcoholic beverages, the maximum margin of
+sampling error is ±5 percentage points.
+
+Interviews are conducted with respondents on landline telephones and cellular phones, with interviews
+conducted in Spanish for respondents who are primarily Spanish-speaking. Each sample of national adults
+includes a minimum quota of 70% cell phone respondents and 30% landline respondents, with additional
+minimum quotas by time zone within region. Landline and cell phone telephone numbers are selected using
+random digit dial methods. Gallup obtained sample for this study from Dynata. Landline respondents are
+chosen at random within each household on the basis of which member has the next birthday.
+
+Samples are weighted to correct for unequal selection probability, non-response, and double coverage of
+landline and cell users in the two sampling frames. They are also weighted to match the national demographics
+of gender, age, race, Hispanic ethnicity, education, region, population density, and phone status (cell phone-
+only/landline only/both and cell phone mostly). Demographic weighting targets are based on the March 2019
+Current Population Survey figures for the aged 18 and older U.S. population. Phone status targets are based on
+the July-December 2019 National Health Interview Survey. Population density targets are based on the 2010
+census. All reported margins of sampling error include the computed design effects for weighting.
+
+In addition to sampling error, question wording and practical difficulties in conducting surveys can introduce
+error or bias into the findings of public opinion polls. For questions about how this survey was conducted,
+please contact galluphelp@gallup.com.
+_______________________________________________________________________________________________
+Turning now to Afghanistan,
+
+25.     Looking back, do you think the United States made a mistake sending troops to fight in Afghanistan, or
+        not?
+
+                                               Yes, a mistake            No, not a mistake                No opinion
+
+        2021 Jul 6-21                                       47                           46                         6
+
+        2019 Aug 15-30                                      43                           52                         5
+        2015 Jun 2-7                                        42                           54                         4
+        2014 Feb 6-9                                        49                           48                         3
+        2013 Mar 7-10                                       44                           51                         5
+
+        For comparison: Thinking now about U.S. military action in Afghanistan that began in October 2001, do you think the
+        United States made a mistake in sending military forces to Afghanistan, or not?
+
+                                                    Yes, a mistake                   No, not                No opinion
+
+         2011 May 5-8                                            39                      58                          3
+         2011 Mar 25-27                                          42                      53                          5
+         2010 Nov 19-21                                          39                      58                          3
+         2010 Jul 27-Aug 1                                       43                      52                          4
+         2010 Jul 8-11 ^                                         38                      58                          4
+         2009 Nov 20-22                                          36                      60                          3
+         2009 Aug 31-Sep 2                                       37                      61                          2
+         2009 Jul 10-12 ^                                        36                      61                          3
+         2009 Jan 30-Feb 1                                       30                      66                          4
+         2008 Aug 21-23 ^                                        34                      63                          3
+         2008 Jul 25-27                                          28                      68                          4
+         2007 Aug 3-5                                            25                      70                          5
+         2004 Jul 19-21                                          25                      72                          3
+         2002 Jan 7-9                                             6                      93                          1
+         2001 Nov 8-11                                            9                      89                          2
+
+         ^ Asked of a half sample
+                                                                               GALLUP POLL SOCIAL SURVEY
+                                                                                        July 2021
+                                                                                   Public Release Data
+
+                                              QN25: Troops in Afghanistan BY Total + Gender + Race I + Age + Education + Party I.D. + Ideology
+
+                                                   Gender             Race I                    Age                        Education                   Party I.D.               Ideology
+                                                                            Non-                                 College   Some HS Grad Republic Independ          Conserva
+                                     Total     Male   Female      White     white     18-34     35-54      55+    Grad    College or Less  an       ent   Democrat   tive   Moderate Liberal
+Total                 Unweighted n     1007       553    454         752        231       208       253      532      441      334     223   294      400     273       380     354      233
+                      Weighted n      1007         493      515       658       332      298       305       389     352        280     369      266         429    276   350        380   236
+Yes, made a mistake                    478         215      263       305       165      144       144       183     170        129     175       76         231    154   120        182   150
+                                       47%        44%       51%      46%       49%      48%       47%       47%      48%       46%     47%       29%        54%     56%   34%       48%    64%
+No, did not                            468         255      213       324       138      136       143       180     161        126     179      177         171    107   207        177    77
+                                       46%        52%       41%      49%       41%      46%       47%       46%      46%       45%     49%       67%        40%     39%   59%       47%    33%
+(DK)/(Refused)                          62          23       39        28       30        18          18      26      21         25      15       13          26     15    23         20     9
+                                        6%         5%        8%       4%        9%        6%        6%       7%       6%        9%      4%       5%          6%     6%    7%         5%    4%
+

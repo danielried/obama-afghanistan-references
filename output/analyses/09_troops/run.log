@@ -1,0 +1,1110 @@
+output/analyses/09_troops/analysis.py:128: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  refs[f"f_{name}"] = refs.text_l.str.contains(pat, regex=True)
+{
+ "outside_data": {
+  "monthly_rows_2002_2010": 109,
+  "monthly_range": [
+   "2001-01-01",
+   "2010-09-01"
+  ],
+  "quarterly_rows_FY07Q4_FY16Q4": 37,
+  "quarterly_range_FY": [
+   "FY2007Q4",
+   "FY2016Q4"
+  ]
+ },
+ "n_refs_raw": 4741,
+ "n_refs_after_dup_exclusion": 4741,
+ "n_refs_questioner_flag": 109,
+ "n_quarters_panel": 32,
+ "n_quarters_with_troops": 31,
+ "n_months_monthly_panel": 21,
+ "passages_per_quarter": {
+  "n_all": {
+   "count": 32.0,
+   "mean": 147.8,
+   "std": 94.2,
+   "min": 25.0,
+   "25%": 78.0,
+   "50%": 121.0,
+   "75%": 215.8,
+   "max": 387.0
+  },
+  "n_hl": {
+   "count": 32.0,
+   "mean": 120.9,
+   "std": 81.1,
+   "min": 19.0,
+   "25%": 68.8,
+   "50%": 105.5,
+   "75%": 176.8,
+   "max": 334.0
+  }
+ },
+ "sensitivity_threshold": {
+  "thr30": {
+   "n_quarters": 31,
+   "level_vol": {
+    "n": 31,
+    "r": 0.446,
+    "p": 0.0119,
+    "rho": 0.43,
+    "p_rho": 0.0157
+   },
+   "level_combat_share": {
+    "n": 31,
+    "r": -0.369,
+    "p": 0.0412,
+    "rho": -0.259,
+    "p_rho": 0.1589
+   },
+   "diff_vol": {
+    "n": 30,
+    "r": 0.174,
+    "p": 0.3569,
+    "rho": 0.089,
+    "p_rho": 0.6408
+   },
+   "diff_combat_share": {
+    "n": 30,
+    "r": -0.175,
+    "p": 0.3558,
+    "rho": -0.074,
+    "p_rho": 0.699
+   }
+  },
+  "thr50": {
+   "n_quarters": 31,
+   "level_vol": {
+    "n": 31,
+    "r": 0.413,
+    "p": 0.021,
+    "rho": 0.386,
+    "p_rho": 0.0319
+   },
+   "level_combat_share": {
+    "n": 31,
+    "r": -0.432,
+    "p": 0.0153,
+    "rho": -0.331,
+    "p_rho": 0.0685
+   },
+   "diff_vol": {
+    "n": 30,
+    "r": 0.172,
+    "p": 0.3632,
+    "rho": 0.071,
+    "p_rho": 0.7076
+   },
+   "diff_combat_share": {
+    "n": 30,
+    "r": -0.195,
+    "p": 0.3027,
+    "rho": -0.105,
+    "p_rho": 0.58
+   }
+  },
+  "thr70": {
+   "n_quarters": 31,
+   "level_vol": {
+    "n": 31,
+    "r": 0.349,
+    "p": 0.0544,
+    "rho": 0.306,
+    "p_rho": 0.0946
+   },
+   "level_combat_share": {
+    "n": 31,
+    "r": -0.324,
+    "p": 0.0752,
+    "rho": -0.295,
+    "p_rho": 0.1069
+   },
+   "diff_vol": {
+    "n": 30,
+    "r": 0.187,
+    "p": 0.322,
+    "rho": 0.102,
+    "p_rho": 0.5929
+   },
+   "diff_combat_share": {
+    "n": 30,
+    "r": -0.116,
+    "p": 0.5411,
+    "rho": -0.13,
+    "p_rho": 0.4945
+   }
+  }
+ },
+ "monthly_2009_2010": {
+  "share_combat": {
+   "levels": {
+    "n": 21,
+    "r": 0.187,
+    "p": 0.4177,
+    "rho": 0.178,
+    "p_rho": 0.4403
+   },
+   "diffs": {
+    "n": 20,
+    "r": -0.333,
+    "p": 0.1519,
+    "rho": -0.165,
+    "p_rho": 0.4857
+   }
+  },
+  "share_withdrawal": {
+   "levels": {
+    "n": 21,
+    "r": 0.09,
+    "p": 0.6977,
+    "rho": 0.062,
+    "p_rho": 0.7904
+   },
+   "diffs": {
+    "n": 20,
+    "r": -0.177,
+    "p": 0.4549,
+    "rho": -0.348,
+    "p_rho": 0.1324
+   }
+  },
+  "share_transition": {
+   "levels": {
+    "n": 21,
+    "r": 0.353,
+    "p": 0.1164,
+    "rho": 0.429,
+    "p_rho": 0.0522
+   },
+   "diffs": {
+    "n": 20,
+    "r": -0.253,
+    "p": 0.2809,
+    "rho": -0.358,
+    "p_rho": 0.1212
+   }
+  },
+  "n_hl": {
+   "levels": {
+    "n": 21,
+    "r": 0.072,
+    "p": 0.7565,
+    "rho": -0.084,
+    "p_rho": 0.7179
+   },
+   "diffs": {
+    "n": 20,
+    "r": 0.025,
+    "p": 0.917,
+    "rho": -0.05,
+    "p_rho": 0.834
+   }
+  }
+ },
+ "levels_quarterly": {
+  "share_combat": {
+   "n": 31,
+   "r": -0.432,
+   "p": 0.0153,
+   "rho": -0.331,
+   "p_rho": 0.0685
+  },
+  "share_transition": {
+   "n": 31,
+   "r": 0.05,
+   "p": 0.7911,
+   "rho": 0.086,
+   "p_rho": 0.6451
+  },
+  "share_withdrawal": {
+   "n": 31,
+   "r": 0.029,
+   "p": 0.8767,
+   "rho": -0.028,
+   "p_rho": 0.8827
+  },
+  "share_any_frame": {
+   "n": 31,
+   "r": -0.164,
+   "p": 0.3792,
+   "rho": -0.086,
+   "p_rho": 0.6451
+  },
+  "n_hl": {
+   "n": 31,
+   "r": 0.413,
+   "p": 0.021,
+   "rho": 0.386,
+   "p_rho": 0.0319
+  },
+  "n_all": {
+   "n": 31,
+   "r": 0.467,
+   "p": 0.008,
+   "rho": 0.439,
+   "p_rho": 0.0135
+  }
+ },
+ "diffs_quarterly": {
+  "share_combat": {
+   "n": 30,
+   "r": -0.195,
+   "p": 0.3027,
+   "rho": -0.105,
+   "p_rho": 0.58
+  },
+  "share_transition": {
+   "n": 30,
+   "r": 0.04,
+   "p": 0.833,
+   "rho": 0.107,
+   "p_rho": 0.572
+  },
+  "share_withdrawal": {
+   "n": 30,
+   "r": -0.24,
+   "p": 0.2016,
+   "rho": -0.113,
+   "p_rho": 0.5529
+  },
+  "share_any_frame": {
+   "n": 30,
+   "r": -0.208,
+   "p": 0.271,
+   "rho": -0.087,
+   "p_rho": 0.6459
+  },
+  "n_hl": {
+   "n": 30,
+   "r": 0.172,
+   "p": 0.3632,
+   "rho": 0.071,
+   "p_rho": 0.7076
+  },
+  "n_all": {
+   "n": 30,
+   "r": 0.163,
+   "p": 0.39,
+   "rho": 0.066,
+   "p_rho": 0.7304
+  }
+ },
+ "ccf_diffs_quarterly": {
+  "share_combat": [
+   {
+    "lag_q": -4,
+    "n": 26,
+    "n_eff": 35.35,
+    "r": 0.144,
+    "p_adj": 0.4065
+   },
+   {
+    "lag_q": -3,
+    "n": 27,
+    "n_eff": 42.08,
+    "r": -0.199,
+    "p_adj": 0.2066
+   },
+   {
+    "lag_q": -2,
+    "n": 28,
+    "n_eff": 46.18,
+    "r": 0.077,
+    "p_adj": 0.6113
+   },
+   {
+    "lag_q": -1,
+    "n": 29,
+    "n_eff": 50.79,
+    "r": -0.033,
+    "p_adj": 0.818
+   },
+   {
+    "lag_q": 0,
+    "n": 30,
+    "n_eff": 53.04,
+    "r": -0.195,
+    "p_adj": 0.1623
+   },
+   {
+    "lag_q": 1,
+    "n": 29,
+    "n_eff": 49.94,
+    "r": 0.267,
+    "p_adj": 0.0608
+   },
+   {
+    "lag_q": 2,
+    "n": 28,
+    "n_eff": 47.63,
+    "r": -0.06,
+    "p_adj": 0.6866
+   },
+   {
+    "lag_q": 3,
+    "n": 27,
+    "n_eff": 45.95,
+    "r": -0.153,
+    "p_adj": 0.3106
+   },
+   {
+    "lag_q": 4,
+    "n": 26,
+    "n_eff": 44.35,
+    "r": 0.1,
+    "p_adj": 0.518
+   }
+  ],
+  "share_transition": [
+   {
+    "lag_q": -4,
+    "n": 26,
+    "n_eff": 30.61,
+    "r": -0.052,
+    "p_adj": 0.7833
+   },
+   {
+    "lag_q": -3,
+    "n": 27,
+    "n_eff": 35.51,
+    "r": -0.204,
+    "p_adj": 0.2354
+   },
+   {
+    "lag_q": -2,
+    "n": 28,
+    "n_eff": 38.55,
+    "r": 0.292,
+    "p_adj": 0.073
+   },
+   {
+    "lag_q": -1,
+    "n": 29,
+    "n_eff": 39.63,
+    "r": 0.16,
+    "p_adj": 0.3263
+   },
+   {
+    "lag_q": 0,
+    "n": 30,
+    "n_eff": 41.01,
+    "r": 0.04,
+    "p_adj": 0.803
+   },
+   {
+    "lag_q": 1,
+    "n": 29,
+    "n_eff": 39.69,
+    "r": 0.107,
+    "p_adj": 0.511
+   },
+   {
+    "lag_q": 2,
+    "n": 28,
+    "n_eff": 38.6,
+    "r": 0.026,
+    "p_adj": 0.8776
+   },
+   {
+    "lag_q": 3,
+    "n": 27,
+    "n_eff": 37.49,
+    "r": 0.235,
+    "p_adj": 0.159
+   },
+   {
+    "lag_q": 4,
+    "n": 26,
+    "n_eff": 35.75,
+    "r": -0.082,
+    "p_adj": 0.6349
+   }
+  ],
+  "share_withdrawal": [
+   {
+    "lag_q": -4,
+    "n": 26,
+    "n_eff": 28.03,
+    "r": 0.014,
+    "p_adj": 0.9441
+   },
+   {
+    "lag_q": -3,
+    "n": 27,
+    "n_eff": 30.1,
+    "r": 0.02,
+    "p_adj": 0.9143
+   },
+   {
+    "lag_q": -2,
+    "n": 28,
+    "n_eff": 31.16,
+    "r": 0.211,
+    "p_adj": 0.2522
+   },
+   {
+    "lag_q": -1,
+    "n": 29,
+    "n_eff": 32.68,
+    "r": -0.204,
+    "p_adj": 0.258
+   },
+   {
+    "lag_q": 0,
+    "n": 30,
+    "n_eff": 33.24,
+    "r": -0.24,
+    "p_adj": 0.177
+   },
+   {
+    "lag_q": 1,
+    "n": 29,
+    "n_eff": 32.11,
+    "r": 0.185,
+    "p_adj": 0.3098
+   },
+   {
+    "lag_q": 2,
+    "n": 28,
+    "n_eff": 31.0,
+    "r": 0.094,
+    "p_adj": 0.6137
+   },
+   {
+    "lag_q": 3,
+    "n": 27,
+    "n_eff": 29.9,
+    "r": -0.002,
+    "p_adj": 0.992
+   },
+   {
+    "lag_q": 4,
+    "n": 26,
+    "n_eff": 28.71,
+    "r": 0.099,
+    "p_adj": 0.6129
+   }
+  ],
+  "share_any_frame": [
+   {
+    "lag_q": -4,
+    "n": 26,
+    "n_eff": 37.2,
+    "r": -0.054,
+    "p_adj": 0.749
+   },
+   {
+    "lag_q": -3,
+    "n": 27,
+    "n_eff": 46.5,
+    "r": -0.179,
+    "p_adj": 0.2316
+   },
+   {
+    "lag_q": -2,
+    "n": 28,
+    "n_eff": 52.35,
+    "r": 0.251,
+    "p_adj": 0.0716
+   },
+   {
+    "lag_q": -1,
+    "n": 29,
+    "n_eff": 56.61,
+    "r": -0.126,
+    "p_adj": 0.3504
+   },
+   {
+    "lag_q": 0,
+    "n": 30,
+    "n_eff": 55.02,
+    "r": -0.208,
+    "p_adj": 0.1283
+   },
+   {
+    "lag_q": 1,
+    "n": 29,
+    "n_eff": 51.73,
+    "r": 0.343,
+    "p_adj": 0.0131
+   },
+   {
+    "lag_q": 2,
+    "n": 28,
+    "n_eff": 50.7,
+    "r": -0.03,
+    "p_adj": 0.8341
+   },
+   {
+    "lag_q": 3,
+    "n": 27,
+    "n_eff": 48.89,
+    "r": 0.047,
+    "p_adj": 0.7497
+   },
+   {
+    "lag_q": 4,
+    "n": 26,
+    "n_eff": 46.98,
+    "r": 0.045,
+    "p_adj": 0.7662
+   }
+  ],
+  "n_hl": [
+   {
+    "lag_q": -4,
+    "n": 26,
+    "n_eff": 39.68,
+    "r": 0.039,
+    "p_adj": 0.8099
+   },
+   {
+    "lag_q": -3,
+    "n": 27,
+    "n_eff": 50.45,
+    "r": 0.082,
+    "p_adj": 0.5711
+   },
+   {
+    "lag_q": -2,
+    "n": 28,
+    "n_eff": 57.6,
+    "r": -0.205,
+    "p_adj": 0.1241
+   },
+   {
+    "lag_q": -1,
+    "n": 29,
+    "n_eff": 62.69,
+    "r": 0.063,
+    "p_adj": 0.6246
+   },
+   {
+    "lag_q": 0,
+    "n": 30,
+    "n_eff": 63.1,
+    "r": 0.172,
+    "p_adj": 0.1771
+   },
+   {
+    "lag_q": 1,
+    "n": 29,
+    "n_eff": 60.79,
+    "r": -0.215,
+    "p_adj": 0.0974
+   },
+   {
+    "lag_q": 2,
+    "n": 28,
+    "n_eff": 58.44,
+    "r": 0.078,
+    "p_adj": 0.5574
+   },
+   {
+    "lag_q": 3,
+    "n": 27,
+    "n_eff": 55.36,
+    "r": -0.008,
+    "p_adj": 0.9554
+   },
+   {
+    "lag_q": 4,
+    "n": 26,
+    "n_eff": 48.88,
+    "r": 0.078,
+    "p_adj": 0.5945
+   }
+  ],
+  "n_all": [
+   {
+    "lag_q": -4,
+    "n": 26,
+    "n_eff": 39.28,
+    "r": 0.083,
+    "p_adj": 0.6142
+   },
+   {
+    "lag_q": -3,
+    "n": 27,
+    "n_eff": 49.71,
+    "r": 0.096,
+    "p_adj": 0.5105
+   },
+   {
+    "lag_q": -2,
+    "n": 28,
+    "n_eff": 56.54,
+    "r": -0.185,
+    "p_adj": 0.1705
+   },
+   {
+    "lag_q": -1,
+    "n": 29,
+    "n_eff": 61.34,
+    "r": 0.05,
+    "p_adj": 0.7018
+   },
+   {
+    "lag_q": 0,
+    "n": 30,
+    "n_eff": 61.61,
+    "r": 0.163,
+    "p_adj": 0.2076
+   },
+   {
+    "lag_q": 1,
+    "n": 29,
+    "n_eff": 59.29,
+    "r": -0.186,
+    "p_adj": 0.1577
+   },
+   {
+    "lag_q": 2,
+    "n": 28,
+    "n_eff": 56.94,
+    "r": 0.083,
+    "p_adj": 0.5397
+   },
+   {
+    "lag_q": 3,
+    "n": 27,
+    "n_eff": 53.93,
+    "r": -0.014,
+    "p_adj": 0.9208
+   },
+   {
+    "lag_q": 4,
+    "n": 26,
+    "n_eff": 47.76,
+    "r": 0.122,
+    "p_adj": 0.4119
+   }
+  ]
+ },
+ "autocorrelation": {
+  "troops": {
+   "n": 31,
+   "acf1": 0.945,
+   "ljungbox_lag4_p": 0.0
+  },
+  "share_combat": {
+   "n": 31,
+   "acf1": 0.127,
+   "ljungbox_lag4_p": 0.2585
+  },
+  "share_transition": {
+   "n": 31,
+   "acf1": 0.189,
+   "ljungbox_lag4_p": 0.7947
+  },
+  "share_withdrawal": {
+   "n": 31,
+   "acf1": 0.489,
+   "ljungbox_lag4_p": 0.0771
+  },
+  "n_hl": {
+   "n": 31,
+   "acf1": 0.016,
+   "ljungbox_lag4_p": 0.4903
+  }
+ },
+ "ols_hac_diffs": {
+  "share_combat ~ dx0": {
+   "n": 28,
+   "beta": -2e-06,
+   "p_HAC": 0.4625,
+   "r2": 0.01,
+   "dw": 2.7
+  },
+  "share_combat ~ dx1": {
+   "n": 28,
+   "beta": 5e-06,
+   "p_HAC": 0.0085,
+   "r2": 0.074,
+   "dw": 2.68
+  },
+  "share_combat ~ dx_lead1": {
+   "n": 28,
+   "beta": 1e-06,
+   "p_HAC": 0.7973,
+   "r2": 0.001,
+   "dw": 2.77
+  },
+  "share_withdrawal ~ dx0": {
+   "n": 28,
+   "beta": -5e-06,
+   "p_HAC": 0.0697,
+   "r2": 0.064,
+   "dw": 2.13
+  },
+  "share_withdrawal ~ dx1": {
+   "n": 28,
+   "beta": 3e-06,
+   "p_HAC": 0.1778,
+   "r2": 0.033,
+   "dw": 2.12
+  },
+  "share_withdrawal ~ dx_lead1": {
+   "n": 28,
+   "beta": -4e-06,
+   "p_HAC": 0.3067,
+   "r2": 0.038,
+   "dw": 2.18
+  },
+  "share_transition ~ dx0": {
+   "n": 28,
+   "beta": 0.0,
+   "p_HAC": 0.9604,
+   "r2": 0.0,
+   "dw": 2.51
+  },
+  "share_transition ~ dx1": {
+   "n": 28,
+   "beta": 1e-06,
+   "p_HAC": 0.4924,
+   "r2": 0.01,
+   "dw": 2.51
+  },
+  "share_transition ~ dx_lead1": {
+   "n": 28,
+   "beta": 2e-06,
+   "p_HAC": 0.1899,
+   "r2": 0.024,
+   "dw": 2.58
+  },
+  "n_hl ~ dx0": {
+   "n": 28,
+   "beta": 0.003027,
+   "p_HAC": 0.1912,
+   "r2": 0.03,
+   "dw": 3.2
+  },
+  "n_hl ~ dx1": {
+   "n": 28,
+   "beta": -0.003363,
+   "p_HAC": 0.0954,
+   "r2": 0.047,
+   "dw": 3.16
+  },
+  "n_hl ~ dx_lead1": {
+   "n": 28,
+   "beta": 0.000994,
+   "p_HAC": 0.6514,
+   "r2": 0.003,
+   "dw": 3.26
+  }
+ },
+ "quarterly_table": [
+  {
+   "period": "2009Q1",
+   "troops": 38350.0,
+   "n_hl": 171,
+   "n_all": 199,
+   "share_combat": 0.474,
+   "share_transition": 0.146,
+   "share_withdrawal": 0.094,
+   "share_any_frame": 0.608
+  },
+  {
+   "period": "2009Q2",
+   "troops": 55100.0,
+   "n_hl": 191,
+   "n_all": 228,
+   "share_combat": 0.325,
+   "share_transition": 0.173,
+   "share_withdrawal": 0.052,
+   "share_any_frame": 0.45
+  },
+  {
+   "period": "2009Q3",
+   "troops": 62300.0,
+   "n_hl": 154,
+   "n_all": 176,
+   "share_combat": 0.468,
+   "share_transition": 0.221,
+   "share_withdrawal": 0.058,
+   "share_any_frame": 0.597
+  },
+  {
+   "period": "2009Q4",
+   "troops": 69000.0,
+   "n_hl": 202,
+   "n_all": 234,
+   "share_combat": 0.381,
+   "share_transition": 0.282,
+   "share_withdrawal": 0.064,
+   "share_any_frame": 0.569
+  },
+  {
+   "period": "2010Q1",
+   "troops": 79100.0,
+   "n_hl": 70,
+   "n_all": 96,
+   "share_combat": 0.429,
+   "share_transition": 0.314,
+   "share_withdrawal": 0.086,
+   "share_any_frame": 0.586
+  },
+  {
+   "period": "2010Q2",
+   "troops": 93800.0,
+   "n_hl": 334,
+   "n_all": 378,
+   "share_combat": 0.443,
+   "share_transition": 0.174,
+   "share_withdrawal": 0.024,
+   "share_any_frame": 0.539
+  },
+  {
+   "period": "2010Q3",
+   "troops": 96600.0,
+   "n_hl": 124,
+   "n_all": 154,
+   "share_combat": 0.589,
+   "share_transition": 0.387,
+   "share_withdrawal": 0.105,
+   "share_any_frame": 0.742
+  },
+  {
+   "period": "2010Q4",
+   "troops": 96900.0,
+   "n_hl": 192,
+   "n_all": 218,
+   "share_combat": 0.427,
+   "share_transition": 0.339,
+   "share_withdrawal": 0.042,
+   "share_any_frame": 0.604
+  },
+  {
+   "period": "2011Q1",
+   "troops": 99800.0,
+   "n_hl": 45,
+   "n_all": 50,
+   "share_combat": 0.444,
+   "share_transition": 0.4,
+   "share_withdrawal": 0.044,
+   "share_any_frame": 0.6
+  },
+  {
+   "period": "2011Q2",
+   "troops": 98900.0,
+   "n_hl": 179,
+   "n_all": 249,
+   "share_combat": 0.598,
+   "share_transition": 0.346,
+   "share_withdrawal": 0.112,
+   "share_any_frame": 0.682
+  },
+  {
+   "period": "2011Q3",
+   "troops": 98200.0,
+   "n_hl": 77,
+   "n_all": 101,
+   "share_combat": 0.39,
+   "share_transition": 0.312,
+   "share_withdrawal": 0.208,
+   "share_any_frame": 0.584
+  },
+  {
+   "period": "2011Q4",
+   "troops": 94100.0,
+   "n_hl": 87,
+   "n_all": 111,
+   "share_combat": 0.299,
+   "share_transition": 0.471,
+   "share_withdrawal": 0.241,
+   "share_any_frame": 0.69
+  },
+  {
+   "period": "2012Q1",
+   "troops": 88200.0,
+   "n_hl": 107,
+   "n_all": 139,
+   "share_combat": 0.364,
+   "share_transition": 0.486,
+   "share_withdrawal": 0.168,
+   "share_any_frame": 0.664
+  },
+  {
+   "period": "2012Q2",
+   "troops": 85600.0,
+   "n_hl": 330,
+   "n_all": 387,
+   "share_combat": 0.342,
+   "share_transition": 0.388,
+   "share_withdrawal": 0.145,
+   "share_any_frame": 0.6
+  },
+  {
+   "period": "2012Q3",
+   "troops": 76500.0,
+   "n_hl": 162,
+   "n_all": 257,
+   "share_combat": 0.432,
+   "share_transition": 0.309,
+   "share_withdrawal": 0.63,
+   "share_any_frame": 0.877
+  },
+  {
+   "period": "2012Q4",
+   "troops": 65800.0,
+   "n_hl": 127,
+   "n_all": 212,
+   "share_combat": 0.425,
+   "share_transition": 0.22,
+   "share_withdrawal": 0.425,
+   "share_any_frame": 0.661
+  },
+  {
+   "period": "2013Q1",
+   "troops": 65700.0,
+   "n_hl": 195,
+   "n_all": 215,
+   "share_combat": 0.41,
+   "share_transition": 0.415,
+   "share_withdrawal": 0.169,
+   "share_any_frame": 0.672
+  },
+  {
+   "period": "2013Q2",
+   "troops": 61300.0,
+   "n_hl": 105,
+   "n_all": 127,
+   "share_combat": 0.543,
+   "share_transition": 0.524,
+   "share_withdrawal": 0.057,
+   "share_any_frame": 0.79
+  },
+  {
+   "period": "2013Q3",
+   "troops": 55800.0,
+   "n_hl": 71,
+   "n_all": 81,
+   "share_combat": 0.521,
+   "share_transition": 0.282,
+   "share_withdrawal": 0.07,
+   "share_any_frame": 0.634
+  },
+  {
+   "period": "2013Q4",
+   "troops": 43300.0,
+   "n_hl": 45,
+   "n_all": 54,
+   "share_combat": 0.4,
+   "share_transition": 0.333,
+   "share_withdrawal": 0.111,
+   "share_any_frame": 0.667
+  },
+  {
+   "period": "2014Q1",
+   "troops": 33200.0,
+   "n_hl": 21,
+   "n_all": 25,
+   "share_combat": 0.619,
+   "share_transition": 0.381,
+   "share_withdrawal": 0.238,
+   "share_any_frame": 0.81
+  },
+  {
+   "period": "2014Q2",
+   "troops": 31400.0,
+   "n_hl": 176,
+   "n_all": 184,
+   "share_combat": 0.415,
+   "share_transition": 0.284,
+   "share_withdrawal": 0.119,
+   "share_any_frame": 0.597
+  },
+  {
+   "period": "2014Q3",
+   "troops": 27800.0,
+   "n_hl": 73,
+   "n_all": 89,
+   "share_combat": 0.507,
+   "share_transition": 0.301,
+   "share_withdrawal": 0.137,
+   "share_any_frame": 0.658
+  },
+  {
+   "period": "2014Q4",
+   "troops": 10600.0,
+   "n_hl": 65,
+   "n_all": 69,
+   "share_combat": 0.677,
+   "share_transition": 0.338,
+   "share_withdrawal": 0.292,
+   "share_any_frame": 0.8
+  },
+  {
+   "period": "2015Q1",
+   "troops": 9100.0,
+   "n_hl": 198,
+   "n_all": 219,
+   "share_combat": 0.51,
+   "share_transition": 0.409,
+   "share_withdrawal": 0.202,
+   "share_any_frame": 0.702
+  },
+  {
+   "period": "2015Q2",
+   "troops": 9060.0,
+   "n_hl": 37,
+   "n_all": 41,
+   "share_combat": 0.432,
+   "share_transition": 0.405,
+   "share_withdrawal": 0.162,
+   "share_any_frame": 0.649
+  },
+  {
+   "period": "2015Q3",
+   "troops": 9100.0,
+   "n_hl": 26,
+   "n_all": 38,
+   "share_combat": 0.5,
+   "share_transition": 0.269,
+   "share_withdrawal": 0.154,
+   "share_any_frame": 0.577
+  },
+  {
+   "period": "2015Q4",
+   "troops": 8930.0,
+   "n_hl": 106,
+   "n_all": 115,
+   "share_combat": 0.566,
+   "share_transition": 0.349,
+   "share_withdrawal": 0.094,
+   "share_any_frame": 0.66
+  },
+  {
+   "period": "2016Q1",
+   "troops": 8730.0,
+   "n_hl": 19,
+   "n_all": 31,
+   "share_combat": 0.421,
+   "share_transition": 0.316,
+   "share_withdrawal": 0.0,
+   "share_any_frame": 0.579
+  },
+  {
+   "period": "2016Q2",
+   "troops": 9365.0,
+   "n_hl": 70,
+   "n_all": 83,
+   "share_combat": 0.629,
+   "share_transition": 0.229,
+   "share_withdrawal": 0.029,
+   "share_any_frame": 0.686
+  },
+  {
+   "period": "2016Q3",
+   "troops": 9800.0,
+   "n_hl": 80,
+   "n_all": 107,
+   "share_combat": 0.575,
+   "share_transition": 0.538,
+   "share_withdrawal": 0.162,
+   "share_any_frame": 0.788
+  }
+ ]
+}
